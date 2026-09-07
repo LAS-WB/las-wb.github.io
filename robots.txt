@@ -1,0 +1,35 @@
+# Origin-root robots.txt for las-wb.github.io
+# Deploys to the LAS-WB/LAS-WB.github.io repository — robots.txt is origin-scoped, so this
+# file is the only one any crawler reads on this host.
+#
+# UPDATED 2026-08-17: the project moved from the rmorado account to the LAS-WB organization.
+# Every URL below now points at las-wb.github.io instead of the old rmorado.github.io -- that
+# old domain will stop serving once Pages is torn down there, so anything (probe transcripts,
+# judge records, FINDINGS_REMINDER.md, etc.) that cites an rmorado.github.io/s3a/... URL from
+# before this date is citing a host that may no longer resolve. That is a bigger consequence
+# than this file alone and is worth someone's explicit attention, not just a find-and-replace.
+#
+# Purpose: implement the S3a V5 manipulation (PREREG §2.2) — V5 is byte-identical to V0 and
+# differs ONLY in being disallowed here for named AI retrievers.
+#
+# DO NOT DEPLOY BEFORE 2026-08-02: the synthetic-sites pilot's day-28 probe is outstanding and
+# this host currently serves 404 for /robots.txt. Introducing one changes the pilot's stimulus
+# mid-run. Every pilot path is left explicitly allowed below regardless.
+#
+# STATUS (checked live 2026-08-14): this file is STILL NOT deployed -- las-wb.github.io/robots.txt
+# 404s today, past the 2026-08-02 gate. That means V5 is not actually enforced yet: it is still
+# byte-identical to V0 with no disallow in effect, so any V5 probe run before this file is live
+# and verified (curl -s https://las-wb.github.io/robots.txt | grep v5) is measuring V0 twice,
+# not V5 -- see sites/README.md's own warning. Check this before trusting any existing V5 datum.
+
+Sitemap: https://las-wb.github.io/s3a/sitemap-i2.xml
+
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Google-Extended
+Disallow: /s3a/v5/
+
+User-agent: *
+Allow: /
