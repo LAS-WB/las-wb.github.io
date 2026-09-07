@@ -16,11 +16,11 @@
 # this host currently serves 404 for /robots.txt. Introducing one changes the pilot's stimulus
 # mid-run. Every pilot path is left explicitly allowed below regardless.
 #
-# STATUS (checked live 2026-08-14): this file is STILL NOT deployed -- las-wb.github.io/robots.txt
-# 404s today, past the 2026-08-02 gate. That means V5 is not actually enforced yet: it is still
-# byte-identical to V0 with no disallow in effect, so any V5 probe run before this file is live
-# and verified (curl -s https://las-wb.github.io/robots.txt | grep v5) is measuring V0 twice,
-# not V5 -- see sites/README.md's own warning. Check this before trusting any existing V5 datum.
+# STATUS (checked live 2026-09-07): this file IS deployed and live -- las-wb.github.io/robots.txt
+# returns it, Disallow: /s3a/v5/ is in effect, and Sitemap: below has been pinged to IndexNow
+# (202 Accepted). V5 is enforced from this date forward -- any V5 datum collected BEFORE this
+# file went live is still measuring V0 twice, not V5 (see sites/README.md's own warning), but
+# anything collected after can be trusted without re-checking this file each time.
 
 Sitemap: https://las-wb.github.io/s3a/sitemap-i2.xml
 
