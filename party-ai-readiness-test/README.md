@@ -14,6 +14,8 @@ Then open `http://127.0.0.1:8011/index.html`. The saved HTML reports do not requ
 
 [Open the 12-site report index](index.html) · [Scan comparison](scan-comparison.md) · [Machine-readable audit](data-audit.json)
 
+**What the new website checks actually tell us:** [Read the plain-language analysis of all twelve runs](analysis.md). The checks establish some access to text, uneven coverage and several unmeasured outcomes. They do not establish that an assistant can answer a voter's questions. Each saved report now explains the meaning and limits of its own evidence; this is a presentation and interpretation update, not a fresh scan.
+
 ## Where it is and what it is
 
 - GitHub: **[participatory/party-web-ai-readiness](https://github.com/participatory/party-web-ai-readiness)**, a private repository under `participatory`, on `main`.
@@ -97,7 +99,7 @@ For this project's goal, I would use the repository as the **candidate inventory
 
 ## Files and reproduction
 
-The published structural reports lead with all recorded measurements, including observations below detector warning thresholds, followed by the limits of the tests. Run `python party-ai-readiness-test/present_results.py` to rebuild this presentation from the saved evidence without scanner dependencies or network access. `build_results.py` also runs this step. Raw scans, profiles, detector states and scan dates are unchanged. The original verification captures document the first publication; `verification/presentation-verification.json` and `measurement-summary-*.png` record the updated presentation checks.
+The published structural reports lead with plain-language interpretations, followed by the limits of the tests; the full LAS reports carry the same interpretation above their service scores. `interpretations.json` contains the reviewed explanation for each run. Run `python party-ai-readiness-test/present_results.py` to rebuild the reports, index summaries, analysis and comparison from saved evidence without scanner dependencies or network access. `build_results.py` also runs this step. Raw scans, profiles, detector states and scan dates are unchanged. The original verification captures document the first publication; `verification/presentation-verification.json` and `measurement-summary-*.png` record the updated presentation checks.
 
 - [index.html](index.html): browse all structural and LAS reports.
 - [scan-comparison.md](scan-comparison.md), [comparison.csv](comparison.csv), [comparison.json](comparison.json): old and fresh measurements, with scope and gaps.

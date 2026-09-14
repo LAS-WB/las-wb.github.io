@@ -1,0 +1,62 @@
+{
+  "01": {
+    "lead": "Some campaign text was available without JavaScript, but the browser exposed a different mix of text and left part of it visually hidden.",
+    "meaning": "The saved hidden-text sample includes campaign themes and links to videos, as well as navigation and participation prompts. These observations identify material worth checking; they do not show that a machine reader missed it. Text hidden from sight can still be present in the page code.",
+    "next": "Check whether the captured text actually contains the proposals a voter asks about, and whether the linked videos provide information missing from the page text."
+  },
+  "02": {
+    "lead": "We could extract some text without running the page’s JavaScript, but this test does not establish how much useful candidate information is accessible.",
+    "meaning": "The scanner inspected an article section, which may be only a small part of the page. Its two ways of reading that section returned different amounts of text. We have not established whether this reflects the website changing its content or how the scanner selects and extracts text. No visually hidden text or PDF links were found within that section.",
+    "next": "Check the full page and identify which proposals or biographical information the reader captured before testing questions about them."
+  },
+  "03": {
+    "lead": "Some text was available without JavaScript, but the small article section captured in the browser was entirely invisible at the moment of inspection.",
+    "meaning": "The browser document contained a short statement about security, but its styling made that text fully transparent. This could affect a reader relying on what is visible on screen; a reader of the page code may still retrieve it. The result does not establish that the entire page was blank or that the text stays invisible after interaction.",
+    "next": "Inspect the full page and check whether scrolling or waiting reveals the section, then compare the substantive information captured by readers of the code and the visible page."
+  },
+  "04": {
+    "lead": "Campaign text was available without JavaScript, and a sample of the linked government-plan PDF contained extractable text. Much of the inspected browser text was visually hidden.",
+    "meaning": "The hidden-text sample includes campaign and agenda material, alongside interface text. That is a reason to check how readers encounter the information, not proof that AI cannot retrieve it. The PDF result is encouraging for text extraction, but only three of its 76 pages were inspected; it says nothing about the remaining pages or the completeness of an answer based on the plan.",
+    "next": "Inspect the complete plan and check whether readers can locate and accurately quote the sections needed to answer specific policy questions."
+  },
+  "05": {
+    "lead": "Campaign text was present in the page code, but most text in the inspected browser region was visually hidden at the moment of capture.",
+    "meaning": "The saved sample includes a substantial campaign introduction as well as participation prompts. Most of the hidden text was transparent, so a reader using only visible text could receive a much smaller account than a reader using the document. This test does not establish whether animation, scrolling or another interaction later reveals that material.",
+    "next": "Check how the text becomes visible and whether the captured material contains concrete proposals, rather than treating the amount of text as evidence that voters’ questions can be answered."
+  },
+  "06": {
+    "lead": "Some text was available without JavaScript, while parts of the browser’s captured text were transparent or positioned off screen.",
+    "meaning": "The hidden-text sample mixes navigation and repeated slogans with milestones from the candidate’s career. This shows that readers using page code and visible text may encounter different material. It does not establish that important policy information is missing, or that the hidden material is inaccessible to every reader.",
+    "next": "Check whether the career information becomes visible during ordinary browsing and whether the site offers retrievable answers about proposals beyond the biography and slogans."
+  },
+  "07": {
+    "lead": "The address responded, but the browser extraction yielded no content words in the inspected region. This run provides very little evidence about readable campaign information.",
+    "meaning": "The absence of a hidden-text warning is not reassuring here: there were no captured content words for that check to examine. This does not prove that the website contains no information; the test did not determine why the extraction was empty.",
+    "next": "Revisit the page and diagnose whether loading, content selection or an interaction explains the empty extraction before drawing conclusions about the site."
+  },
+  "08": {
+    "lead": "The browser captured text even though the plain response had no extracted body text, but the test could not reliably compare the two captures.",
+    "meaning": "The browser finished at an address ending in #/, which the detector treated as different from the plain request. The capture contains campaign material, much of it visually hidden, including references to proposals and a government plan. This is a lead for further inspection, not a confirmed measurement of how much JavaScript adds or whether the plan itself was read.",
+    "next": "Resolve the address-comparison issue, inspect how the sections are revealed, and follow the plan link before assessing access to specific proposals."
+  },
+  "09": {
+    "lead": "The test was refused access to the page, so it could not assess the campaign information behind it.",
+    "meaning": "The request returned HTTP 403. Every structural check was unmeasured. This establishes a failure for this test from this connection, not that all visitors or AI services are blocked, and not that the website lacks useful content.",
+    "next": "Investigate the access refusal and compare another permitted visit before attempting content or question-answering checks."
+  },
+  "10": {
+    "lead": "Some party-page text was available without JavaScript, but the selected article section does not establish that the full candidate listing was captured.",
+    "meaning": "The two extractions returned different amounts of text, and the selected region was much smaller than the whole-page capture. No visually hidden text or PDF links were found within that region. Those observations do not tell us which candidates or facts were omitted, or whether the difference comes from the page or the extraction method.",
+    "next": "Inspect the full listing and verify the names and candidate-specific facts actually captured before using this page as evidence for individual candidates."
+  },
+  "11": {
+    "lead": "The inspected main text was available without JavaScript and was retained after browser rendering. This is the clearest text-access result in this sample.",
+    "meaning": "The same extracted words were present before and after rendering. The small hidden-text sample consists of sharing and comment-interface labels, rather than evidence of hidden policy content. This supports access to the inspected article text; it does not establish that the article provides enough information about each candidate to answer a voter’s questions.",
+    "next": "Check which candidate-specific facts the article supplies and test questions that require those facts, with answers linked back to the relevant passages."
+  },
+  "12": {
+    "lead": "The requested communities address returned a not-found error, so this run could not assess its content.",
+    "meaning": "The request returned HTTP 404 and every structural check was unmeasured. This is evidence about this particular address at the time of the visit. It does not establish that the candidate’s whole website is unavailable, or that a bot or geographic block caused the error.",
+    "next": "Check whether the communities content moved to another address, then assess that page separately."
+  }
+}
