@@ -1,0 +1,22 @@
+{
+  "id": "11",
+  "label": "PCO candidate listing",
+  "url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:39:38.772218+00:00",
+  "state": "complete",
+  "run_id": "residential-1789375180",
+  "elapsed_seconds": 114,
+  "profile_sha256": "4eb7734e287e1fbc607278ed1d89529d8c428c703790082841693fc84120d937",
+  "findings": [],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    }
+  ],
+  "profile": "scans/11/profile.json",
+  "LAS_report": "scans/11/LAS.html",
+  "structural_report": "scans/11/structural.html",
+  "finished_utc": "2026-09-14T08:41:34.880657+00:00"
+}

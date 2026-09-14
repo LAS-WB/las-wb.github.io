@@ -1,0 +1,390 @@
+{
+  "country": "Paula Belmonte",
+  "vantage": "residential, Lisbon",
+  "run_id": "residential-1789375145",
+  "homepage": "https://www.paulabelmonte.com.br",
+  "service": "https://www.paulabelmonte.com.br",
+  "pillars_run": [
+    "D",
+    "L",
+    "N",
+    "O",
+    "T"
+  ],
+  "measured_on": null,
+  "content_reached": false,
+  "t1_injection": null,
+  "pdf_analyses": [],
+  "reveal_probe": null,
+  "depth_probe": null,
+  "L_checks": [
+    {
+      "id": "L3",
+      "name": "Structured data",
+      "state": "pending",
+      "result": "Not checked yet.",
+      "fix": ""
+    },
+    {
+      "id": "L4",
+      "name": "Shows when it was updated",
+      "state": "pending",
+      "result": "Not checked yet.",
+      "fix": ""
+    },
+    {
+      "id": "L5",
+      "name": "Guidance in the page, not a PDF",
+      "state": "pending",
+      "result": "Not checked yet.",
+      "fix": ""
+    },
+    {
+      "id": "L7",
+      "name": "Answer-friendly layout",
+      "state": "pending",
+      "result": "Not checked yet.",
+      "fix": ""
+    }
+  ],
+  "L_observations": [],
+  "O_checks": [
+    {
+      "id": "OB-script",
+      "name": "Rendered extraction contains more words than served HTML",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-hidden",
+      "name": "Text in the assessed region is hidden by a recorded mechanism",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-click",
+      "name": "Document text increased after disclosure controls were pressed",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-pdf",
+      "name": "Linked PDF extraction properties",
+      "state": "not_measured",
+      "severity": null,
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-depth",
+      "name": "Confirmed minimum application-route depth",
+      "state": "not_measured",
+      "severity": "red",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      "fix": "",
+      "study": null
+    }
+  ],
+  "future_items": [
+    {
+      "name": "Machine-readable API",
+      "present": true,
+      "state": "access-controlled"
+    },
+    {
+      "name": "Sign-in standard (OIDC)",
+      "present": false
+    },
+    {
+      "name": "llms.txt",
+      "present": false
+    },
+    {
+      "name": "AGENTS.md",
+      "present": false
+    },
+    {
+      "name": "Agent card",
+      "present": false
+    },
+    {
+      "name": "MCP endpoint",
+      "present": false
+    }
+  ],
+  "injection": {
+    "measured": false
+  },
+  "reach_home": {
+    "url": "https://www.paulabelmonte.com.br",
+    "matrix": {
+      "PerplexityBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "OAI-SearchBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "browser": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      }
+    },
+    "browser_ok": false,
+    "retrievers_ok": [],
+    "blocked_ai": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "PerplexityBot",
+      "Perplexity-User"
+    ],
+    "plain_reached": false,
+    "tls_fail": false,
+    "challenge": true,
+    "headless": {
+      "reached": false,
+      "words": 37,
+      "error": ""
+    },
+    "headed": {
+      "reached": false,
+      "words": 37,
+      "error": "",
+      "status": 403,
+      "final_url": "https://www.paulabelmonte.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 403,
+      "raw_words": 0,
+      "raw_main_words": 0,
+      "raw_main_scope": "role=main",
+      "raw_main_text": "",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 0,
+      "final_url": "https://www.paulabelmonte.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:39:10 GMT",
+      "csp": true
+    },
+    "dom": null,
+    "t1": null
+  },
+  "reach_service": {
+    "url": "https://www.paulabelmonte.com.br",
+    "matrix": {
+      "PerplexityBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "OAI-SearchBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "browser": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      }
+    },
+    "browser_ok": false,
+    "retrievers_ok": [],
+    "blocked_ai": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "PerplexityBot",
+      "Perplexity-User"
+    ],
+    "plain_reached": false,
+    "tls_fail": false,
+    "challenge": true,
+    "headless": {
+      "reached": false,
+      "words": 37,
+      "error": ""
+    },
+    "headed": {
+      "reached": false,
+      "words": 37,
+      "error": "",
+      "status": 403,
+      "final_url": "https://www.paulabelmonte.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 403,
+      "raw_words": 0,
+      "raw_main_words": 0,
+      "raw_main_scope": "role=main",
+      "raw_main_text": "",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 0,
+      "final_url": "https://www.paulabelmonte.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:39:25 GMT",
+      "csp": true
+    },
+    "dom": null,
+    "t1": null
+  }
+}

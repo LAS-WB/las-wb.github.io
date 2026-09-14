@@ -1,0 +1,32 @@
+{
+  "id": "04",
+  "label": "Flavio Bolsonaro",
+  "url": "https://flaviobolsonaro.com.br",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:35:17.022773+00:00",
+  "state": "complete",
+  "run_id": "residential-1789374919",
+  "elapsed_seconds": 124,
+  "profile_sha256": "54422559d8ffb8f758618f765476a7a25f49e15fff9686221132e9867b72f43f",
+  "findings": [
+    "Text is hidden from view."
+  ],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Linked PDFs",
+      "reason": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf: Partial PDF sample: 3 of 76 pages inspected."
+    },
+    {
+      "title": "Application route",
+      "reason": "3 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "profile": "scans/04/profile.json",
+  "LAS_report": "scans/04/LAS.html",
+  "structural_report": "scans/04/structural.html",
+  "finished_utc": "2026-09-14T08:37:23.084487+00:00"
+}

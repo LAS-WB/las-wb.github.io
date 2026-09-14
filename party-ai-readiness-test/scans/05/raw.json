@@ -1,0 +1,838 @@
+{
+  "country": "ACM Neto",
+  "vantage": "residential, Lisbon",
+  "run_id": "residential-1789374928",
+  "homepage": "https://acmneto.com.br/",
+  "service": "https://acmneto.com.br/",
+  "pillars_run": [
+    "D",
+    "L",
+    "N",
+    "O",
+    "T"
+  ],
+  "measured_on": "service page",
+  "content_reached": true,
+  "t1_injection": {
+    "csp": false,
+    "third_party_scripts": 3,
+    "hidden_text_nodes": 49,
+    "injection_hits": []
+  },
+  "pdf_analyses": [],
+  "reveal_probe": {
+    "pressed": 0,
+    "controls": 0,
+    "blocked_requests": [],
+    "blocked_on_load": [
+      {
+        "method": "POST",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-3ZE0EL35DF&gtm=45je6992v9255030959za200zb9254218209zd9254218209&_p=1789374960459&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=196608468.1789374961&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHe"
+      },
+      {
+        "method": "POST",
+        "url": "https://mpc-prod-27-s6uit34pua-uk.a.run.app/events?cee=no"
+      },
+      {
+        "method": "POST",
+        "url": "https://mpc-prod-27-s6uit34pua-uk.a.run.app/events?cee=no"
+      },
+      {
+        "method": "POST",
+        "url": "https://5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws/events?cee=no"
+      },
+      {
+        "method": "POST",
+        "url": "https://5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws/events?cee=no"
+      },
+      {
+        "method": "POST",
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      },
+      {
+        "method": "POST",
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      },
+      {
+        "method": "POST",
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      },
+      {
+        "method": "POST",
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      },
+      {
+        "method": "POST",
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      },
+      {
+        "method": "POST",
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      },
+      {
+        "method": "POST",
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      },
+      {
+        "method": "POST",
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      },
+      {
+        "method": "POST",
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      },
+      {
+        "method": "POST",
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      }
+    ],
+    "navigated": false,
+    "words_before": 57,
+    "words_after": null,
+    "doc_before": 679,
+    "doc_after": null,
+    "presses": [],
+    "control_doc_before": null,
+    "control_doc_after": null,
+    "service_workers": "blocked",
+    "press_limit": 20,
+    "eligible_controls": [],
+    "scope": "main",
+    "census_before": {
+      "totalNodes": 655,
+      "scannedNodes": 655,
+      "nodeLimit": 8000,
+      "truncated": false,
+      "duplicateWordsExcluded": 60,
+      "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+    }
+  },
+  "depth_probe": {
+    "depth": null,
+    "entry": null,
+    "pages_crawled": 11,
+    "pages_failed": 1,
+    "hops": 4,
+    "budget": 40,
+    "exhausted": false,
+    "frontier_left": 0,
+    "external_entry": null,
+    "external_candidates": [],
+    "failed_urls": [
+      {
+        "url": "https://acmneto.com.br/plano-de-governo-2026.pdf",
+        "hop": 2,
+        "reason": "Error"
+      }
+    ],
+    "pruned_links": [],
+    "redirects": [],
+    "possible_routes": [],
+    "confirmed_routes": [],
+    "self_entry": null,
+    "reason": null,
+    "minimum_depth_confirmed": false,
+    "coverage_complete": false
+  },
+  "L_checks": [
+    {
+      "id": "L3",
+      "name": "Structured data",
+      "value": 0.5,
+      "result": "Some structured data, but not the service-specific kind AI pulls facts from.",
+      "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+    },
+    {
+      "id": "L4",
+      "name": "Shows when it was updated",
+      "value": 0.0,
+      "result": "No 'last updated' date, so AI can't tell if it's current.",
+      "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+    },
+    {
+      "id": "L5",
+      "name": "Guidance in the page, not a PDF",
+      "value": 1.0,
+      "result": "Guidance is on the page itself, not locked in PDFs.",
+      "fix": "Keep publishing guidance as HTML."
+    },
+    {
+      "id": "L7",
+      "name": "Answer-friendly layout",
+      "value": 0.5,
+      "result": "Some structure, but key facts are mostly in prose.",
+      "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+    }
+  ],
+  "L_observations": [
+    {
+      "id": "Lang",
+      "name": "Language coverage",
+      "detail": "Declares its language ('pt-BR') but offers no other-language version.",
+      "fix": ""
+    }
+  ],
+  "O_checks": [
+    {
+      "id": "OB-script",
+      "name": "Rendered extraction contains more words than served HTML",
+      "state": "clear",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Within the recorded the main content extraction scopes, the rendered/served word addition share is 14% (95 added; 584 matching), below this candidate check's threshold.",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://acmneto.com.br/",
+        "rendered_final_url": "https://acmneto.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "rendered_words": 679,
+        "served_words": 700,
+        "matching_words": 584,
+        "added_words": 95,
+        "removed_words": 116,
+        "script_only_words": 95,
+        "share": 0.1399,
+        "word_difference": 95,
+        "rendered_difference_percent": 14,
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-hidden",
+      "name": "Text in the assessed region is hidden by a recorded mechanism",
+      "state": "detected",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "The assessed region contains 622 document words hidden by the recorded mechanisms — opacity:0 (621 words), display:none (1 words); 57 words are visible. Accessibility-tree exclusion is recorded separately (5 words). This census does not establish that the hidden text is service guidance.",
+      "evidence": {
+        "hidden_words": 622,
+        "mechanisms": {
+          "display:none": 1,
+          "opacity:0": 621
+        },
+        "scope": "main",
+        "visible_words": 57,
+        "document_words": 679,
+        "sample": "ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar. Esta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente. Porque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados. A Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avançar. Chegou a hora da mudança. Mudança com segurança. Campanha 2026 ACM Neto Faça sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia. Zé Cocá Bio João Roma Angelo Coronel Dê o play e entre no ritmo da mudança! Dale! 44 Dê o play A Bahia já está cantando e dançando o a gente. Assista ao vídeo e compartilhe com todo mundo. DALE Aprenda a música, faça seu vídeo e espalhe o Dalê por toda a",
+        "accessibility_excluded_words": 5,
+        "accessibility_mechanisms": {
+          "aria-hidden": 5
+        },
+        "census": {
+          "totalNodes": 655,
+          "scannedNodes": 655,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 60,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-click",
+      "name": "Document text increased after disclosure controls were pressed",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "pressed": 0,
+        "controls": 0,
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-3ZE0EL35DF&gtm=45je6992v9255030959za200zb9254218209zd9254218209&_p=1789374960459&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=196608468.1789374961&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHe"
+          },
+          {
+            "method": "POST",
+            "url": "https://mpc-prod-27-s6uit34pua-uk.a.run.app/events?cee=no"
+          },
+          {
+            "method": "POST",
+            "url": "https://mpc-prod-27-s6uit34pua-uk.a.run.app/events?cee=no"
+          },
+          {
+            "method": "POST",
+            "url": "https://5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws/events?cee=no"
+          },
+          {
+            "method": "POST",
+            "url": "https://5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws/events?cee=no"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+          }
+        ],
+        "navigated": false,
+        "words_before": 57,
+        "words_after": null,
+        "doc_before": 679,
+        "doc_after": null,
+        "presses": [],
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "service_workers": "blocked",
+        "press_limit": 20,
+        "eligible_controls": [],
+        "scope": "main",
+        "census_before": {
+          "totalNodes": 655,
+          "scannedNodes": 655,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 60,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-pdf",
+      "name": "Linked PDF extraction properties",
+      "state": "not_applicable",
+      "severity": null,
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "No PDF is linked from the main content.",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "applicability_reason": "no PDF is linked from the assessed region",
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-depth",
+      "name": "Confirmed minimum application-route depth",
+      "state": "not_measured",
+      "severity": "red",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: 1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "depth": null,
+        "entry": null,
+        "pages_crawled": 11,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_entry": null,
+        "external_candidates": [],
+        "failed_urls": [
+          {
+            "url": "https://acmneto.com.br/plano-de-governo-2026.pdf",
+            "hop": 2,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [],
+        "redirects": [],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "self_entry": null,
+        "reason": "1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+        "minimum_depth_confirmed": false,
+        "coverage_complete": false
+      },
+      "fix": "",
+      "study": null
+    }
+  ],
+  "future_items": [
+    {
+      "name": "Machine-readable API",
+      "present": false,
+      "state": "none"
+    },
+    {
+      "name": "Sign-in standard (OIDC)",
+      "present": false
+    },
+    {
+      "name": "llms.txt",
+      "present": false
+    },
+    {
+      "name": "AGENTS.md",
+      "present": false
+    },
+    {
+      "name": "Agent card",
+      "present": false
+    },
+    {
+      "name": "MCP endpoint",
+      "present": false
+    }
+  ],
+  "injection": {
+    "measured": true,
+    "csp": false,
+    "third_party_scripts": 3,
+    "flagged": 0,
+    "flags": []
+  },
+  "reach_home": {
+    "url": "https://acmneto.com.br/",
+    "matrix": {
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 772,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 772,
+      "error": "",
+      "status": 200,
+      "final_url": "https://acmneto.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 920,
+      "raw_main_words": 700,
+      "raw_main_scope": "main",
+      "raw_main_text": "A Bahia quer mudanÃ§a. E essa mudanÃ§a comeÃ§a com a participaÃ§Ã£o de todos. Bem-vindo ao site oficial de quem acredita em uma Bahia Ã altura da forÃ§a do seu povo. Esta caminhada nasce da escuta e Ã© construÃ­da perto das pessoas, ouvindo cada regiÃ£o e colocando as necessidades dos baianos no centro das decisÃµes. Saiba mais â ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia Ã altura da forÃ§a do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: seguranÃ§a para viver, saÃºde que funcione, educaÃ§Ã£o que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com mÃ©todo, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiÃªncia encontra um desafio ainda maior: fazer a Bahia inteira voltar a avanÃ§ar. Esta caminhada nasce da escuta, mas nÃ£o termina em promessas. Ela Ã© construÃ­da em cada regiÃ£o, em cada municÃ­pio e ao lado de cada baiano que cansou de esperar e decidiu acreditar que Ã© possÃ­vel fazer diferente. Porque mudanÃ§a de verdade nÃ£o Ã© um salto no escuro. Ã ter direÃ§Ã£o, planejamento, uma equipe preparada e experiÃªncia para transformar compromissos em resultados. A Bahia tem forÃ§a. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta Ã© um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avanÃ§ar. Chegou a hora da mudanÃ§a. MudanÃ§a com seguranÃ§a. Campanha 2026 ACM Neto FaÃ§a sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notÃ­cias, propostas e de tudo que acontece nessa caminhada pela Bahia. ZÃ© CocÃ¡ Bio JoÃ£o Roma Angelo Coronel Siga os nossos canais oficiais e fique por dentro das agendas, notÃ­cias, propostas e de tudo que acontece nessa caminhada pela Bahia. DÃª o play e entre no ritmo da mudanÃ§a! Dale! 44 DÃª o play A Bahia jÃ¡ estÃ¡ cantando e danÃ§ando o DALE a gente. Assista ao vÃ­deo e compartilhe com todo mundo. Aprenda a mÃºsica, faÃ§a seu vÃ­deo e espalhe o DalÃª por toda a Bahia. OuÃ§a no Spotify Sorria, Minha Bahia! 44 LambadÃ£o Virou, Virou, 44 Em Neto Eu Vou Votar ACM Tudo Azul DalÃª ACM Neto 44 Assistir ao jingle Compartilhar no WhatsApp Neto Cast . OuÃ§a as principais entrevistas de , inserÃ§Ãµes de rÃ¡dio e programas de TV, onde e quando quiser. Sorria, minha Bahia! Ã Neto 44! Ouvir no Spotify Assista aos nossos programas e comerciais Assista aos programas e comerciais da campanha de para Governador da Bahia! Ã hora de mudar, minha Bahia! Ã 44! Programa 06 Programa â¢ 9 de set de 2026 Programa eleitoral da campanha ACM NETO 44 â EleiÃ§Ãµes Bahia 2026. Ver no YouTube VÃ­deos para compartilhar Compartilhe a verdade. Compartilhe a Assista aos vÃ­deos e compartilhe com seus amigos pelo WhatsApp. Vamos juntos mostrar a Bahia que Ã© possÃ­vel mudar com verdade e coragem. Ver os vÃ­deos Entre para o Receba notÃ­cias, agendas, vÃ­deos e conteÃºdos da nossa caminhada diretamente no seu WhatsApp. tudo em primeira mÃ£o e compartilhe com quem tambÃ©m acredita que a Bahia pode mudar. Plano de Governo 2027â2030 A Bahia de volta ao seu sonho de grandeza. MudanÃ§a com seguranÃ§a. ConheÃ§a o plano completo para transformar potencial em resultado â seguranÃ§a, saÃºde, educaÃ§Ã£o, infraestrutura e oportunidades em todo o estado. Ler o plano de governo A mudanÃ§a comeÃ§a com cada um de nÃ³s. Obrigado por fazer parte desta caminhada. Ela estÃ¡ sendo construÃ­da em cada cidade, em cada conversa e ao lado de quem acredita que a Bahia pode voltar a avanÃ§ar. Continue participando, compartilhando suas ideias e acompanhando os nossos canais. MudanÃ§a com seguranÃ§a. E ninguÃ©m muda a Bahia sozinho. Siga ACM Neto",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 39,
+      "final_url": "https://acmneto.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:35:29 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://acmneto.com.br/#pessoa\",\"name\":\"ACM Neto\",\"alternateName\":\"Antônio Carlos Peixoto de Magalhães Neto\",\"url\":\"https://acmneto.com.br\",\"image\":\"https://acmneto.com.br/images/ogimage-v2.jpg\",\"jobTitle\":\"Candidato a Governador da Bahia\",\"sameAs\":[\"https://www.facebook.com/ACMNetoOficial/\",\"https://www.instagram.com/acmneto/\",\"https://www.youtube.com/@acmnetoba\",\"https://www.tiktok.com/@acmnetoba\",\"https://x.com/acmnetoba/\",\"https://www.kwai.com/@acmneto_/\"]},{\"@type\":\"Organization\",\"@id\":\"https://acmneto.com.br/#organizacao\",\"name\":\"ACM Neto\",\"url\":\"https://acmneto.com.br\",\"logo\":\"https://acmneto.com.br/images/bahia.png\",\"sameAs\":[\"https://www.facebook.com/ACMNetoOficial/\",\"https://www.instagram.com/acmneto/\",\"https://www.youtube.com/@acmnetoba\",\"https://www.tiktok.com/@acmnetoba\",\"https://x.com/acmnetoba/\",\"https://www.kwai.com/@acmneto_/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://acmneto.com.br/#website\",\"url\":\"https://acmneto.com.br\",\"name\":\"ACM Neto\",\"description\":\"Site oficial de ACM Neto, candidato a governador da Bahia em 2026. Mudança com segurança.\",\"inLanguage\":\"pt-BR\",\"publisher\":{\"@id\":\"https://acmneto.com.br/#organizacao\"}}]}",
+      "lang": "pt-BR",
+      "hreflang": [],
+      "lists": 13,
+      "tables": 0,
+      "dls": 0,
+      "words": 772,
+      "text_head": "NOTÍCIAS\nAGENDA\nBIOGRAFIAS\nFAÇA SUA FOTO\nREDES\nJINGLES\nPROGRAMAS\nCOMPARTILHE\nPLANO\nMATERIAL DE CAMPANHA\nA BAHIA\nQUER\nMUDANÇA.\n\nE essa mudança\ncomeça com\na participação\nde todos.\n\nBem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo. Esta caminhada nasce da escuta e é construída perto das pessoas, ouvindo cada região e colocando as necessidades dos baianos no centro das decisões.\n\nSAIBA MAIS →\nUMA\nCAMINHADA\nFEITA AO LADO\nDAS PESSOAS.\n\nBem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo!\n\nA Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui.\n\nFoi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar.\n\nEsta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente.\n\nPorque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados.\n\nA Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas.\n\nChegou a hora de a Bahia voltar a avançar.\n\nCHEGOU A HORA DA MUDANÇA.\nMUDANÇA COM SEGURANÇA.\n\nCAMPANHA 2026\n\nACM NETO\nFAÇA SUA FOTO\nDE PERFIL.\n\nSuba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44.\n\nFAZER MINHA FOTO\nACOMPANHE\nA NOSSA\nCAMINHADA\n\nSiga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia.\n\nZÉ COCÁ\nBIO\nACM NETO\nBIO\nJOÃO ROMA\nBIO\nANGELO CORONEL\nBIO\nDÊ O PLAY E ENTRE NO RITMO DA MUDANÇA! DALE! 44\nDÊ O PLAY\n\nA Bahia já está cantando\ne dançando o DALE a gente.\nAssista ao vídeo e compartilhe\ncom todo mundo.\n\nAprenda a música, faça seu vídeo e espalhe o Dalê por toda a Bahia.\n\nOUÇA NO SPOTIFY\n\nSorria, Minha Bahia! 44\nLambadão Virou, Virou, 44\nEm Neto Eu Vou Votar\nACM Tudo Azul\nDalê ACM Neto 44\nASSISTIR AO JINGLE\nCOMPARTILHAR NO WHATSAPP\nOUÇA NO SPOTIFY\nNetoCast.\n\nOuça as principais entrevistas de ACM Neto, inserções de rádio e programas de TV, onde e quando quiser. Sorria, minha Bahia! É Neto 44!\n\nOUVIR NO SPOTIFY\nASSISTA AOS NOSSOS\nPROGRAMAS\nE COMERCIAIS\n\nAssista aos programas e comerciais da campanha de ACM NETO para Governador da Bahia! É hora de mudar, minha Bahia! É 44!\n\nCOMERCIAL 'CRIME ORGANIZADO'\n\nCOMERCIAL\n•\n13 de set de 2026\n\nComercial da campanha ACM NETO 44 — Eleições Bahia 2026.\n\nCOMPARTILHAR NO WHATSAPP\nVER NO YOUTUBE\n\nNA PLAYLIST\n\n15 vídeos\n\nCOMERCIAL 'CRIME ORGANIZADO' Comercial 13 de set de 2026\nPrograma 07 Programa 12 de set de 2026\nPrograma 06 Programa 9 de set de 2026\nCOMERCIAL '3 PRESIDENTES' Comercial 9 de set de 2026\nCARREGAR MAIS VÍDEOS\n\nVÍDEOS PARA COMPARTILHAR\n\nCOMPARTILHE A VERDADE.\nCOMPARTILHE A MUDANÇA.\n\nAssista aos vídeos e compartilhe com seus amigos pelo WhatsApp. Vamos juntos mostrar a Bahia que é possível mudar com verdade e coragem.\n\nVER OS VÍDEOS\nENTRE\nPARA\nO\n\nReceba notícias, agendas, vídeos e conteúdos da nossa caminhada diretamente no seu WhatsApp. Acompanhe tudo em primeira mão e compartilhe com quem também acredita que a Bahia pode mudar.\n\nPLANO DE GOVERNO 2027–2030\n\nACM NETO\nA BAHIA DE VOLTA\nAO SEU SONHO\nDE GRANDEZA.\n\nMudança com segurança. Conheça o plano completo para transformar potencial em resultado — segurança, saúde, e",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 11,
+      "internalPaths": [
+        "/",
+        "/noticias",
+        "/agenda",
+        "/biografias",
+        "/eu-apoio",
+        "/videos",
+        "/plano-de-governo",
+        "/biografias/ze-coca",
+        "/biografias/acm-neto",
+        "/biografias/joao-roma",
+        "/biografias/angelo-coronel"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 4,
+      "labeledInputs": 0,
+      "pdfLinks": 0,
+      "pdfUrls": [],
+      "mainScope": "main",
+      "mainWords": 57,
+      "mainDocWords": 679,
+      "mainText": "A Bahia quer mudança. E essa mudança começa com a participação de todos. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo. Esta caminhada nasce da escuta e é construída perto das pessoas, ouvindo cada região e colocando as necessidades dos baianos no centro das decisões. Saiba mais → ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar. Esta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente. Porque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados. A Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avançar. Chegou a hora da mudança. Mudança com segurança. Campanha 2026 ACM Neto Faça sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia. Zé Cocá Bio João Roma Angelo Coronel Dê o play e entre no ritmo da mudança! Dale! 44 Dê o play A Bahia já está cantando e dançando o a gente. Assista ao vídeo e compartilhe com todo mundo. DALE Aprenda a música, faça seu vídeo e espalhe o Dalê por toda a Bahia. Ouça no Spotify Sorria, Minha Bahia! 44 Lambadão Virou, Virou, 44 Em Neto Eu Vou Votar ACM Tudo Azul Dalê ACM Neto 44 Assistir ao jingle Compartilhar no WhatsApp Neto Cast . Ouça as principais entrevistas de , inserções de rádio e programas de TV, onde e quando quiser. Sorria, minha Bahia! É Neto 44! Ouvir no Spotify Assista aos nossos programas e comerciais Assista aos programas e comerciais da campanha de para Governador da Bahia! É hora de mudar, minha Bahia! É 44! COMERCIAL 'CRIME ORGANIZADO' Comercial • 13 de set de 2026 Comercial da campanha ACM NETO 44 — Eleições Bahia 2026. Ver no YouTube Vídeos para compartilhar Compartilhe a verdade. Compartilhe a Assista aos vídeos e compartilhe com seus amigos pelo WhatsApp. Vamos juntos mostrar a Bahia que é possível mudar com verdade e coragem. Ver os vídeos Entre para o Receba notícias, agendas, vídeos e conteúdos da nossa caminhada diretamente no seu WhatsApp. Acompanhe tudo em primeira mão e compartilhe com quem também acredita que a Bahia pode mudar. Plano de Governo 2027–2030 A Bahia de volta ao seu sonho de grandeza. Mudança com segurança. Conheça o plano completo para transformar potencial em resultado — segurança, saúde, educação, infraestrutura e oportunidades em todo o estado. Ler o plano de governo A mudança começa com cada um de nós. Obrigado por fazer parte desta caminhada. Ela está sendo construída em cada cidade, em cada conversa e ao lado de quem acredita que a Bahia pode voltar a avançar. Continue participando, compartilhando suas ideias e acompanhando os nossos canais. Mudança com segurança. E ninguém muda a Bahia sozinho. Siga ACM Neto",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 655,
+        "scannedNodes": 655,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 60,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 622,
+        "mechanisms": {
+          "display:none": 1,
+          "opacity:0": 621
+        },
+        "sample": "ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar. Esta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente. Porque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados. A Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avançar. Chegou a hora da mudança. Mudança com segurança. Campanha 2026 ACM Neto Faça sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia. Zé Cocá Bio João Roma Angelo Coronel Dê o play e entre no ritmo da mudança! Dale! 44 Dê o play A Bahia já está cantando e dançando o a gente. Assista ao vídeo e compartilhe com todo mundo. DALE Aprenda a música, faça seu vídeo e espalhe o Dalê por toda a",
+        "accessibilityExcludedWords": 5,
+        "accessibilityMechanisms": {
+          "aria-hidden": 5
+        }
+      },
+      "headings": [
+        "A Bahiaquermudança.",
+        "Umacaminhadafeita ao ladodas pessoas.",
+        "ACM NetoFaça sua fotode perfil.",
+        "Acompanhea nossacaminhada",
+        "Acompanhea nossacaminhada",
+        "Dê o play e entre no ritmo da mudança! Dale! 44Dê o play",
+        "Ouça no SpotifyNetoCast.",
+        "Assista aos nossosprogramase comerciais",
+        "Compartilhe a verdade.Compartilhe a mudança.",
+        "Entreparao",
+        "ACM NetoA Bahia de voltaao seu sonhode grandeza.",
+        "A mudançacomeçacom cada umde nós.",
+        "ACM Neto | MUDANÇA COM SEGURANÇA"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 3,
+      "thirdPartyOrigins": [
+        "https://capi-automation.s3.us-east-2.amazonaws.com",
+        "https://connect.facebook.net",
+        "https://www.googletagmanager.com"
+      ],
+      "hiddenTextNodes": 49,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  },
+  "reach_service": {
+    "url": "https://acmneto.com.br/",
+    "matrix": {
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 920,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 772,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 772,
+      "error": "",
+      "status": 200,
+      "final_url": "https://acmneto.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 920,
+      "raw_main_words": 700,
+      "raw_main_scope": "main",
+      "raw_main_text": "A Bahia quer mudanÃ§a. E essa mudanÃ§a comeÃ§a com a participaÃ§Ã£o de todos. Bem-vindo ao site oficial de quem acredita em uma Bahia Ã altura da forÃ§a do seu povo. Esta caminhada nasce da escuta e Ã© construÃ­da perto das pessoas, ouvindo cada regiÃ£o e colocando as necessidades dos baianos no centro das decisÃµes. Saiba mais â ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia Ã altura da forÃ§a do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: seguranÃ§a para viver, saÃºde que funcione, educaÃ§Ã£o que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com mÃ©todo, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiÃªncia encontra um desafio ainda maior: fazer a Bahia inteira voltar a avanÃ§ar. Esta caminhada nasce da escuta, mas nÃ£o termina em promessas. Ela Ã© construÃ­da em cada regiÃ£o, em cada municÃ­pio e ao lado de cada baiano que cansou de esperar e decidiu acreditar que Ã© possÃ­vel fazer diferente. Porque mudanÃ§a de verdade nÃ£o Ã© um salto no escuro. Ã ter direÃ§Ã£o, planejamento, uma equipe preparada e experiÃªncia para transformar compromissos em resultados. A Bahia tem forÃ§a. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta Ã© um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avanÃ§ar. Chegou a hora da mudanÃ§a. MudanÃ§a com seguranÃ§a. Campanha 2026 ACM Neto FaÃ§a sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notÃ­cias, propostas e de tudo que acontece nessa caminhada pela Bahia. ZÃ© CocÃ¡ Bio JoÃ£o Roma Angelo Coronel Siga os nossos canais oficiais e fique por dentro das agendas, notÃ­cias, propostas e de tudo que acontece nessa caminhada pela Bahia. DÃª o play e entre no ritmo da mudanÃ§a! Dale! 44 DÃª o play A Bahia jÃ¡ estÃ¡ cantando e danÃ§ando o DALE a gente. Assista ao vÃ­deo e compartilhe com todo mundo. Aprenda a mÃºsica, faÃ§a seu vÃ­deo e espalhe o DalÃª por toda a Bahia. OuÃ§a no Spotify Sorria, Minha Bahia! 44 LambadÃ£o Virou, Virou, 44 Em Neto Eu Vou Votar ACM Tudo Azul DalÃª ACM Neto 44 Assistir ao jingle Compartilhar no WhatsApp Neto Cast . OuÃ§a as principais entrevistas de , inserÃ§Ãµes de rÃ¡dio e programas de TV, onde e quando quiser. Sorria, minha Bahia! Ã Neto 44! Ouvir no Spotify Assista aos nossos programas e comerciais Assista aos programas e comerciais da campanha de para Governador da Bahia! Ã hora de mudar, minha Bahia! Ã 44! Programa 06 Programa â¢ 9 de set de 2026 Programa eleitoral da campanha ACM NETO 44 â EleiÃ§Ãµes Bahia 2026. Ver no YouTube VÃ­deos para compartilhar Compartilhe a verdade. Compartilhe a Assista aos vÃ­deos e compartilhe com seus amigos pelo WhatsApp. Vamos juntos mostrar a Bahia que Ã© possÃ­vel mudar com verdade e coragem. Ver os vÃ­deos Entre para o Receba notÃ­cias, agendas, vÃ­deos e conteÃºdos da nossa caminhada diretamente no seu WhatsApp. tudo em primeira mÃ£o e compartilhe com quem tambÃ©m acredita que a Bahia pode mudar. Plano de Governo 2027â2030 A Bahia de volta ao seu sonho de grandeza. MudanÃ§a com seguranÃ§a. ConheÃ§a o plano completo para transformar potencial em resultado â seguranÃ§a, saÃºde, educaÃ§Ã£o, infraestrutura e oportunidades em todo o estado. Ler o plano de governo A mudanÃ§a comeÃ§a com cada um de nÃ³s. Obrigado por fazer parte desta caminhada. Ela estÃ¡ sendo construÃ­da em cada cidade, em cada conversa e ao lado de quem acredita que a Bahia pode voltar a avanÃ§ar. Continue participando, compartilhando suas ideias e acompanhando os nossos canais. MudanÃ§a com seguranÃ§a. E ninguÃ©m muda a Bahia sozinho. Siga ACM Neto",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 39,
+      "final_url": "https://acmneto.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:35:45 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://acmneto.com.br/#pessoa\",\"name\":\"ACM Neto\",\"alternateName\":\"Antônio Carlos Peixoto de Magalhães Neto\",\"url\":\"https://acmneto.com.br\",\"image\":\"https://acmneto.com.br/images/ogimage-v2.jpg\",\"jobTitle\":\"Candidato a Governador da Bahia\",\"sameAs\":[\"https://www.facebook.com/ACMNetoOficial/\",\"https://www.instagram.com/acmneto/\",\"https://www.youtube.com/@acmnetoba\",\"https://www.tiktok.com/@acmnetoba\",\"https://x.com/acmnetoba/\",\"https://www.kwai.com/@acmneto_/\"]},{\"@type\":\"Organization\",\"@id\":\"https://acmneto.com.br/#organizacao\",\"name\":\"ACM Neto\",\"url\":\"https://acmneto.com.br\",\"logo\":\"https://acmneto.com.br/images/bahia.png\",\"sameAs\":[\"https://www.facebook.com/ACMNetoOficial/\",\"https://www.instagram.com/acmneto/\",\"https://www.youtube.com/@acmnetoba\",\"https://www.tiktok.com/@acmnetoba\",\"https://x.com/acmnetoba/\",\"https://www.kwai.com/@acmneto_/\"]},{\"@type\":\"WebSite\",\"@id\":\"https://acmneto.com.br/#website\",\"url\":\"https://acmneto.com.br\",\"name\":\"ACM Neto\",\"description\":\"Site oficial de ACM Neto, candidato a governador da Bahia em 2026. Mudança com segurança.\",\"inLanguage\":\"pt-BR\",\"publisher\":{\"@id\":\"https://acmneto.com.br/#organizacao\"}}]}",
+      "lang": "pt-BR",
+      "hreflang": [],
+      "lists": 13,
+      "tables": 0,
+      "dls": 0,
+      "words": 772,
+      "text_head": "NOTÍCIAS\nAGENDA\nBIOGRAFIAS\nFAÇA SUA FOTO\nREDES\nJINGLES\nPROGRAMAS\nCOMPARTILHE\nPLANO\nMATERIAL DE CAMPANHA\nA BAHIA\nQUER\nMUDANÇA.\n\nE essa mudança\ncomeça com\na participação\nde todos.\n\nBem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo. Esta caminhada nasce da escuta e é construída perto das pessoas, ouvindo cada região e colocando as necessidades dos baianos no centro das decisões.\n\nSAIBA MAIS →\nUMA\nCAMINHADA\nFEITA AO LADO\nDAS PESSOAS.\n\nBem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo!\n\nA Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui.\n\nFoi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar.\n\nEsta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente.\n\nPorque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados.\n\nA Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas.\n\nChegou a hora de a Bahia voltar a avançar.\n\nCHEGOU A HORA DA MUDANÇA.\nMUDANÇA COM SEGURANÇA.\n\nCAMPANHA 2026\n\nACM NETO\nFAÇA SUA FOTO\nDE PERFIL.\n\nSuba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44.\n\nFAZER MINHA FOTO\nACOMPANHE\nA NOSSA\nCAMINHADA\n\nSiga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia.\n\nZÉ COCÁ\nBIO\nACM NETO\nBIO\nJOÃO ROMA\nBIO\nANGELO CORONEL\nBIO\nDÊ O PLAY E ENTRE NO RITMO DA MUDANÇA! DALE! 44\nDÊ O PLAY\n\nA Bahia já está cantando\ne dançando o DALE a gente.\nAssista ao vídeo e compartilhe\ncom todo mundo.\n\nAprenda a música, faça seu vídeo e espalhe o Dalê por toda a Bahia.\n\nOUÇA NO SPOTIFY\n\nSorria, Minha Bahia! 44\nLambadão Virou, Virou, 44\nEm Neto Eu Vou Votar\nACM Tudo Azul\nDalê ACM Neto 44\nASSISTIR AO JINGLE\nCOMPARTILHAR NO WHATSAPP\nOUÇA NO SPOTIFY\nNetoCast.\n\nOuça as principais entrevistas de ACM Neto, inserções de rádio e programas de TV, onde e quando quiser. Sorria, minha Bahia! É Neto 44!\n\nOUVIR NO SPOTIFY\nASSISTA AOS NOSSOS\nPROGRAMAS\nE COMERCIAIS\n\nAssista aos programas e comerciais da campanha de ACM NETO para Governador da Bahia! É hora de mudar, minha Bahia! É 44!\n\nCOMERCIAL 'CRIME ORGANIZADO'\n\nCOMERCIAL\n•\n13 de set de 2026\n\nComercial da campanha ACM NETO 44 — Eleições Bahia 2026.\n\nCOMPARTILHAR NO WHATSAPP\nVER NO YOUTUBE\n\nNA PLAYLIST\n\n15 vídeos\n\nCOMERCIAL 'CRIME ORGANIZADO' Comercial 13 de set de 2026\nPrograma 07 Programa 12 de set de 2026\nPrograma 06 Programa 9 de set de 2026\nCOMERCIAL '3 PRESIDENTES' Comercial 9 de set de 2026\nCARREGAR MAIS VÍDEOS\n\nVÍDEOS PARA COMPARTILHAR\n\nCOMPARTILHE A VERDADE.\nCOMPARTILHE A MUDANÇA.\n\nAssista aos vídeos e compartilhe com seus amigos pelo WhatsApp. Vamos juntos mostrar a Bahia que é possível mudar com verdade e coragem.\n\nVER OS VÍDEOS\nENTRE\nPARA\nO\n\nReceba notícias, agendas, vídeos e conteúdos da nossa caminhada diretamente no seu WhatsApp. Acompanhe tudo em primeira mão e compartilhe com quem também acredita que a Bahia pode mudar.\n\nPLANO DE GOVERNO 2027–2030\n\nACM NETO\nA BAHIA DE VOLTA\nAO SEU SONHO\nDE GRANDEZA.\n\nMudança com segurança. Conheça o plano completo para transformar potencial em resultado — segurança, saúde, e",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 11,
+      "internalPaths": [
+        "/",
+        "/noticias",
+        "/agenda",
+        "/biografias",
+        "/eu-apoio",
+        "/videos",
+        "/plano-de-governo",
+        "/biografias/ze-coca",
+        "/biografias/acm-neto",
+        "/biografias/joao-roma",
+        "/biografias/angelo-coronel"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 4,
+      "labeledInputs": 0,
+      "pdfLinks": 0,
+      "pdfUrls": [],
+      "mainScope": "main",
+      "mainWords": 57,
+      "mainDocWords": 679,
+      "mainText": "A Bahia quer mudança. E essa mudança começa com a participação de todos. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo. Esta caminhada nasce da escuta e é construída perto das pessoas, ouvindo cada região e colocando as necessidades dos baianos no centro das decisões. Saiba mais → ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar. Esta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente. Porque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados. A Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avançar. Chegou a hora da mudança. Mudança com segurança. Campanha 2026 ACM Neto Faça sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia. Zé Cocá Bio João Roma Angelo Coronel Dê o play e entre no ritmo da mudança! Dale! 44 Dê o play A Bahia já está cantando e dançando o a gente. Assista ao vídeo e compartilhe com todo mundo. DALE Aprenda a música, faça seu vídeo e espalhe o Dalê por toda a Bahia. Ouça no Spotify Sorria, Minha Bahia! 44 Lambadão Virou, Virou, 44 Em Neto Eu Vou Votar ACM Tudo Azul Dalê ACM Neto 44 Assistir ao jingle Compartilhar no WhatsApp Neto Cast . Ouça as principais entrevistas de , inserções de rádio e programas de TV, onde e quando quiser. Sorria, minha Bahia! É Neto 44! Ouvir no Spotify Assista aos nossos programas e comerciais Assista aos programas e comerciais da campanha de para Governador da Bahia! É hora de mudar, minha Bahia! É 44! COMERCIAL 'CRIME ORGANIZADO' Comercial • 13 de set de 2026 Comercial da campanha ACM NETO 44 — Eleições Bahia 2026. Ver no YouTube Vídeos para compartilhar Compartilhe a verdade. Compartilhe a Assista aos vídeos e compartilhe com seus amigos pelo WhatsApp. Vamos juntos mostrar a Bahia que é possível mudar com verdade e coragem. Ver os vídeos Entre para o Receba notícias, agendas, vídeos e conteúdos da nossa caminhada diretamente no seu WhatsApp. Acompanhe tudo em primeira mão e compartilhe com quem também acredita que a Bahia pode mudar. Plano de Governo 2027–2030 A Bahia de volta ao seu sonho de grandeza. Mudança com segurança. Conheça o plano completo para transformar potencial em resultado — segurança, saúde, educação, infraestrutura e oportunidades em todo o estado. Ler o plano de governo A mudança começa com cada um de nós. Obrigado por fazer parte desta caminhada. Ela está sendo construída em cada cidade, em cada conversa e ao lado de quem acredita que a Bahia pode voltar a avançar. Continue participando, compartilhando suas ideias e acompanhando os nossos canais. Mudança com segurança. E ninguém muda a Bahia sozinho. Siga ACM Neto",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 655,
+        "scannedNodes": 655,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 60,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 622,
+        "mechanisms": {
+          "display:none": 1,
+          "opacity:0": 621
+        },
+        "sample": "ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar. Esta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente. Porque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados. A Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avançar. Chegou a hora da mudança. Mudança com segurança. Campanha 2026 ACM Neto Faça sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia. Zé Cocá Bio João Roma Angelo Coronel Dê o play e entre no ritmo da mudança! Dale! 44 Dê o play A Bahia já está cantando e dançando o a gente. Assista ao vídeo e compartilhe com todo mundo. DALE Aprenda a música, faça seu vídeo e espalhe o Dalê por toda a",
+        "accessibilityExcludedWords": 5,
+        "accessibilityMechanisms": {
+          "aria-hidden": 5
+        }
+      },
+      "headings": [
+        "A Bahiaquermudança.",
+        "Umacaminhadafeita ao ladodas pessoas.",
+        "ACM NetoFaça sua fotode perfil.",
+        "Acompanhea nossacaminhada",
+        "Acompanhea nossacaminhada",
+        "Dê o play e entre no ritmo da mudança! Dale! 44Dê o play",
+        "Ouça no SpotifyNetoCast.",
+        "Assista aos nossosprogramase comerciais",
+        "Compartilhe a verdade.Compartilhe a mudança.",
+        "Entreparao",
+        "ACM NetoA Bahia de voltaao seu sonhode grandeza.",
+        "A mudançacomeçacom cada umde nós.",
+        "ACM Neto | MUDANÇA COM SEGURANÇA"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 3,
+      "thirdPartyOrigins": [
+        "https://capi-automation.s3.us-east-2.amazonaws.com",
+        "https://connect.facebook.net",
+        "https://www.googletagmanager.com"
+      ],
+      "hiddenTextNodes": 49,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  }
+}

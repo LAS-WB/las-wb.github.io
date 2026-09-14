@@ -1,0 +1,71 @@
+{
+  "completed_runs": 12,
+  "verified_reports": 24,
+  "profile_hashes_match": true,
+  "unique_run_ids": true,
+  "all_structural_reports_real": true,
+  "local_index_links_checked": 63,
+  "browser_checks": [
+    {
+      "file": "index.html",
+      "viewport": [
+        1440,
+        1100
+      ],
+      "horizontal_overflow": false,
+      "script_errors": [],
+      "screenshot": "verification/index-desktop.png"
+    },
+    {
+      "file": "index.html",
+      "viewport": [
+        390,
+        844
+      ],
+      "horizontal_overflow": false,
+      "script_errors": [],
+      "screenshot": "verification/index-mobile.png"
+    },
+    {
+      "file": "scans/01/structural.html",
+      "viewport": [
+        1280,
+        1000
+      ],
+      "horizontal_overflow": false,
+      "script_errors": [],
+      "screenshot": "verification/structural-desktop.png"
+    },
+    {
+      "file": "scans/10/structural.html",
+      "viewport": [
+        390,
+        844
+      ],
+      "horizontal_overflow": false,
+      "script_errors": [],
+      "screenshot": "verification/structural-mobile.png"
+    },
+    {
+      "file": "scans/09/structural.html",
+      "viewport": [
+        1280,
+        1000
+      ],
+      "horizontal_overflow": false,
+      "script_errors": [],
+      "screenshot": "verification/unreadable-structural.png"
+    },
+    {
+      "file": "scans/04/LAS.html",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "horizontal_overflow": false,
+      "script_errors": [],
+      "screenshot": "verification/las-desktop.png"
+    }
+  ],
+  "font_note": "External requests blocked for offline layout checks; screenshots use local fallback fonts."
+}

@@ -1,0 +1,13 @@
+id,label,url,selection_reason,source_file
+01,Renan Santos,https://renanpresidente.com.br,readable candidate site; repository pilot participant,data/sweep/sweep-results.csv
+02,Eduardo Riedel,https://eduardoriedel.com.br/,readable candidate site with recorded PDF links; pilot participant,data/sweep/sweep-results.csv
+03,Time Barra / Eder Mauro,https://timebarra.com.br/,candidate-linked site with recorded PDF link; pilot participant,data/sweep/sweep-results.csv
+04,Flavio Bolsonaro,https://flaviobolsonaro.com.br,readable page with structured-data and crawler-policy signals,data/sweep/sweep-results.csv
+05,ACM Neto,https://acmneto.com.br/,readable site in the plain-content category,data/sweep/sweep-results.csv
+06,Renan Filho,https://renanfilhodealagoas.com.br/,second plain-content site,data/sweep/sweep-results.csv
+07,Acir Gurgacz,https://acir.com.br/,near-empty original extraction; audited party-coverage withdrawal,data/sweep/sweep-results.csv
+08,Orleans Brandao,https://orleansbrandao.com.br/,zero-word original extraction,data/sweep/sweep-results.csv
+09,Paula Belmonte,https://www.paulabelmonte.com.br,recorded bot challenge,data/sweep/sweep-results.csv
+10,NOVO candidate listing,https://novo.org.br/noticias/candidatos-partido-novo-2026-veja-a-lista/,shared party-hosted candidacy evidence,data/party-coverage-tiered.csv
+11,PCO candidate listing,https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/,second party-hosted candidacy article,data/party-coverage-tiered.csv
+12,Eduardo Riedel communities page,https://site.eduardoriedel.com.br/COMUNIDADES/,recorded HTTP 404; tests failure reporting,data/sweep/sweep-results.csv

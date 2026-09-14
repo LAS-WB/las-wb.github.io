@@ -1,0 +1,1080 @@
+{
+  "country": "Renan Santos",
+  "vantage": "residential, Lisbon",
+  "run_id": "residential-1789374744",
+  "homepage": "https://renanpresidente.com.br",
+  "service": "https://renanpresidente.com.br",
+  "pillars_run": [
+    "D",
+    "L",
+    "N",
+    "O",
+    "T"
+  ],
+  "measured_on": "service page",
+  "content_reached": true,
+  "t1_injection": {
+    "csp": true,
+    "third_party_scripts": 0,
+    "hidden_text_nodes": 26,
+    "injection_hits": []
+  },
+  "pdf_analyses": [],
+  "reveal_probe": {
+    "pressed": 0,
+    "controls": 0,
+    "blocked_requests": [],
+    "blocked_on_load": [
+      {
+        "method": "POST",
+        "url": "https://www.renanpresidente.com.br/_vercel/insights/view"
+      }
+    ],
+    "navigated": false,
+    "words_before": 625,
+    "words_after": null,
+    "doc_before": 845,
+    "doc_after": null,
+    "presses": [],
+    "control_doc_before": null,
+    "control_doc_after": null,
+    "service_workers": "blocked",
+    "press_limit": 20,
+    "eligible_controls": [],
+    "scope": "main",
+    "census_before": {
+      "totalNodes": 629,
+      "scannedNodes": 629,
+      "nodeLimit": 8000,
+      "truncated": false,
+      "duplicateWordsExcluded": 88,
+      "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+    }
+  },
+  "depth_probe": {
+    "depth": null,
+    "entry": null,
+    "pages_crawled": 40,
+    "pages_failed": 1,
+    "hops": 4,
+    "budget": 40,
+    "exhausted": true,
+    "frontier_left": 37,
+    "external_entry": null,
+    "external_candidates": [],
+    "failed_urls": [
+      {
+        "url": "https://www.renanpresidente.com.br/plano-de-governo-missao-2026.pdf",
+        "hop": 2,
+        "reason": "Error"
+      }
+    ],
+    "pruned_links": [
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/o3txKu4pKxM",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/fF-AjwHLeDw",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/Gbf_AGqEpVU",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/FykaDbHW5IU",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/CwX5WvOWB5Q",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/VzGpMY6Zzak",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/_0BMGy_nn8A",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/p5ZRVXBpBYk",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/n_8OLqLocrg",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/VjX4845U_bQ",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/0BjcGomCDDQ",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/u4oYVwQflhE",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/z2XvI-j7mJY",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/ZvrNgVSYsug",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/ZaFuB1rTKVQ",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/V5uBMKBzawo",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/entrevistas/OpqUqsOyI_M",
+        "text": "Guia da entrevista",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/energia",
+        "text": "Energia",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/cultura",
+        "text": "Cultura",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/educacao",
+        "text": "Educação",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/caixa-preta/largou-a-faculdade",
+        "text": "04“Largou a faculdade”",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/terras-raras",
+        "text": "Terras Raras",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/agropecuaria",
+        "text": "Agropecuária",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/produtividade",
+        "text": "Produtividade",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/meio-ambiente",
+        "text": "Meio Ambiente",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/infraestrutura",
+        "text": "Infraestrutura",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/superpresidios",
+        "text": "Superpresídios",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/desfavelizacao",
+        "text": "Desfavelização",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/frentes-cidadas",
+        "text": "Frentes Cidadãs",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/equilibrio-fiscal",
+        "text": "Equilíbrio Fiscal",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/caixa-preta/vai-cortar-a-aposentadoria",
+        "text": "10“Vai cortar a aposentadoria”",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/bandeira-quartel-escola",
+        "text": "Bandeira, Quartel, Escola",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/caixa-preta/a-candidatura-do-renan-ajuda-o-pt",
+        "text": "13“A candidatura do Renan ajuda o PT”",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/propostas/em-video/zonas-economicas-especiais",
+        "text": "Zonas Econômicas Especiais",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/caixa-preta/falta-experiencia-nunca-foi-eleito",
+        "text": "14“Falta experiência, nunca foi eleito”",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/caixa-preta/suas-propostas-sao-inconstitucionais",
+        "text": "11“Suas propostas são inconstitucionais”",
+        "hop": 2
+      },
+      {
+        "url": "https://www.renanpresidente.com.br/caixa-preta/muitas-propostas-como-vai-executar-sem-congresso",
+        "text": "12“Muitas propostas - como vai executar sem Congresso?”",
+        "hop": 2
+      }
+    ],
+    "redirects": [
+      {
+        "from": "https://renanpresidente.com.br",
+        "to": "https://www.renanpresidente.com.br/"
+      }
+    ],
+    "possible_routes": [],
+    "confirmed_routes": [],
+    "self_entry": null,
+    "reason": null,
+    "minimum_depth_confirmed": false,
+    "coverage_complete": false
+  },
+  "L_checks": [
+    {
+      "id": "L3",
+      "name": "Structured data",
+      "value": 0.5,
+      "result": "Some structured data, but not the service-specific kind AI pulls facts from.",
+      "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+    },
+    {
+      "id": "L4",
+      "name": "Shows when it was updated",
+      "value": 0.0,
+      "result": "No 'last updated' date, so AI can't tell if it's current.",
+      "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+    },
+    {
+      "id": "L5",
+      "name": "Guidance in the page, not a PDF",
+      "value": 1.0,
+      "result": "Guidance is on the page itself, not locked in PDFs.",
+      "fix": "Keep publishing guidance as HTML."
+    },
+    {
+      "id": "L7",
+      "name": "Answer-friendly layout",
+      "value": 0.5,
+      "result": "Some structure, but key facts are mostly in prose.",
+      "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+    }
+  ],
+  "L_observations": [
+    {
+      "id": "Lang",
+      "name": "Language coverage",
+      "detail": "Declares its language ('pt-BR') but offers no other-language version.",
+      "fix": ""
+    }
+  ],
+  "O_checks": [
+    {
+      "id": "OB-script",
+      "name": "Rendered extraction contains more words than served HTML",
+      "state": "clear",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Within the recorded the main content extraction scopes, the rendered/served word addition share is 38% (321 added; 524 matching), below this candidate check's threshold.",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.renanpresidente.com.br/",
+        "rendered_final_url": "https://www.renanpresidente.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "rendered_words": 845,
+        "served_words": 694,
+        "matching_words": 524,
+        "added_words": 321,
+        "removed_words": 170,
+        "script_only_words": 321,
+        "share": 0.3799,
+        "word_difference": 321,
+        "rendered_difference_percent": 38,
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-hidden",
+      "name": "Text in the assessed region is hidden by a recorded mechanism",
+      "state": "detected",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "The assessed region contains 220 document words hidden by the recorded mechanisms — opacity:0 (171 words), offscreen (49 words); 625 words are visible. Accessibility-tree exclusion is recorded separately (0 words). This census does not establish that the hidden text is service guidance.",
+      "evidence": {
+        "hidden_words": 220,
+        "mechanisms": {
+          "opacity:0": 171,
+          "offscreen": 49
+        },
+        "scope": "main",
+        "visible_words": 625,
+        "document_words": 845,
+        "sample": "Renan · Missão Santos O FUTURO É GLORIOSO 2026 Candidatura Renan anunciou sua candidatura à Presidência, para que todos os brasileiros que desejam trabalhar e produzir possam ser representados. Desde o início do ano, já viajou por mais de 200 cidades em 20 estados, conheceu o Brasil profundo e apontou soluções e propostas para transformar nosso país. 4 vídeos Economia Equilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA. Assistir 5 vídeos Desenvolvimento Ferrovias, energia barata, terras raras, agro e Amazônia. 2 vídeos Crime e Segurança Guerra ao crime organizado, superpresídios e polícia orientada por tecnologia. 3 vídeos Desfavelização e Trabalho Título de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho. Educação e Cultura Método fônico, disciplina na escola e cultura como identidade nacional. Reforma do Estado Lei de Responsabilidade Gerencial e fusão de municípios inviáveis. Missão Ajude na campanha. Os voluntários da Missão são quem faz a campanha acontecer — e o quartel-general será nosso aplicativo. Baixe, cumpra missões diárias, compartilhe os conteúdos prontos e suba no ranking nacional: a forma mais fácil de ajudar a eleger o Renan começa no seu celular. APP Baixe na App Store Disponível no Google Play Ou acesse app.missao.org.br ↗ Em alta no feed do app Instagram Facebook TikTok YouTube X Canal no WhatsApp Fale no WhatsApp",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 629,
+          "scannedNodes": 629,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 88,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-click",
+      "name": "Document text increased after disclosure controls were pressed",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "pressed": 0,
+        "controls": 0,
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://www.renanpresidente.com.br/_vercel/insights/view"
+          }
+        ],
+        "navigated": false,
+        "words_before": 625,
+        "words_after": null,
+        "doc_before": 845,
+        "doc_after": null,
+        "presses": [],
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "service_workers": "blocked",
+        "press_limit": 20,
+        "eligible_controls": [],
+        "scope": "main",
+        "census_before": {
+          "totalNodes": 629,
+          "scannedNodes": 629,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 88,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-pdf",
+      "name": "Linked PDF extraction properties",
+      "state": "not_applicable",
+      "severity": null,
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "No PDF is linked from the main content.",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "applicability_reason": "no PDF is linked from the assessed region",
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-depth",
+      "name": "Confirmed minimum application-route depth",
+      "state": "not_measured",
+      "severity": "red",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: 1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "depth": null,
+        "entry": null,
+        "pages_crawled": 40,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": true,
+        "frontier_left": 37,
+        "external_entry": null,
+        "external_candidates": [],
+        "failed_urls": [
+          {
+            "url": "https://www.renanpresidente.com.br/plano-de-governo-missao-2026.pdf",
+            "hop": 2,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/o3txKu4pKxM",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/fF-AjwHLeDw",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/Gbf_AGqEpVU",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/FykaDbHW5IU",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/CwX5WvOWB5Q",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/VzGpMY6Zzak",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/_0BMGy_nn8A",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/p5ZRVXBpBYk",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/n_8OLqLocrg",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/VjX4845U_bQ",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/0BjcGomCDDQ",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/u4oYVwQflhE",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/z2XvI-j7mJY",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/ZvrNgVSYsug",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/ZaFuB1rTKVQ",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/V5uBMKBzawo",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/OpqUqsOyI_M",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/energia",
+            "text": "Energia",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/cultura",
+            "text": "Cultura",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/educacao",
+            "text": "Educação",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/largou-a-faculdade",
+            "text": "04“Largou a faculdade”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/terras-raras",
+            "text": "Terras Raras",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/agropecuaria",
+            "text": "Agropecuária",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/produtividade",
+            "text": "Produtividade",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/meio-ambiente",
+            "text": "Meio Ambiente",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/infraestrutura",
+            "text": "Infraestrutura",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/superpresidios",
+            "text": "Superpresídios",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/desfavelizacao",
+            "text": "Desfavelização",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/frentes-cidadas",
+            "text": "Frentes Cidadãs",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/equilibrio-fiscal",
+            "text": "Equilíbrio Fiscal",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/vai-cortar-a-aposentadoria",
+            "text": "10“Vai cortar a aposentadoria”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/bandeira-quartel-escola",
+            "text": "Bandeira, Quartel, Escola",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/a-candidatura-do-renan-ajuda-o-pt",
+            "text": "13“A candidatura do Renan ajuda o PT”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/zonas-economicas-especiais",
+            "text": "Zonas Econômicas Especiais",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/falta-experiencia-nunca-foi-eleito",
+            "text": "14“Falta experiência, nunca foi eleito”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/suas-propostas-sao-inconstitucionais",
+            "text": "11“Suas propostas são inconstitucionais”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/muitas-propostas-como-vai-executar-sem-congresso",
+            "text": "12“Muitas propostas - como vai executar sem Congresso?”",
+            "hop": 2
+          }
+        ],
+        "redirects": [
+          {
+            "from": "https://renanpresidente.com.br",
+            "to": "https://www.renanpresidente.com.br/"
+          }
+        ],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "self_entry": null,
+        "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+        "minimum_depth_confirmed": false,
+        "coverage_complete": false
+      },
+      "fix": "",
+      "study": null
+    }
+  ],
+  "future_items": [
+    {
+      "name": "Machine-readable API",
+      "present": false,
+      "state": "none"
+    },
+    {
+      "name": "Sign-in standard (OIDC)",
+      "present": false
+    },
+    {
+      "name": "llms.txt",
+      "present": false
+    },
+    {
+      "name": "AGENTS.md",
+      "present": false
+    },
+    {
+      "name": "Agent card",
+      "present": false
+    },
+    {
+      "name": "MCP endpoint",
+      "present": false
+    }
+  ],
+  "injection": {
+    "measured": true,
+    "csp": true,
+    "third_party_scripts": 0,
+    "flagged": 0,
+    "flags": []
+  },
+  "reach_home": {
+    "url": "https://renanpresidente.com.br",
+    "matrix": {
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 1000,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 1000,
+      "error": "",
+      "status": 200,
+      "final_url": "https://www.renanpresidente.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 859,
+      "raw_main_words": 694,
+      "raw_main_scope": "main",
+      "raw_main_text": "Fique por dentro Conheça as propostas Renan Santos · Missão O FUTURO É GLORIOSO Trajetória A história de Renan 1984 Nasce na Mooca Renan nasce em 14 de fevereiro de 1984, em São Paulo. Cresce na Mooca, zona leste, em uma família que vive do trabalho. 2003 Direito na USP Passa no Largo São Francisco, a faculdade de Direito mais concorrida do Brasil — e a encontra dominada pela esquerda. Abandona o curso para trabalhar. 2009 Empresário Ao lado do pai, recupera empresas quebradas. Assume uma fábrica de portas de aço com cinco meses de salários atrasados e a faz voltar a gerar mais de cem empregos. 2014 Fundação do MBL Abraça as ruas de 2013 e cofunda o Movimento Brasil Livre, o maior movimento político jovem da história do Brasil. 2016 Impeachment Coordena o Comitê do Impeachment e leva milhões às ruas. Dilma cai. Em 2017, ajuda a aprovar a reforma trabalhista. 2018 A primeira bancada O movimento vira voto: o MBL elege sua primeira bancada e Kim Kataguiri chega à Câmara como um dos deputados federais mais votados de São Paulo. 2019 Rompe com o governo Enfrenta Jair Bolsonaro no auge — quando ele desmonta a Lava Jato, sabota a Lava Toga e esvazia o pacote anticrime. O grupo é cancelado pela própria direita e não recua. 2023 A operação cultural Constrói o que a direita brasileira não tinha: a Revista Valete, a Academia MBL e o Clube do Livro. Milhares de empregos e uma intelectualidade própria — e começa a coleta de assinaturas do partido. 2025 Partido Missão O TSE aprova o registro do Partido Missão, com o número 14. Renan é o primeiro presidente da legenda — algo que nem Bolsonaro, com a caneta presidencial, conseguiu fazer. 2026 Pré-candidatura Anuncia a pré-candidatura à Presidência, para que quem só quer estudar, trabalhar e produzir realize os seus sonhos. Use as setas para navegar pela trajetória O Programa · 18 Propostas em Vídeo Propostas para o Brasil Seis áreas, dezoito propostas explicadas em vídeo pelo Renan. Os resumos vêm direto do Livro Amarelo, a base intelectual do Partido Missão. Ler as propostas palavra por palavra → 4 vídeos Economia Equilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA. Assistir 5 Desenvolvimento Ferrovias, energia barata, terras raras, agro e Amazônia protegida. 2 Crime e Segurança Guerra ao crime organizado, superpresídios e polícia orientada por tecnologia. 3 Desfavelização e Trabalho Título de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho. Educação e Cultura Método fônico, disciplina na escola e cultura como identidade nacional. Reforma do Estado Lei de Responsabilidade Gerencial e fusão de municípios inviáveis. O programa completo Conheça o Livro Amarelo Todo partido promete; a Missão escreveu. O Livro Amarelo é a edição definitiva do programa — mais de 400 páginas de diagnóstico e proposta, construídas ao longo de dois anos por centenas de pesquisadores voluntários, e inscritas no estatuto do partido para serem cobradas. Cada vídeo acima nasce daqui. Comprar o livro → FUTURO GLORIOSO Missão Ajude na campanha. Voluntário da Missão é quem faz a campanha acontecer — e o quartel-general é o aplicativo. Baixe, cumpra missões diárias, compartilhe os cortes prontos e suba no ranking nacional: a forma mais fácil de ajudar a eleger o Renan começa no seu celular. APP Baixe na App Store Disponível no Google Play Ou acesse app.missao.org.br ↗ Em alta no feed do app Qual é o nosso maior inimigo? 7,6 mi de visualizações O mundo por trás da propaganda do PT 7,5 mi O desabafo do Brasil que vale a pena 6,4 mi Redes Sociais Acompanhe nas Redes Os últimos reels de @renansantosmbl no Instagram Segurança pública: o corte mais visto da campanha · 12,4 mi de views Qual é nosso maior inimigo? · 7,7 mi de views O mundo por trás da propaganda do PT · 7,5 mi de views O desabafo do Brasil que vale a pena · 6,4 mi de views O caso Henry Borel e o judiciário · 5,9 mi de views Olha o nível da eleição brasileira. · 5,3 mi de views Instagram Facebook TikTok YouTube X Canal no WhatsApp Fale no WhatsApp",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 90,
+      "final_url": "https://www.renanpresidente.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:32:28 GMT",
+      "csp": true
+    },
+    "dom": {
+      "ld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://www.renanpresidente.com.br/#renan\",\"name\":\"Renan Santos\",\"jobTitle\":\"Candidato a Presidente da República\",\"description\":\"Renan é candidato à presidência pelo Partido Missão. Conheça mais e descubra porque o futuro é glorioso!\",\"url\":\"https://www.renanpresidente.com.br\",\"memberOf\":{\"@type\":\"PoliticalParty\",\"name\":\"Partido Missão\"},\"sameAs\":[\"https://www.instagram.com/renansantosmbl\",\"https://x.com/renansantosmbl\",\"https://www.youtube.com/@renansantosmbl\"]},{\"@type\":\"WebSite\",\"@id\":\"https://www.renanpresidente.com.br/#site\",\"url\":\"https://www.renanpresidente.com.br\",\"name\":\"Renan Santos 2026\",\"inLanguage\":\"pt-BR\",\"about\":{\"@id\":\"https://www.renanpresidente.com.br/#renan\"}}]}",
+      "lang": "pt-BR",
+      "hreflang": [],
+      "lists": 2,
+      "tables": 0,
+      "dls": 0,
+      "words": 1000,
+      "text_head": "Pular para o conteúdo\n2026\nPROPOSTAS\nMISSÃO\nAGENDA\nATOS\nMÍDIA\nCAIXA PRETA\nAPOIE\nAJUDE NA CAMPANHA\nFIQUE POR DENTRO\nCONHEÇA AS PROPOSTAS\nRENAN SANTOS · MISSÃO\nO FUTURO É GLORIOSO\nO FUTURO É GLORIOSO\nO FUTURO É GLORIOSO\nO FUTURO É GLORIOSO\nO FUTURO É GLORIOSO\n\nTRAJETÓRIA\n\nA HISTÓRIA DE RENAN\n1984\nNASCE NA MOOCA\n\nRenan nasce em 14 de fevereiro de 1984, em São Paulo. Cresce na Mooca, zona leste, em uma família de classe média que vive do trabalho.\n\n2003\nDIREITO NA USP\n\nÉ aprovado no Largo São Francisco, a faculdade de Direito mais concorrida do Brasil — e a encontra dominada pela esquerda. Se envolve na política estudantil, ajuda a vencer a disputa pelo XI de Agosto, mas abandona o curso para trabalhar.\n\n2009\nEMPRESÁRIO\n\nAo lado do pai e do irmão, recupera empresas quebradas. Entre elas, a Martin, uma fábrica de portas de aço com cinco meses de salários atrasados. Após assumir a empresa, Renan enfrenta sindicatos e processos trabalhistas, renegocia com fornecedores e clientes, põe os salários em dia e gera mais de 100 empregos.\n\n2014\nFUNDAÇÃO DO MBL\n\nEm 2013, Renan abraça as ruas em protesto ao governo Dilma. No ano seguinte, participa das eleições e cofunda o Movimento Brasil Livre, o maior movimento político jovem da história do Brasil.\n\n2016\nIMPEACHMENT\n\nÀ frente do MBL, Renan coordenou dezenas de manifestações em todo país, marchou até Brasília e participou das articulações para a derrubada de Dilma Rousseff, sendo vice-presidente do Comitê do Impeachment. Foi a primeira vitória da juventude contra 13 anos de PT.\n\nASSISTIR AO VÍDEO\n2018\nA PRIMEIRA BANCADA\n\nEm 2018, coordenou a campanha do Kim Kataguiri e do Arthur do Val. Ambos foram eleitos com quase 500 mil votos cada, representando o MBL no legislativo nacional e paulista.\n\n2019\nROMPIMENTO COM O GOVERNO\n\nQuando Jair Bolsonaro atua pelo desmonta a Lava Jato, sabotagem da Lava Toga e indicação do petista Augusto Aras, nosso movimento rompe com o governo. Escolhemos o que era certo, não o que era popular.\n\n2023\nA OPERAÇÃO CULTURAL\n\nRenan idealizou e construiu o que falta à direita brasileira: a Revista Valete, a Academia MBL e o Clube do Livro que reedita clássicos do pensamento nacional. Criou um ecossistema e gerou centenas de empregos e uma intelectualidade própria para aprofundar nosso projeto de país.\n\n2025\nPARTIDO MISSÃO\n\nLiderou mais de 3000 coletores na busca das mais de 500 mil assinaturas necessárias para aprovação do partido pelo TSE - em tempo recorde. Em outubro de 2025, o TSE aprovou o registro do Partido Missão, com o número 14. Renan foi escolhido como o primeiro presidente da legenda.\n\n2026\nCANDIDATURA\n\nRenan anunciou sua candidatura à Presidência, para que todos os brasileiros que desejam trabalhar e produzir possam ser representados. Desde o início do ano, já viajou por mais de 200 cidades em 20 estados, conheceu o Brasil profundo e apontou soluções e propostas para transformar nosso país.\n\nASSISTIR AO VÍDEO\n\nUSE AS SETAS PARA NAVEGAR PELA TRAJETÓRIA\n\nO PROGRAMA · PROPOSTAS EM VÍDEO\n\nPROPOSTAS PARA O BRASIL\n\nVeja as propostas explicadas em vídeo pelo Renan. Todas são cobertas com maior detalhe no Livro Amarelo, a base intelectual do Partido Missão.\n\nLER AS PROPOSTAS PALAVRA POR PALAVRA →\n4 vídeos\nECONOMIA\n\nEquilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA.\n\nASSISTIR\n5 vídeos\nDESENVOLVIMENTO\n\nFerrovias, energia barata, terras raras, agro e Amazônia.\n\nASSISTIR\n2 vídeos\nCRIME E SEGURANÇA\n\nGuerra ao crime organizado, superpresídios e polícia orientada por tecnologia.\n\nASSISTIR\n3 vídeos\nDESFAVELIZAÇÃO E TRABALHO\n\nTítulo de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho.\n\nASSISTIR\n2 vídeos\nEDUCAÇÃO E CULTURA\n\nMétodo fônico, disciplina na escola e cultura como identidade nacional.\n\nASSISTIR\n2 vídeos\nREFORMA DO ESTADO\n\nLei de Responsabilidade Gerencial e fusão de municípios inviáveis.\n\nASSISTIR\nO PROGRAMA COMPLETO\nCONHEÇA O LIVRO AMARELO\n\nA Missão escreveu o primeiro livro de propostas de um partido políti",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 11,
+      "internalPaths": [
+        "/",
+        "/propostas",
+        "/partido-missao",
+        "/agenda",
+        "/atos",
+        "/midia",
+        "/caixa-preta",
+        "/doar",
+        "/voluntario",
+        "/propostas/em-video",
+        "/privacidade"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 4,
+      "labeledInputs": 0,
+      "pdfLinks": 0,
+      "pdfUrls": [],
+      "mainScope": "main",
+      "mainWords": 625,
+      "mainDocWords": 845,
+      "mainText": "Fique por dentro Conheça as propostas Renan · Missão Santos O FUTURO É GLORIOSO Trajetória A história de Renan 1984 Nasce na Mooca Renan nasce em 14 de fevereiro de 1984, em São Paulo. Cresce na Mooca, zona leste, em uma família de classe média que vive do trabalho. 2003 Direito na USP É aprovado no Largo São Francisco, a faculdade de Direito mais concorrida do Brasil — e a encontra dominada pela esquerda. Se envolve na política estudantil, ajuda a vencer a disputa pelo XI de Agosto, mas abandona o curso para trabalhar. 2009 Empresário Ao lado do pai e do irmão, recupera empresas quebradas. Entre elas, a Martin, uma fábrica de portas de aço com cinco meses de salários atrasados. Após assumir a empresa, Renan enfrenta sindicatos e processos trabalhistas, renegocia com fornecedores e clientes, põe os salários em dia e gera mais de 100 empregos. 2014 Fundação do MBL Em 2013, Renan abraça as ruas em protesto ao governo Dilma. No ano seguinte, participa das eleições e cofunda o Movimento Brasil Livre, o maior movimento político jovem da história do Brasil. 2016 Impeachment À frente do MBL, Renan coordenou dezenas de manifestações em todo país, marchou até Brasília e participou das articulações para a derrubada de Dilma Rousseff, sendo vice-presidente do Comitê do Impeachment. Foi a primeira vitória da juventude contra 13 anos de PT. Assistir ao vídeo 2018 A primeira bancada Em 2018, coordenou a campanha do Kim Kataguiri e do Arthur do Val. Ambos foram eleitos com quase 500 mil votos cada, representando o MBL no legislativo nacional e paulista. 2019 Rompimento com o governo Quando Jair Bolsonaro atua pelo desmonta a Lava Jato, sabotagem da Lava Toga e indicação do petista Augusto Aras, nosso movimento rompe com o governo. Escolhemos o que era certo, não o que era popular. 2023 A operação cultural Renan idealizou e construiu o que falta à direita brasileira: a Revista Valete, a Academia MBL e o Clube do Livro que reedita clássicos do pensamento nacional. Criou um ecossistema e gerou centenas de empregos e uma intelectualidade própria para aprofundar nosso projeto de país. 2025 Partido Missão Liderou mais de 3000 coletores na busca das mais de 500 mil assinaturas necessárias para aprovação do partido pelo TSE - em tempo recorde. Em outubro de 2025, o TSE aprovou o registro do Partido Missão, com o número 14. Renan foi escolhido como o primeiro presidente da legenda. 2026 Candidatura Renan anunciou sua candidatura à Presidência, para que todos os brasileiros que desejam trabalhar e produzir possam ser representados. Desde o início do ano, já viajou por mais de 200 cidades em 20 estados, conheceu o Brasil profundo e apontou soluções e propostas para transformar nosso país. Use as setas para navegar pela trajetória O Programa · Propostas em Vídeo Propostas para o Brasil Veja as propostas explicadas em vídeo pelo Renan. Todas são cobertas com maior detalhe no Livro Amarelo, a base intelectual do Partido Missão. Ler as propostas palavra por palavra → 4 vídeos Economia Equilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA. Assistir 5 vídeos Desenvolvimento Ferrovias, energia barata, terras raras, agro e Amazônia. 2 vídeos Crime e Segurança Guerra ao crime organizado, superpresídios e polícia orientada por tecnologia. 3 vídeos Desfavelização e Trabalho Título de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho. Educação e Cultura Método fônico, disciplina na escola e cultura como identidade nacional. Reforma do Estado Lei de Responsabilidade Gerencial e fusão de municípios inviáveis. O programa completo Conheça o Livro Amarelo A Missão escreveu o primeiro livro de propostas de um partido político, visando a realmente transformar o Brasil. Depois de seis fascículos de estudo e pesquisa, conduzidos por mais de duzentos pesquisadores, consolidamos e aprofundamos as melhores ideias no Livro Amarelo de 2026: nosso plano de governo e manifesto de país. Comprar o livro → FUTURO GLORIOSO Missão Ajude na campanha. Os voluntários da Missão são quem faz a campanha acontecer — e o quartel-general será nosso aplicativo. Baixe, cumpra missões diárias, compartilhe os conteúdos prontos e suba no ranking nacional: a forma mais fácil de ajudar a eleger o Renan começa no seu celular. APP Baixe na App Store Disponível no Google Play Ou acesse app.missao.org.br ↗ Em alta no feed do app Desabafo do Renan 210 de visualizações Simples assim. 876,3 mil de visualizações O futuro é indie rock. 5,7 mil de visualizações Redes Sociais Acompanhe nas Redes Os últimos reels de no Instagram @renansantosmbl Procure uma campanha mais bonita e falhe miseravelmente ❤️ · 93 mil visualizações Evento lotado em Santa Catarina, obrigado a todos! · 17,6 mil visualizações O futuro é indie rock. · 5,7 mil visualizações Vamos esquentar as pessoas · 134,3 mil visualizações A guerra só termina dia 4 de outubro! · 66,1 mil visualizações Menos proteína animal pra presidiário, mais para merenda de criança · 477 mil visualizações VENCEREMOS! · 107,3 mil visualizações Santa Catarina tem muita gente inteligente! · 49 mil visualizações Instagram Facebook TikTok YouTube X Canal no WhatsApp Fale no WhatsApp",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 629,
+        "scannedNodes": 629,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 88,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 220,
+        "mechanisms": {
+          "opacity:0": 171,
+          "offscreen": 49
+        },
+        "sample": "Renan · Missão Santos O FUTURO É GLORIOSO 2026 Candidatura Renan anunciou sua candidatura à Presidência, para que todos os brasileiros que desejam trabalhar e produzir possam ser representados. Desde o início do ano, já viajou por mais de 200 cidades em 20 estados, conheceu o Brasil profundo e apontou soluções e propostas para transformar nosso país. 4 vídeos Economia Equilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA. Assistir 5 vídeos Desenvolvimento Ferrovias, energia barata, terras raras, agro e Amazônia. 2 vídeos Crime e Segurança Guerra ao crime organizado, superpresídios e polícia orientada por tecnologia. 3 vídeos Desfavelização e Trabalho Título de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho. Educação e Cultura Método fônico, disciplina na escola e cultura como identidade nacional. Reforma do Estado Lei de Responsabilidade Gerencial e fusão de municípios inviáveis. Missão Ajude na campanha. Os voluntários da Missão são quem faz a campanha acontecer — e o quartel-general será nosso aplicativo. Baixe, cumpra missões diárias, compartilhe os conteúdos prontos e suba no ranking nacional: a forma mais fácil de ajudar a eleger o Renan começa no seu celular. APP Baixe na App Store Disponível no Google Play Ou acesse app.missao.org.br ↗ Em alta no feed do app Instagram Facebook TikTok YouTube X Canal no WhatsApp Fale no WhatsApp",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Renan Santos · Missão",
+        "A história de Renan",
+        "Propostas para o Brasil",
+        "Ajude na campanha.",
+        "Acompanhe nas Redes",
+        "Renan Santos · Candidato a Presidente 2026"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 0,
+      "thirdPartyOrigins": [],
+      "hiddenTextNodes": 26,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  },
+  "reach_service": {
+    "url": "https://renanpresidente.com.br",
+    "matrix": {
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 859,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 1000,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 1000,
+      "error": "",
+      "status": 200,
+      "final_url": "https://www.renanpresidente.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 859,
+      "raw_main_words": 694,
+      "raw_main_scope": "main",
+      "raw_main_text": "Fique por dentro Conheça as propostas Renan Santos · Missão O FUTURO É GLORIOSO Trajetória A história de Renan 1984 Nasce na Mooca Renan nasce em 14 de fevereiro de 1984, em São Paulo. Cresce na Mooca, zona leste, em uma família que vive do trabalho. 2003 Direito na USP Passa no Largo São Francisco, a faculdade de Direito mais concorrida do Brasil — e a encontra dominada pela esquerda. Abandona o curso para trabalhar. 2009 Empresário Ao lado do pai, recupera empresas quebradas. Assume uma fábrica de portas de aço com cinco meses de salários atrasados e a faz voltar a gerar mais de cem empregos. 2014 Fundação do MBL Abraça as ruas de 2013 e cofunda o Movimento Brasil Livre, o maior movimento político jovem da história do Brasil. 2016 Impeachment Coordena o Comitê do Impeachment e leva milhões às ruas. Dilma cai. Em 2017, ajuda a aprovar a reforma trabalhista. 2018 A primeira bancada O movimento vira voto: o MBL elege sua primeira bancada e Kim Kataguiri chega à Câmara como um dos deputados federais mais votados de São Paulo. 2019 Rompe com o governo Enfrenta Jair Bolsonaro no auge — quando ele desmonta a Lava Jato, sabota a Lava Toga e esvazia o pacote anticrime. O grupo é cancelado pela própria direita e não recua. 2023 A operação cultural Constrói o que a direita brasileira não tinha: a Revista Valete, a Academia MBL e o Clube do Livro. Milhares de empregos e uma intelectualidade própria — e começa a coleta de assinaturas do partido. 2025 Partido Missão O TSE aprova o registro do Partido Missão, com o número 14. Renan é o primeiro presidente da legenda — algo que nem Bolsonaro, com a caneta presidencial, conseguiu fazer. 2026 Pré-candidatura Anuncia a pré-candidatura à Presidência, para que quem só quer estudar, trabalhar e produzir realize os seus sonhos. Use as setas para navegar pela trajetória O Programa · 18 Propostas em Vídeo Propostas para o Brasil Seis áreas, dezoito propostas explicadas em vídeo pelo Renan. Os resumos vêm direto do Livro Amarelo, a base intelectual do Partido Missão. Ler as propostas palavra por palavra → 4 vídeos Economia Equilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA. Assistir 5 Desenvolvimento Ferrovias, energia barata, terras raras, agro e Amazônia protegida. 2 Crime e Segurança Guerra ao crime organizado, superpresídios e polícia orientada por tecnologia. 3 Desfavelização e Trabalho Título de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho. Educação e Cultura Método fônico, disciplina na escola e cultura como identidade nacional. Reforma do Estado Lei de Responsabilidade Gerencial e fusão de municípios inviáveis. O programa completo Conheça o Livro Amarelo Todo partido promete; a Missão escreveu. O Livro Amarelo é a edição definitiva do programa — mais de 400 páginas de diagnóstico e proposta, construídas ao longo de dois anos por centenas de pesquisadores voluntários, e inscritas no estatuto do partido para serem cobradas. Cada vídeo acima nasce daqui. Comprar o livro → FUTURO GLORIOSO Missão Ajude na campanha. Voluntário da Missão é quem faz a campanha acontecer — e o quartel-general é o aplicativo. Baixe, cumpra missões diárias, compartilhe os cortes prontos e suba no ranking nacional: a forma mais fácil de ajudar a eleger o Renan começa no seu celular. APP Baixe na App Store Disponível no Google Play Ou acesse app.missao.org.br ↗ Em alta no feed do app Qual é o nosso maior inimigo? 7,6 mi de visualizações O mundo por trás da propaganda do PT 7,5 mi O desabafo do Brasil que vale a pena 6,4 mi Redes Sociais Acompanhe nas Redes Os últimos reels de @renansantosmbl no Instagram Segurança pública: o corte mais visto da campanha · 12,4 mi de views Qual é nosso maior inimigo? · 7,7 mi de views O mundo por trás da propaganda do PT · 7,5 mi de views O desabafo do Brasil que vale a pena · 6,4 mi de views O caso Henry Borel e o judiciário · 5,9 mi de views Olha o nível da eleição brasileira. · 5,3 mi de views Instagram Facebook TikTok YouTube X Canal no WhatsApp Fale no WhatsApp",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 90,
+      "final_url": "https://www.renanpresidente.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:32:48 GMT",
+      "csp": true
+    },
+    "dom": {
+      "ld": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://www.renanpresidente.com.br/#renan\",\"name\":\"Renan Santos\",\"jobTitle\":\"Candidato a Presidente da República\",\"description\":\"Renan é candidato à presidência pelo Partido Missão. Conheça mais e descubra porque o futuro é glorioso!\",\"url\":\"https://www.renanpresidente.com.br\",\"memberOf\":{\"@type\":\"PoliticalParty\",\"name\":\"Partido Missão\"},\"sameAs\":[\"https://www.instagram.com/renansantosmbl\",\"https://x.com/renansantosmbl\",\"https://www.youtube.com/@renansantosmbl\"]},{\"@type\":\"WebSite\",\"@id\":\"https://www.renanpresidente.com.br/#site\",\"url\":\"https://www.renanpresidente.com.br\",\"name\":\"Renan Santos 2026\",\"inLanguage\":\"pt-BR\",\"about\":{\"@id\":\"https://www.renanpresidente.com.br/#renan\"}}]}",
+      "lang": "pt-BR",
+      "hreflang": [],
+      "lists": 2,
+      "tables": 0,
+      "dls": 0,
+      "words": 1000,
+      "text_head": "Pular para o conteúdo\n2026\nPROPOSTAS\nMISSÃO\nAGENDA\nATOS\nMÍDIA\nCAIXA PRETA\nAPOIE\nAJUDE NA CAMPANHA\nFIQUE POR DENTRO\nCONHEÇA AS PROPOSTAS\nRENAN SANTOS · MISSÃO\nO FUTURO É GLORIOSO\nO FUTURO É GLORIOSO\nO FUTURO É GLORIOSO\nO FUTURO É GLORIOSO\nO FUTURO É GLORIOSO\n\nTRAJETÓRIA\n\nA HISTÓRIA DE RENAN\n1984\nNASCE NA MOOCA\n\nRenan nasce em 14 de fevereiro de 1984, em São Paulo. Cresce na Mooca, zona leste, em uma família de classe média que vive do trabalho.\n\n2003\nDIREITO NA USP\n\nÉ aprovado no Largo São Francisco, a faculdade de Direito mais concorrida do Brasil — e a encontra dominada pela esquerda. Se envolve na política estudantil, ajuda a vencer a disputa pelo XI de Agosto, mas abandona o curso para trabalhar.\n\n2009\nEMPRESÁRIO\n\nAo lado do pai e do irmão, recupera empresas quebradas. Entre elas, a Martin, uma fábrica de portas de aço com cinco meses de salários atrasados. Após assumir a empresa, Renan enfrenta sindicatos e processos trabalhistas, renegocia com fornecedores e clientes, põe os salários em dia e gera mais de 100 empregos.\n\n2014\nFUNDAÇÃO DO MBL\n\nEm 2013, Renan abraça as ruas em protesto ao governo Dilma. No ano seguinte, participa das eleições e cofunda o Movimento Brasil Livre, o maior movimento político jovem da história do Brasil.\n\n2016\nIMPEACHMENT\n\nÀ frente do MBL, Renan coordenou dezenas de manifestações em todo país, marchou até Brasília e participou das articulações para a derrubada de Dilma Rousseff, sendo vice-presidente do Comitê do Impeachment. Foi a primeira vitória da juventude contra 13 anos de PT.\n\nASSISTIR AO VÍDEO\n2018\nA PRIMEIRA BANCADA\n\nEm 2018, coordenou a campanha do Kim Kataguiri e do Arthur do Val. Ambos foram eleitos com quase 500 mil votos cada, representando o MBL no legislativo nacional e paulista.\n\n2019\nROMPIMENTO COM O GOVERNO\n\nQuando Jair Bolsonaro atua pelo desmonta a Lava Jato, sabotagem da Lava Toga e indicação do petista Augusto Aras, nosso movimento rompe com o governo. Escolhemos o que era certo, não o que era popular.\n\n2023\nA OPERAÇÃO CULTURAL\n\nRenan idealizou e construiu o que falta à direita brasileira: a Revista Valete, a Academia MBL e o Clube do Livro que reedita clássicos do pensamento nacional. Criou um ecossistema e gerou centenas de empregos e uma intelectualidade própria para aprofundar nosso projeto de país.\n\n2025\nPARTIDO MISSÃO\n\nLiderou mais de 3000 coletores na busca das mais de 500 mil assinaturas necessárias para aprovação do partido pelo TSE - em tempo recorde. Em outubro de 2025, o TSE aprovou o registro do Partido Missão, com o número 14. Renan foi escolhido como o primeiro presidente da legenda.\n\n2026\nCANDIDATURA\n\nRenan anunciou sua candidatura à Presidência, para que todos os brasileiros que desejam trabalhar e produzir possam ser representados. Desde o início do ano, já viajou por mais de 200 cidades em 20 estados, conheceu o Brasil profundo e apontou soluções e propostas para transformar nosso país.\n\nASSISTIR AO VÍDEO\n\nUSE AS SETAS PARA NAVEGAR PELA TRAJETÓRIA\n\nO PROGRAMA · PROPOSTAS EM VÍDEO\n\nPROPOSTAS PARA O BRASIL\n\nVeja as propostas explicadas em vídeo pelo Renan. Todas são cobertas com maior detalhe no Livro Amarelo, a base intelectual do Partido Missão.\n\nLER AS PROPOSTAS PALAVRA POR PALAVRA →\n4 vídeos\nECONOMIA\n\nEquilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA.\n\nASSISTIR\n5 vídeos\nDESENVOLVIMENTO\n\nFerrovias, energia barata, terras raras, agro e Amazônia.\n\nASSISTIR\n2 vídeos\nCRIME E SEGURANÇA\n\nGuerra ao crime organizado, superpresídios e polícia orientada por tecnologia.\n\nASSISTIR\n3 vídeos\nDESFAVELIZAÇÃO E TRABALHO\n\nTítulo de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho.\n\nASSISTIR\n2 vídeos\nEDUCAÇÃO E CULTURA\n\nMétodo fônico, disciplina na escola e cultura como identidade nacional.\n\nASSISTIR\n2 vídeos\nREFORMA DO ESTADO\n\nLei de Responsabilidade Gerencial e fusão de municípios inviáveis.\n\nASSISTIR\nO PROGRAMA COMPLETO\nCONHEÇA O LIVRO AMARELO\n\nA Missão escreveu o primeiro livro de propostas de um partido políti",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 11,
+      "internalPaths": [
+        "/",
+        "/propostas",
+        "/partido-missao",
+        "/agenda",
+        "/atos",
+        "/midia",
+        "/caixa-preta",
+        "/doar",
+        "/voluntario",
+        "/propostas/em-video",
+        "/privacidade"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 4,
+      "labeledInputs": 0,
+      "pdfLinks": 0,
+      "pdfUrls": [],
+      "mainScope": "main",
+      "mainWords": 625,
+      "mainDocWords": 845,
+      "mainText": "Fique por dentro Conheça as propostas Renan · Missão Santos O FUTURO É GLORIOSO Trajetória A história de Renan 1984 Nasce na Mooca Renan nasce em 14 de fevereiro de 1984, em São Paulo. Cresce na Mooca, zona leste, em uma família de classe média que vive do trabalho. 2003 Direito na USP É aprovado no Largo São Francisco, a faculdade de Direito mais concorrida do Brasil — e a encontra dominada pela esquerda. Se envolve na política estudantil, ajuda a vencer a disputa pelo XI de Agosto, mas abandona o curso para trabalhar. 2009 Empresário Ao lado do pai e do irmão, recupera empresas quebradas. Entre elas, a Martin, uma fábrica de portas de aço com cinco meses de salários atrasados. Após assumir a empresa, Renan enfrenta sindicatos e processos trabalhistas, renegocia com fornecedores e clientes, põe os salários em dia e gera mais de 100 empregos. 2014 Fundação do MBL Em 2013, Renan abraça as ruas em protesto ao governo Dilma. No ano seguinte, participa das eleições e cofunda o Movimento Brasil Livre, o maior movimento político jovem da história do Brasil. 2016 Impeachment À frente do MBL, Renan coordenou dezenas de manifestações em todo país, marchou até Brasília e participou das articulações para a derrubada de Dilma Rousseff, sendo vice-presidente do Comitê do Impeachment. Foi a primeira vitória da juventude contra 13 anos de PT. Assistir ao vídeo 2018 A primeira bancada Em 2018, coordenou a campanha do Kim Kataguiri e do Arthur do Val. Ambos foram eleitos com quase 500 mil votos cada, representando o MBL no legislativo nacional e paulista. 2019 Rompimento com o governo Quando Jair Bolsonaro atua pelo desmonta a Lava Jato, sabotagem da Lava Toga e indicação do petista Augusto Aras, nosso movimento rompe com o governo. Escolhemos o que era certo, não o que era popular. 2023 A operação cultural Renan idealizou e construiu o que falta à direita brasileira: a Revista Valete, a Academia MBL e o Clube do Livro que reedita clássicos do pensamento nacional. Criou um ecossistema e gerou centenas de empregos e uma intelectualidade própria para aprofundar nosso projeto de país. 2025 Partido Missão Liderou mais de 3000 coletores na busca das mais de 500 mil assinaturas necessárias para aprovação do partido pelo TSE - em tempo recorde. Em outubro de 2025, o TSE aprovou o registro do Partido Missão, com o número 14. Renan foi escolhido como o primeiro presidente da legenda. 2026 Candidatura Renan anunciou sua candidatura à Presidência, para que todos os brasileiros que desejam trabalhar e produzir possam ser representados. Desde o início do ano, já viajou por mais de 200 cidades em 20 estados, conheceu o Brasil profundo e apontou soluções e propostas para transformar nosso país. Use as setas para navegar pela trajetória O Programa · Propostas em Vídeo Propostas para o Brasil Veja as propostas explicadas em vídeo pelo Renan. Todas são cobertas com maior detalhe no Livro Amarelo, a base intelectual do Partido Missão. Ler as propostas palavra por palavra → 4 vídeos Economia Equilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA. Assistir 5 vídeos Desenvolvimento Ferrovias, energia barata, terras raras, agro e Amazônia. 2 vídeos Crime e Segurança Guerra ao crime organizado, superpresídios e polícia orientada por tecnologia. 3 vídeos Desfavelização e Trabalho Título de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho. Educação e Cultura Método fônico, disciplina na escola e cultura como identidade nacional. Reforma do Estado Lei de Responsabilidade Gerencial e fusão de municípios inviáveis. O programa completo Conheça o Livro Amarelo A Missão escreveu o primeiro livro de propostas de um partido político, visando a realmente transformar o Brasil. Depois de seis fascículos de estudo e pesquisa, conduzidos por mais de duzentos pesquisadores, consolidamos e aprofundamos as melhores ideias no Livro Amarelo de 2026: nosso plano de governo e manifesto de país. Comprar o livro → FUTURO GLORIOSO Missão Ajude na campanha. Os voluntários da Missão são quem faz a campanha acontecer — e o quartel-general será nosso aplicativo. Baixe, cumpra missões diárias, compartilhe os conteúdos prontos e suba no ranking nacional: a forma mais fácil de ajudar a eleger o Renan começa no seu celular. APP Baixe na App Store Disponível no Google Play Ou acesse app.missao.org.br ↗ Em alta no feed do app Desabafo do Renan 210 de visualizações Simples assim. 876,3 mil de visualizações O futuro é indie rock. 5,7 mil de visualizações Redes Sociais Acompanhe nas Redes Os últimos reels de no Instagram @renansantosmbl Procure uma campanha mais bonita e falhe miseravelmente ❤️ · 93 mil visualizações Evento lotado em Santa Catarina, obrigado a todos! · 17,6 mil visualizações O futuro é indie rock. · 5,7 mil visualizações Vamos esquentar as pessoas · 134,3 mil visualizações A guerra só termina dia 4 de outubro! · 66,1 mil visualizações Menos proteína animal pra presidiário, mais para merenda de criança · 477 mil visualizações VENCEREMOS! · 107,3 mil visualizações Santa Catarina tem muita gente inteligente! · 49 mil visualizações Instagram Facebook TikTok YouTube X Canal no WhatsApp Fale no WhatsApp",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 629,
+        "scannedNodes": 629,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 88,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 220,
+        "mechanisms": {
+          "opacity:0": 171,
+          "offscreen": 49
+        },
+        "sample": "Renan · Missão Santos O FUTURO É GLORIOSO 2026 Candidatura Renan anunciou sua candidatura à Presidência, para que todos os brasileiros que desejam trabalhar e produzir possam ser representados. Desde o início do ano, já viajou por mais de 200 cidades em 20 estados, conheceu o Brasil profundo e apontou soluções e propostas para transformar nosso país. 4 vídeos Economia Equilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA. Assistir 5 vídeos Desenvolvimento Ferrovias, energia barata, terras raras, agro e Amazônia. 2 vídeos Crime e Segurança Guerra ao crime organizado, superpresídios e polícia orientada por tecnologia. 3 vídeos Desfavelização e Trabalho Título de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho. Educação e Cultura Método fônico, disciplina na escola e cultura como identidade nacional. Reforma do Estado Lei de Responsabilidade Gerencial e fusão de municípios inviáveis. Missão Ajude na campanha. Os voluntários da Missão são quem faz a campanha acontecer — e o quartel-general será nosso aplicativo. Baixe, cumpra missões diárias, compartilhe os conteúdos prontos e suba no ranking nacional: a forma mais fácil de ajudar a eleger o Renan começa no seu celular. APP Baixe na App Store Disponível no Google Play Ou acesse app.missao.org.br ↗ Em alta no feed do app Instagram Facebook TikTok YouTube X Canal no WhatsApp Fale no WhatsApp",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Renan Santos · Missão",
+        "A história de Renan",
+        "Propostas para o Brasil",
+        "Ajude na campanha.",
+        "Acompanhe nas Redes",
+        "Renan Santos · Candidato a Presidente 2026"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 0,
+      "thirdPartyOrigins": [],
+      "hiddenTextNodes": 26,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  }
+}

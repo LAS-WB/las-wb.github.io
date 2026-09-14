@@ -1,0 +1,1201 @@
+{
+  "scope": "All CSV/JSON/JSONL records parsed structurally; response facts were not adjudicated.",
+  "csv": {
+    "data/candidate-rollup.csv": {
+      "rows": 527,
+      "fields": [
+        "sq_candidato",
+        "office",
+        "uf",
+        "ballot_name",
+        "party",
+        "number",
+        "n_domains",
+        "n_dead_domains",
+        "reach_state",
+        "best_words",
+        "blank_to_free_reader",
+        "content_despite_status",
+        "platform_hosted",
+        "ai_blocked",
+        "blocked_by",
+        "has_llms_txt",
+        "has_sitemap",
+        "has_jsonld",
+        "cdn",
+        "domains",
+        "site_shared_with_n_candidates"
+      ],
+      "nonblank_by_field": {
+        "sq_candidato": 527,
+        "office": 527,
+        "uf": 527,
+        "ballot_name": 527,
+        "party": 527,
+        "number": 527,
+        "n_domains": 527,
+        "n_dead_domains": 527,
+        "reach_state": 527,
+        "best_words": 171,
+        "blank_to_free_reader": 171,
+        "content_despite_status": 527,
+        "platform_hosted": 527,
+        "ai_blocked": 527,
+        "blocked_by": 527,
+        "has_llms_txt": 527,
+        "has_sitemap": 527,
+        "has_jsonld": 527,
+        "cdn": 169,
+        "domains": 192,
+        "site_shared_with_n_candidates": 35
+      }
+    },
+    "data/candidate-status-2026-09-03.csv": {
+      "rows": 527,
+      "fields": [
+        "sq_candidato",
+        "office",
+        "office_pt",
+        "uf",
+        "ballot_name",
+        "party",
+        "n_domains",
+        "measured_live",
+        "own_readable",
+        "own_readable_urls",
+        "dropped_reason",
+        "reach_state"
+      ],
+      "nonblank_by_field": {
+        "sq_candidato": 527,
+        "office": 527,
+        "office_pt": 527,
+        "uf": 527,
+        "ballot_name": 527,
+        "party": 527,
+        "n_domains": 527,
+        "measured_live": 527,
+        "own_readable": 527,
+        "own_readable_urls": 115,
+        "dropped_reason": 56,
+        "reach_state": 527
+      }
+    },
+    "data/candidates-2026.csv": {
+      "rows": 527,
+      "fields": [
+        "sq_candidato",
+        "office",
+        "uf",
+        "ballot_name",
+        "full_name",
+        "number",
+        "party",
+        "federation",
+        "status",
+        "n_urls_declared",
+        "n_websites",
+        "websites",
+        "platform_hosted_sites",
+        "social_urls",
+        "merged_sq"
+      ],
+      "nonblank_by_field": {
+        "sq_candidato": 527,
+        "office": 527,
+        "uf": 527,
+        "ballot_name": 527,
+        "full_name": 527,
+        "number": 527,
+        "party": 527,
+        "federation": 527,
+        "status": 527,
+        "n_urls_declared": 527,
+        "n_websites": 527,
+        "websites": 192,
+        "platform_hosted_sites": 3,
+        "social_urls": 410,
+        "merged_sq": 2
+      }
+    },
+    "data/gate6/band-sensitivity.csv": {
+      "rows": 3,
+      "fields": [
+        "threshold_words",
+        "ratified",
+        "own_readable_site",
+        "party_page_only",
+        "nothing_retrieved",
+        "share_nothing_retrieved"
+      ],
+      "nonblank_by_field": {
+        "threshold_words": 3,
+        "ratified": 3,
+        "own_readable_site": 3,
+        "party_page_only": 3,
+        "nothing_retrieved": 3,
+        "share_nothing_retrieved": 3
+      }
+    },
+    "data/gate6/candidate-bands.csv": {
+      "rows": 527,
+      "fields": [
+        "sq_candidato",
+        "ballot_name",
+        "office",
+        "uf",
+        "party",
+        "own_readable",
+        "measured_live",
+        "candidacy_page",
+        "dropped_reason",
+        "has_sitemap",
+        "has_jsonld",
+        "has_llms_txt",
+        "best_words",
+        "n_domains",
+        "reach_state",
+        "robots_blocks_ai_crawlers",
+        "robots_block_source",
+        "site_shared_with_n_candidates",
+        "own_readable_urls",
+        "category",
+        "category_label",
+        "reader_retrieved_something",
+        "own_readable_at_20",
+        "own_readable_at_100",
+        "own_readable_at_300"
+      ],
+      "nonblank_by_field": {
+        "sq_candidato": 527,
+        "ballot_name": 527,
+        "office": 527,
+        "uf": 527,
+        "party": 527,
+        "own_readable": 527,
+        "measured_live": 527,
+        "candidacy_page": 527,
+        "dropped_reason": 56,
+        "has_sitemap": 527,
+        "has_jsonld": 0,
+        "has_llms_txt": 527,
+        "best_words": 171,
+        "n_domains": 527,
+        "reach_state": 527,
+        "robots_blocks_ai_crawlers": 527,
+        "robots_block_source": 527,
+        "site_shared_with_n_candidates": 35,
+        "own_readable_urls": 115,
+        "category": 527,
+        "category_label": 527,
+        "reader_retrieved_something": 527,
+        "own_readable_at_20": 527,
+        "own_readable_at_100": 527,
+        "own_readable_at_300": 527
+      }
+    },
+    "data/gate6/office-table.csv": {
+      "rows": 3,
+      "fields": [
+        "office",
+        "candidates",
+        "own_site_structured",
+        "own_site_plain",
+        "party_page_only",
+        "live_but_nothing_readable",
+        "address_error_at_visit",
+        "bot_check_stopped_reader",
+        "no_address_declared",
+        "share_reader_retrieved_something"
+      ],
+      "nonblank_by_field": {
+        "office": 3,
+        "candidates": 3,
+        "own_site_structured": 3,
+        "own_site_plain": 3,
+        "party_page_only": 3,
+        "live_but_nothing_readable": 3,
+        "address_error_at_visit": 3,
+        "bot_check_stopped_reader": 3,
+        "no_address_declared": 3,
+        "share_reader_retrieved_something": 3
+      }
+    },
+    "data/gate6/party-table.csv": {
+      "rows": 29,
+      "fields": [
+        "party",
+        "candidates",
+        "own_site_structured",
+        "own_site_plain",
+        "party_page_only",
+        "live_but_nothing_readable",
+        "address_error_at_visit",
+        "bot_check_stopped_reader",
+        "no_address_declared",
+        "share_reader_retrieved_something"
+      ],
+      "nonblank_by_field": {
+        "party": 29,
+        "candidates": 29,
+        "own_site_structured": 29,
+        "own_site_plain": 29,
+        "party_page_only": 29,
+        "live_but_nothing_readable": 29,
+        "address_error_at_visit": 29,
+        "bot_check_stopped_reader": 29,
+        "no_address_declared": 29,
+        "share_reader_retrieved_something": 29
+      }
+    },
+    "data/party-coverage-tiered.csv": {
+      "rows": 527,
+      "fields": [
+        "sq_candidato",
+        "office",
+        "uf",
+        "ballot_name",
+        "party",
+        "coverage_tier",
+        "counts_as_coverage",
+        "evidence_urls",
+        "excluded_reason"
+      ],
+      "nonblank_by_field": {
+        "sq_candidato": 527,
+        "office": 527,
+        "uf": 527,
+        "ballot_name": 527,
+        "party": 527,
+        "coverage_tier": 527,
+        "counts_as_coverage": 527,
+        "evidence_urls": 109,
+        "excluded_reason": 3
+      }
+    },
+    "data/party-coverage.csv": {
+      "rows": 527,
+      "fields": [
+        "sq_candidato",
+        "office",
+        "uf",
+        "ballot_name",
+        "party",
+        "n_party_pages",
+        "party_pages"
+      ],
+      "nonblank_by_field": {
+        "sq_candidato": 527,
+        "office": 527,
+        "uf": 527,
+        "ballot_name": 527,
+        "party": 527,
+        "n_party_pages": 527,
+        "party_pages": 109
+      }
+    },
+    "data/party-sites.csv": {
+      "rows": 30,
+      "fields": [
+        "party",
+        "number",
+        "official_site",
+        "source"
+      ],
+      "nonblank_by_field": {
+        "party": 30,
+        "number": 30,
+        "official_site": 28,
+        "source": 30
+      }
+    },
+    "data/prompts/derived/pilot-candidate-sample.csv": {
+      "rows": 12,
+      "fields": [
+        "sq_candidato",
+        "ballot_name",
+        "office",
+        "office_pt",
+        "uf",
+        "party",
+        "presence_group",
+        "reach_state",
+        "own_readable",
+        "own_readable_urls",
+        "human_review_status"
+      ],
+      "nonblank_by_field": {
+        "sq_candidato": 12,
+        "ballot_name": 12,
+        "office": 12,
+        "office_pt": 12,
+        "uf": 12,
+        "party": 12,
+        "presence_group": 12,
+        "reach_state": 12,
+        "own_readable": 12,
+        "own_readable_urls": 3,
+        "human_review_status": 12
+      }
+    },
+    "data/prompts/derived/pilot-compound-components.csv": {
+      "rows": 7,
+      "fields": [
+        "prompt_id",
+        "component_id",
+        "component_order",
+        "component_text",
+        "component_type",
+        "scoring_note"
+      ],
+      "nonblank_by_field": {
+        "prompt_id": 7,
+        "component_id": 7,
+        "component_order": 7,
+        "component_text": 7,
+        "component_type": 7,
+        "scoring_note": 7
+      }
+    },
+    "data/prompts/derived/pilot-prompt-sample.csv": {
+      "rows": 24,
+      "fields": [
+        "prompt_id",
+        "source_order",
+        "pilot_role",
+        "raw_text",
+        "scope_code",
+        "prompt_form",
+        "topic_flags",
+        "risk_flags",
+        "answer_mode",
+        "compound_likely",
+        "gate5_route",
+        "human_review_status",
+        "review_presupposition",
+        "review_prompt_quality",
+        "review_citation_pressure",
+        "review_verifiability",
+        "replaced_prompt_id",
+        "review_override_ids"
+      ],
+      "nonblank_by_field": {
+        "prompt_id": 24,
+        "source_order": 24,
+        "pilot_role": 24,
+        "raw_text": 24,
+        "scope_code": 24,
+        "prompt_form": 24,
+        "topic_flags": 23,
+        "risk_flags": 5,
+        "answer_mode": 24,
+        "compound_likely": 24,
+        "gate5_route": 24,
+        "human_review_status": 24,
+        "review_presupposition": 3,
+        "review_prompt_quality": 1,
+        "review_citation_pressure": 2,
+        "review_verifiability": 1,
+        "replaced_prompt_id": 1,
+        "review_override_ids": 9
+      }
+    },
+    "data/prompts/derived/pilot-request-matrix.csv": {
+      "rows": 264,
+      "fields": [
+        "request_id",
+        "prompt_id",
+        "pilot_role",
+        "sq_candidato",
+        "ballot_name",
+        "ballot_name_tse",
+        "office",
+        "uf",
+        "party",
+        "presence_group",
+        "source_text",
+        "prompt_to_send",
+        "scored_components",
+        "review_presupposition",
+        "review_prompt_quality",
+        "review_citation_pressure",
+        "review_verifiability",
+        "dual_rubric",
+        "unresolved_placeholders",
+        "human_review_status",
+        "approved_for_api"
+      ],
+      "nonblank_by_field": {
+        "request_id": 264,
+        "prompt_id": 264,
+        "pilot_role": 264,
+        "sq_candidato": 264,
+        "ballot_name": 264,
+        "ballot_name_tse": 264,
+        "office": 264,
+        "uf": 264,
+        "party": 264,
+        "presence_group": 264,
+        "source_text": 264,
+        "prompt_to_send": 264,
+        "scored_components": 264,
+        "review_presupposition": 36,
+        "review_prompt_quality": 12,
+        "review_citation_pressure": 24,
+        "review_verifiability": 12,
+        "dual_rubric": 12,
+        "unresolved_placeholders": 0,
+        "human_review_status": 264,
+        "approved_for_api": 264
+      }
+    },
+    "data/prompts/derived/pilot-review-overrides.csv": {
+      "rows": 11,
+      "fields": [
+        "override_id",
+        "action",
+        "prompt_id",
+        "field",
+        "new_value",
+        "replaces",
+        "reason",
+        "reviewer",
+        "review_date"
+      ],
+      "nonblank_by_field": {
+        "override_id": 11,
+        "action": 11,
+        "prompt_id": 10,
+        "field": 10,
+        "new_value": 10,
+        "replaces": 1,
+        "reason": 11,
+        "reviewer": 11,
+        "review_date": 11
+      }
+    },
+    "data/prompts/derived/prompt-inventory.csv": {
+      "rows": 779,
+      "fields": [
+        "prompt_id",
+        "source_order",
+        "raw_text",
+        "normalized_for_matching",
+        "line_count",
+        "character_count",
+        "word_count",
+        "question_mark_count",
+        "placeholder_values",
+        "has_candidate_placeholder",
+        "has_office_placeholder",
+        "has_state_placeholder",
+        "contains_text_artifact_line",
+        "exact_duplicate_of",
+        "possible_near_duplicate_of",
+        "near_duplicate_similarity",
+        "scope_code",
+        "prompt_form",
+        "topic_flags",
+        "risk_flags",
+        "answer_mode",
+        "compound_likely",
+        "gate5_route",
+        "coding_status"
+      ],
+      "nonblank_by_field": {
+        "prompt_id": 779,
+        "source_order": 779,
+        "raw_text": 779,
+        "normalized_for_matching": 779,
+        "line_count": 779,
+        "character_count": 779,
+        "word_count": 779,
+        "question_mark_count": 779,
+        "placeholder_values": 691,
+        "has_candidate_placeholder": 779,
+        "has_office_placeholder": 779,
+        "has_state_placeholder": 779,
+        "contains_text_artifact_line": 779,
+        "exact_duplicate_of": 20,
+        "possible_near_duplicate_of": 14,
+        "near_duplicate_similarity": 14,
+        "scope_code": 779,
+        "prompt_form": 779,
+        "topic_flags": 521,
+        "risk_flags": 170,
+        "answer_mode": 779,
+        "compound_likely": 779,
+        "gate5_route": 779,
+        "coding_status": 779
+      }
+    },
+    "data/ra/tarefa-A-paginas-de-candidatos.csv": {
+      "rows": 86,
+      "fields": [
+        "id",
+        "partido",
+        "site_do_partido",
+        "cargo",
+        "uf",
+        "candidato",
+        "tem_pagina_no_site_do_partido",
+        "url_da_pagina",
+        "o_que_a_pagina_traz",
+        "observacoes"
+      ],
+      "nonblank_by_field": {
+        "id": 86,
+        "partido": 86,
+        "site_do_partido": 86,
+        "cargo": 86,
+        "uf": 86,
+        "candidato": 86,
+        "tem_pagina_no_site_do_partido": 0,
+        "url_da_pagina": 0,
+        "o_que_a_pagina_traz": 0,
+        "observacoes": 0
+      }
+    },
+    "data/ra/tarefa-A-resultado-2026-09-03.csv": {
+      "rows": 5,
+      "fields": [
+        "partido",
+        "site_do_partido",
+        "publica_paginas_de_candidatos_2026",
+        "o_que_o_site_publica",
+        "candidatos_nossos_nomeados",
+        "confianca",
+        "observacoes"
+      ],
+      "nonblank_by_field": {
+        "partido": 5,
+        "site_do_partido": 5,
+        "publica_paginas_de_candidatos_2026": 5,
+        "o_que_o_site_publica": 5,
+        "candidatos_nossos_nomeados": 4,
+        "confianca": 5,
+        "observacoes": 5
+      }
+    },
+    "data/ra/tarefa-B-busca-de-site.csv": {
+      "rows": 165,
+      "fields": [
+        "id",
+        "cargo",
+        "uf",
+        "candidato",
+        "partido",
+        "url_declarada_ao_tse",
+        "achou_site_proprio",
+        "url_encontrada",
+        "tipo",
+        "data_da_busca",
+        "observacoes"
+      ],
+      "nonblank_by_field": {
+        "id": 165,
+        "cargo": 165,
+        "uf": 165,
+        "candidato": 165,
+        "partido": 165,
+        "url_declarada_ao_tse": 30,
+        "achou_site_proprio": 0,
+        "url_encontrada": 0,
+        "tipo": 0,
+        "data_da_busca": 0,
+        "observacoes": 0
+      }
+    },
+    "data/ra/tarefa-C-assistentes.csv": {
+      "rows": 12,
+      "fields": [
+        "id",
+        "cargo",
+        "uf",
+        "candidato",
+        "partido"
+      ],
+      "nonblank_by_field": {
+        "id": 12,
+        "cargo": 12,
+        "uf": 12,
+        "candidato": 12,
+        "partido": 12
+      }
+    },
+    "data/sweep/party-sweep.csv": {
+      "rows": 28,
+      "fields": [
+        "url",
+        "fetched_at",
+        "user_agent",
+        "status",
+        "final_url",
+        "redirects",
+        "elapsed_ms",
+        "error",
+        "challenge_markers",
+        "content_type",
+        "html_bytes",
+        "words_in_served_html",
+        "n_scripts",
+        "title",
+        "meta_description",
+        "html_lang",
+        "jsonld_present",
+        "jsonld_types",
+        "pdf_links",
+        "forms",
+        "inputs",
+        "robots_status",
+        "robots_bytes",
+        "robots_sitemap",
+        "ai_policy",
+        "ref_policy",
+        "llms_txt",
+        "sitemap_xml",
+        "evidence_page",
+        "evidence_robots",
+        "resolved_via",
+        "candidates"
+      ],
+      "nonblank_by_field": {
+        "url": 28,
+        "fetched_at": 28,
+        "user_agent": 28,
+        "status": 27,
+        "final_url": 27,
+        "redirects": 27,
+        "elapsed_ms": 28,
+        "error": 1,
+        "challenge_markers": 5,
+        "content_type": 27,
+        "html_bytes": 27,
+        "words_in_served_html": 27,
+        "n_scripts": 27,
+        "title": 26,
+        "meta_description": 12,
+        "html_lang": 24,
+        "jsonld_present": 27,
+        "jsonld_types": 1,
+        "pdf_links": 27,
+        "forms": 27,
+        "inputs": 27,
+        "robots_status": 28,
+        "robots_bytes": 19,
+        "robots_sitemap": 14,
+        "ai_policy": 19,
+        "ref_policy": 19,
+        "llms_txt": 27,
+        "sitemap_xml": 27,
+        "evidence_page": 27,
+        "evidence_robots": 19,
+        "resolved_via": 27,
+        "candidates": 28
+      }
+    },
+    "data/sweep/sweep-new-2026-09-03.csv": {
+      "rows": 4,
+      "fields": [
+        "url",
+        "fetched_at",
+        "user_agent",
+        "status",
+        "final_url",
+        "redirects",
+        "elapsed_ms",
+        "error",
+        "challenge_markers",
+        "content_type",
+        "html_bytes",
+        "words_in_served_html",
+        "n_scripts",
+        "title",
+        "meta_description",
+        "html_lang",
+        "jsonld_present",
+        "jsonld_types",
+        "pdf_links",
+        "forms",
+        "inputs",
+        "robots_status",
+        "robots_bytes",
+        "robots_sitemap",
+        "ai_policy",
+        "ref_policy",
+        "llms_txt",
+        "sitemap_xml",
+        "evidence_page",
+        "evidence_robots",
+        "resolved_via",
+        "candidates"
+      ],
+      "nonblank_by_field": {
+        "url": 4,
+        "fetched_at": 4,
+        "user_agent": 4,
+        "status": 4,
+        "final_url": 4,
+        "redirects": 4,
+        "elapsed_ms": 4,
+        "error": 0,
+        "challenge_markers": 0,
+        "content_type": 4,
+        "html_bytes": 4,
+        "words_in_served_html": 4,
+        "n_scripts": 4,
+        "title": 4,
+        "meta_description": 3,
+        "html_lang": 4,
+        "jsonld_present": 4,
+        "jsonld_types": 0,
+        "pdf_links": 4,
+        "forms": 4,
+        "inputs": 4,
+        "robots_status": 4,
+        "robots_bytes": 1,
+        "robots_sitemap": 0,
+        "ai_policy": 1,
+        "ref_policy": 1,
+        "llms_txt": 4,
+        "sitemap_xml": 4,
+        "evidence_page": 4,
+        "evidence_robots": 1,
+        "resolved_via": 4,
+        "candidates": 4
+      }
+    },
+    "data/sweep/sweep-results.csv": {
+      "rows": 272,
+      "fields": [
+        "url",
+        "fetched_at",
+        "user_agent",
+        "status",
+        "final_url",
+        "redirects",
+        "elapsed_ms",
+        "error",
+        "challenge_markers",
+        "content_type",
+        "html_bytes",
+        "words_in_served_html",
+        "n_scripts",
+        "title",
+        "meta_description",
+        "html_lang",
+        "jsonld_present",
+        "jsonld_types",
+        "pdf_links",
+        "forms",
+        "inputs",
+        "robots_status",
+        "robots_bytes",
+        "robots_sitemap",
+        "ai_policy",
+        "ref_policy",
+        "llms_txt",
+        "sitemap_xml",
+        "evidence_page",
+        "evidence_robots",
+        "candidates",
+        "resolved_via"
+      ],
+      "nonblank_by_field": {
+        "url": 272,
+        "fetched_at": 272,
+        "user_agent": 272,
+        "status": 239,
+        "final_url": 239,
+        "redirects": 239,
+        "elapsed_ms": 272,
+        "error": 33,
+        "challenge_markers": 10,
+        "content_type": 239,
+        "html_bytes": 239,
+        "words_in_served_html": 238,
+        "n_scripts": 238,
+        "title": 221,
+        "meta_description": 136,
+        "html_lang": 221,
+        "jsonld_present": 238,
+        "jsonld_types": 32,
+        "pdf_links": 238,
+        "forms": 238,
+        "inputs": 238,
+        "robots_status": 272,
+        "robots_bytes": 176,
+        "robots_sitemap": 122,
+        "ai_policy": 176,
+        "ref_policy": 176,
+        "llms_txt": 239,
+        "sitemap_xml": 239,
+        "evidence_page": 239,
+        "evidence_robots": 176,
+        "candidates": 272,
+        "resolved_via": 28
+      }
+    }
+  },
+  "json": {
+    "data/gate6/ranking-summary.json": {
+      "sha256": "6286f61a67e08d8fea956a639df59cfa0a966ef6a6cb5fe05284845134006b35",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 12
+    },
+    "data/prompts/derived/pilot-summary.json": {
+      "sha256": "5cf612cfdb28c0ab87645b71c76e5096fec4936d0ab32ff581db76f3d0914206",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 12
+    },
+    "data/prompts/derived/prompt-audit-summary.json": {
+      "sha256": "443fb2c6c04a0fcfeceaad83bd94fbf75b08698ec41dd31fd35afe13d6ef5218",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 19
+    },
+    "data/sweep/cdn-attribution.json": {
+      "sha256": "99b43adda2a294b95388bd1a162c302789829707061f3d91922610657fb7d73a",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 272
+    },
+    "data/sweep/dns-authoritative.json": {
+      "sha256": "69cf17f2a044ec47d8df7a8947e1843783066d3b4020b9ada7c5b502c06e4794",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 33
+    },
+    "data/sweep/dns-retry-2026-09-02.json": {
+      "sha256": "95ca9a66a7ca6510df18f132d0dc1d6d266e1d969f2a06baef44bb9c4dc59353",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 8
+    },
+    "data/sweep/failures-pass1.json": {
+      "sha256": "37dc36f777d72d18e22545cf94bcd6aa22925f420336aea8a0be47461b67069c",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 33
+    },
+    "data/sweep/party-candidate-pages.json": {
+      "sha256": "7a1b0f818669b921cf612e76ad11310abe7bad556a6abcd273028e497ff09959",
+      "valid_utf8_json": false,
+      "error": "'utf-8' codec can't decode byte 0xc3 in position 6935: invalid continuation byte",
+      "replacement_characters": 2,
+      "parseable_after_lossy_decode": true,
+      "type": "list",
+      "top_level_length": 21
+    },
+    "data/sweep/party-crawl-pages.json": {
+      "sha256": "a7055f697ae6695a8b95ebe962885a684465019de9ecc93d1274dcd4261f1aec",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 696
+    },
+    "data/sweep/party-sweep.json": {
+      "sha256": "f7fca01ba4d3d71e428d2592fd05da6fd407365e795bc4c8f3cd9fbc50d40d32",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 28
+    },
+    "data/sweep/party-todo.json": {
+      "sha256": "953a64388c3c3fa08eb97ae14a29b78000c1caf4a55ddea040b49a1858a3059b",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 28
+    },
+    "data/sweep/shared-content-w100.json": {
+      "sha256": "7b518bf126dc34f3e6a245984ae05249b427acc5b83c71779756cbb2f7d6f5ac",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 12
+    },
+    "data/sweep/shared-content-w20.json": {
+      "sha256": "fbf4961703513d5ec215afe460878315a98cfdfabd33d0ba5a83d87a79773d41",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 12
+    },
+    "data/sweep/shared-content-w300.json": {
+      "sha256": "1a51e7b58dda3196afc44cbf5f893b179bea790ccb25c221c041b3aee8e19541",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 12
+    },
+    "data/sweep/sweep-new-2026-09-03.json": {
+      "sha256": "56a296fa0b17b36d0c1444be1ea3941e9a45dffd0e32f9224ce5037e77d78e67",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 4
+    },
+    "data/sweep/sweep-results.json": {
+      "sha256": "b8fa2255b935267f8bbd0566edf4a2c6be0b256a27a6ece73c3b1d25ce2e96b2",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 272
+    },
+    "data/sweep/todo.json": {
+      "sha256": "ca22e88ce713bd28fc5d6079e2ea9eacb794d6972ca15a75084d1f7aa608cffc",
+      "valid_utf8_json": true,
+      "type": "list",
+      "top_level_length": 57
+    },
+    "data/viz/fieldwork.json": {
+      "sha256": "af092dacc272a6fa7564f46737d561554f98f00e8c15c3373589be52edd581a7",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 9
+    },
+    "data/viz/summary-2026-09-02.json": {
+      "sha256": "6451253406b7821a67c9639dfb49ff38b6daf24db667f967bbddc0f0d140dc1b",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 19
+    },
+    "data/viz/summary.json": {
+      "sha256": "2d092ba003a9adbb5f112bdce3e68fc163c64e10d448555b736ca25d316fc2e7",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 17
+    },
+    "package-lock.json": {
+      "sha256": "222ec57e50312e4d023a8c75527cf9c5ad9c83c14c190ac93667a8db71671a97",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 4
+    },
+    "package.json": {
+      "sha256": "1ad896461fe8445ff4dd51ba2afbe8d116b1a46b8ca4aae721418b5150354e34",
+      "valid_utf8_json": true,
+      "type": "dict",
+      "top_level_length": 1
+    }
+  },
+  "jsonl": {
+    "data/prompts/responses/gate5-pilot-errors.jsonl": {
+      "rows": 345
+    },
+    "data/prompts/responses/gate5-pilot-responses.jsonl": {
+      "rows": 1584
+    },
+    "data/prompts/responses/gate5-superseded-gemini-deepseek-maxtokens2000.jsonl": {
+      "rows": 1056
+    },
+    "data/prompts/responses/gate5-superseded-gpt5-maxtokens2000.jsonl": {
+      "rows": 528
+    }
+  },
+  "current_api_pilot": {
+    "rows": 1584,
+    "unique_cells": 1584,
+    "expected_cells": 1584,
+    "missing_cells": [],
+    "unexpected_cells": [],
+    "duplicate_cells": [],
+    "models": {
+      "openai/gpt-5": 528,
+      "google/gemini-2.5-flash": 528,
+      "deepseek/deepseek-chat-v3.1": 528
+    },
+    "candidates": 12,
+    "prompts": 22,
+    "coding_status": {
+      "uncoded": 1584
+    },
+    "finish_reason": {
+      "stop": 1584
+    },
+    "empty_responses": 0,
+    "recorded_errors": 0,
+    "parameters": {
+      "deepseek/deepseek-chat-v3.1": [
+        "{\"max_tokens\": 4000, \"reasoning_effort\": \"provider_default\", \"temperature\": \"provider_default\"}"
+      ],
+      "google/gemini-2.5-flash": [
+        "{\"max_tokens\": 4000, \"reasoning_effort\": \"provider_default\", \"temperature\": \"provider_default\"}"
+      ],
+      "openai/gpt-5": [
+        "{\"max_tokens\": 4000, \"reasoning_effort\": \"low\", \"temperature\": \"provider_default\"}"
+      ]
+    },
+    "dates_utc": [
+      "2026-09-11T23:02:20.887143+00:00",
+      "2026-09-13T18:08:36.628010+00:00"
+    ]
+  },
+  "candidate_categories": {
+    "rows": 527,
+    "unique_ids": 527,
+    "counts": {
+      "own_site_structured": 83,
+      "own_site_plain": 32,
+      "party_page_only": 21,
+      "live_but_nothing_readable": 52,
+      "address_error_at_visit": 16,
+      "bot_check_stopped_reader": 10,
+      "no_address_declared": 313
+    },
+    "independent_category_rule_mismatches": [],
+    "offices": {
+      "Governador": 197,
+      "Presidente": 13,
+      "Senador": 317
+    },
+    "parties": 29,
+    "qualifying_llms_txt": 17,
+    "robots_ai_blocks": 16
+  },
+  "candidate_join_ids": {
+    "data/candidate-rollup.csv": {
+      "duplicates": 0,
+      "missing": [],
+      "extra": []
+    },
+    "data/candidate-status-2026-09-03.csv": {
+      "duplicates": 0,
+      "missing": [],
+      "extra": []
+    },
+    "data/candidates-2026.csv": {
+      "duplicates": 0,
+      "missing": [],
+      "extra": []
+    },
+    "data/gate6/candidate-bands.csv": {
+      "duplicates": 0,
+      "missing": [],
+      "extra": []
+    },
+    "data/party-coverage-tiered.csv": {
+      "duplicates": 0,
+      "missing": [],
+      "extra": []
+    },
+    "data/party-coverage.csv": {
+      "duplicates": 0,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "sweeps": {
+    "data/sweep/sweep-results.csv": {
+      "rows": 272,
+      "unique_urls": 272,
+      "unique_hosts": 263,
+      "http_status": {
+        "200": 220,
+        "429": 1,
+        "unrecorded": 33,
+        "404": 4,
+        "403": 9,
+        "500": 1,
+        "409": 3,
+        "202": 1
+      },
+      "evidence": {
+        "evidence_page": {
+          "references": 239,
+          "present_in_snapshot": 0,
+          "unique_references": 239
+        },
+        "evidence_robots": {
+          "references": 176,
+          "present_in_snapshot": 0,
+          "unique_references": 176
+        }
+      },
+      "dates": [
+        "2026-08-31T22:05:00+00:00",
+        "2026-09-03T01:20:50+00:00"
+      ]
+    },
+    "data/sweep/sweep-new-2026-09-03.csv": {
+      "rows": 4,
+      "unique_urls": 4,
+      "unique_hosts": 4,
+      "http_status": {
+        "200": 4
+      },
+      "evidence": {
+        "evidence_page": {
+          "references": 4,
+          "present_in_snapshot": 0,
+          "unique_references": 4
+        },
+        "evidence_robots": {
+          "references": 1,
+          "present_in_snapshot": 0,
+          "unique_references": 1
+        }
+      },
+      "dates": [
+        "2026-09-03T01:20:50+00:00",
+        "2026-09-03T01:20:50+00:00"
+      ]
+    },
+    "data/sweep/party-sweep.csv": {
+      "rows": 28,
+      "unique_urls": 28,
+      "unique_hosts": 28,
+      "http_status": {
+        "404": 1,
+        "200": 21,
+        "403": 5,
+        "unrecorded": 1
+      },
+      "evidence": {
+        "evidence_page": {
+          "references": 27,
+          "present_in_snapshot": 0,
+          "unique_references": 27
+        },
+        "evidence_robots": {
+          "references": 19,
+          "present_in_snapshot": 0,
+          "unique_references": 19
+        }
+      },
+      "dates": [
+        "2026-09-01T14:34:22+00:00",
+        "2026-09-01T14:34:53+00:00"
+      ]
+    }
+  },
+  "initial_supplement_url_overlap": [
+    "https://avatardavidalmeida.lovable.app",
+    "https://jhcdopovo.neocities.org",
+    "https://motta-campeao-site.lovable.app",
+    "https://sandroalex.com.br"
+  ],
+  "party_text_artifacts": 198,
+  "threshold_sensitivity": [
+    {
+      "threshold_words": "20",
+      "ratified": "False",
+      "own_readable_site": "126",
+      "party_page_only": "21",
+      "nothing_retrieved": "380",
+      "share_nothing_retrieved": "72.1"
+    },
+    {
+      "threshold_words": "100",
+      "ratified": "True",
+      "own_readable_site": "115",
+      "party_page_only": "21",
+      "nothing_retrieved": "391",
+      "share_nothing_retrieved": "74.2"
+    },
+    {
+      "threshold_words": "300",
+      "ratified": "False",
+      "own_readable_site": "94",
+      "party_page_only": "24",
+      "nothing_retrieved": "409",
+      "share_nothing_retrieved": "77.6"
+    }
+  ],
+  "legacy_coverage_flag_conflicts": 0
+}

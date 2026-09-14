@@ -1,0 +1,492 @@
+{
+  "subject": {
+    "country": "PCO candidate listing",
+    "service": "Pco define candidaturas em 18 estados e no distrito federal para as eleicoes de 2026",
+    "service_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "provenance": {
+    "run_id": "residential-1789375180",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "executive": {
+    "headline": "Reachable to AI today.",
+    "summary": "The AI crawlers used to read the web fetch the full page directly. Legibility and obstacles measured on the service page."
+  },
+  "pillars": [
+    {
+      "key": "D",
+      "name": "Reachability",
+      "q": "Can AI systems reach the service?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "D1"
+      ],
+      "checks": [
+        {
+          "id": "D1",
+          "name": "Reachable by AI retrievers",
+          "value": 1.0,
+          "result": "The AI crawlers used to read the web fetch the full page directly.",
+          "fix": "Keep public service paths open to legitimate AI retrieval agents.",
+          "ladder": [
+            {
+              "rung": "Plain AI fetch",
+              "reached": true,
+              "note": "full content returned"
+            },
+            {
+              "rung": "AI browser fetch",
+              "reached": true,
+              "note": "full page renders"
+            },
+            {
+              "rung": "Disguised browser",
+              "reached": true,
+              "note": "full page renders"
+            }
+          ]
+        },
+        {
+          "id": "D5",
+          "name": "Findable in search",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "L",
+      "name": "Legibility",
+      "q": "Can AI read and understand it?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "L3",
+        "L4",
+        "L5",
+        "L7"
+      ],
+      "checks": [
+        {
+          "id": "L3",
+          "name": "Structured data",
+          "value": 1.0,
+          "result": "Service-specific structured data is present.",
+          "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+        },
+        {
+          "id": "L4",
+          "name": "Shows when it was updated",
+          "value": 1.0,
+          "result": "A machine-readable update date is published.",
+          "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+        },
+        {
+          "id": "L5",
+          "name": "Guidance in the page, not a PDF",
+          "value": 1.0,
+          "result": "Guidance is on the page itself, not locked in PDFs.",
+          "fix": "Keep publishing guidance as HTML."
+        },
+        {
+          "id": "L7",
+          "name": "Answer-friendly layout",
+          "value": 1.0,
+          "result": "Steps and details are laid out in lists or tables AI can read.",
+          "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+        }
+      ],
+      "observations": [
+        {
+          "id": "Lang",
+          "name": "Language coverage",
+          "detail": "Declares its language ('pt-BR') but offers no other-language version.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "O",
+      "name": "Obstacles to AI readers",
+      "kind": "obstacles",
+      "q": "What does the scan observe about the page constructions tested in the study?",
+      "assessment_set_version": "2026-09-13.2",
+      "assessment_set": [
+        "OB-script",
+        "OB-hidden",
+        "OB-click",
+        "OB-pdf",
+        "OB-depth"
+      ],
+      "checks": [
+        {
+          "id": "OB-script",
+          "name": "Rendered extraction contains more words than served HTML",
+          "state": "clear",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Within the recorded the main content extraction scopes, the rendered/served word addition share is 0% (0 added; 538 matching), below this candidate check's threshold.",
+          "evidence": {
+            "raw_status": 200,
+            "served_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+            "rendered_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+            "capture_delay_ms": 5000,
+            "served_attempts": 1,
+            "scope": {
+              "rendered": "main",
+              "served": "main"
+            },
+            "basis": "main",
+            "rendered_words": 538,
+            "served_words": 538,
+            "matching_words": 538,
+            "added_words": 0,
+            "removed_words": 0,
+            "script_only_words": 0,
+            "share": 0.0,
+            "word_difference": 0,
+            "rendered_difference_percent": 0,
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-hidden",
+          "name": "Text in the assessed region is hidden by a recorded mechanism",
+          "state": "clear",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "12 words of main content are hidden — display:none (7 words), zero-size (5 words) — below the 40-word threshold for a finding.",
+          "evidence": {
+            "hidden_words": 12,
+            "mechanisms": {
+              "display:none": 7,
+              "zero-size": 5
+            },
+            "scope": "main",
+            "visible_words": 526,
+            "document_words": 538,
+            "sample": "X Facebook Telegram WhatsApp Reddit Cancelar resposta Digite aqui... Name* Email* Website",
+            "accessibility_excluded_words": 0,
+            "accessibility_mechanisms": {},
+            "census": {
+              "totalNodes": 488,
+              "scannedNodes": 488,
+              "nodeLimit": 8000,
+              "truncated": false,
+              "duplicateWordsExcluded": 138,
+              "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+            },
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-click",
+          "name": "Document text increased after disclosure controls were pressed",
+          "state": "not_measured",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+          "evidence": {
+            "pressed": 0,
+            "controls": 0,
+            "blocked_requests": [],
+            "blocked_on_load": [
+              {
+                "method": "POST",
+                "url": "https://pco.org.br/wp-json/iawp/search"
+              },
+              {
+                "method": "POST",
+                "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/50208708:1789373107:c8gq0AphaCcZCQrxfwJtOiaiGvGNxpGoF6Dr6J0Fi9E/a3ae166a2b5ffe4e/uIjKXAl89A4V4G.IZmPmlJ.Npf44Ot0LmXmtpXi.u1I-1789375233-1.2.1.1-CfaW3OEoFQtaJYrM_bFcV89Jb4ZX6lF0TfwI7e7.xz8zWSPhQajWWsOsJxAOZxG."
+              },
+              {
+                "method": "POST",
+                "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/50208708:1789373107:c8gq0AphaCcZCQrxfwJtOiaiGvGNxpGoF6Dr6J0Fi9E/a3ae166a2b5ffe4e/uIjKXAl89A4V4G.IZmPmlJ.Npf44Ot0LmXmtpXi.u1I-1789375233-1.2.1.1-CfaW3OEoFQtaJYrM_bFcV89Jb4ZX6lF0TfwI7e7.xz8zWSPhQajWWsOsJxAOZxG."
+              },
+              {
+                "method": "POST",
+                "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/50208708:1789373107:c8gq0AphaCcZCQrxfwJtOiaiGvGNxpGoF6Dr6J0Fi9E/a3ae166a2b5ffe4e/uIjKXAl89A4V4G.IZmPmlJ.Npf44Ot0LmXmtpXi.u1I-1789375233-1.2.1.1-CfaW3OEoFQtaJYrM_bFcV89Jb4ZX6lF0TfwI7e7.xz8zWSPhQajWWsOsJxAOZxG."
+              }
+            ],
+            "navigated": false,
+            "words_before": 526,
+            "words_after": null,
+            "doc_before": 538,
+            "doc_after": null,
+            "presses": [],
+            "control_doc_before": null,
+            "control_doc_after": null,
+            "service_workers": "blocked",
+            "press_limit": 20,
+            "eligible_controls": [],
+            "scope": "main",
+            "census_before": {
+              "totalNodes": 488,
+              "scannedNodes": 488,
+              "nodeLimit": 8000,
+              "truncated": false,
+              "duplicateWordsExcluded": 138,
+              "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+            },
+            "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-pdf",
+          "name": "Linked PDF extraction properties",
+          "state": "not_applicable",
+          "severity": null,
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "No PDF is linked from the main content.",
+          "evidence": {
+            "main_pdf_links": 0,
+            "page_pdf_links": 0,
+            "applicability_reason": "no PDF is linked from the assessed region",
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-depth",
+          "name": "Confirmed minimum application-route depth",
+          "state": "clear",
+          "severity": "red",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "A confirmed application entry is reachable in 1 hop: “Contato”. That observed route is shorter than the four-hop rule; no claim about other routes is needed.",
+          "evidence": {
+            "depth": 1,
+            "entry": {
+              "depth": 1,
+              "url": "https://pco.org.br/contato/",
+              "text": "Contato",
+              "route": [
+                "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+                "https://pco.org.br/contato"
+              ],
+              "external": false,
+              "evidence": {
+                "confirmed": true,
+                "shared_subject_terms": [
+                  "causa",
+                  "operaria",
+                  "partido",
+                  "sua"
+                ],
+                "explicit_entry_phrase": false,
+                "transaction_forms": [
+                  {
+                    "fields": 8,
+                    "submit": "Brazil +55 Enviar Pedido",
+                    "action": "https://pco.org.br/contato/",
+                    "method": "POST",
+                    "search": false,
+                    "login": false,
+                    "newsletter": false
+                  }
+                ],
+                "inbound_application_score": 0,
+                "destination_application_score": 0
+              }
+            },
+            "pages_crawled": 21,
+            "pages_failed": 0,
+            "hops": 4,
+            "budget": 40,
+            "exhausted": false,
+            "frontier_left": 0,
+            "external_entry": null,
+            "external_candidates": [
+              {
+                "depth": 1,
+                "url": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026",
+                "text": "Reddit",
+                "route": [
+                  "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+                  "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026"
+                ],
+                "external": true,
+                "evidence": {
+                  "confirmed": false,
+                  "shared_subject_terms": [],
+                  "explicit_entry_phrase": false,
+                  "transaction_forms": [],
+                  "inbound_application_score": 1,
+                  "destination_application_score": 1
+                },
+                "resolved": true
+              }
+            ],
+            "failed_urls": [],
+            "pruned_links": [],
+            "redirects": [
+              {
+                "from": "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026",
+                "to": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026"
+              },
+              {
+                "from": "http://pco.org.br/campanhas",
+                "to": "https://pco.org.br/campanhas/"
+              },
+              {
+                "from": "https://pco.org.br/2026/08/08",
+                "to": "https://pco.org.br/"
+              }
+            ],
+            "possible_routes": [
+              {
+                "depth": 1,
+                "url": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026",
+                "text": "Reddit",
+                "route": [
+                  "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+                  "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026"
+                ],
+                "external": true,
+                "evidence": {
+                  "confirmed": false,
+                  "shared_subject_terms": [],
+                  "explicit_entry_phrase": false,
+                  "transaction_forms": [],
+                  "inbound_application_score": 1,
+                  "destination_application_score": 1
+                }
+              }
+            ],
+            "confirmed_routes": [
+              {
+                "depth": 1,
+                "url": "https://pco.org.br/contato/",
+                "text": "Contato",
+                "route": [
+                  "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+                  "https://pco.org.br/contato"
+                ],
+                "external": false,
+                "evidence": {
+                  "confirmed": true,
+                  "shared_subject_terms": [
+                    "causa",
+                    "operaria",
+                    "partido",
+                    "sua"
+                  ],
+                  "explicit_entry_phrase": false,
+                  "transaction_forms": [
+                    {
+                      "fields": 8,
+                      "submit": "Brazil +55 Enviar Pedido",
+                      "action": "https://pco.org.br/contato/",
+                      "method": "POST",
+                      "search": false,
+                      "login": false,
+                      "newsletter": false
+                    }
+                  ],
+                  "inbound_application_score": 0,
+                  "destination_application_score": 0
+                }
+              }
+            ],
+            "self_entry": null,
+            "reason": null,
+            "minimum_depth_confirmed": true,
+            "coverage_complete": true,
+            "shorter_route_established": true
+          },
+          "fix": "",
+          "study": null
+        }
+      ]
+    }
+  ],
+  "future": {
+    "name": "Future-readiness",
+    "q": "Signs the service is preparing for AI agents",
+    "items": [
+      {
+        "name": "Machine-readable API",
+        "present": false,
+        "state": "none"
+      },
+      {
+        "name": "Sign-in standard (OIDC)",
+        "present": false
+      },
+      {
+        "name": "llms.txt",
+        "present": false
+      },
+      {
+        "name": "AGENTS.md",
+        "present": false
+      },
+      {
+        "name": "Agent card",
+        "present": false
+      },
+      {
+        "name": "MCP endpoint",
+        "present": false
+      }
+    ]
+  },
+  "ai_visibility": {
+    "q": "How AI assistants represent this service today",
+    "metrics": []
+  },
+  "injection": {
+    "measured": true,
+    "csp": false,
+    "third_party_scripts": 1,
+    "flagged": 0,
+    "flags": []
+  },
+  "actions": [
+    {
+      "head": "Keep public service paths open to legitimate AI retrieval agents.",
+      "why": "The AI crawlers used to read the web fetch the full page directly."
+    }
+  ]
+}

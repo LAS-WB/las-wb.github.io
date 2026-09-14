@@ -1,0 +1,632 @@
+[
+  {
+    "id": "01",
+    "label": "Renan Santos",
+    "url": "https://renanpresidente.com.br",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "readable candidate site; repository pilot participant",
+    "original_fetched_at": "2026-08-31T22:05:07+00:00",
+    "original_http_status": "200",
+    "original_body_words": "858",
+    "original_pdf_links": "0",
+    "run_id": "residential-1789374744",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:34:30.064782+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://www.renanpresidente.com.br/",
+    "fresh_body_words": 859,
+    "raw_region_words": 694,
+    "rendered_visible_region_words": 625,
+    "rendered_document_region_words": 845,
+    "inspected_region": {
+      "rendered": "main",
+      "served": "main"
+    },
+    "initial_region_words": 694,
+    "rendered_region_words": 845,
+    "rendered_added_words": 321,
+    "rendered_removed_words": 170,
+    "hidden_region_words": 220,
+    "click_state": "not_measured",
+    "pdf_state": "not_applicable",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [],
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "LAS_report": "scans/01/LAS.html",
+    "structural_report": "scans/01/structural.html"
+  },
+  {
+    "id": "02",
+    "label": "Eduardo Riedel",
+    "url": "https://eduardoriedel.com.br/",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "readable candidate site with recorded PDF links; pilot participant",
+    "original_fetched_at": "2026-08-31T22:06:09+00:00",
+    "original_http_status": "200",
+    "original_body_words": "488",
+    "original_pdf_links": "2",
+    "run_id": "residential-1789374742",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:35:26.162482+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://eduardoriedel.com.br/",
+    "fresh_body_words": 448,
+    "raw_region_words": 81,
+    "rendered_visible_region_words": 16,
+    "rendered_document_region_words": 16,
+    "inspected_region": {
+      "rendered": "article",
+      "served": "article"
+    },
+    "initial_region_words": 81,
+    "rendered_region_words": 16,
+    "rendered_added_words": 0,
+    "rendered_removed_words": 65,
+    "hidden_region_words": 0,
+    "click_state": "not_measured",
+    "pdf_state": "not_applicable",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [
+      {
+        "url": "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+        "fetched": true,
+        "has_text": true,
+        "in_main": false,
+        "pages": 44,
+        "pages_sampled": 3,
+        "page_sample_truncated": true
+      }
+    ],
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "LAS_report": "scans/02/LAS.html",
+    "structural_report": "scans/02/structural.html"
+  },
+  {
+    "id": "03",
+    "label": "Time Barra / Eder Mauro",
+    "url": "https://timebarra.com.br/",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "candidate-linked site with recorded PDF link; pilot participant",
+    "original_fetched_at": "2026-08-31T22:06:16+00:00",
+    "original_http_status": "200",
+    "original_body_words": "594",
+    "original_pdf_links": "1",
+    "run_id": "residential-1789374872",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:35:17.022547+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://timebarra.com.br/",
+    "fresh_body_words": 594,
+    "raw_region_words": 97,
+    "rendered_visible_region_words": 0,
+    "rendered_document_region_words": 20,
+    "inspected_region": {
+      "rendered": "article",
+      "served": "article"
+    },
+    "initial_region_words": 97,
+    "rendered_region_words": 20,
+    "rendered_added_words": 0,
+    "rendered_removed_words": 77,
+    "hidden_region_words": 20,
+    "click_state": "not_measured",
+    "pdf_state": "not_applicable",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [
+      {
+        "url": "https://timebarra.com.br/politica-de-privacidade.pdf",
+        "fetched": true,
+        "has_text": true,
+        "in_main": false,
+        "pages": 5,
+        "pages_sampled": 3,
+        "page_sample_truncated": true
+      }
+    ],
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (1 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "LAS_report": "scans/03/LAS.html",
+    "structural_report": "scans/03/structural.html"
+  },
+  {
+    "id": "04",
+    "label": "Flavio Bolsonaro",
+    "url": "https://flaviobolsonaro.com.br",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "readable page with structured-data and crawler-policy signals",
+    "original_fetched_at": "2026-08-31T22:05:00+00:00",
+    "original_http_status": "200",
+    "original_body_words": "1732",
+    "original_pdf_links": "1",
+    "run_id": "residential-1789374919",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:37:23.084487+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://www.flaviobolsonaro.com.br/",
+    "fresh_body_words": 2070,
+    "raw_region_words": 1386,
+    "rendered_visible_region_words": 508,
+    "rendered_document_region_words": 1373,
+    "inspected_region": {
+      "rendered": "main",
+      "served": "main"
+    },
+    "initial_region_words": 1386,
+    "rendered_region_words": 1373,
+    "rendered_added_words": 33,
+    "rendered_removed_words": 46,
+    "hidden_region_words": 865,
+    "click_state": "not_measured",
+    "pdf_state": "detected",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [
+      {
+        "url": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf",
+        "fetched": true,
+        "has_text": true,
+        "in_main": true,
+        "pages": 76,
+        "pages_sampled": 3,
+        "page_sample_truncated": true
+      }
+    ],
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Linked PDFs",
+        "reason": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf: Partial PDF sample: 3 of 76 pages inspected."
+      },
+      {
+        "title": "Application route",
+        "reason": "3 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "LAS_report": "scans/04/LAS.html",
+    "structural_report": "scans/04/structural.html"
+  },
+  {
+    "id": "05",
+    "label": "ACM Neto",
+    "url": "https://acmneto.com.br/",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "readable site in the plain-content category",
+    "original_fetched_at": "2026-08-31T22:05:33+00:00",
+    "original_http_status": "200",
+    "original_body_words": "809",
+    "original_pdf_links": "0",
+    "run_id": "residential-1789374928",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:36:21.830571+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://acmneto.com.br/",
+    "fresh_body_words": 920,
+    "raw_region_words": 700,
+    "rendered_visible_region_words": 57,
+    "rendered_document_region_words": 679,
+    "inspected_region": {
+      "rendered": "main",
+      "served": "main"
+    },
+    "initial_region_words": 700,
+    "rendered_region_words": 679,
+    "rendered_added_words": 95,
+    "rendered_removed_words": 116,
+    "hidden_region_words": 622,
+    "click_state": "not_measured",
+    "pdf_state": "not_applicable",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [],
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "LAS_report": "scans/05/LAS.html",
+    "structural_report": "scans/05/structural.html"
+  },
+  {
+    "id": "06",
+    "label": "Renan Filho",
+    "url": "https://renanfilhodealagoas.com.br/",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "second plain-content site",
+    "original_fetched_at": "2026-08-31T22:05:11+00:00",
+    "original_http_status": "200",
+    "original_body_words": "402",
+    "original_pdf_links": "0",
+    "run_id": "residential-1789374984",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:38:20.155284+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://renanfilhodealagoas.com.br/",
+    "fresh_body_words": 402,
+    "raw_region_words": 305,
+    "rendered_visible_region_words": 176,
+    "rendered_document_region_words": 289,
+    "inspected_region": {
+      "rendered": "body-minus-chrome",
+      "served": "body-minus-chrome"
+    },
+    "initial_region_words": 305,
+    "rendered_region_words": 289,
+    "rendered_added_words": 34,
+    "rendered_removed_words": 50,
+    "hidden_region_words": 113,
+    "click_state": "not_measured",
+    "pdf_state": "not_applicable",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [],
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "The bounded crawl found no possible application entry within 4 hops (11 pages crawled). That does not establish that this check is inapplicable or that the service has no online application."
+      }
+    ],
+    "LAS_report": "scans/06/LAS.html",
+    "structural_report": "scans/06/structural.html"
+  },
+  {
+    "id": "07",
+    "label": "Acir Gurgacz",
+    "url": "https://acir.com.br/",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "near-empty original extraction; audited party-coverage withdrawal",
+    "original_fetched_at": "2026-08-31T22:06:44+00:00",
+    "original_http_status": "200",
+    "original_body_words": "36",
+    "original_pdf_links": "0",
+    "run_id": "residential-1789375045",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:39:03.336560+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://acir.com.br/",
+    "fresh_body_words": 36,
+    "raw_region_words": 0,
+    "rendered_visible_region_words": 0,
+    "rendered_document_region_words": 0,
+    "inspected_region": {
+      "rendered": "body-minus-chrome",
+      "served": "body-minus-chrome"
+    },
+    "initial_region_words": null,
+    "rendered_region_words": null,
+    "rendered_added_words": null,
+    "rendered_removed_words": null,
+    "hidden_region_words": 0,
+    "click_state": "not_measured",
+    "pdf_state": "not_applicable",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [],
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Initial page text",
+        "reason": "the rendered page reported no content words to compare against"
+      },
+      {
+        "title": "Text after rendering",
+        "reason": "the rendered page reported no content words to compare against"
+      },
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "The bounded crawl found no possible application entry within 4 hops (15 pages crawled). That does not establish that this check is inapplicable or that the service has no online application."
+      }
+    ],
+    "LAS_report": "scans/07/LAS.html",
+    "structural_report": "scans/07/structural.html"
+  },
+  {
+    "id": "08",
+    "label": "Orleans Brandao",
+    "url": "https://orleansbrandao.com.br/",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "zero-word original extraction",
+    "original_fetched_at": "2026-08-31T22:06:02+00:00",
+    "original_http_status": "200",
+    "original_body_words": "0",
+    "original_pdf_links": "0",
+    "run_id": "residential-1789375102",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:39:14.272538+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://orleansbrandao.com.br/",
+    "fresh_body_words": 0,
+    "raw_region_words": 0,
+    "rendered_visible_region_words": 69,
+    "rendered_document_region_words": 294,
+    "inspected_region": {
+      "rendered": "body-minus-chrome",
+      "served": "body-minus-chrome"
+    },
+    "initial_region_words": null,
+    "rendered_region_words": null,
+    "rendered_added_words": null,
+    "rendered_removed_words": null,
+    "hidden_region_words": 225,
+    "click_state": "not_applicable",
+    "pdf_state": "not_applicable",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [],
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Initial page text",
+        "reason": "served and rendered requests ended at different URLs"
+      },
+      {
+        "title": "Text after rendering",
+        "reason": "served and rendered requests ended at different URLs"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (6 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "LAS_report": "scans/08/LAS.html",
+    "structural_report": "scans/08/structural.html"
+  },
+  {
+    "id": "09",
+    "label": "Paula Belmonte",
+    "url": "https://www.paulabelmonte.com.br",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "recorded bot challenge",
+    "original_fetched_at": "2026-08-31T23:22:49+00:00",
+    "original_http_status": "403",
+    "original_body_words": "0",
+    "original_pdf_links": "0",
+    "run_id": "residential-1789375145",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:39:38.771715+00:00",
+    "fresh_http_status": 403,
+    "fresh_final_url": "https://www.paulabelmonte.com.br/",
+    "fresh_body_words": 0,
+    "raw_region_words": 0,
+    "rendered_visible_region_words": null,
+    "rendered_document_region_words": null,
+    "inspected_region": null,
+    "initial_region_words": null,
+    "rendered_region_words": null,
+    "rendered_added_words": null,
+    "rendered_removed_words": null,
+    "hidden_region_words": null,
+    "click_state": "not_measured",
+    "pdf_state": "not_measured",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [],
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Initial page text",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Text after rendering",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Hidden text",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Content behind a click",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Linked PDFs",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Application route",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    ],
+    "LAS_report": "scans/09/LAS.html",
+    "structural_report": "scans/09/structural.html"
+  },
+  {
+    "id": "10",
+    "label": "NOVO candidate listing",
+    "url": "https://novo.org.br/noticias/candidatos-partido-novo-2026-veja-a-lista/",
+    "source_file": "data/party-coverage-tiered.csv",
+    "selection_reason": "shared party-hosted candidacy evidence",
+    "original_fetched_at": null,
+    "original_http_status": null,
+    "original_body_words": null,
+    "original_pdf_links": null,
+    "run_id": "residential-1789375156",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:41:51.994219+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://novo.org.br/noticias/candidatos-partido-novo-2026-veja-a-lista/",
+    "fresh_body_words": 5868,
+    "raw_region_words": 205,
+    "rendered_visible_region_words": 70,
+    "rendered_document_region_words": 70,
+    "inspected_region": {
+      "rendered": "article",
+      "served": "article"
+    },
+    "initial_region_words": 205,
+    "rendered_region_words": 70,
+    "rendered_added_words": 0,
+    "rendered_removed_words": 135,
+    "hidden_region_words": 0,
+    "click_state": "not_measured",
+    "pdf_state": "not_applicable",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [],
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "the crawl reached its budget of 40 pages before exploring every path, so no statement about depth can be made (897 links were left unfollowed)"
+      }
+    ],
+    "LAS_report": "scans/10/LAS.html",
+    "structural_report": "scans/10/structural.html"
+  },
+  {
+    "id": "11",
+    "label": "PCO candidate listing",
+    "url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+    "source_file": "data/party-coverage-tiered.csv",
+    "selection_reason": "second party-hosted candidacy article",
+    "original_fetched_at": null,
+    "original_http_status": null,
+    "original_body_words": null,
+    "original_pdf_links": null,
+    "run_id": "residential-1789375180",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:41:34.880657+00:00",
+    "fresh_http_status": 200,
+    "fresh_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+    "fresh_body_words": 871,
+    "raw_region_words": 538,
+    "rendered_visible_region_words": 526,
+    "rendered_document_region_words": 538,
+    "inspected_region": {
+      "rendered": "main",
+      "served": "main"
+    },
+    "initial_region_words": 538,
+    "rendered_region_words": 538,
+    "rendered_added_words": 0,
+    "rendered_removed_words": 0,
+    "hidden_region_words": 12,
+    "click_state": "not_measured",
+    "pdf_state": "not_applicable",
+    "application_route_state": "clear",
+    "sampled_pdfs": [],
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      }
+    ],
+    "LAS_report": "scans/11/LAS.html",
+    "structural_report": "scans/11/structural.html"
+  },
+  {
+    "id": "12",
+    "label": "Eduardo Riedel communities page",
+    "url": "https://site.eduardoriedel.com.br/COMUNIDADES/",
+    "source_file": "data/sweep/sweep-results.csv",
+    "selection_reason": "recorded HTTP 404; tests failure reporting",
+    "original_fetched_at": "2026-08-31T23:21:07+00:00",
+    "original_http_status": "404",
+    "original_body_words": "44",
+    "original_pdf_links": "0",
+    "run_id": "residential-1789375296",
+    "vantage": "residential, Lisbon",
+    "scan_finished_utc": "2026-09-14T08:42:30.405225+00:00",
+    "fresh_http_status": 404,
+    "fresh_final_url": "https://site.eduardoriedel.com.br/COMUNIDADES/",
+    "fresh_body_words": 44,
+    "raw_region_words": 44,
+    "rendered_visible_region_words": null,
+    "rendered_document_region_words": null,
+    "inspected_region": null,
+    "initial_region_words": null,
+    "rendered_region_words": null,
+    "rendered_added_words": null,
+    "rendered_removed_words": null,
+    "hidden_region_words": null,
+    "click_state": "not_measured",
+    "pdf_state": "not_measured",
+    "application_route_state": "not_measured",
+    "sampled_pdfs": [],
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Initial page text",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Text after rendering",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Hidden text",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Content behind a click",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Linked PDFs",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Application route",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    ],
+    "LAS_report": "scans/12/LAS.html",
+    "structural_report": "scans/12/structural.html"
+  }
+]

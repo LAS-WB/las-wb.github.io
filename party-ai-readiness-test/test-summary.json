@@ -1,0 +1,25 @@
+{
+  "complete_scans": 12,
+  "reports": 24,
+  "warning_counts": {
+    "Text is hidden from view.": 5
+  },
+  "click_states": {
+    "not_measured": 11,
+    "not_applicable": 1
+  },
+  "pdf_states": {
+    "not_applicable": 9,
+    "detected": 1,
+    "not_measured": 2
+  },
+  "route_states": {
+    "not_measured": 11,
+    "clear": 1
+  },
+  "http_statuses": {
+    "200": 10,
+    "403": 1,
+    "404": 1
+  }
+}

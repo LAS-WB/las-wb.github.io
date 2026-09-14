@@ -1,0 +1,32 @@
+{
+  "id": "08",
+  "label": "Orleans Brandao",
+  "url": "https://orleansbrandao.com.br/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:38:20.155512+00:00",
+  "state": "complete",
+  "run_id": "residential-1789375102",
+  "elapsed_seconds": 52,
+  "profile_sha256": "1aaff98c3f125a7d28d1b4d903ba46f85e394dfb2902e0b8d1485a0f0e051aac",
+  "findings": [
+    "Text is hidden from view."
+  ],
+  "gaps": [
+    {
+      "title": "Initial page text",
+      "reason": "served and rendered requests ended at different URLs"
+    },
+    {
+      "title": "Text after rendering",
+      "reason": "served and rendered requests ended at different URLs"
+    },
+    {
+      "title": "Application route",
+      "reason": "1 page attempt(s) failed during the crawl (6 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "profile": "scans/08/profile.json",
+  "LAS_report": "scans/08/LAS.html",
+  "structural_report": "scans/08/structural.html",
+  "finished_utc": "2026-09-14T08:39:14.272538+00:00"
+}

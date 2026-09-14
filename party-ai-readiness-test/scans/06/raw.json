@@ -1,0 +1,708 @@
+{
+  "country": "Renan Filho",
+  "vantage": "residential, Lisbon",
+  "run_id": "residential-1789374984",
+  "homepage": "https://renanfilhodealagoas.com.br/",
+  "service": "https://renanfilhodealagoas.com.br/",
+  "pillars_run": [
+    "D",
+    "L",
+    "N",
+    "O",
+    "T"
+  ],
+  "measured_on": "service page",
+  "content_reached": true,
+  "t1_injection": {
+    "csp": false,
+    "third_party_scripts": 3,
+    "hidden_text_nodes": 45,
+    "injection_hits": []
+  },
+  "pdf_analyses": [],
+  "reveal_probe": {
+    "pressed": 0,
+    "controls": 0,
+    "blocked_requests": [],
+    "blocked_on_load": [
+      {
+        "method": "POST",
+        "url": "https://renanfilhodealagoas.com.br/sistema/lgpd.php"
+      }
+    ],
+    "navigated": false,
+    "words_before": 154,
+    "words_after": null,
+    "doc_before": 289,
+    "doc_after": null,
+    "presses": [],
+    "control_doc_before": null,
+    "control_doc_after": null,
+    "service_workers": "blocked",
+    "press_limit": 20,
+    "eligible_controls": [],
+    "scope": "body-minus-chrome",
+    "census_before": {
+      "totalNodes": 842,
+      "scannedNodes": 842,
+      "nodeLimit": 8000,
+      "truncated": false,
+      "duplicateWordsExcluded": 109,
+      "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+    }
+  },
+  "depth_probe": {
+    "depth": null,
+    "entry": null,
+    "pages_crawled": 11,
+    "pages_failed": 0,
+    "hops": 4,
+    "budget": 40,
+    "exhausted": false,
+    "frontier_left": 0,
+    "external_entry": null,
+    "external_candidates": [],
+    "failed_urls": [],
+    "pruned_links": [],
+    "redirects": [],
+    "possible_routes": [],
+    "confirmed_routes": [],
+    "self_entry": null,
+    "reason": null,
+    "minimum_depth_confirmed": false,
+    "coverage_complete": false
+  },
+  "L_checks": [
+    {
+      "id": "L3",
+      "name": "Structured data",
+      "value": 0.0,
+      "result": "No structured data for AI to extract facts from.",
+      "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+    },
+    {
+      "id": "L4",
+      "name": "Shows when it was updated",
+      "value": 0.0,
+      "result": "No 'last updated' date, so AI can't tell if it's current.",
+      "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+    },
+    {
+      "id": "L5",
+      "name": "Guidance in the page, not a PDF",
+      "value": 1.0,
+      "result": "Guidance is on the page itself, not locked in PDFs.",
+      "fix": "Keep publishing guidance as HTML."
+    },
+    {
+      "id": "L7",
+      "name": "Answer-friendly layout",
+      "value": 0.5,
+      "result": "Some structure, but key facts are mostly in prose.",
+      "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+    }
+  ],
+  "L_observations": [
+    {
+      "id": "Lang",
+      "name": "Language coverage",
+      "detail": "Declares its language ('pt-br') but offers no other-language version.",
+      "fix": ""
+    }
+  ],
+  "O_checks": [
+    {
+      "id": "OB-script",
+      "name": "Rendered extraction contains more words than served HTML",
+      "state": "clear",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Within the recorded the main content extraction scopes, the rendered/served word addition share is 12% (34 added; 255 matching), below this candidate check's threshold.",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://renanfilhodealagoas.com.br/",
+        "rendered_final_url": "https://renanfilhodealagoas.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "body-minus-chrome",
+          "served": "body-minus-chrome"
+        },
+        "basis": "main",
+        "rendered_words": 289,
+        "served_words": 305,
+        "matching_words": 255,
+        "added_words": 34,
+        "removed_words": 50,
+        "script_only_words": 34,
+        "share": 0.1176,
+        "word_difference": 34,
+        "rendered_difference_percent": 12,
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-hidden",
+      "name": "Text in the assessed region is hidden by a recorded mechanism",
+      "state": "detected",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "The assessed region contains 113 document words hidden by the recorded mechanisms — opacity:0 (89 words), offscreen (24 words); 176 words are visible. Accessibility-tree exclusion is recorded separately (0 words). This census does not establish that the hidden text is service guidance.",
+      "evidence": {
+        "hidden_words": 113,
+        "mechanisms": {
+          "offscreen": 24,
+          "opacity:0": 89
+        },
+        "scope": "body-minus-chrome",
+        "visible_words": 176,
+        "document_words": 289,
+        "sample": "Inicial Notícias Downloads Contato Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo 2010 — O deputado federal mais votado Chegada ao Congresso Nacional 140 mil votos abriram caminho para uma nova etapa. Deputado federal mais votado de Alagoas Representação nacional do estado 2014 — O governador mais jovem da história de Alagoas Um novo ciclo para o estado Alagoas começava uma nova fase. Eleição para governador Mais jovem governador da história do estado 2022 — Ministério dos Transportes A experiência construída em Alagoas ganhou dimensão nacional. Do estado para o país - O desafio nacional Infraestrutura e desenvolvimento Conectar o Brasil",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 838,
+          "scannedNodes": 838,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 109,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-click",
+      "name": "Document text increased after disclosure controls were pressed",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "pressed": 0,
+        "controls": 0,
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://renanfilhodealagoas.com.br/sistema/lgpd.php"
+          }
+        ],
+        "navigated": false,
+        "words_before": 154,
+        "words_after": null,
+        "doc_before": 289,
+        "doc_after": null,
+        "presses": [],
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "service_workers": "blocked",
+        "press_limit": 20,
+        "eligible_controls": [],
+        "scope": "body-minus-chrome",
+        "census_before": {
+          "totalNodes": 842,
+          "scannedNodes": 842,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 109,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-pdf",
+      "name": "Linked PDF extraction properties",
+      "state": "not_applicable",
+      "severity": null,
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "No PDF is linked from the main content.",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "applicability_reason": "no PDF is linked from the assessed region",
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-depth",
+      "name": "Confirmed minimum application-route depth",
+      "state": "not_measured",
+      "severity": "red",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: The bounded crawl found no possible application entry within 4 hops (11 pages crawled). That does not establish that this check is inapplicable or that the service has no online application.",
+      "evidence": {
+        "depth": null,
+        "entry": null,
+        "pages_crawled": 11,
+        "pages_failed": 0,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_entry": null,
+        "external_candidates": [],
+        "failed_urls": [],
+        "pruned_links": [],
+        "redirects": [],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "self_entry": null,
+        "reason": "The bounded crawl found no possible application entry within 4 hops (11 pages crawled). That does not establish that this check is inapplicable or that the service has no online application.",
+        "minimum_depth_confirmed": false,
+        "coverage_complete": false
+      },
+      "fix": "",
+      "study": null
+    }
+  ],
+  "future_items": [
+    {
+      "name": "Machine-readable API",
+      "present": false,
+      "state": "none"
+    },
+    {
+      "name": "Sign-in standard (OIDC)",
+      "present": false
+    },
+    {
+      "name": "llms.txt",
+      "present": false
+    },
+    {
+      "name": "AGENTS.md",
+      "present": false
+    },
+    {
+      "name": "Agent card",
+      "present": false
+    },
+    {
+      "name": "MCP endpoint",
+      "present": false
+    }
+  ],
+  "injection": {
+    "measured": true,
+    "csp": false,
+    "third_party_scripts": 3,
+    "flagged": 0,
+    "flags": []
+  },
+  "reach_home": {
+    "url": "https://renanfilhodealagoas.com.br/",
+    "matrix": {
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 402,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 402,
+      "error": "",
+      "status": 200,
+      "final_url": "https://renanfilhodealagoas.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 402,
+      "raw_main_words": 305,
+      "raw_main_scope": "body-minus-chrome",
+      "raw_main_text": "Inicial Notícias Downloads Contato Pra fazer história de novo Conheça Minha Trajetória 2004 - Prefeitura de Murici O início da caminhada 25 anos. Primeiro mandato. Eleição como prefeito de Murici Um dos prefeitos mais jovens do estado Início da trajetória pública Leia mais 2010 — O deputado federal mais votado Chegada ao Congresso Nacional 140 mil votos abriram caminho para uma nova etapa. Deputado federal mais votado de Alagoas Representação nacional do estado 2014 — O governador mais jovem da história de Alagoas Um novo ciclo para o estado Alagoas começava uma nova fase. Eleição para governador Mais jovem governador da história do estado 2022 — Ministério dos Transportes A experiência construída em Alagoas ganhou dimensão nacional. Do estado para o país - O desafio nacional Infraestrutura e desenvolvimento Conectar o Brasil O futuro A próxima etapa da caminhada O caminho percorrido fortalece a experiência. Os desafios renovam a motivação. O futuro chama. estrada Penedo–Neópolis: unindo caminhos, impulsionando o futuro Uma obra histórica que fortalece a integração entre Alagoas e Sergipe, gera desenvolvimento e transforma a vida de milhares de pessoas. O que durante anos foi promessa agora ganha forma: uma estrada que aproxima estados, movimenta a economia e conecta oportunidades para toda a região. Últimas Notícias Renan Filho: duplicação da BR-104 é a obra mais transformadora da região Mar de gente: Mata Grande faz caminhada histórica com Renan Filho MDB apresenta “chapa de peso” ao Senado, diz Renan Filho sobre pré-candidatura de Dr. Wanderley Ponte Penedo–Neópolis: unindo caminhos, impulsionando o futuro O que durante anos foi promessa agora ganha forma: uma ponte que aproxima estados, movimenta a economia e conecta oportunidades para toda a região. Leve o Renan Filho pra sua conversa Usamos cookies para proporcionar melhor desempenho e experiência de navegação. Ao continuar navegando neste site, você declara estar ciente dessas condições. Concordo",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 93,
+      "final_url": "https://renanfilhodealagoas.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:36:27 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "",
+      "lang": "pt-br",
+      "hreflang": [],
+      "lists": 1,
+      "tables": 0,
+      "dls": 0,
+      "words": 402,
+      "text_head": "INICIAL\nÚLTIMAS NOTÍCIAS\nDOWNLOADS\nINICIAL\nNOTÍCIAS\nDOWNLOADS\nCONTATO\nPra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo\nPra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo\nCONHEÇA MINHA TRAJETÓRIA\n2004 - PREFEITURA DE MURICI\nO INÍCIO DA CAMINHADA\n\n25 anos. Primeiro mandato.\n\nEleição como prefeito de Murici\n\nUm dos prefeitos mais jovens do estado\n\nInício da trajetória pública\n\nLeia mais\n\n2010 — O DEPUTADO FEDERAL MAIS VOTADO\nCHEGADA AO CONGRESSO NACIONAL\n\n140 mil votos abriram caminho para uma nova etapa.\n\nDeputado federal mais votado de Alagoas\n\nRepresentação nacional do estado\n\nLeia mais\n\n2014 — O GOVERNADOR MAIS JOVEM DA HISTÓRIA DE ALAGOAS\nUM NOVO CICLO PARA O ESTADO\n\nAlagoas começava uma nova fase.\n\nEleição para governador\n\nMais jovem governador da história do estado\n\nLeia mais\n\n2022 — MINISTÉRIO DOS TRANSPORTES\nA EXPERIÊNCIA CONSTRUÍDA EM ALAGOAS GANHOU DIMENSÃO NACIONAL.\n\nDo estado para o país - O desafio nacional\n\nInfraestrutura e desenvolvimento\n\nConectar o Brasil\n\nLeia mais\n\nO FUTURO\nA PRÓXIMA ETAPA DA CAMINHADA\nO caminho percorrido fortalece a experiência. Os desafios renovam a motivação. O futuro chama.\nESTRADA PENEDO–NEÓPOLIS: UNINDO CAMINHOS, IMPULSIONANDO O FUTURO\nUMA OBRA HISTÓRICA QUE FORTALECE A INTEGRAÇÃO ENTRE ALAGOAS E SERGIPE, GERA DESENVOLVIMENTO E TRANSFORMA A VIDA DE MILHARES DE PESSOAS.\nO que durante anos foi promessa agora ganha forma: uma estrada que aproxima estados, movimenta a economia e conecta oportunidades para toda a região.\nÚLTIMAS NOTÍCIAS\nRenan Filho: duplicação da BR-104 é a obra mais transformadora da região\nMar de gente: Mata Grande faz caminhada histórica com Renan Filho\nMDB apresenta “chapa de peso” ao Senado, diz Renan Filho sobre pré-candidatura de Dr. Wanderley\nPONTE PENEDO–NEÓPOLIS: UNINDO CAMINHOS, IMPULSIONANDO O FUTURO\nUMA OBRA HISTÓRICA QUE FORTALECE A INTEGRAÇÃO ENTRE ALAGOAS E SERGIPE, GERA DESENVOLVIMENTO E TRANSFORMA A VIDA DE MILHARES DE PESSOAS.\nO que durante anos foi promessa agora ganha forma: uma ponte que aproxima estados, movimenta a economia e conecta oportunidades para toda a região.\nLEVE O RENAN FILHO PRA SUA CONVERSA\n\nDownloads\n\n \n \n \n \n \n\nUsamos cookies para proporcionar melhor desempenho e experiência de navegação. Ao continuar navegando neste site, você declara estar ciente dessas condições.\n\nConcordo",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 11,
+      "internalPaths": [
+        "/inicial",
+        "/noticias",
+        "/downloads",
+        "/trajetoria/prefeito-de-murici",
+        "/trajetoria/deputado-federal",
+        "/trajetoria/governador-de-alagoas",
+        "/trajetoria/ministro-dos-transportes",
+        "/post/renan-filho-duplicacao-da-br-104-e-a-obra-mais-transformadora-da-regiao",
+        "/post/mar-de-gente-mata-grande-faz-caminhada-historica-com-renan-filho",
+        "/post/mdb-apresenta-chapa-de-peso-ao-senado-diz-renan-filho-sobre-pre-candidatura-de-dr-wanderley",
+        "/"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 3,
+      "labeledInputs": 0,
+      "pdfLinks": 0,
+      "pdfUrls": [],
+      "mainScope": "body-minus-chrome",
+      "mainWords": 176,
+      "mainDocWords": 289,
+      "mainText": "Inicial Notícias Downloads Contato Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Conheça Minha Trajetória 2004 - Prefeitura de Murici O início da caminhada 25 anos. Primeiro mandato. Eleição como prefeito de Murici Um dos prefeitos mais jovens do estado Início da trajetória pública Leia mais 2010 — O deputado federal mais votado Chegada ao Congresso Nacional 140 mil votos abriram caminho para uma nova etapa. Deputado federal mais votado de Alagoas Representação nacional do estado 2014 — O governador mais jovem da história de Alagoas Um novo ciclo para o estado Alagoas começava uma nova fase. Eleição para governador Mais jovem governador da história do estado 2022 — Ministério dos Transportes A experiência construída em Alagoas ganhou dimensão nacional. Do estado para o país - O desafio nacional Infraestrutura e desenvolvimento Conectar o Brasil O futuro A próxima etapa da caminhada caminho percorrido fortalece experiência. Os desafios renovam motivação. O chama. estrada Penedo–Neópolis: unindo caminhos, impulsionando Uma obra histórica que integração entre Alagoas e Sergipe, gera desenvolvimento transforma vida de milhares pessoas. durante anos foi promessa agora ganha forma: aproxima estados, movimenta economia conecta oportunidades para toda região. Últimas Renan Filho: duplicação da BR-104 é a obra mais transformadora da região Mar de gente: Mata Grande faz caminhada histórica com Renan Filho MDB apresenta “chapa de peso” ao Senado, diz Renan Filho sobre pré-candidatura de Dr. Wanderley Ponte Leve Renan Filho pra sua conversa Usamos cookies para proporcionar melhor desempenho e experiência de navegação. Ao continuar navegando neste site, você declara estar ciente dessas condições. Concordo",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 665,
+        "scannedNodes": 665,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 109,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 113,
+        "mechanisms": {
+          "offscreen": 24,
+          "opacity:0": 89
+        },
+        "sample": "Inicial Notícias Downloads Contato Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo 2010 — O deputado federal mais votado Chegada ao Congresso Nacional 140 mil votos abriram caminho para uma nova etapa. Deputado federal mais votado de Alagoas Representação nacional do estado 2014 — O governador mais jovem da história de Alagoas Um novo ciclo para o estado Alagoas começava uma nova fase. Eleição para governador Mais jovem governador da história do estado 2022 — Ministério dos Transportes A experiência construída em Alagoas ganhou dimensão nacional. Do estado para o país - O desafio nacional Infraestrutura e desenvolvimento Conectar o Brasil",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo",
+        "Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo",
+        "Conheça Minha Trajetória",
+        "2004 - Prefeitura de Murici",
+        "2010 — O deputado federal mais votado",
+        "2014 — O governador mais jovem da história de Alagoas",
+        "2022 — Ministério dos Transportes",
+        "O futuro",
+        "A próxima etapa da caminhada",
+        "estrada Penedo–Neópolis: unindo caminhos, impulsionando o futuro",
+        "Uma obra histórica que fortalece a integração entre Alagoas e Sergipe, gera desenvolvimento e transforma a vida de milhares de pessoas.",
+        "Últimas Notícias",
+        "Renan Filho - Alagoas"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 3,
+      "thirdPartyOrigins": [
+        "https://cdn.jsdelivr.net",
+        "https://unpkg.com",
+        "https://cdnjs.cloudflare.com"
+      ],
+      "hiddenTextNodes": 45,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  },
+  "reach_service": {
+    "url": "https://renanfilhodealagoas.com.br/",
+    "matrix": {
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 402,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 402,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 402,
+      "error": "",
+      "status": 200,
+      "final_url": "https://renanfilhodealagoas.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 402,
+      "raw_main_words": 305,
+      "raw_main_scope": "body-minus-chrome",
+      "raw_main_text": "Inicial Notícias Downloads Contato Pra fazer história de novo Conheça Minha Trajetória 2004 - Prefeitura de Murici O início da caminhada 25 anos. Primeiro mandato. Eleição como prefeito de Murici Um dos prefeitos mais jovens do estado Início da trajetória pública Leia mais 2010 — O deputado federal mais votado Chegada ao Congresso Nacional 140 mil votos abriram caminho para uma nova etapa. Deputado federal mais votado de Alagoas Representação nacional do estado 2014 — O governador mais jovem da história de Alagoas Um novo ciclo para o estado Alagoas começava uma nova fase. Eleição para governador Mais jovem governador da história do estado 2022 — Ministério dos Transportes A experiência construída em Alagoas ganhou dimensão nacional. Do estado para o país - O desafio nacional Infraestrutura e desenvolvimento Conectar o Brasil O futuro A próxima etapa da caminhada O caminho percorrido fortalece a experiência. Os desafios renovam a motivação. O futuro chama. estrada Penedo–Neópolis: unindo caminhos, impulsionando o futuro Uma obra histórica que fortalece a integração entre Alagoas e Sergipe, gera desenvolvimento e transforma a vida de milhares de pessoas. O que durante anos foi promessa agora ganha forma: uma estrada que aproxima estados, movimenta a economia e conecta oportunidades para toda a região. Últimas Notícias Renan Filho: duplicação da BR-104 é a obra mais transformadora da região Mar de gente: Mata Grande faz caminhada histórica com Renan Filho MDB apresenta “chapa de peso” ao Senado, diz Renan Filho sobre pré-candidatura de Dr. Wanderley Ponte Penedo–Neópolis: unindo caminhos, impulsionando o futuro O que durante anos foi promessa agora ganha forma: uma ponte que aproxima estados, movimenta a economia e conecta oportunidades para toda a região. Leve o Renan Filho pra sua conversa Usamos cookies para proporcionar melhor desempenho e experiência de navegação. Ao continuar navegando neste site, você declara estar ciente dessas condições. Concordo",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 93,
+      "final_url": "https://renanfilhodealagoas.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:36:56 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "",
+      "lang": "pt-br",
+      "hreflang": [],
+      "lists": 1,
+      "tables": 0,
+      "dls": 0,
+      "words": 402,
+      "text_head": "INICIAL\nÚLTIMAS NOTÍCIAS\nDOWNLOADS\nINICIAL\nNOTÍCIAS\nDOWNLOADS\nCONTATO\nPra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo\nPra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo\nCONHEÇA MINHA TRAJETÓRIA\n2004 - PREFEITURA DE MURICI\nO INÍCIO DA CAMINHADA\n\n25 anos. Primeiro mandato.\n\nEleição como prefeito de Murici\n\nUm dos prefeitos mais jovens do estado\n\nInício da trajetória pública\n\nLeia mais\n\n2010 — O DEPUTADO FEDERAL MAIS VOTADO\nCHEGADA AO CONGRESSO NACIONAL\n\n140 mil votos abriram caminho para uma nova etapa.\n\nDeputado federal mais votado de Alagoas\n\nRepresentação nacional do estado\n\nLeia mais\n\n2014 — O GOVERNADOR MAIS JOVEM DA HISTÓRIA DE ALAGOAS\nUM NOVO CICLO PARA O ESTADO\n\nAlagoas começava uma nova fase.\n\nEleição para governador\n\nMais jovem governador da história do estado\n\nLeia mais\n\n2022 — MINISTÉRIO DOS TRANSPORTES\nA EXPERIÊNCIA CONSTRUÍDA EM ALAGOAS GANHOU DIMENSÃO NACIONAL.\n\nDo estado para o país - O desafio nacional\n\nInfraestrutura e desenvolvimento\n\nConectar o Brasil\n\nLeia mais\n\nO FUTURO\nA PRÓXIMA ETAPA DA CAMINHADA\nO caminho percorrido fortalece a experiência. Os desafios renovam a motivação. O futuro chama.\nESTRADA PENEDO–NEÓPOLIS: UNINDO CAMINHOS, IMPULSIONANDO O FUTURO\nUMA OBRA HISTÓRICA QUE FORTALECE A INTEGRAÇÃO ENTRE ALAGOAS E SERGIPE, GERA DESENVOLVIMENTO E TRANSFORMA A VIDA DE MILHARES DE PESSOAS.\nO que durante anos foi promessa agora ganha forma: uma estrada que aproxima estados, movimenta a economia e conecta oportunidades para toda a região.\nÚLTIMAS NOTÍCIAS\nRenan Filho: duplicação da BR-104 é a obra mais transformadora da região\nMar de gente: Mata Grande faz caminhada histórica com Renan Filho\nMDB apresenta “chapa de peso” ao Senado, diz Renan Filho sobre pré-candidatura de Dr. Wanderley\nPONTE PENEDO–NEÓPOLIS: UNINDO CAMINHOS, IMPULSIONANDO O FUTURO\nUMA OBRA HISTÓRICA QUE FORTALECE A INTEGRAÇÃO ENTRE ALAGOAS E SERGIPE, GERA DESENVOLVIMENTO E TRANSFORMA A VIDA DE MILHARES DE PESSOAS.\nO que durante anos foi promessa agora ganha forma: uma ponte que aproxima estados, movimenta a economia e conecta oportunidades para toda a região.\nLEVE O RENAN FILHO PRA SUA CONVERSA\n\nDownloads\n\n \n \n \n \n \n\nUsamos cookies para proporcionar melhor desempenho e experiência de navegação. Ao continuar navegando neste site, você declara estar ciente dessas condições.\n\nConcordo",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 11,
+      "internalPaths": [
+        "/inicial",
+        "/noticias",
+        "/downloads",
+        "/trajetoria/prefeito-de-murici",
+        "/trajetoria/deputado-federal",
+        "/trajetoria/governador-de-alagoas",
+        "/trajetoria/ministro-dos-transportes",
+        "/post/renan-filho-duplicacao-da-br-104-e-a-obra-mais-transformadora-da-regiao",
+        "/post/mar-de-gente-mata-grande-faz-caminhada-historica-com-renan-filho",
+        "/post/mdb-apresenta-chapa-de-peso-ao-senado-diz-renan-filho-sobre-pre-candidatura-de-dr-wanderley",
+        "/"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 3,
+      "labeledInputs": 0,
+      "pdfLinks": 0,
+      "pdfUrls": [],
+      "mainScope": "body-minus-chrome",
+      "mainWords": 176,
+      "mainDocWords": 289,
+      "mainText": "Inicial Notícias Downloads Contato Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Conheça Minha Trajetória 2004 - Prefeitura de Murici O início da caminhada 25 anos. Primeiro mandato. Eleição como prefeito de Murici Um dos prefeitos mais jovens do estado Início da trajetória pública Leia mais 2010 — O deputado federal mais votado Chegada ao Congresso Nacional 140 mil votos abriram caminho para uma nova etapa. Deputado federal mais votado de Alagoas Representação nacional do estado 2014 — O governador mais jovem da história de Alagoas Um novo ciclo para o estado Alagoas começava uma nova fase. Eleição para governador Mais jovem governador da história do estado 2022 — Ministério dos Transportes A experiência construída em Alagoas ganhou dimensão nacional. Do estado para o país - O desafio nacional Infraestrutura e desenvolvimento Conectar o Brasil O futuro A próxima etapa da caminhada caminho percorrido fortalece experiência. Os desafios renovam motivação. O chama. estrada Penedo–Neópolis: unindo caminhos, impulsionando Uma obra histórica que integração entre Alagoas e Sergipe, gera desenvolvimento transforma vida de milhares pessoas. durante anos foi promessa agora ganha forma: aproxima estados, movimenta economia conecta oportunidades para toda região. Últimas Renan Filho: duplicação da BR-104 é a obra mais transformadora da região Mar de gente: Mata Grande faz caminhada histórica com Renan Filho MDB apresenta “chapa de peso” ao Senado, diz Renan Filho sobre pré-candidatura de Dr. Wanderley Ponte Leve Renan Filho pra sua conversa Usamos cookies para proporcionar melhor desempenho e experiência de navegação. Ao continuar navegando neste site, você declara estar ciente dessas condições. Concordo",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 838,
+        "scannedNodes": 838,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 109,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 113,
+        "mechanisms": {
+          "offscreen": 24,
+          "opacity:0": 89
+        },
+        "sample": "Inicial Notícias Downloads Contato Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo 2010 — O deputado federal mais votado Chegada ao Congresso Nacional 140 mil votos abriram caminho para uma nova etapa. Deputado federal mais votado de Alagoas Representação nacional do estado 2014 — O governador mais jovem da história de Alagoas Um novo ciclo para o estado Alagoas começava uma nova fase. Eleição para governador Mais jovem governador da história do estado 2022 — Ministério dos Transportes A experiência construída em Alagoas ganhou dimensão nacional. Do estado para o país - O desafio nacional Infraestrutura e desenvolvimento Conectar o Brasil",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo",
+        "Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo Pra fazer história de novo",
+        "Conheça Minha Trajetória",
+        "2004 - Prefeitura de Murici",
+        "2010 — O deputado federal mais votado",
+        "2014 — O governador mais jovem da história de Alagoas",
+        "2022 — Ministério dos Transportes",
+        "O futuro",
+        "A próxima etapa da caminhada",
+        "estrada Penedo–Neópolis: unindo caminhos, impulsionando o futuro",
+        "Uma obra histórica que fortalece a integração entre Alagoas e Sergipe, gera desenvolvimento e transforma a vida de milhares de pessoas.",
+        "Últimas Notícias",
+        "Renan Filho - Alagoas"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 3,
+      "thirdPartyOrigins": [
+        "https://cdn.jsdelivr.net",
+        "https://unpkg.com",
+        "https://cdnjs.cloudflare.com"
+      ],
+      "hiddenTextNodes": 45,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  }
+}

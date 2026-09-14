@@ -1,0 +1,948 @@
+{
+  "country": "Eduardo Riedel",
+  "vantage": "residential, Lisbon",
+  "run_id": "residential-1789374742",
+  "homepage": "https://eduardoriedel.com.br/",
+  "service": "https://eduardoriedel.com.br/",
+  "pillars_run": [
+    "D",
+    "L",
+    "N",
+    "O",
+    "T"
+  ],
+  "measured_on": "service page",
+  "content_reached": true,
+  "t1_injection": {
+    "csp": false,
+    "third_party_scripts": 3,
+    "hidden_text_nodes": 18,
+    "injection_hits": []
+  },
+  "pdf_analyses": [
+    {
+      "url": "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+      "fetched": true,
+      "status": 200,
+      "error": "",
+      "tagged": false,
+      "has_text": true,
+      "text_head": "COLIGAÇÃO: FAZENDO O FUTURO ACONTECER.             plano de governo é uma verdadeira bússola que \norienta o caminho para o futuro acalentado por diferentes \ngerações de sul-mato-grossenses, que agora toma forma \ne presença na vida das pessoas. É também uma legítima \n“Carta Compromisso”, onde se reescreve e se renova o \npacto de governança com a nossa sociedade organizada. \nNa última eleição, defendemos um Mato Grosso do \nSul Próspero – e ao fim do mandato entregamos um \ncrescimento quatro vezes superior ao nacional; Inclusivo \n– e a pobreza extrema reduziu-se a apenas 1,6% da \npopulação. O Estado Verde floresce da conciliação entre \ncrescimento e preservação ambiental, simbolizado pelo \nagro que mais cresce e que mais reduziu as emissões da \nagropecuária nos últimos 20 anos, e a aproximação da \ndesafiadora e definitiva fronteira para uma economia \ncarbono zero até 2030 (uma antecipação de 20 anos, \nem relação às metas da ONU); O Estado Digital – com \nmais de 700 serviços públicos disponíveis em sites ou \nsmartphones, na palma da mão -, também se incorporou \ndefinitivamente como parte das estruturas de diferentes \npolíticas públicas. O MS já é assim nas escolas, com \nlousas digitais, laboratórios de robótica e sinergia com \nplataformas internacionais provedoras de conhecimento; \nna telemedicina que conecta especialistas às demandas \ndos usuários do SUS e em sistema avançado e integrado \nde monitoramento e combate ao crime e aos impactos do \nclima, para ficar apenas em alguns poucos exemplos. \nSão esforços continuados e transformadores da nossa \nrealidade, que se adensam agora em cada uma das áreas \ndo nosso Governo, sintetizados na equação principal: \nCrescer, Incluir e Transformar. O conceito traduz o DNA \nde um governo que sabe que infelizmente não pôde fazer \ntudo que foi proposto; mas que não se conforma com o \nque não deu certo e precisa ser corrigido; e principalmente \nnão se acomoda no berço dos excepcionais resultados \nalcançados. Nos alimenta o ânimo, a ideia força que é \npreciso fazer muito mais, para que os nossos ativos vivos \ne potenciais ainda latentes floresçam em cada município. \nA verdadeira transformação só será plena quando \npudermos avançar, todos juntos, de mãos dadas, em \ndireção de um novo futuro.\nEduardo Riedel\nO 3\nMato Grosso do Sul vive um dos momentos mais promissores de sua história. Nos últimos anos, o Estado con-\nsolidou importantes avanços em equilíbrio fiscal, atração de investimentos, desenvolvimento econômico, inclusão \nsocial, infraestrutura, educação, saúde, segurança pública e sustentabilidade, construindo bases sólidas para um \nnovo ciclo de crescimento. Mais do que alcançar indicadores de destaque, Mato Grosso do Sul passou a ser reco-\nnhecido nacionalmente pela capacidade de planejar, executar e entregar políticas públicas com responsabilidade, \ninovação e visão de futuro.\nEsta postura incluiu clareza e coragem para reconhecer e enfrentar problemas estruturais que pontuam em \npraticamente todo o território n",
+      "title": "",
+      "pages": 44,
+      "bytes_read": 724999,
+      "byte_limit": 8000000,
+      "download_truncated": false,
+      "pages_sampled": 3,
+      "page_sample_limit": 3,
+      "page_sample_truncated": true,
+      "in_main": false,
+      "anchor": "",
+      "inspection_total": 1,
+      "inspection_limit": 4,
+      "inspection_truncated": false
+    }
+  ],
+  "reveal_probe": {
+    "pressed": 0,
+    "controls": 0,
+    "blocked_requests": [],
+    "blocked_on_load": [
+      {
+        "method": "POST",
+        "url": "https://y.clarity.ms/collect"
+      },
+      {
+        "method": "POST",
+        "url": "https://y.clarity.ms/collect"
+      },
+      {
+        "method": "POST",
+        "url": "https://y.clarity.ms/collect"
+      },
+      {
+        "method": "POST",
+        "url": "https://y.clarity.ms/collect"
+      }
+    ],
+    "navigated": false,
+    "words_before": 16,
+    "words_after": null,
+    "doc_before": 16,
+    "doc_after": null,
+    "presses": [],
+    "control_doc_before": null,
+    "control_doc_after": null,
+    "service_workers": "blocked",
+    "press_limit": 20,
+    "eligible_controls": [],
+    "scope": "article",
+    "census_before": {
+      "totalNodes": 6,
+      "scannedNodes": 6,
+      "nodeLimit": 8000,
+      "truncated": false,
+      "duplicateWordsExcluded": 0,
+      "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+    }
+  },
+  "depth_probe": {
+    "depth": null,
+    "entry": null,
+    "pages_crawled": 40,
+    "pages_failed": 1,
+    "hops": 4,
+    "budget": 40,
+    "exhausted": true,
+    "frontier_left": 19,
+    "external_entry": null,
+    "external_candidates": [],
+    "failed_urls": [
+      {
+        "url": "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+        "hop": 1,
+        "reason": "Error"
+      }
+    ],
+    "pruned_links": [
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/9",
+        "text": "«",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/8",
+        "text": "8",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/11",
+        "text": "11",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/12",
+        "text": "12",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/40",
+        "text": "40",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/19",
+        "text": "«",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/18",
+        "text": "18",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/21",
+        "text": "21",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/22",
+        "text": "22",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/50",
+        "text": "50",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/29",
+        "text": "«",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/28",
+        "text": "28",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/31",
+        "text": "31",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/32",
+        "text": "32",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/55",
+        "text": "«",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/52",
+        "text": "52",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/53",
+        "text": "53",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/noticias/page/54",
+        "text": "54",
+        "hop": 3
+      },
+      {
+        "url": "https://eduardoriedel.com.br/o-crescimento-precisa-caber-no-orcamento",
+        "text": "",
+        "hop": 3
+      }
+    ],
+    "redirects": [
+      {
+        "from": "https://www.eduardoriedel.com.br",
+        "to": "https://eduardoriedel.com.br/"
+      }
+    ],
+    "possible_routes": [],
+    "confirmed_routes": [],
+    "self_entry": null,
+    "reason": null,
+    "minimum_depth_confirmed": false,
+    "coverage_complete": false
+  },
+  "L_checks": [
+    {
+      "id": "L3",
+      "name": "Structured data",
+      "value": 1.0,
+      "result": "Service-specific structured data is present.",
+      "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+    },
+    {
+      "id": "L4",
+      "name": "Shows when it was updated",
+      "value": 1.0,
+      "result": "A machine-readable update date is published.",
+      "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+    },
+    {
+      "id": "L5",
+      "name": "Guidance in the page, not a PDF",
+      "value": 0.4,
+      "result": "Key guidance is in a PDF with a text layer but no tagging — only partly machine-readable.",
+      "fix": "Tag the PDF (or publish as HTML) so structure is machine-readable."
+    },
+    {
+      "id": "L7",
+      "name": "Answer-friendly layout",
+      "value": 0.5,
+      "result": "Some structure, but key facts are mostly in prose.",
+      "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+    }
+  ],
+  "L_observations": [
+    {
+      "id": "Lang",
+      "name": "Language coverage",
+      "detail": "Declares its language ('pt-BR') but offers no other-language version.",
+      "fix": ""
+    }
+  ],
+  "O_checks": [
+    {
+      "id": "OB-script",
+      "name": "Rendered extraction contains more words than served HTML",
+      "state": "clear",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Within the recorded the main content extraction scopes, the rendered/served word addition share is 0% (0 added; 16 matching), below this candidate check's threshold.",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://eduardoriedel.com.br/",
+        "rendered_final_url": "https://eduardoriedel.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "article",
+          "served": "article"
+        },
+        "basis": "main",
+        "rendered_words": 16,
+        "served_words": 81,
+        "matching_words": 16,
+        "added_words": 0,
+        "removed_words": 65,
+        "script_only_words": 0,
+        "share": 0.0,
+        "word_difference": 0,
+        "rendered_difference_percent": 0,
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-hidden",
+      "name": "Text in the assessed region is hidden by a recorded mechanism",
+      "state": "clear",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "No hidden text was recorded within this census's assessed region. Navigation, header, footer and dialog regions are outside its declared scope.",
+      "evidence": {
+        "hidden_words": 0,
+        "mechanisms": {},
+        "scope": "article",
+        "visible_words": 16,
+        "document_words": 16,
+        "sample": "",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 6,
+          "scannedNodes": 6,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-click",
+      "name": "Document text increased after disclosure controls were pressed",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "pressed": 0,
+        "controls": 0,
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://y.clarity.ms/collect"
+          },
+          {
+            "method": "POST",
+            "url": "https://y.clarity.ms/collect"
+          },
+          {
+            "method": "POST",
+            "url": "https://y.clarity.ms/collect"
+          },
+          {
+            "method": "POST",
+            "url": "https://y.clarity.ms/collect"
+          }
+        ],
+        "navigated": false,
+        "words_before": 16,
+        "words_after": null,
+        "doc_before": 16,
+        "doc_after": null,
+        "presses": [],
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "service_workers": "blocked",
+        "press_limit": 20,
+        "eligible_controls": [],
+        "scope": "article",
+        "census_before": {
+          "totalNodes": 6,
+          "scannedNodes": 6,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-pdf",
+      "name": "Linked PDF extraction properties",
+      "state": "not_applicable",
+      "severity": null,
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "No PDF is linked from the main content. (2 PDF link(s) elsewhere on the page, outside the main content.)",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 2,
+        "applicability_reason": "no PDF is linked from the assessed region",
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-depth",
+      "name": "Confirmed minimum application-route depth",
+      "state": "not_measured",
+      "severity": "red",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: 1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "depth": null,
+        "entry": null,
+        "pages_crawled": 40,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": true,
+        "frontier_left": 19,
+        "external_entry": null,
+        "external_candidates": [],
+        "failed_urls": [
+          {
+            "url": "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+            "hop": 1,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/9",
+            "text": "«",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/8",
+            "text": "8",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/11",
+            "text": "11",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/12",
+            "text": "12",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/40",
+            "text": "40",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/19",
+            "text": "«",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/18",
+            "text": "18",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/21",
+            "text": "21",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/22",
+            "text": "22",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/50",
+            "text": "50",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/29",
+            "text": "«",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/28",
+            "text": "28",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/31",
+            "text": "31",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/32",
+            "text": "32",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/55",
+            "text": "«",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/52",
+            "text": "52",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/53",
+            "text": "53",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/noticias/page/54",
+            "text": "54",
+            "hop": 3
+          },
+          {
+            "url": "https://eduardoriedel.com.br/o-crescimento-precisa-caber-no-orcamento",
+            "text": "",
+            "hop": 3
+          }
+        ],
+        "redirects": [
+          {
+            "from": "https://www.eduardoriedel.com.br",
+            "to": "https://eduardoriedel.com.br/"
+          }
+        ],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "self_entry": null,
+        "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+        "minimum_depth_confirmed": false,
+        "coverage_complete": false
+      },
+      "fix": "",
+      "study": null
+    }
+  ],
+  "future_items": [
+    {
+      "name": "Machine-readable API",
+      "present": false,
+      "state": "none"
+    },
+    {
+      "name": "Sign-in standard (OIDC)",
+      "present": false
+    },
+    {
+      "name": "llms.txt",
+      "present": false
+    },
+    {
+      "name": "AGENTS.md",
+      "present": false
+    },
+    {
+      "name": "Agent card",
+      "present": false
+    },
+    {
+      "name": "MCP endpoint",
+      "present": false
+    }
+  ],
+  "injection": {
+    "measured": true,
+    "csp": false,
+    "third_party_scripts": 3,
+    "flagged": 0,
+    "flags": []
+  },
+  "reach_home": {
+    "url": "https://eduardoriedel.com.br/",
+    "matrix": {
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 435,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 435,
+      "error": "",
+      "status": 200,
+      "final_url": "https://eduardoriedel.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 448,
+      "raw_main_words": 81,
+      "raw_main_scope": "article",
+      "raw_main_text": "Escola agrícola volta após 14 anos e simboliza investimentos estaduais em Aparecida do Taboado Leia mais Sabores, ciência e conservação abrem novos caminhos de renda no Pantanal Quando a escola procura quem falta, aumenta a chance de o aluno permanecer ‘Tolerância zero’: Riedel defende tornozeleira para agressores e reforço da rede contra feminicídios Mulheres chefiam quase metade das famílias de MS e ampliam espaço nos negócios Asfalto esperado há 47 anos começa a mudar o caminho de Brasilândia até Campo Grande",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 10,
+      "final_url": "https://eduardoriedel.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:32:34 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/\",\"url\":\"https:\\/\\/eduardoriedel.com.br\\/\",\"name\":\"Eduardo Riedel | Governador de Mato Grosso do Sul | Propostas\",\"isPartOf\":{\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/#website\"},\"datePublished\":\"2026-07-31T15:12:49+00:00\",\"dateModified\":\"2026-09-12T23:20:56+00:00\",\"description\":\"Acompanhe as agendas, notícias e compromissos do governador e candidato à reeleição, Eduardo Riedel, para o futuro de Mato Grosso do Sul.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/#breadcrumb\"},\"inLanguage\":\"pt-BR\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/eduardoriedel.com.br\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/#website\",\"url\":\"https:\\/\\/eduardoriedel.com.br\\/\",\"name\":\"Eduardo Riedel Governador\",\"description\":\"Vice: Barbosinha\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/eduardoriedel.com.br\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"pt-BR\"}]}",
+      "lang": "pt-BR",
+      "hreflang": [],
+      "lists": 5,
+      "tables": 0,
+      "dls": 0,
+      "words": 435,
+      "text_head": "Acessar o conteúdo\nAbrir a barra de ferramentas\n\nFerramentas de acessibilidade\n\nAumentar texto\nDiminuir texto\nEscala de cinza\nAlto contraste\nContraste negativo\nFundo claro\nLinks sublinhados\nLegibilidade da fonte\n Redefinir\nINÍCIO\nSOBRE\nAGENDA\nNOTÍCIAS\nCONQUISTAS DE MS\nPERSONALIZE SUA FOTO\nPLANO DE GOVERNO\nMS cresce 4x\nacima da média nacional\nR$ 81 bilhões\nem investimentos privados\n3ª menor taxa de\ndesocupação do país\n1º em mobilidade\nsocial do Brasil\nEDUARDO RIEDEL\n\nCarioca de nascimento, sul-mato-grossense de coração. Nascido no Rio de Janeiro, ele é fruto da mistura que define o estado: mãe sul-mato-grossense, pai carioca, avós sulistas, bisavós mineiros.\n\nFormou-se em Ciências Biológicas pela federal do Rio de Janeiro, fez mestrado em Zootecnia na UNESP e especializou-se em gestão pela FGV e em gestão estratégica pelo INSEAD, na França.\n\nAinda jovem, na vida universitária, conheceu Mônica, com quem é casado e tem dois filhos, Marcela e Rafael. Depois de assumir a fazenda da família, transformou o negócio em referência na produção sustentável, com uso de tecnologia. Este destaque o levou à presidência do Sindicato Rural de Maracaju e, depois, à da Famasul e à da CNA.\n\nEm 2015 iniciou a sua missão na vida pública ao assumir a Secretaria de Estado de Governo e Gestão Estratégica (Segov) no Governo de Mato Grosso do Sul. Com um papel importante no estado, foi escolhido para concorrer nas eleições de 2022, sendo eleito governador. A sua gestão de sucesso elevou o patamar de MS, que cresce acima da média nacional.\n\nFIQUE POR DENTRO\nNOTÍCIAS\nEscola agrícola volta após 14 anos e simboliza investimentos estaduais em Aparecida do Taboado\nLeia mais\nSabores, ciência e conservação abrem novos caminhos de renda no Pantanal\nLeia mais\nQuando a escola procura quem falta, aumenta a chance de o aluno permanecer\nLeia mais\n‘Tolerância zero’: Riedel defende tornozeleira para agressores e reforço da rede contra feminicídios\nLeia mais\nMulheres chefiam quase metade das famílias de MS e ampliam espaço nos negócios\nLeia mais\nAsfalto esperado há 47 anos começa a mudar o caminho de Brasilândia até Campo Grande\nLeia mais\nREDES\nFAÇA PARTE DO GRUPO DE WHATSAPP\nCONQUISTAS DE MS\nSaiba o que está acontecendo no seu município\n\nClique no mapa e fique por dentro!\n\nEXPLORE O MAPA\nPersonalize sua foto\nPERSONALIZE\nPLANO DE GOVERNO\nCrescer, incluir e transformar\nACESSE O PLANO DE GOVERNO\nFaça o download\nNAVEGAÇÃO\nInício\nSobre\nAgenda\nNotícias\nConquistas de MS\nPersonalize sua foto\nPlano de Governo\nCONTATO\ncontato@eduardoriedel.com.br\nSIGA NAS REDES\n      \n\n© 2026 Eduardo Riedel. Todos os direitos reservados.\n\nPolítica de Privacidade Termos de Uso \nAcessibilidade\n\nUtilizamos cookies para melhorar sua navegação. Leia nossa Política de Privacidade.\n\nENTENDI",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 14,
+      "internalPaths": [
+        "/",
+        "/noticias/",
+        "/escola-agricola-volta-apos-14-anos-e-simboliza-investimentos-estaduais-em-aparecida-do-taboado/",
+        "/sabores-ciencia-e-conservacao-abrem-novos-caminhos-de-renda-no-pantanal/",
+        "/quando-a-escola-procura-quem-falta-aumenta-a-chance-de-o-aluno-permanecer/",
+        "/tolerancia-zero-riedel-defende-tornozeleira-para-agressores-e-reforco-da-rede-contra-feminicidios/",
+        "/mulheres-chefiam-quase-metade-das-familias-de-ms-e-ampliam-espaco-nos-negocios/",
+        "/asfalto-esperado-ha-47-anos-comeca-a-mudar-o-caminho-de-brasilandia-ate-campo-grande/",
+        "/linktr.ee/eduardoriedel",
+        "/personalize-sua-foto/",
+        "/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+        "/politica-de-privacidade/",
+        "/termos-de-uso/",
+        "/politica-de-privacidade"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 3,
+      "labeledInputs": 0,
+      "pdfLinks": 2,
+      "pdfUrls": [
+        "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+        "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf"
+      ],
+      "mainScope": "article",
+      "mainWords": 16,
+      "mainDocWords": 16,
+      "mainText": "Escola agrícola volta após 14 anos e simboliza investimentos estaduais em Aparecida do Taboado Leia mais",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 6,
+        "scannedNodes": 6,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 0,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 0,
+        "mechanisms": {},
+        "sample": "",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Eduardo Riedel | Governador de Mato Grosso do Sul | Propostas"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 3,
+      "thirdPartyOrigins": [
+        "https://scripts.clarity.ms",
+        "https://www.clarity.ms",
+        "https://cdn.jsdelivr.net"
+      ],
+      "hiddenTextNodes": 18,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  },
+  "reach_service": {
+    "url": "https://eduardoriedel.com.br/",
+    "matrix": {
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 448,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 435,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 435,
+      "error": "",
+      "status": 200,
+      "final_url": "https://eduardoriedel.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 448,
+      "raw_main_words": 81,
+      "raw_main_scope": "article",
+      "raw_main_text": "Escola agrícola volta após 14 anos e simboliza investimentos estaduais em Aparecida do Taboado Leia mais Sabores, ciência e conservação abrem novos caminhos de renda no Pantanal Quando a escola procura quem falta, aumenta a chance de o aluno permanecer ‘Tolerância zero’: Riedel defende tornozeleira para agressores e reforço da rede contra feminicídios Mulheres chefiam quase metade das famílias de MS e ampliam espaço nos negócios Asfalto esperado há 47 anos começa a mudar o caminho de Brasilândia até Campo Grande",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 10,
+      "final_url": "https://eduardoriedel.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:33:08 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/\",\"url\":\"https:\\/\\/eduardoriedel.com.br\\/\",\"name\":\"Eduardo Riedel | Governador de Mato Grosso do Sul | Propostas\",\"isPartOf\":{\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/#website\"},\"datePublished\":\"2026-07-31T15:12:49+00:00\",\"dateModified\":\"2026-09-12T23:20:56+00:00\",\"description\":\"Acompanhe as agendas, notícias e compromissos do governador e candidato à reeleição, Eduardo Riedel, para o futuro de Mato Grosso do Sul.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/#breadcrumb\"},\"inLanguage\":\"pt-BR\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/eduardoriedel.com.br\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/eduardoriedel.com.br\\/#website\",\"url\":\"https:\\/\\/eduardoriedel.com.br\\/\",\"name\":\"Eduardo Riedel Governador\",\"description\":\"Vice: Barbosinha\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/eduardoriedel.com.br\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"pt-BR\"}]}",
+      "lang": "pt-BR",
+      "hreflang": [],
+      "lists": 5,
+      "tables": 0,
+      "dls": 0,
+      "words": 435,
+      "text_head": "Acessar o conteúdo\nAbrir a barra de ferramentas\n\nFerramentas de acessibilidade\n\nAumentar texto\nDiminuir texto\nEscala de cinza\nAlto contraste\nContraste negativo\nFundo claro\nLinks sublinhados\nLegibilidade da fonte\n Redefinir\nINÍCIO\nSOBRE\nAGENDA\nNOTÍCIAS\nCONQUISTAS DE MS\nPERSONALIZE SUA FOTO\nPLANO DE GOVERNO\nMS cresce 4x\nacima da média nacional\nR$ 81 bilhões\nem investimentos privados\n3ª menor taxa de\ndesocupação do país\n1º em mobilidade\nsocial do Brasil\nEDUARDO RIEDEL\n\nCarioca de nascimento, sul-mato-grossense de coração. Nascido no Rio de Janeiro, ele é fruto da mistura que define o estado: mãe sul-mato-grossense, pai carioca, avós sulistas, bisavós mineiros.\n\nFormou-se em Ciências Biológicas pela federal do Rio de Janeiro, fez mestrado em Zootecnia na UNESP e especializou-se em gestão pela FGV e em gestão estratégica pelo INSEAD, na França.\n\nAinda jovem, na vida universitária, conheceu Mônica, com quem é casado e tem dois filhos, Marcela e Rafael. Depois de assumir a fazenda da família, transformou o negócio em referência na produção sustentável, com uso de tecnologia. Este destaque o levou à presidência do Sindicato Rural de Maracaju e, depois, à da Famasul e à da CNA.\n\nEm 2015 iniciou a sua missão na vida pública ao assumir a Secretaria de Estado de Governo e Gestão Estratégica (Segov) no Governo de Mato Grosso do Sul. Com um papel importante no estado, foi escolhido para concorrer nas eleições de 2022, sendo eleito governador. A sua gestão de sucesso elevou o patamar de MS, que cresce acima da média nacional.\n\nFIQUE POR DENTRO\nNOTÍCIAS\nEscola agrícola volta após 14 anos e simboliza investimentos estaduais em Aparecida do Taboado\nLeia mais\nSabores, ciência e conservação abrem novos caminhos de renda no Pantanal\nLeia mais\nQuando a escola procura quem falta, aumenta a chance de o aluno permanecer\nLeia mais\n‘Tolerância zero’: Riedel defende tornozeleira para agressores e reforço da rede contra feminicídios\nLeia mais\nMulheres chefiam quase metade das famílias de MS e ampliam espaço nos negócios\nLeia mais\nAsfalto esperado há 47 anos começa a mudar o caminho de Brasilândia até Campo Grande\nLeia mais\nREDES\nFAÇA PARTE DO GRUPO DE WHATSAPP\nCONQUISTAS DE MS\nSaiba o que está acontecendo no seu município\n\nClique no mapa e fique por dentro!\n\nEXPLORE O MAPA\nPersonalize sua foto\nPERSONALIZE\nPLANO DE GOVERNO\nCrescer, incluir e transformar\nACESSE O PLANO DE GOVERNO\nFaça o download\nNAVEGAÇÃO\nInício\nSobre\nAgenda\nNotícias\nConquistas de MS\nPersonalize sua foto\nPlano de Governo\nCONTATO\ncontato@eduardoriedel.com.br\nSIGA NAS REDES\n      \n\n© 2026 Eduardo Riedel. Todos os direitos reservados.\n\nPolítica de Privacidade Termos de Uso \nAcessibilidade\n\nUtilizamos cookies para melhorar sua navegação. Leia nossa Política de Privacidade.\n\nENTENDI",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 14,
+      "internalPaths": [
+        "/",
+        "/noticias/",
+        "/escola-agricola-volta-apos-14-anos-e-simboliza-investimentos-estaduais-em-aparecida-do-taboado/",
+        "/sabores-ciencia-e-conservacao-abrem-novos-caminhos-de-renda-no-pantanal/",
+        "/quando-a-escola-procura-quem-falta-aumenta-a-chance-de-o-aluno-permanecer/",
+        "/tolerancia-zero-riedel-defende-tornozeleira-para-agressores-e-reforco-da-rede-contra-feminicidios/",
+        "/mulheres-chefiam-quase-metade-das-familias-de-ms-e-ampliam-espaco-nos-negocios/",
+        "/asfalto-esperado-ha-47-anos-comeca-a-mudar-o-caminho-de-brasilandia-ate-campo-grande/",
+        "/linktr.ee/eduardoriedel",
+        "/personalize-sua-foto/",
+        "/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+        "/politica-de-privacidade/",
+        "/termos-de-uso/",
+        "/politica-de-privacidade"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 3,
+      "labeledInputs": 0,
+      "pdfLinks": 2,
+      "pdfUrls": [
+        "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+        "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf"
+      ],
+      "mainScope": "article",
+      "mainWords": 16,
+      "mainDocWords": 16,
+      "mainText": "Escola agrícola volta após 14 anos e simboliza investimentos estaduais em Aparecida do Taboado Leia mais",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 6,
+        "scannedNodes": 6,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 0,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 0,
+        "mechanisms": {},
+        "sample": "",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Eduardo Riedel | Governador de Mato Grosso do Sul | Propostas"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 3,
+      "thirdPartyOrigins": [
+        "https://scripts.clarity.ms",
+        "https://www.clarity.ms",
+        "https://cdn.jsdelivr.net"
+      ],
+      "hiddenTextNodes": 18,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  }
+}

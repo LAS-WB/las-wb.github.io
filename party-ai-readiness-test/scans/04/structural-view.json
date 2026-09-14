@@ -1,0 +1,1488 @@
+{
+  "subject": {
+    "country": "Flavio Bolsonaro",
+    "service": "flaviobolsonaro.com.br",
+    "service_url": "https://flaviobolsonaro.com.br",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "findings": [
+    {
+      "check_id": "hidden",
+      "source_ids": [
+        "OB-hidden"
+      ],
+      "location": "evidence",
+      "title": "Text is hidden from view.",
+      "explanation": "AI readers that use visible page text may miss information in hidden regions.",
+      "fix": "Make the text available without expanding the hidden region. Keep a collapsible presentation where useful.",
+      "url": null,
+      "coverage": ""
+    }
+  ],
+  "observations": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "1386 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.flaviobolsonaro.com.br/",
+        "rendered_final_url": "https://www.flaviobolsonaro.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 1386,
+        "rendered_words": 1373,
+        "matching_words": 1340,
+        "added_words": 33,
+        "removed_words": 46,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "33 additional words appeared in the rendered extraction; 1340 matched and 46 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.flaviobolsonaro.com.br/",
+        "rendered_final_url": "https://www.flaviobolsonaro.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 1386,
+        "rendered_words": 1373,
+        "matching_words": 1340,
+        "added_words": 33,
+        "removed_words": 46,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "detected",
+      "observation": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf: text extraction met the recorded minimum. 3 of 76 pages inspected.",
+      "coverage": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf: Partial PDF sample: 3 of 76 pages inspected.",
+      "reason": "",
+      "evidence": {
+        "pdfs": [
+          {
+            "url": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf",
+            "anchor": "Baixar Plano de Governo - PDF",
+            "in_main": true,
+            "fetched": true,
+            "status": 200,
+            "error": "",
+            "tagged": false,
+            "has_text": true,
+            "pages": 76,
+            "pages_sampled": 3,
+            "page_sample_limit": 3,
+            "page_sample_truncated": true,
+            "bytes_read": 469277,
+            "byte_limit": 8000000,
+            "download_truncated": false,
+            "shared_terms": [
+              "bolsonaro",
+              "brasil",
+              "flavio",
+              "jornada",
+              "para"
+            ],
+            "shared_terms_by_source": {
+              "pdf_text": [
+                "brasil",
+                "jornada",
+                "para"
+              ],
+              "pdf_title": [
+                "bolsonaro",
+                "flavio"
+              ],
+              "anchor": [],
+              "filename": []
+            },
+            "inspection_limit": 4,
+            "inspection_truncated": false
+          }
+        ],
+        "main_pdf_links": 1,
+        "main_pdf_links_recorded": 1,
+        "main_pdf_link_list_truncated": false,
+        "inspection_limit": 4,
+        "coverage_complete": true
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Linked PDFs",
+      "reason": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf: Partial PDF sample: 3 of 76 pages inspected."
+    },
+    {
+      "title": "Application route",
+      "reason": "3 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "checks": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "1386 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.flaviobolsonaro.com.br/",
+        "rendered_final_url": "https://www.flaviobolsonaro.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 1386,
+        "rendered_words": 1373,
+        "matching_words": 1340,
+        "added_words": 33,
+        "removed_words": 46,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "33 additional words appeared in the rendered extraction; 1340 matched and 46 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.flaviobolsonaro.com.br/",
+        "rendered_final_url": "https://www.flaviobolsonaro.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 1386,
+        "rendered_words": 1373,
+        "matching_words": 1340,
+        "added_words": 33,
+        "removed_words": 46,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "detected",
+      "observation": "865 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 865,
+        "visible_words": 508,
+        "document_words": 1373,
+        "mechanisms": {
+          "opacity:0": 793,
+          "visibility:hidden": 30,
+          "offscreen": 42
+        },
+        "scope": "main",
+        "sample": "AGENDA OFICIAL F l á v i o p e r t d c ê Acompanhe os próximos compromissos da campanha de , e saiba quando ele estará na sua região Flávio Bolsonaro, candidato à Presidência da República VER AGENDA COMPLETA Acompanhe o para receber os próximos compromissos. A agenda está sendo atualizada. BolsoZap Entre no Nosso compromisso B a s Baixar Plano de Governo - PDF Nenhum país se levanta sozinho. Quem levanta um país é gente. É o pai que sai de casa às cinco da manhã e volta quando os filhos já dormiram. É a mãe que faz o mercado com a calculadora na mão e ainda arruma um jeito de pôr comida no prato. É o caminhoneiro na estrada, o professor na sala, o policial na esquina, o pequeno comerciante que abre a porta todo dia mesmo quando a conta não fecha. Esse é o Brasil de verdade. Um povo que trabalha, que reza, que cuida da sua família e não pede nada além de respeito e liberdade para viver. Patriotismo não é gritar mais alto. É não desistir. É acreditar que este país pode voltar a ser um Brasil grande de verdade, um lugar onde o esforço vale a pena, onde a lei vale para todos e onde o dinheiro do seu trabalho volta para o seu bolso, não para a máquina. Mas uma pessoa só não é capaz de mudar o Brasil. Isso só é possível com a união de todos os brasileiros, com a força e a voz de cada um que acredita que o Brasil tem futuro. Chegou a hora. O Brasil vai vencer! Ao vivo Direto do canal Últimos vídeos Ver todos ↗ ▶ TV CELULAR | O BRASIL VAI VENCER 13/09/2026 13 de set. de 2026 TV CELULAR | RESUMÃO DA SEMANA - 13/09/2026 TV CELULAR | O Brasil vai vencer 12/09/2026 TV CELULAR | O BRASIL QUE FUNCIONA - COM TOMÉ ABDUCH E JOÃO NASSAR 12 de set. de 2026 Plano de Governo Conheça o Plano de Governo ← Saúde Mortalidade zero na fila Chega de deixar as pessoas morrerem na fila. Flávio Bolsonaro vai fazer o Plano Real do SUS. Agro Campo forte, Brasil forte Flávio Bolsonaro vai garantir infraestrutura logística, tecnologia e segurança jurídica para o campo crescer. MULTIMÍDIA PLAYLIST OFI",
+        "accessibility_excluded_words": 68,
+        "accessibility_mechanisms": {
+          "aria-hidden": 68
+        },
+        "census": {
+          "totalNodes": 1511,
+          "scannedNodes": 1511,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 397,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "controls": 1,
+        "pressed": 0,
+        "scope": "main",
+        "eligible_controls": [
+          {
+            "index": 0,
+            "tag": "button",
+            "id": "",
+            "label": "Ver todas as figurinhas ↓",
+            "ariaControls": "",
+            "href": ""
+          }
+        ],
+        "presses": [],
+        "words_before": 508,
+        "words_after": null,
+        "doc_before": 1373,
+        "doc_after": null,
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "census_before": {
+          "totalNodes": 1511,
+          "scannedNodes": 1511,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 397,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://ads.mythad.com/rest/n/adintl/gray/getGrayInfo"
+          },
+          {
+            "method": "POST",
+            "url": "https://logsdk.kwai-pro.com/rest/wd/common/log/collect/radar?v=3.10.28&kpn=ksib.fe.pixel"
+          },
+          {
+            "method": "POST",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-83V5D61RRZ&gtm=45je6992v9263451034za200zb9261853948zd9261853948&_p=1789374963658&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=963667595.1789374964&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CH"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false"
+          },
+          {
+            "method": "POST",
+            "url": "https://ads.mythad.com/log/common/co/api"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false"
+          },
+          {
+            "method": "POST",
+            "url": "https://ads.mythad.com/rest/n/adintl/ad/checkPixel"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2XY6EKRYB&gtm=45je6992v9261862192z89261853948za20gzb9261853948zd9261853948&_p=1789374963658&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=963667595.1789374964&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0"
+          },
+          {
+            "method": "POST",
+            "url": "https://ads.mythad.com/log/common/co/api"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube-nocookie.com/api/stats/qoe?cpn=S3h3APt1YWHhlRx6&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C69796%2C30906%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C29103%2C9404%2C23826%2C9500%2C1840%2C115426%2C34313%2C918"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube-nocookie.com/api/stats/atr?ns=yt&el=embedded&cpn=S3h3APt1YWHhlRx6&ver=2&cmt=0&fs=0&rt=0.255&euri=https%3A%2F%2Fwww.flaviobolsonaro.com.br%2F&lact=264&cl=977222275&mos=1&volume=100&cbrand=apple&cbr=Chrome&cbrver=124.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20260911.01.00&cplayer=UNIPLAY"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.flaviobolsonaro.com.br/cdn-cgi/challenge-platform/h/g/jsd/oneshot/330e41bb475c/0.1794797095293893:1789373111:2ZLVXS6RA1KzxoISFR2O9SjxkDGpU89m9wQ7db6ADLY/a3ae0fd208ffb275"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false"
+          },
+          {
+            "method": "POST",
+            "url": "https://logsdk.kwai-pro.com/rest/wd/common/log/collect/radar?v=3.10.28&kpn=ksib.fe.pixel"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://ads.mythad.com/rest/n/adintl/ad/pixelLog"
+          },
+          {
+            "method": "POST",
+            "url": "https://ads.mythad.com/rest/n/adintl/ad/pixelLog"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          }
+        ],
+        "navigated": false,
+        "press_limit": 20,
+        "service_workers": "blocked",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "detected",
+      "observation": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf: text extraction met the recorded minimum. 3 of 76 pages inspected.",
+      "coverage": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf: Partial PDF sample: 3 of 76 pages inspected.",
+      "reason": "",
+      "evidence": {
+        "pdfs": [
+          {
+            "url": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf",
+            "anchor": "Baixar Plano de Governo - PDF",
+            "in_main": true,
+            "fetched": true,
+            "status": 200,
+            "error": "",
+            "tagged": false,
+            "has_text": true,
+            "pages": 76,
+            "pages_sampled": 3,
+            "page_sample_limit": 3,
+            "page_sample_truncated": true,
+            "bytes_read": 469277,
+            "byte_limit": 8000000,
+            "download_truncated": false,
+            "shared_terms": [
+              "bolsonaro",
+              "brasil",
+              "flavio",
+              "jornada",
+              "para"
+            ],
+            "shared_terms_by_source": {
+              "pdf_text": [
+                "brasil",
+                "jornada",
+                "para"
+              ],
+              "pdf_title": [
+                "bolsonaro",
+                "flavio"
+              ],
+              "anchor": [],
+              "filename": []
+            },
+            "inspection_limit": 4,
+            "inspection_truncated": false
+          }
+        ],
+        "main_pdf_links": 1,
+        "main_pdf_links_recorded": 1,
+        "main_pdf_link_list_truncated": false,
+        "inspection_limit": 4,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "3 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "entry": null,
+        "depth": null,
+        "self_entry": null,
+        "minimum_depth_confirmed": false,
+        "pages_crawled": 40,
+        "pages_failed": 3,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": true,
+        "frontier_left": 167,
+        "external_candidates": [],
+        "external_entry": null,
+        "failed_urls": [
+          {
+            "url": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf",
+            "hop": 1,
+            "reason": "Error"
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/chegada-a-juiz-de-fora/ics",
+            "hop": 2,
+            "reason": "Error"
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/visita-a-filipe-martins/ics",
+            "hop": 2,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-04.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-05.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-06.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-07.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-08.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-09.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-10.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-11.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-12.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-13.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-14.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-15.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-16.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-17.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-18.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-19.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-20.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-21.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-22.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-23.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-24.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-25.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-26.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-27.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-28.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-29.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-30.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-31.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-32.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/figurinhas/figurinha-33.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/jingles/vota-22-para-radio.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/jingles/o-brasil-vai-vencer.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/jingles/vota-22-vinheta-legal.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/SA-da-22-mtpufimw-95d540.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/LAMBADA-O-mtn3qz8u-988170.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-1-mtn3oc3g-3b8f39.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-2-mtn3oqap-2977c4.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-3-mtn3orel-e08090.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-4-mtn3osg9-1b4d2d.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-5-mtn3otkm-ad07b0.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-6-mtn3oujt-91ab25.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-8-mtn3owrv-f502d4.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-9-mtn3oxqf-bca6a9.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-10-mtn3oyvc-147a11.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-11-mtn3ozy5-996689.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-12-mtn3p6dt-d2984a.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-13-mtn3p7ap-027368.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-15-mtn3p87s-4df9c2.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-16-mtn3p97r-7253ca.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-17-mtn3pa7r-c80903.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-18-mtn3pb4i-4df9d9.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-19-mtn3pc26-38157c.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-20-mtn3pcyk-c28ed6.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-21-mtn3pdw6-99b055.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-22-mtn3pewj-0f2cad.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-23-mtn3plhs-b505fd.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-24-mtn3pmht-d853f3.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-25-mtn3pnff-93c5f6.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-26-mtn3po82-3695a2.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-27-mtn3pp25-335a63.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-28-mtn3ppza-785248.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-29-mtn3pqw6-5be927.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-30-mtn3prtr-0af375.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-31-mtn3psrt-42baaa.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-32-mtn3ptoc-2638f1.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-33-mtn3q13q-bec656.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-34-mtn3q228-89ea18.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-35-mtn3q2zh-39652c.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-36-mtn3q3yj-436774.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-37-mtn3q4zt-4db41b.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-38-mtn3q5wy-3cc2c0.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-39-mtn3q6vx-4a562c.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-40-mtn3q7ta-782be5.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-41-mtn3q8r9-aad2a2.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Artboard-42-mtn3q9np-4de62a.webp",
+            "text": "",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/jingles/o-brasil-vai-vencer-refrao.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/NEYMAR-ORIGINAL-mtn3qmrq-7a02ab.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/seguranca-publica-tolerancia-zero-ao-crime",
+            "text": "Segurança Segurança Pública: Proposta de tolerância zero e endurecimento penal contra o crime organizado 19 de agosto de 2026",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/TOMA-22-FABIO-DUB-1--mteju7wj-296bbd.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/BLOQUINHO-NAO-ADIANTA-CHORAR-mtatnbg7-dac1be.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/BLOQUINHO-VEM-AMIGA-VEM-VOTAR-mtn3r7y4-222755.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/assets/news/Maria-Dj-Tiago-DoidaI-o-FLAI-VIO-BOLSONARO-22-Professora-eI--mtvzonz9-6e3b95.mp3",
+            "text": "↓",
+            "hop": 1
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/convencao-dos-ministros-das-assembleias-de-deus/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/visita-ao-onovolab-hub-de-inovacao-de-sao-carlos/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/chegada-a-sede-da-area-de-producao-haliti-paresi/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/agro-brasileiro-motor-da-economia-e-infraestrutura",
+            "text": "Agro 18 de agosto de 2026 Agro Brasileiro: Flávio Bolsonaro anuncia plano de R$ 50 bilhões para infraestrutura logística e apoio ao produtor Compromisso com que",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/flavio-bolsonaro-amplia-a-equipe-do-plano-economico",
+            "text": "Propostas 21 de agosto de 2026 Flávio Bolsonaro amplia a equipe do plano econômico Doutores em economia pela USP e pela UnB, PhDs por Berkeley, pela Northwester",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/chegada-ao-aeroporto-internacional-de-maceio-zumbi-dos-palmares",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/chegada-ao-aeroporto-internacional-de-maceio-zumbi-dos-palmares/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/encontro-com-representantes-do-setor-produtivo-do-agreste-e-do-sertao",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/defende-a-liberdade-do-trabalhador-decidir-pela-propria-carga-horaria",
+            "text": "Economia Flávio Bolsonaro defende a liberdade do trabalhador decidir pela própria carga horária Candidato do PL à Presidência da República esteve na reunião da ",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/visita-a-producao-encontro-com-produtores-familias-e-liderancas-indigenas",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/encontro-com-representantes-do-setor-produtivo-do-agreste-e-do-sertao/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/carreata-de-flavio-bolsonaro-em-duque-de-caxias-tem-buzinaco-de-fora-lula",
+            "text": "Brasil Real 21 de agosto de 2026 Carreata de Flávio Bolsonaro em Duque de Caxias tem buzinaço de “Fora Lula” Uma multidão acompanhou o trajeto empunhando bandei",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/visita-a-producao-encontro-com-produtores-familias-e-liderancas-indigenas/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/lancamento-da-campanha-de-douglas-ruas-pl-ao-governo-do-estado-do-rio-de-janeiro",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/lancamento-da-campanha-de-douglas-ruas-pl-ao-governo-do-estado-do-rio-de-janeiro/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/visita-a-reuniao-da-diretoria-da-federacao-das-industrias-do-estado-de-sao-paulo-fiesp",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/visita-a-reuniao-da-diretoria-da-federacao-das-industrias-do-estado-de-sao-paulo-fiesp/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/flavio-bolsonaro-leva-multidao-ao-parcao-e-reune-forca-da-direita-gaucha-em-porto-alegre",
+            "text": "Geral 3 de setembro de 2026 Flávio Bolsonaro leva multidão ao Parcão e reúne força da direita gaúcha em Porto Alegre Candidato do PL diz que o Brasil precisa ro",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/mudanca-futuro-e-7-de-setembro-mensagem-de-flavio-bolsonaro-aos-brasileiros-na-palma-da-mao",
+            "text": "Geral 29 de agosto de 2026 “Mudança, futuro e 7 de Setembro”: mensagem de Flávio Bolsonaro aos brasileiros na palma da mão Candidato repetiu gesto usado por Jai",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/alfredo-gaspar-e-rogerio-marinho-mostram-forca-do-nordeste-em-campanha-de-flavio-bolsonaro-no-rn",
+            "text": "Geral 6 de setembro de 2026 Alfredo Gaspar e Rogério Marinho mostram força do Nordeste em campanha de Flávio Bolsonaro no RN O Nordeste ganha cada vez mais forç",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/flavio-bolsonaro-anuncia-o-primeiro-nome-de-seu-time-ministerial-claudio-lottenberg-para-a-saude-1",
+            "text": "Saúde 29 de agosto de 2026 Flávio Bolsonaro anuncia o primeiro nome de seu time ministerial: Claudio Lottenberg para a Saúde Médico oftalmologista é referência ",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/fora-lula-e-va-com-paes-a-uniao-de-flavio-bolsonaro-e-douglas-ruas-para-a-vitoria-no-rio-de-janeiro",
+            "text": "Tecnologia 22 de agosto de 2026 “Fora Lula e vá com Paes!”, a união de Flávio Bolsonaro e Douglas Ruas para a vitória no Rio de Janeiro Arrancada para vitória d",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/flavio-bolsonaro-visita-a-santa-casa-de-juiz-de-fora-e-reforca-compromisso-para-investimentos-na-saude",
+            "text": "Saúde 9 de setembro de 2026 Flávio Bolsonaro visita a Santa Casa de Juiz de Fora e reforça compromisso para investimentos na saúde ”Nós sempre tivemos um carinh",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/flavio-bolsonaro-defende-autonomia-de-verdade-aos-povos-indigenas-durante-visita-a-aldeia-no-mato-grosso",
+            "text": "Tecnologia Flávio Bolsonaro defende 'autonomia de verdade' aos povos indígenas durante visita à aldeia no Mato Grosso Candidato elogia a produção com lavouras e",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/flavio-bolsonaro-abre-agenda-no-nordeste-e-e-recepcionado-por-apoiadores-que-lotaram-o-aeroporto-em-maceio",
+            "text": "Geral 25 de agosto de 2026 Flávio Bolsonaro abre agenda no Nordeste e é recepcionado por apoiadores que lotaram o aeroporto em Maceió ”Ano que vem quero voltar ",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/flavio-bolsonaro-aposta-em-parceria-com-tarcisio-de-freitas-para-ampliar-avancos-de-sao-paulo-pelo-brasil-1",
+            "text": "Tecnologia Flávio Bolsonaro aposta em parceria com Tarcísio de Freitas para ampliar avanços de São Paulo pelo Brasil Com Flávio presidente, o governo federal nã",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/nordeste-no-centro-do-poder-flavio-bolsonaro-e-alfredo-gaspar-celebram-parceria-rumo-ao-palacio-do-planalto",
+            "text": "Geral 26 de agosto de 2026 Nordeste no centro do poder: Flávio Bolsonaro e Alfredo Gaspar celebram parceria rumo ao Palácio do Planalto “Me sinto como se tivess",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/flavio-bolsonaro-visita-filipe-martins-na-prisao-em-gesto-de-apoio-e-promete-resgatar-credibilidade-das-instituicoes",
+            "text": "Liberdade 5 de setembro de 2026 Flávio Bolsonaro visita Filipe Martins na prisão em gesto de apoio e promete resgatar credibilidade das instituições Para Flávio",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/vai-ter-bolsonaro-na-presidencia-diz-flavio-bolsonaro-em-ato-pela-independencia-com-coro-de-milhares-de-fora-lula-e-fora-moraes",
+            "text": "Geral \"Vai ter Bolsonaro na Presidência\", diz Flávio Bolsonaro em Ato pela Independência com coro de milhares de Fora Lula e Fora Moraes Candidato prometeu resg",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/o-brasil-esta-sem-presidente-um-caos-como-legado-do-lula-diz-flavio-bolsonaro-ao-comentar-a-situacao-no-supremo-tribunal-federal",
+            "text": "Geral ”O Brasil está sem Presidente, um caos como legado do Lula”, diz Flávio Bolsonaro ao comentar a situação no Supremo Tribunal Federal Em ato simbólico e ma",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/alexandre-de-moraes-nao-tem-mais-condicoes-de-permanecer-no-cargo-diz-flavio-bolsonaro-mediante-denuncias-trazidas-pela-imprensa",
+            "text": "Geral 1 de setembro de 2026 \"Alexandre de Moraes não tem mais condições de permanecer no cargo\", diz Flávio Bolsonaro mediante denúncias trazidas pela imprensa ",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/olhar-menos-para-o-passado-e-mais-para-o-futuro-prioriza-flavio-bolsonaro-em-motocarreata-seguida-de-barqueata-em-angra-dos-reis",
+            "text": "Geral 29 de agosto de 2026 “Olhar menos para o passado e mais para o futuro\", prioriza Flávio Bolsonaro em motocarreata seguida de barqueata em Angra dos Reis C",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/presidente-da-camara-despreza-historico-de-combate-ao-crime-organizado-e-nega-protecao-da-policia-legislativa-para-alfredo-gaspar",
+            "text": "Segurança 20 de agosto de 2026 Presidente da Câmara despreza histórico de combate ao crime organizado e nega proteção da Polícia Legislativa para Alfredo Gaspar",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/em-encontro-com-ministro-de-bukele-flavio-bolsonaro-afirma-ser-o-presidente-com-coragem-que-o-brasil-precisa-para-enfrentar-o-crime",
+            "text": "Segurança 30 de agosto de 2026 Em encontro com ministro de Bukele, Flávio Bolsonaro afirma ser o presidente “com coragem” que o Brasil precisa para enfrentar o ",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/metam-o-pe-enquanto-tem-um-presidente-da-republica-que-passa-a-mao-na-cabeca-de-voces-avisa-flavio-bolsonaro-em-discurso-em-nova-iguacu",
+            "text": "Segurança 21 de agosto de 2026 “Metam o pé enquanto tem um presidente da República que passa a mão na cabeça de vocês”, avisa Flávio Bolsonaro em discurso em No",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/os-r-600-do-bolsa-familia-que-enchiam-o-carrinho-no-governo-bolsonaro-agora-nao-enchem-mais-alerta-flavio-bolsonaro-em-campanha-no-nordeste",
+            "text": "Economia \"Os R$ 600 do Bolsa Família que enchiam o carrinho no governo Bolsonaro, agora não enchem mais”, alerta Flávio Bolsonaro em campanha no Nordeste Ao rec",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/vamos-fazer-com-que-a-comida-volte-a-ficar-barata-como-era-na-epoca-do-presidente-bolsonaro-afirma-flavio-bolsonaro-em-visita-a-expointer-no-rs",
+            "text": "Agro 2 de setembro de 2026 \"Vamos fazer com que a comida volte a ficar barata, como era na época do presidente Bolsonaro\", afirma Flávio Bolsonaro em visita a E",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/se-voce-esta-endividado-a-culpa-e-do-lula-reage-flavio-bolsonaro-diante-do-recorde-de-endividamento-das-familias-brasileiras-causado-pelo-desgoverno-do-pt",
+            "text": "Tecnologia 22 de agosto de 2026 “Se você está endividado, a culpa é do Lula” reage Flávio Bolsonaro diante do recorde de endividamento das famílias brasileiras ",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/agro",
+            "text": "Agro",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/geral",
+            "text": "Geral",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/carreata-em-macae",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/saude",
+            "text": "Saúde",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/inicio-da-barqueata",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/economia",
+            "text": "Economia",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/comicio-em-itaperuna",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/chegada-em-boa-vista",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/chegada-da-barqueata",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/campanha",
+            "text": "Campanha",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/encontro-das-mulheres",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/carreata-em-macae/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/liberdade",
+            "text": "Liberdade",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/propostas",
+            "text": "Propostas",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/seguranca",
+            "text": "Segurança",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/tecnologia",
+            "text": "Tecnologia",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/inicio-da-motocarreata",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/inicio-da-barqueata/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/categoria/brasil-real",
+            "text": "Brasil Real",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/comicio-em-itaperuna/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/inicio-da-motocarreata-1",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/chegada-em-boa-vista/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/comicio-em-trio-eletrico",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/chegada-da-barqueata/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/encontro-das-mulheres/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/comicio-em-trio-eletrico-1",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/inicio-da-motocarreata/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/entrevista-jornal-nacional",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/inicio-da-motocarreata-1/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/comicio-em-trio-eletrico/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/comicio-em-trio-eletrico-1/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/concentracao-para-motocarreata",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/entrevista-jornal-nacional/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/carreata-em-campos-dos-goytacazes",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/concentracao-para-motocarreata/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/carreata-em-campos-dos-goytacazes/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/reuniao-com-empresarios-do-agronegocio",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/ato-da-independencia-o-brasil-vai-vencer",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/reuniao-com-empresarios-do-agronegocio/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/encontro-com-empresarios-do-setor-produtivo",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/seguranca-publica-tolerancia-zero-ao-crime",
+            "text": "Segurança Segurança Pública: Proposta de tolerância zero e endurecimento penal contra o crime organizado 19 de agosto de 2026",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/ato-da-independencia-o-brasil-vai-vencer/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/encontro-com-empresarios-do-setor-produtivo/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/evento-veja-premiacao-top30-as-melhores-empresas-do-brasil",
+            "text": "VER DETALHES →",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/agenda/evento-veja-premiacao-top30-as-melhores-empresas-do-brasil/ics",
+            "text": "Apple / Outlook (.ics)",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/justica-eleitoral-derruba-propaganda-mentirosa-do-pt-contra-flavio-bolsonaro",
+            "text": "Geral 30 de agosto de 2026 Justiça Eleitoral derruba propaganda mentirosa do PT contra Flávio Bolsonaro TSE determina a retirada imediata da peça do ar e conced",
+            "hop": 2
+          },
+          {
+            "url": "https://www.flaviobolsonaro.com.br/noticias/justica-nega-censura-a-video-publicado-por-flavio-bolsonaro-contra-lulinha-nas-redes-sociais",
+            "text": "Tecnologia 25 de agosto de 2026 Justiça nega censura a vídeo publicado por Flávio Bolsonaro contra Lulinha nas redes sociais Vídeo aborda participação de filho ",
+            "hop": 2
+          }
+        ],
+        "redirects": [
+          {
+            "from": "https://flaviobolsonaro.com.br",
+            "to": "https://www.flaviobolsonaro.com.br/"
+          }
+        ],
+        "possible_routes": [
+          {
+            "depth": 1,
+            "url": "https://www.flaviobolsonaro.com.br/bolsozap",
+            "text": "BolsoZap",
+            "route": [
+              "https://www.flaviobolsonaro.com.br/",
+              "https://www.flaviobolsonaro.com.br/bolsozap"
+            ],
+            "external": false,
+            "evidence": {
+              "confirmed": false,
+              "shared_subject_terms": [
+                "acompanhe",
+                "atualizacoes",
+                "bolsonaro",
+                "bolsozap",
+                "campanha",
+                "canal",
+                "entre",
+                "flavio",
+                "oficial",
+                "para",
+                "participe",
+                "principais",
+                "saiba",
+                "voce",
+                "whatsapp"
+              ],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [],
+              "inbound_application_score": 0,
+              "destination_application_score": 1
+            }
+          },
+          {
+            "depth": 1,
+            "url": "https://www.flaviobolsonaro.com.br/contribua",
+            "text": "Contribua com a campanha",
+            "route": [
+              "https://www.flaviobolsonaro.com.br/",
+              "https://www.flaviobolsonaro.com.br/contribua"
+            ],
+            "external": false,
+            "evidence": {
+              "confirmed": false,
+              "shared_subject_terms": [
+                "bolsonaro",
+                "brasil",
+                "campanha",
+                "com",
+                "contribua",
+                "flavio",
+                "governo",
+                "oficial",
+                "onde",
+                "para",
+                "participe",
+                "plano",
+                "sua",
+                "voce"
+              ],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [],
+              "inbound_application_score": 0,
+              "destination_application_score": 1
+            }
+          },
+          {
+            "depth": 1,
+            "url": "https://www.flaviobolsonaro.com.br/redes-sociais",
+            "text": "Acompanhe nossas redes",
+            "route": [
+              "https://www.flaviobolsonaro.com.br/",
+              "https://www.flaviobolsonaro.com.br/redes-sociais"
+            ],
+            "external": false,
+            "evidence": {
+              "confirmed": false,
+              "shared_subject_terms": [
+                "acompanhe",
+                "bolsonaro",
+                "bolsozap",
+                "campanha",
+                "flavio",
+                "noticias"
+              ],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [],
+              "inbound_application_score": 0,
+              "destination_application_score": 1
+            }
+          },
+          {
+            "depth": 1,
+            "url": "https://www.flaviobolsonaro.com.br/gerenciar-meus-dados",
+            "text": "Gerenciar meus dados",
+            "route": [
+              "https://www.flaviobolsonaro.com.br/",
+              "https://www.flaviobolsonaro.com.br/gerenciar-meus-dados"
+            ],
+            "external": false,
+            "evidence": {
+              "confirmed": false,
+              "shared_subject_terms": [
+                "bolsonaro",
+                "campanha",
+                "canal",
+                "com",
+                "como",
+                "consentimento",
+                "dados",
+                "flavio",
+                "lgpd",
+                "mail",
+                "nao",
+                "oficial",
+                "para",
+                "pode",
+                "presidencia",
+                "que",
+                "republica",
+                "ser",
+                "whatsapp"
+              ],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [],
+              "inbound_application_score": 0,
+              "destination_application_score": 1
+            }
+          }
+        ],
+        "confirmed_routes": [],
+        "coverage_complete": false,
+        "reason": "3 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    }
+  ],
+  "provenance": {
+    "run_id": "residential-1789374919",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "mock": false
+}

@@ -1,0 +1,425 @@
+{
+  "subject": {
+    "country": "ACM Neto",
+    "service": "acmneto.com.br",
+    "service_url": "https://acmneto.com.br/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "provenance": {
+    "run_id": "residential-1789374928",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "executive": {
+    "headline": "Reachable to AI today.",
+    "summary": "The AI crawlers used to read the web fetch the full page directly. Legibility and obstacles measured on the service page."
+  },
+  "pillars": [
+    {
+      "key": "D",
+      "name": "Reachability",
+      "q": "Can AI systems reach the service?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "D1"
+      ],
+      "checks": [
+        {
+          "id": "D1",
+          "name": "Reachable by AI retrievers",
+          "value": 1.0,
+          "result": "The AI crawlers used to read the web fetch the full page directly.",
+          "fix": "Keep public service paths open to legitimate AI retrieval agents.",
+          "ladder": [
+            {
+              "rung": "Plain AI fetch",
+              "reached": true,
+              "note": "full content returned"
+            },
+            {
+              "rung": "AI browser fetch",
+              "reached": true,
+              "note": "full page renders"
+            },
+            {
+              "rung": "Disguised browser",
+              "reached": true,
+              "note": "full page renders"
+            }
+          ]
+        },
+        {
+          "id": "D5",
+          "name": "Findable in search",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "L",
+      "name": "Legibility",
+      "q": "Can AI read and understand it?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "L3",
+        "L4",
+        "L5",
+        "L7"
+      ],
+      "checks": [
+        {
+          "id": "L3",
+          "name": "Structured data",
+          "value": 0.5,
+          "result": "Some structured data, but not the service-specific kind AI pulls facts from.",
+          "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+        },
+        {
+          "id": "L4",
+          "name": "Shows when it was updated",
+          "value": 0.0,
+          "result": "No 'last updated' date, so AI can't tell if it's current.",
+          "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+        },
+        {
+          "id": "L5",
+          "name": "Guidance in the page, not a PDF",
+          "value": 1.0,
+          "result": "Guidance is on the page itself, not locked in PDFs.",
+          "fix": "Keep publishing guidance as HTML."
+        },
+        {
+          "id": "L7",
+          "name": "Answer-friendly layout",
+          "value": 0.5,
+          "result": "Some structure, but key facts are mostly in prose.",
+          "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+        }
+      ],
+      "observations": [
+        {
+          "id": "Lang",
+          "name": "Language coverage",
+          "detail": "Declares its language ('pt-BR') but offers no other-language version.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "O",
+      "name": "Obstacles to AI readers",
+      "kind": "obstacles",
+      "q": "What does the scan observe about the page constructions tested in the study?",
+      "assessment_set_version": "2026-09-13.2",
+      "assessment_set": [
+        "OB-script",
+        "OB-hidden",
+        "OB-click",
+        "OB-pdf",
+        "OB-depth"
+      ],
+      "checks": [
+        {
+          "id": "OB-script",
+          "name": "Rendered extraction contains more words than served HTML",
+          "state": "clear",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Within the recorded the main content extraction scopes, the rendered/served word addition share is 14% (95 added; 584 matching), below this candidate check's threshold.",
+          "evidence": {
+            "raw_status": 200,
+            "served_final_url": "https://acmneto.com.br/",
+            "rendered_final_url": "https://acmneto.com.br/",
+            "capture_delay_ms": 5000,
+            "served_attempts": 1,
+            "scope": {
+              "rendered": "main",
+              "served": "main"
+            },
+            "basis": "main",
+            "rendered_words": 679,
+            "served_words": 700,
+            "matching_words": 584,
+            "added_words": 95,
+            "removed_words": 116,
+            "script_only_words": 95,
+            "share": 0.1399,
+            "word_difference": 95,
+            "rendered_difference_percent": 14,
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-hidden",
+          "name": "Text in the assessed region is hidden by a recorded mechanism",
+          "state": "detected",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "The assessed region contains 622 document words hidden by the recorded mechanisms — opacity:0 (621 words), display:none (1 words); 57 words are visible. Accessibility-tree exclusion is recorded separately (5 words). This census does not establish that the hidden text is service guidance.",
+          "evidence": {
+            "hidden_words": 622,
+            "mechanisms": {
+              "display:none": 1,
+              "opacity:0": 621
+            },
+            "scope": "main",
+            "visible_words": 57,
+            "document_words": 679,
+            "sample": "ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar. Esta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente. Porque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados. A Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avançar. Chegou a hora da mudança. Mudança com segurança. Campanha 2026 ACM Neto Faça sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia. Zé Cocá Bio João Roma Angelo Coronel Dê o play e entre no ritmo da mudança! Dale! 44 Dê o play A Bahia já está cantando e dançando o a gente. Assista ao vídeo e compartilhe com todo mundo. DALE Aprenda a música, faça seu vídeo e espalhe o Dalê por toda a",
+            "accessibility_excluded_words": 5,
+            "accessibility_mechanisms": {
+              "aria-hidden": 5
+            },
+            "census": {
+              "totalNodes": 655,
+              "scannedNodes": 655,
+              "nodeLimit": 8000,
+              "truncated": false,
+              "duplicateWordsExcluded": 60,
+              "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+            },
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-click",
+          "name": "Document text increased after disclosure controls were pressed",
+          "state": "not_measured",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+          "evidence": {
+            "pressed": 0,
+            "controls": 0,
+            "blocked_requests": [],
+            "blocked_on_load": [
+              {
+                "method": "POST",
+                "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-3ZE0EL35DF&gtm=45je6992v9255030959za200zb9254218209zd9254218209&_p=1789374960459&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=196608468.1789374961&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHe"
+              },
+              {
+                "method": "POST",
+                "url": "https://mpc-prod-27-s6uit34pua-uk.a.run.app/events?cee=no"
+              },
+              {
+                "method": "POST",
+                "url": "https://mpc-prod-27-s6uit34pua-uk.a.run.app/events?cee=no"
+              },
+              {
+                "method": "POST",
+                "url": "https://5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws/events?cee=no"
+              },
+              {
+                "method": "POST",
+                "url": "https://5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws/events?cee=no"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+              },
+              {
+                "method": "POST",
+                "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+              }
+            ],
+            "navigated": false,
+            "words_before": 57,
+            "words_after": null,
+            "doc_before": 679,
+            "doc_after": null,
+            "presses": [],
+            "control_doc_before": null,
+            "control_doc_after": null,
+            "service_workers": "blocked",
+            "press_limit": 20,
+            "eligible_controls": [],
+            "scope": "main",
+            "census_before": {
+              "totalNodes": 655,
+              "scannedNodes": 655,
+              "nodeLimit": 8000,
+              "truncated": false,
+              "duplicateWordsExcluded": 60,
+              "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+            },
+            "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-pdf",
+          "name": "Linked PDF extraction properties",
+          "state": "not_applicable",
+          "severity": null,
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "No PDF is linked from the main content.",
+          "evidence": {
+            "main_pdf_links": 0,
+            "page_pdf_links": 0,
+            "applicability_reason": "no PDF is linked from the assessed region",
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-depth",
+          "name": "Confirmed minimum application-route depth",
+          "state": "not_measured",
+          "severity": "red",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: 1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+          "evidence": {
+            "depth": null,
+            "entry": null,
+            "pages_crawled": 11,
+            "pages_failed": 1,
+            "hops": 4,
+            "budget": 40,
+            "exhausted": false,
+            "frontier_left": 0,
+            "external_entry": null,
+            "external_candidates": [],
+            "failed_urls": [
+              {
+                "url": "https://acmneto.com.br/plano-de-governo-2026.pdf",
+                "hop": 2,
+                "reason": "Error"
+              }
+            ],
+            "pruned_links": [],
+            "redirects": [],
+            "possible_routes": [],
+            "confirmed_routes": [],
+            "self_entry": null,
+            "reason": "1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+            "minimum_depth_confirmed": false,
+            "coverage_complete": false
+          },
+          "fix": "",
+          "study": null
+        }
+      ]
+    }
+  ],
+  "future": {
+    "name": "Future-readiness",
+    "q": "Signs the service is preparing for AI agents",
+    "items": [
+      {
+        "name": "Machine-readable API",
+        "present": false,
+        "state": "none"
+      },
+      {
+        "name": "Sign-in standard (OIDC)",
+        "present": false
+      },
+      {
+        "name": "llms.txt",
+        "present": false
+      },
+      {
+        "name": "AGENTS.md",
+        "present": false
+      },
+      {
+        "name": "Agent card",
+        "present": false
+      },
+      {
+        "name": "MCP endpoint",
+        "present": false
+      }
+    ]
+  },
+  "ai_visibility": {
+    "q": "How AI assistants represent this service today",
+    "metrics": []
+  },
+  "injection": {
+    "measured": true,
+    "csp": false,
+    "third_party_scripts": 3,
+    "flagged": 0,
+    "flags": []
+  },
+  "actions": [
+    {
+      "head": "Keep public service paths open to legitimate AI retrieval agents.",
+      "why": "The AI crawlers used to read the web fetch the full page directly."
+    }
+  ]
+}

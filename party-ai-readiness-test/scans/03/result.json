@@ -1,0 +1,26 @@
+{
+  "id": "03",
+  "label": "Time Barra / Eder Mauro",
+  "url": "https://timebarra.com.br/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:34:30.065492+00:00",
+  "state": "complete",
+  "run_id": "residential-1789374872",
+  "elapsed_seconds": 45,
+  "profile_sha256": "652d535db6968eb13da8c33d448524d5b4810e3b36624300a4eea4038590b662",
+  "findings": [],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "1 page attempt(s) failed during the crawl (1 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "profile": "scans/03/profile.json",
+  "LAS_report": "scans/03/LAS.html",
+  "structural_report": "scans/03/structural.html",
+  "finished_utc": "2026-09-14T08:35:17.022547+00:00"
+}

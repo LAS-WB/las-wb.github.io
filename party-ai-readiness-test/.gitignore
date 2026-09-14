@@ -1,0 +1,7 @@
+# Source repository remains a separate private project; keep the local reference copy out of this PR.
+/repository/
+/repository.tar.gz
+# Local execution and preview state.
+*.log
+*.lock
+/pr-body.md

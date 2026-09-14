@@ -1,0 +1,1294 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 90
+  },
+  {
+    "path": "CLAUDE.md",
+    "bytes": 7762
+  },
+  {
+    "path": "README.md",
+    "bytes": 403
+  },
+  {
+    "path": "data/candidate-rollup.csv",
+    "bytes": 67824
+  },
+  {
+    "path": "data/candidate-status-2026-09-03.csv",
+    "bytes": 46335
+  },
+  {
+    "path": "data/candidates-2026.csv",
+    "bytes": 153633
+  },
+  {
+    "path": "data/gate6/band-sensitivity.csv",
+    "bytes": 176
+  },
+  {
+    "path": "data/gate6/candidate-bands.csv",
+    "bytes": 110555
+  },
+  {
+    "path": "data/gate6/office-table.csv",
+    "bytes": 306
+  },
+  {
+    "path": "data/gate6/party-table.csv",
+    "bytes": 995
+  },
+  {
+    "path": "data/gate6/ranking-summary.json",
+    "bytes": 3552
+  },
+  {
+    "path": "data/party-coverage-tiered.csv",
+    "bytes": 41828
+  },
+  {
+    "path": "data/party-coverage.csv",
+    "bytes": 40310
+  },
+  {
+    "path": "data/party-sites.csv",
+    "bytes": 1481
+  },
+  {
+    "path": "data/prompts/README.md",
+    "bytes": 1941
+  },
+  {
+    "path": "data/prompts/derived/pilot-candidate-sample.csv",
+    "bytes": 1413
+  },
+  {
+    "path": "data/prompts/derived/pilot-compound-components.csv",
+    "bytes": 1447
+  },
+  {
+    "path": "data/prompts/derived/pilot-prompt-sample.csv",
+    "bytes": 7748
+  },
+  {
+    "path": "data/prompts/derived/pilot-request-matrix.csv",
+    "bytes": 93036
+  },
+  {
+    "path": "data/prompts/derived/pilot-review-overrides.csv",
+    "bytes": 4273
+  },
+  {
+    "path": "data/prompts/derived/pilot-summary.json",
+    "bytes": 441
+  },
+  {
+    "path": "data/prompts/derived/prompt-audit-summary.json",
+    "bytes": 2194
+  },
+  {
+    "path": "data/prompts/derived/prompt-inventory.csv",
+    "bytes": 323436
+  },
+  {
+    "path": "data/prompts/raw/Prompts final 7abr2026.txt",
+    "bytes": 74899
+  },
+  {
+    "path": "data/prompts/responses/gate5-pilot-errors.jsonl",
+    "bytes": 507114
+  },
+  {
+    "path": "data/prompts/responses/gate5-pilot-responses.jsonl",
+    "bytes": 5946467
+  },
+  {
+    "path": "data/prompts/responses/gate5-superseded-gemini-deepseek-maxtokens2000.jsonl",
+    "bytes": 4581814
+  },
+  {
+    "path": "data/prompts/responses/gate5-superseded-gpt5-maxtokens2000.jsonl",
+    "bytes": 1402394
+  },
+  {
+    "path": "data/ra/tarefa-A-paginas-de-candidatos.csv",
+    "bytes": 6510
+  },
+  {
+    "path": "data/ra/tarefa-A-resultado-2026-09-03.csv",
+    "bytes": 1740
+  },
+  {
+    "path": "data/ra/tarefa-B-busca-de-site.csv",
+    "bytes": 9627
+  },
+  {
+    "path": "data/ra/tarefa-C-assistentes.csv",
+    "bytes": 558
+  },
+  {
+    "path": "data/sweep/cdn-attribution.json",
+    "bytes": 69127
+  },
+  {
+    "path": "data/sweep/dns-authoritative.json",
+    "bytes": 6452
+  },
+  {
+    "path": "data/sweep/dns-retry-2026-09-02.json",
+    "bytes": 32555
+  },
+  {
+    "path": "data/sweep/failures-pass1.json",
+    "bytes": 7971
+  },
+  {
+    "path": "data/sweep/party-candidate-pages.json",
+    "bytes": 13790
+  },
+  {
+    "path": "data/sweep/party-crawl-pages.json",
+    "bytes": 113374
+  },
+  {
+    "path": "data/sweep/party-crawl.log",
+    "bytes": 996
+  },
+  {
+    "path": "data/sweep/party-pages/https_avante70_org_br_noticias_avante_elege_vice_governador_do_amazonas_.txt",
+    "bytes": 5627
+  },
+  {
+    "path": "data/sweep/party-pages/https_candidatos_missao_org_br_.txt",
+    "bytes": 42168
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_7_motivos_votar_candidatos_do_novo_.txt",
+    "bytes": 17035
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_camara_aprova_aumento_numero_deputados_voto_contra_novo_.txt",
+    "bytes": 6288
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_camara_dos_deputados_aprova_pec_do_orcamento_impositivo_.txt",
+    "bytes": 6351
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_candidatos_partido_novo_2026_veja_a_lista_.txt",
+    "bytes": 36816
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_deputados_do_novo_fazem_seus_primeiros_pronunciamentos_.txt",
+    "bytes": 3780
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_deputados_do_novo_votam_contra_a_volta_do_dpvat_.txt",
+    "bytes": 5717
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_deputados_federais_do_novo_abrem_mao_do_auxilio_moradia_.txt",
+    "bytes": 3886
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_luiz_lima_se_filia_partido_novo_deputado_federal_olimpico_.txt",
+    "bytes": 7625
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_novo_apresenta_candidato_proprio_a_presidencia_da_camara_.txt",
+    "bytes": 4779
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_novo_suspender_contrato_ebc_lula_eleicoes_2026_.txt",
+    "bytes": 6616
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_partido_novo_lanca_candidato_a_presidencia_da_camara_.txt",
+    "bytes": 8080
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_sebastiao_coelho_filia_novo_sera_candidato_senado_df_.txt",
+    "bytes": 6229
+  },
+  {
+    "path": "data/sweep/party-pages/https_novo_org_br_noticias_tomam_posse_hoje_os_deputados_eleitos_do_novo_.txt",
+    "bytes": 3182
+  },
+  {
+    "path": "data/sweep/party-pages/https_pco_org_br_2024_08_06_eleicoes_2024_pco_lanca_200_candidatos_em_47_cidades_de_17_estados_.txt",
+    "bytes": 9242
+  },
+  {
+    "path": "data/sweep/party-pages/https_pco_org_br_2026_07_16_pco_define_datas_para_lancamento_de_candidaturas_.txt",
+    "bytes": 3345
+  },
+  {
+    "path": "data/sweep/party-pages/https_pco_org_br_2026_08_08_pco_define_candidaturas_em_18_estados_e_no_distrito_federal_para_as_eleicoes_de_2026_.txt",
+    "bytes": 6815
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_12_de_aratiba_rs_define_por_candidato_proprio_.txt",
+    "bytes": 2432
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_12_desautoriza_candidaturas_avulsas_.txt",
+    "bytes": 4202
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_12_ganha_mais_um_senador_acir_gurgacz_ro_.txt",
+    "bytes": 3496
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_12_lamenta_morte_do_ex_deputado_matheus_schmidt_.txt",
+    "bytes": 8032
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_12_quer_dobrar_o_numero_de_deputados_.txt",
+    "bytes": 9046
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_12_quer_lessa_candidato_a_prefeito_de_maceio_.txt",
+    "bytes": 5898
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_12ms_tem_chapa_de_consenso_.txt",
+    "bytes": 5391
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_bloco_deve_ter_candidato_em_2010_.txt",
+    "bytes": 9748
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_camara_homenageia_deputado_lysaneas_maciel_.txt",
+    "bytes": 2330
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_cid_gomes_e_o_senador_mais_votado_do_pais_.txt",
+    "bytes": 2526
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_comissao_barra_processo_contra_governador_do_ma_.txt",
+    "bytes": 6935
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_dagoberto_e_deputado_em_ascensao_.txt",
+    "bytes": 6053
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_deputado_paulo_rubem_ex_pt_entra_no_12_.txt",
+    "bytes": 9842
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_deputado_quer_mutirao_para_garantir_verbas_.txt",
+    "bytes": 3349
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_deputados_aprovam_criacao_da_bolsa_esporte_.txt",
+    "bytes": 6071
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_deputados_do_12_impulsionam_cpi_dos_pedagios_.txt",
+    "bytes": 7028
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_deputados_do_12_sao_destaque_no_ranking_do_diap_.txt",
+    "bytes": 4588
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_deputados_propoem_ampliacao_de_rodovia_no_para_.txt",
+    "bytes": 4625
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_felix_mendonca_confirma_candidaturas_na_bahia_.txt",
+    "bytes": 4052
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_historiador_de_alagoas_capacita_pre_candidatos_.txt",
+    "bytes": 3099
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_homenagens_ao_senador_jefferson_peres_2_.txt",
+    "bytes": 3947
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_js_12_lanca_documento_aos_candidatos_.txt",
+    "bytes": 4684
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_morre_o_ex_deputado_pedetista_david_miranda_.txt",
+    "bytes": 3320
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_no_rio_candidatura_propria_com_paulo_ramos_.txt",
+    "bytes": 1919
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_nota_da_bancada_do_12_na_camara_dos_deputados_.txt",
+    "bytes": 4179
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_nota_de_solidariedade_ao_senador_acir_gurgacz_.txt",
+    "bytes": 3090
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_patricia_saboya_e_candidata_do_12_em_fortaleza_.txt",
+    "bytes": 6914
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_pdt_de_aratiba_rs_apresenta_pre_candidatos_.txt",
+    "bytes": 2358
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_pdt_de_barbalha_ce_reune_pre_candidatos_.txt",
+    "bytes": 3282
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_pdt_de_manaus_lanca_candidatura_puro_sangue_.txt",
+    "bytes": 4554
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_picler_toma_posse_como_deputado_.txt",
+    "bytes": 4086
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_procopio_mineiro_governador_enfrenta_cla_sarney_.txt",
+    "bytes": 19817
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_senador_condena_ma_aplicacao_da_cide_.txt",
+    "bytes": 6951
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_senador_jefferson_peres_o_dever_acima_de_tudo_.txt",
+    "bytes": 18033
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_senadora_angela_portela_se_filia_ao_pdt_.txt",
+    "bytes": 5106
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_senadora_patricia_saboya_se_filia_em_fortaleza_.txt",
+    "bytes": 12247
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_senadores_do_12_se_encontram_com_lula_.txt",
+    "bytes": 3210
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_senadores_reverenciam_memoria_de_jefferson_peres_.txt",
+    "bytes": 2413
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_serra_sera_o_candidato_de_washington_2_.txt",
+    "bytes": 6905
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_sou_deputado_para_conter_danos_.txt",
+    "bytes": 5007
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_tse_absolve_o_governador_do_amapa_.txt",
+    "bytes": 4488
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_tse_julga_nesta_terca_fidelidade_de_governador_.txt",
+    "bytes": 4207
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_tv_ulb_deputados_aprovam_reajuste_de_7_72_.txt",
+    "bytes": 4087
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_vice_governador_do_para_tambem_se_filia_.txt",
+    "bytes": 5523
+  },
+  {
+    "path": "data/sweep/party-pages/https_pdt_org_br_index_php_zeca_do_pt_dagoberto_e_pre_candidato_ao_senado_.txt",
+    "bytes": 5610
+  },
+  {
+    "path": "data/sweep/party-pages/https_podemos_org_br_noticia_setembro_amarelo_senadores_atuam_em_varias_frentes_na_saude_mental.txt",
+    "bytes": 4756
+  },
+  {
+    "path": "data/sweep/party-pages/https_podemos_org_br_senadores.txt",
+    "bytes": 1103
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_cargo_deputado_estadual_.txt",
+    "bytes": 129297
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_cargo_deputado_federal_.txt",
+    "bytes": 44340
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_cargo_governador.txt",
+    "bytes": 5697
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_cargo_governador_.txt",
+    "bytes": 5698
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_cargo_senador.txt",
+    "bytes": 5795
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_cargo_senador_.txt",
+    "bytes": 5796
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_cargo_vice_governador_.txt",
+    "bytes": 8265
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_noticias_progressistas_progressistas_apresenta_seus_candidatos_ao_senado_nas_eleicoes_2026_.txt",
+    "bytes": 5856
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_noticias_progressistas_progressistas_disputa_governos_em_cinco_unidades_da_federacao_nas_elei.txt",
+    "bytes": 3947
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_noticias_progressistas_senador_ciro_nogueira_confirma_presenca_na_convencao_da_federacao_unia.txt",
+    "bytes": 2303
+  },
+  {
+    "path": "data/sweep/party-pages/https_progressistas_org_br_sem_categoria_na_camara_progressistas_filia_deputado_cristino_vale_e_bancada_sobe_para_43_.txt",
+    "bytes": 2972
+  },
+  {
+    "path": "data/sweep/party-pages/https_pt_org_br_chapa_lula_alckmin_quer_barrar_uso_irregular_de_r_134_mi_do_fundo_partidario_do_pl_.txt",
+    "bytes": 12255
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_candidatos_senador.txt",
+    "bytes": 6793
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_cargo_governador.txt",
+    "bytes": 6945
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_cargo_presidente.txt",
+    "bytes": 5324
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_cargo_senador.txt",
+    "bytes": 6788
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_eleicoes_2026.txt",
+    "bytes": 5620
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_apostolo_augusto_lanca_candidatura_em_sergipe_.txt",
+    "bytes": 6021
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_candidatos_do_prb_acre_unidos_na_caminhada_10_.txt",
+    "bytes": 5772
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_candidatos_eleitos_2014_.txt",
+    "bytes": 4389
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_candidatos_realizam_caminhada_em_boa_viagem_.txt",
+    "bytes": 6169
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_carlos_gomes_prestigia_a_25a_chapada_fest_3_.txt",
+    "bytes": 5839
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_chapa_majoritaria_em_ruropolis_.txt",
+    "bytes": 5426
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_chapadinha_agora_e_belezinha_.txt",
+    "bytes": 6852
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_chapadinha_ganha_sistema_de_abastecimento_de_agua_.txt",
+    "bytes": 6479
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputada_luta_pela_igualdade_racial_.txt",
+    "bytes": 6251
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputada_odete_de_jesus_se_filia_ao_prb_.txt",
+    "bytes": 6581
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputado_bulhoes_defende_vale_educacao_.txt",
+    "bytes": 7421
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputado_bulhoes_visita_cidade_de_taubate_.txt",
+    "bytes": 5806
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputado_do_prb_em_defesa_dos_direitos_animais_.txt",
+    "bytes": 5920
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputado_federal_beto_mansur_se_filia_ao_prb_3_.txt",
+    "bytes": 6300
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputado_ossesio_silva_toma_posse_em_pernambuco_.txt",
+    "bytes": 6030
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputado_visita_municipio_de_fernandopolis_.txt",
+    "bytes": 6558
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputados_estaduais_tomam_posse_em_sao_paulo_.txt",
+    "bytes": 6624
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_deputados_recepcionam_caravana_do_prb_mulher_.txt",
+    "bytes": 6179
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_desaposentacao_em_pauta_na_camara_dos_deputados_.txt",
+    "bytes": 6178
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_guia_do_candidato_republicano_eleicoes_2014_.txt",
+    "bytes": 4260
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_jorge_costa_lanca_campanha_a_deputado_federal_.txt",
+    "bytes": 5912
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_juventude_ganha_folego_na_camara_dos_deputados_.txt",
+    "bytes": 8331
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_ministro_da_pesca_visita_deputado_gilmaci_.txt",
+    "bytes": 5938
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_ministro_george_hilton_recebe_senador_romario_.txt",
+    "bytes": 6950
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_no_df_prb_lidera_votacoes_para_deputado_distrital_.txt",
+    "bytes": 6565
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_ossesio_silva_e_diplomado_deputado_estadual_.txt",
+    "bytes": 6617
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_popo_acusa_governador_do_acre_de_acomodacao_.txt",
+    "bytes": 6397
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_popo_acusa_governador_do_acre_de_acomodacao_2_.txt",
+    "bytes": 6399
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_popo_acusa_governador_do_acre_de_acomodacao_3_.txt",
+    "bytes": 6399
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_popo_reassume_hoje_mandato_como_deputado_federal_.txt",
+    "bytes": 6374
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_posto_permanente_do_viva_cidadao_em_chapadinha_.txt",
+    "bytes": 6212
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_povo_mineiro_abraca_candidatura_da_dra_ariadna_.txt",
+    "bytes": 6356
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_prb_apoia_candidatura_de_geraldo_julio_.txt",
+    "bytes": 5776
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_prb_gaucho_lanca_candidatos_as_eleicoes_2014_.txt",
+    "bytes": 7289
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_prb_lanca_o_guia_do_candidato_republicano_.txt",
+    "bytes": 5722
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_prb_reafirma_pre_candidatura_de_russomanno_em_sp_.txt",
+    "bytes": 6778
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_prb_recebe_pre_candidata_do_pcdob_em_porto_alegre_.txt",
+    "bytes": 6359
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_prb_reune_pre_candidatos_em_brasilia_.txt",
+    "bytes": 6243
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_reunioes_firmam_apoio_a_pre_candidatos_.txt",
+    "bytes": 5812
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_reunioes_firmam_apoio_a_pre_candidatos_2_.txt",
+    "bytes": 5814
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_reunioes_firmam_apoio_a_pre_candidatos_3_.txt",
+    "bytes": 5814
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_russomanno_e_destaque_em_debate_entre_candidatos_.txt",
+    "bytes": 8921
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_senador_eduardo_lopes_se_reune_com_prefeitos_.txt",
+    "bytes": 5870
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_sergio_fontellas_exalta_trabalho_dos_candidatos_.txt",
+    "bytes": 6843
+  },
+  {
+    "path": "data/sweep/party-pages/https_republicanos10_org_br_noticias_sergio_peres_e_diplomado_deputado_estadual_no_rs_.txt",
+    "bytes": 7345
+  },
+  {
+    "path": "data/sweep/party-pages/https_solidariedade_org_br_2026_03_05_deputado_eduardo_velloso_se_filia_ao_solidariedade_.txt",
+    "bytes": 5520
+  },
+  {
+    "path": "data/sweep/party-pages/https_solidariedade_org_br_2026_08_07_eleicoes_2026_confira_os_candidatos_do_solidariedade_no_para_.txt",
+    "bytes": 3581
+  },
+  {
+    "path": "data/sweep/party-pages/https_solidariedade_org_br_2026_08_07_eleicoes_2026_confira_os_candidatos_do_solidariedade_no_parana_.txt",
+    "bytes": 2968
+  },
+  {
+    "path": "data/sweep/party-pages/https_uniaobrasil_org_br_acm_neto_oficializa_candidatura_ao_governo_da_bahia_.txt",
+    "bytes": 3858
+  },
+  {
+    "path": "data/sweep/party-pages/https_uniaobrasil_org_br_conheca_as_candidatas_e_os_candidatos_do_uniao_brasil_ao_senado_federal_.txt",
+    "bytes": 6802
+  },
+  {
+    "path": "data/sweep/party-pages/https_uniaobrasil_org_br_eleicoes_2026_professora_dorinha_lidera_corrida_ao_governo_com_374_contra_27_do_segundo_colocad.txt",
+    "bytes": 4841
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_deputados_eleitos_.txt",
+    "bytes": 4238
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_encontro_dos_pre_candidatos_.txt",
+    "bytes": 4257
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_galeria_fotos_pre_candidatura_.txt",
+    "bytes": 2596
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_imagens_lancamento_pre_candidatura_.txt",
+    "bytes": 4273
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_lei_de_deputado_da_dc_aprovada_na_alerj_.txt",
+    "bytes": 5128
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_mais_imagens_lancamento_pre_candidatura_.txt",
+    "bytes": 4283
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_nossos_deputados_estaduais_.txt",
+    "bytes": 2576
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_nossos_deputados_federais_.txt",
+    "bytes": 2575
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_nossos_suplentes_a_deputado_estadual_.txt",
+    "bytes": 2608
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_democraciacrista_org_br_nossos_suplentes_a_deputado_federal_.txt",
+    "bytes": 2605
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_agenda_do_candidato_herbert_amazonas_.txt",
+    "bytes": 5429
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_ato_lanca_pre_candidatura_de_florinda_em_caxias_.txt",
+    "bytes": 5873
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidatas.txt",
+    "bytes": 6592
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidato_do_pstu_cobra_discussoes_sobre_alca_.txt",
+    "bytes": 5497
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidato_do_pstu_descarta_renuncia_em_favor_do_pt_.txt",
+    "bytes": 5899
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidato_do_pstu_diz_que_lessa_e_collor_sao_o_mesmo_.txt",
+    "bytes": 6639
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidatos_40583_.txt",
+    "bytes": 5808
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidatos_ao_governo_do_estado_trocam_acusacoes_.txt",
+    "bytes": 11973
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidatos_ao_governo_vao_a_debate_na_oab_.txt",
+    "bytes": 6729
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidatos_da_burguesia_sao_pura_farsa_.txt",
+    "bytes": 8322
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidatura_de_esquerda_ganha_visibilidade_em_bh_.txt",
+    "bytes": 9215
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidaturas.txt",
+    "bytes": 4780
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_candidaturas_.txt",
+    "bytes": 4781
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_chapa_1_pra_avancar_e_fortalecer_a_luta_.txt",
+    "bytes": 6882
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_chapa_3_vence_eleicoes_no_andes_sn_.txt",
+    "bytes": 6268
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_chapa_da_conlute_vence_eleicoes_do_dce_da_ufrj_.txt",
+    "bytes": 6535
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_chapa_da_conlute_vence_eleicoes_do_dce_da_ufrj_2_.txt",
+    "bytes": 7024
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_chapas.txt",
+    "bytes": 12153
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_confira_as_principais_candidaturas_petistas_.txt",
+    "bytes": 13164
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_conheca_os_candidatos_do_pstu_no_estado_do_rio_.txt",
+    "bytes": 8708
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_convencoes_lancam_candidaturas_do_pstu_.txt",
+    "bytes": 8965
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_deputados_aceleram_cpi_como_parte_do_acordao_.txt",
+    "bytes": 6755
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_deputados_rompem_e_vao_para_o_p_sol_.txt",
+    "bytes": 7274
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_derrotar_os_candidatos_do_governo_e_dos_patroes_.txt",
+    "bytes": 6431
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_e_correto_votar_nos_candidatos_da_esquerda_do_pt_.txt",
+    "bytes": 6986
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_e_o_campo_continua_majoritario_.txt",
+    "bytes": 9366
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_estudantes_expulsam_deputados_da_uerj_.txt",
+    "bytes": 5403
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_fala_valdir_candidato_a_prefeitura_de_fortaleza_ce_.txt",
+    "bytes": 7877
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_governador_da_paraiba_nao_negocia_.txt",
+    "bytes": 7120
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_governadores.txt",
+    "bytes": 10204
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_governo_instaura_cpi_chapa_branca_.txt",
+    "bytes": 9855
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_governo_pressiona_candidato_.txt",
+    "bytes": 6581
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_intelectuais_apoiam_a_candidatura_de_ze_maria_.txt",
+    "bytes": 14195
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_leia_a_carta_da_conlutas_aos_deputados_e_senadores_.txt",
+    "bytes": 13810
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_leia_o_manifesto_da_chapa_para_o_dce_da_unb_.txt",
+    "bytes": 14536
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_marinho_o_candidato_do_governo_.txt",
+    "bytes": 6964
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_oposicao_bancaria_forma_chapa_2_em_sao_paulo_.txt",
+    "bytes": 7854
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_outros_candidatos_.txt",
+    "bytes": 5898
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_pstu_apresenta_sua_candidata_a_vice_presidente_.txt",
+    "bytes": 8932
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_pstu_lanca_as_candidaturas_de_oposicao_de_esquerda_.txt",
+    "bytes": 10002
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_pstu_lanca_candidato_nos_estados_.txt",
+    "bytes": 12457
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_pstu_lanca_candidaturas_municipais_no_abc_paulista_.txt",
+    "bytes": 8665
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_quatro_candidatos_c2_91severinos_c2_b4_.txt",
+    "bytes": 7366
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_salvacao_a_vista_para_deputados_mensaleiros_.txt",
+    "bytes": 10800
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_senador_do_p_sol_cobrava_c2_91mensalinho_c2_b4_.txt",
+    "bytes": 11410
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_senadores.txt",
+    "bytes": 9870
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_servidores_elegem_chapa_avancar_com_lutas_.txt",
+    "bytes": 5697
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_tres_chapas_disputam_eleicao_.txt",
+    "bytes": 6094
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_tse_beneficia_candidatura_de_serra_.txt",
+    "bytes": 6249
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_um_candidato_de_luta_.txt",
+    "bytes": 5836
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_uma_candidatura_contra_os_poderosos_.txt",
+    "bytes": 8194
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_uma_candidatura_operaria_em_sao_jose_dos_campos_.txt",
+    "bytes": 8961
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_uma_cpi_chapa_branca_nao_vai_apurar_nada_.txt",
+    "bytes": 6900
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_unir_a_esquerda_contra_a_cut_chapa_branca_.txt",
+    "bytes": 6953
+  },
+  {
+    "path": "data/sweep/party-pages/https_www_pstu_org_br_ze_maria_candidato_do_pstu_ataca_collor_e_lessa_.txt",
+    "bytes": 6738
+  },
+  {
+    "path": "data/sweep/party-sweep.csv",
+    "bytes": 26726
+  },
+  {
+    "path": "data/sweep/party-sweep.json",
+    "bytes": 43323
+  },
+  {
+    "path": "data/sweep/party-todo.json",
+    "bytes": 845
+  },
+  {
+    "path": "data/sweep/shared-content-w100.json",
+    "bytes": 76322
+  },
+  {
+    "path": "data/sweep/shared-content-w20.json",
+    "bytes": 57515
+  },
+  {
+    "path": "data/sweep/shared-content-w300.json",
+    "bytes": 96103
+  },
+  {
+    "path": "data/sweep/sweep-new-2026-09-03.csv",
+    "bytes": 3226
+  },
+  {
+    "path": "data/sweep/sweep-new-2026-09-03.json",
+    "bytes": 5301
+  },
+  {
+    "path": "data/sweep/sweep-results.csv",
+    "bytes": 257122
+  },
+  {
+    "path": "data/sweep/sweep-results.json",
+    "bytes": 418259
+  },
+  {
+    "path": "data/sweep/sweep.log",
+    "bytes": 250
+  },
+  {
+    "path": "data/sweep/todo.json",
+    "bytes": 2038
+  },
+  {
+    "path": "data/viz/fieldwork.json",
+    "bytes": 351
+  },
+  {
+    "path": "data/viz/fig-cargo.png",
+    "bytes": 58362
+  },
+  {
+    "path": "data/viz/fig-naomedidos.png",
+    "bytes": 20278
+  },
+  {
+    "path": "data/viz/fig-particao.png",
+    "bytes": 37437
+  },
+  {
+    "path": "data/viz/summary-2026-09-02.json",
+    "bytes": 1667
+  },
+  {
+    "path": "data/viz/summary.json",
+    "bytes": 1813
+  },
+  {
+    "path": "drafts/manual-verificacao-ITS.docx",
+    "bytes": 19052
+  },
+  {
+    "path": "drafts/mensagem-whatsapp.md",
+    "bytes": 3890
+  },
+  {
+    "path": "drafts/outline-its-2026-09-12.md",
+    "bytes": 11727
+  },
+  {
+    "path": "drafts/relatorio-ITS-3paginas.docx",
+    "bytes": 119229
+  },
+  {
+    "path": "drafts/resultados-preliminares.html",
+    "bytes": 42498
+  },
+  {
+    "path": "drafts/tarefa-A-paginas-de-candidatos.xlsx",
+    "bytes": 12125
+  },
+  {
+    "path": "drafts/tarefa-B-busca-de-site.xlsx",
+    "bytes": 17486
+  },
+  {
+    "path": "drafts/tarefa-C-assistentes.xlsx",
+    "bytes": 13336
+  },
+  {
+    "path": "notes/api-vs-consumer-decision.md",
+    "bytes": 3634
+  },
+  {
+    "path": "notes/audit-2026-09-13-report.md",
+    "bytes": 27177
+  },
+  {
+    "path": "notes/audit-prompt.md",
+    "bytes": 9642
+  },
+  {
+    "path": "notes/bot-walled-sites-decision.md",
+    "bytes": 3809
+  },
+  {
+    "path": "notes/decisions-2026-09-03.md",
+    "bytes": 6254
+  },
+  {
+    "path": "notes/decisions-2026-09-12.md",
+    "bytes": 6389
+  },
+  {
+    "path": "notes/decisions-2026-09-13.md",
+    "bytes": 10424
+  },
+  {
+    "path": "notes/defect-fixes-2026-09-03.md",
+    "bytes": 12180
+  },
+  {
+    "path": "notes/design-proposal.md",
+    "bytes": 12472
+  },
+  {
+    "path": "notes/gate0-paginas-partidarias-2026-09-03.md",
+    "bytes": 5801
+  },
+  {
+    "path": "notes/gate5-design.md",
+    "bytes": 17815
+  },
+  {
+    "path": "notes/gate6-ranking-design.md",
+    "bytes": 10684
+  },
+  {
+    "path": "notes/its-call-2026-09-08.md",
+    "bytes": 10585
+  },
+  {
+    "path": "notes/metodologia-draft.md",
+    "bytes": 38982
+  },
+  {
+    "path": "notes/open-questions.md",
+    "bytes": 2415
+  },
+  {
+    "path": "notes/overnight-brief-2026-09-01.md",
+    "bytes": 10815
+  },
+  {
+    "path": "notes/overnight-brief-2026-09-03.md",
+    "bytes": 5808
+  },
+  {
+    "path": "notes/prompt-bank-audit.md",
+    "bytes": 7232
+  },
+  {
+    "path": "notes/re-derivation-2026-09-02.md",
+    "bytes": 13251
+  },
+  {
+    "path": "notes/reference-reader.md",
+    "bytes": 4422
+  },
+  {
+    "path": "notes/retry-2026-09-02.md",
+    "bytes": 4954
+  },
+  {
+    "path": "notes/run-plan.md",
+    "bytes": 7406
+  },
+  {
+    "path": "notes/shared-content-2026-09-03.md",
+    "bytes": 14077
+  },
+  {
+    "path": "notes/sweep-findings-2026-08-31.md",
+    "bytes": 27264
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 7935
+  },
+  {
+    "path": "package.json",
+    "bytes": 49
+  },
+  {
+    "path": "scripts/apply_decisions.py",
+    "bytes": 9296
+  },
+  {
+    "path": "scripts/apply_gate2_corrections.py",
+    "bytes": 8211
+  },
+  {
+    "path": "scripts/apply_gate5_review.py",
+    "bytes": 8616
+  },
+  {
+    "path": "scripts/audit_prompts.py",
+    "bytes": 15075
+  },
+  {
+    "path": "scripts/build_candidates.py",
+    "bytes": 14434
+  },
+  {
+    "path": "scripts/build_gate5_pilot.py",
+    "bytes": 10580
+  },
+  {
+    "path": "scripts/build_gate6_ranking.py",
+    "bytes": 10852
+  },
+  {
+    "path": "scripts/build_manual_docx.js",
+    "bytes": 29811
+  },
+  {
+    "path": "scripts/build_prompt_inventory_xlsx.mjs",
+    "bytes": 12861
+  },
+  {
+    "path": "scripts/build_ra_worksheets.py",
+    "bytes": 8001
+  },
+  {
+    "path": "scripts/build_ra_xlsx.py",
+    "bytes": 12880
+  },
+  {
+    "path": "scripts/build_report_charts.py",
+    "bytes": 6960
+  },
+  {
+    "path": "scripts/build_report_docx.js",
+    "bytes": 16797
+  },
+  {
+    "path": "scripts/cdn_attribution.py",
+    "bytes": 7367
+  },
+  {
+    "path": "scripts/coverage_context.py",
+    "bytes": 7127
+  },
+  {
+    "path": "scripts/diagnose_failures.py",
+    "bytes": 5365
+  },
+  {
+    "path": "scripts/dns_authoritative.py",
+    "bytes": 3848
+  },
+  {
+    "path": "scripts/gate5_probe_core.py",
+    "bytes": 4075
+  },
+  {
+    "path": "scripts/gate6_bands.py",
+    "bytes": 6057
+  },
+  {
+    "path": "scripts/page_count.py",
+    "bytes": 1440
+  },
+  {
+    "path": "scripts/party_crawl.py",
+    "bytes": 8505
+  },
+  {
+    "path": "scripts/rederive_gate2.py",
+    "bytes": 20086
+  },
+  {
+    "path": "scripts/reextract.py",
+    "bytes": 2580
+  },
+  {
+    "path": "scripts/retry_unreachable.py",
+    "bytes": 8229
+  },
+  {
+    "path": "scripts/rollup.py",
+    "bytes": 10332
+  },
+  {
+    "path": "scripts/run_gate5_probe.py",
+    "bytes": 15919
+  },
+  {
+    "path": "scripts/shared_content_guard.py",
+    "bytes": 21267
+  },
+  {
+    "path": "scripts/sweep.py",
+    "bytes": 18535
+  },
+  {
+    "path": "scripts/test_coverage_precedence.py",
+    "bytes": 1025
+  },
+  {
+    "path": "scripts/test_gate5_probe_core.py",
+    "bytes": 5538
+  },
+  {
+    "path": "scripts/test_gate5_probe_send.py",
+    "bytes": 1437
+  },
+  {
+    "path": "scripts/test_gate6_bands.py",
+    "bytes": 8936
+  },
+  {
+    "path": "scripts/test_ra_population.py",
+    "bytes": 1951
+  },
+  {
+    "path": "sources/las-prior-art.md",
+    "bytes": 12291
+  }
+]

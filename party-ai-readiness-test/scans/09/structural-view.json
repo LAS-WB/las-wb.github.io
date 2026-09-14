@@ -1,0 +1,135 @@
+{
+  "subject": {
+    "country": "Paula Belmonte",
+    "service": "paulabelmonte.com.br",
+    "service_url": "https://www.paulabelmonte.com.br",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "findings": [],
+  "observations": [],
+  "gaps": [
+    {
+      "title": "Initial page text",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Text after rendering",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Hidden text",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Content behind a click",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Linked PDFs",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Application route",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    }
+  ],
+  "checks": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    },
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles",
+      "evidence": {
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    }
+  ],
+  "provenance": {
+    "run_id": "residential-1789375145",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "mock": false
+}

@@ -1,0 +1,501 @@
+{
+  "subject": {
+    "country": "Renan Santos",
+    "service": "renanpresidente.com.br",
+    "service_url": "https://renanpresidente.com.br",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "findings": [
+    {
+      "check_id": "hidden",
+      "source_ids": [
+        "OB-hidden"
+      ],
+      "location": "evidence",
+      "title": "Text is hidden from view.",
+      "explanation": "AI readers that use visible page text may miss information in hidden regions.",
+      "fix": "Make the text available without expanding the hidden region. Keep a collapsible presentation where useful.",
+      "url": null,
+      "coverage": ""
+    }
+  ],
+  "observations": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "694 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.renanpresidente.com.br/",
+        "rendered_final_url": "https://www.renanpresidente.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 694,
+        "rendered_words": 845,
+        "matching_words": 524,
+        "added_words": 321,
+        "removed_words": 170,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "321 additional words appeared in the rendered extraction; 524 matched and 170 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.renanpresidente.com.br/",
+        "rendered_final_url": "https://www.renanpresidente.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 694,
+        "rendered_words": 845,
+        "matching_words": 524,
+        "added_words": 321,
+        "removed_words": 170,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "checks": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "694 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.renanpresidente.com.br/",
+        "rendered_final_url": "https://www.renanpresidente.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 694,
+        "rendered_words": 845,
+        "matching_words": 524,
+        "added_words": 321,
+        "removed_words": 170,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "321 additional words appeared in the rendered extraction; 524 matched and 170 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://www.renanpresidente.com.br/",
+        "rendered_final_url": "https://www.renanpresidente.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 694,
+        "rendered_words": 845,
+        "matching_words": 524,
+        "added_words": 321,
+        "removed_words": 170,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "detected",
+      "observation": "220 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 220,
+        "visible_words": 625,
+        "document_words": 845,
+        "mechanisms": {
+          "opacity:0": 171,
+          "offscreen": 49
+        },
+        "scope": "main",
+        "sample": "Renan · Missão Santos O FUTURO É GLORIOSO 2026 Candidatura Renan anunciou sua candidatura à Presidência, para que todos os brasileiros que desejam trabalhar e produzir possam ser representados. Desde o início do ano, já viajou por mais de 200 cidades em 20 estados, conheceu o Brasil profundo e apontou soluções e propostas para transformar nosso país. 4 vídeos Economia Equilíbrio fiscal, produtividade, Zonas Econômicas Especiais e a corrida da IA. Assistir 5 vídeos Desenvolvimento Ferrovias, energia barata, terras raras, agro e Amazônia. 2 vídeos Crime e Segurança Guerra ao crime organizado, superpresídios e polícia orientada por tecnologia. 3 vídeos Desfavelização e Trabalho Título de propriedade, presença do Estado e a substituição do Bolsa Família por trabalho. Educação e Cultura Método fônico, disciplina na escola e cultura como identidade nacional. Reforma do Estado Lei de Responsabilidade Gerencial e fusão de municípios inviáveis. Missão Ajude na campanha. Os voluntários da Missão são quem faz a campanha acontecer — e o quartel-general será nosso aplicativo. Baixe, cumpra missões diárias, compartilhe os conteúdos prontos e suba no ranking nacional: a forma mais fácil de ajudar a eleger o Renan começa no seu celular. APP Baixe na App Store Disponível no Google Play Ou acesse app.missao.org.br ↗ Em alta no feed do app Instagram Facebook TikTok YouTube X Canal no WhatsApp Fale no WhatsApp",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 629,
+          "scannedNodes": 629,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 88,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "controls": 0,
+        "pressed": 0,
+        "scope": "main",
+        "eligible_controls": [],
+        "presses": [],
+        "words_before": 625,
+        "words_after": null,
+        "doc_before": 845,
+        "doc_after": null,
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "census_before": {
+          "totalNodes": 629,
+          "scannedNodes": 629,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 88,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://www.renanpresidente.com.br/_vercel/insights/view"
+          }
+        ],
+        "navigated": false,
+        "press_limit": 20,
+        "service_workers": "blocked",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "entry": null,
+        "depth": null,
+        "self_entry": null,
+        "minimum_depth_confirmed": false,
+        "pages_crawled": 40,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": true,
+        "frontier_left": 37,
+        "external_candidates": [],
+        "external_entry": null,
+        "failed_urls": [
+          {
+            "url": "https://www.renanpresidente.com.br/plano-de-governo-missao-2026.pdf",
+            "hop": 2,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/o3txKu4pKxM",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/fF-AjwHLeDw",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/Gbf_AGqEpVU",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/FykaDbHW5IU",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/CwX5WvOWB5Q",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/VzGpMY6Zzak",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/_0BMGy_nn8A",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/p5ZRVXBpBYk",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/n_8OLqLocrg",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/VjX4845U_bQ",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/0BjcGomCDDQ",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/u4oYVwQflhE",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/z2XvI-j7mJY",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/ZvrNgVSYsug",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/ZaFuB1rTKVQ",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/V5uBMKBzawo",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/entrevistas/OpqUqsOyI_M",
+            "text": "Guia da entrevista",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/energia",
+            "text": "Energia",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/cultura",
+            "text": "Cultura",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/educacao",
+            "text": "Educação",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/largou-a-faculdade",
+            "text": "04“Largou a faculdade”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/terras-raras",
+            "text": "Terras Raras",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/agropecuaria",
+            "text": "Agropecuária",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/produtividade",
+            "text": "Produtividade",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/meio-ambiente",
+            "text": "Meio Ambiente",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/infraestrutura",
+            "text": "Infraestrutura",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/superpresidios",
+            "text": "Superpresídios",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/desfavelizacao",
+            "text": "Desfavelização",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/frentes-cidadas",
+            "text": "Frentes Cidadãs",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/equilibrio-fiscal",
+            "text": "Equilíbrio Fiscal",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/vai-cortar-a-aposentadoria",
+            "text": "10“Vai cortar a aposentadoria”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/bandeira-quartel-escola",
+            "text": "Bandeira, Quartel, Escola",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/a-candidatura-do-renan-ajuda-o-pt",
+            "text": "13“A candidatura do Renan ajuda o PT”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/propostas/em-video/zonas-economicas-especiais",
+            "text": "Zonas Econômicas Especiais",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/falta-experiencia-nunca-foi-eleito",
+            "text": "14“Falta experiência, nunca foi eleito”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/suas-propostas-sao-inconstitucionais",
+            "text": "11“Suas propostas são inconstitucionais”",
+            "hop": 2
+          },
+          {
+            "url": "https://www.renanpresidente.com.br/caixa-preta/muitas-propostas-como-vai-executar-sem-congresso",
+            "text": "12“Muitas propostas - como vai executar sem Congresso?”",
+            "hop": 2
+          }
+        ],
+        "redirects": [
+          {
+            "from": "https://renanpresidente.com.br",
+            "to": "https://www.renanpresidente.com.br/"
+          }
+        ],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "coverage_complete": false,
+        "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    }
+  ],
+  "provenance": {
+    "run_id": "residential-1789374744",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "mock": false
+}

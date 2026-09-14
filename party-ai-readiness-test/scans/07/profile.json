@@ -1,0 +1,388 @@
+{
+  "subject": {
+    "country": "Acir Gurgacz",
+    "service": "acir.com.br",
+    "service_url": "https://acir.com.br/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "provenance": {
+    "run_id": "residential-1789375045",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "executive": {
+    "headline": "Reachable to AI today.",
+    "summary": "The AI crawlers used to read the web fetch the full page directly. Legibility and obstacles measured on the service page."
+  },
+  "pillars": [
+    {
+      "key": "D",
+      "name": "Reachability",
+      "q": "Can AI systems reach the service?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "D1"
+      ],
+      "checks": [
+        {
+          "id": "D1",
+          "name": "Reachable by AI retrievers",
+          "value": 1.0,
+          "result": "The AI crawlers used to read the web fetch the full page directly.",
+          "fix": "Keep public service paths open to legitimate AI retrieval agents.",
+          "ladder": [
+            {
+              "rung": "Plain AI fetch",
+              "reached": true,
+              "note": "full content returned"
+            },
+            {
+              "rung": "AI browser fetch",
+              "reached": true,
+              "note": "full page renders"
+            },
+            {
+              "rung": "Disguised browser",
+              "reached": true,
+              "note": "full page renders"
+            }
+          ]
+        },
+        {
+          "id": "D5",
+          "name": "Findable in search",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "L",
+      "name": "Legibility",
+      "q": "Can AI read and understand it?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "L3",
+        "L4",
+        "L5",
+        "L7"
+      ],
+      "checks": [
+        {
+          "id": "L3",
+          "name": "Structured data",
+          "value": 0.0,
+          "result": "No structured data for AI to extract facts from.",
+          "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+        },
+        {
+          "id": "L4",
+          "name": "Shows when it was updated",
+          "value": 0.0,
+          "result": "No 'last updated' date, so AI can't tell if it's current.",
+          "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+        },
+        {
+          "id": "L5",
+          "name": "Guidance in the page, not a PDF",
+          "value": 1.0,
+          "result": "Guidance is on the page itself, not locked in PDFs.",
+          "fix": "Keep publishing guidance as HTML."
+        },
+        {
+          "id": "L7",
+          "name": "Answer-friendly layout",
+          "value": 0.5,
+          "result": "Some structure, but key facts are mostly in prose.",
+          "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+        }
+      ],
+      "observations": [
+        {
+          "id": "Lang",
+          "name": "Language coverage",
+          "detail": "Declares its language ('pt-BR') but offers no other-language version.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "O",
+      "name": "Obstacles to AI readers",
+      "kind": "obstacles",
+      "q": "What does the scan observe about the page constructions tested in the study?",
+      "assessment_set_version": "2026-09-13.2",
+      "assessment_set": [
+        "OB-script",
+        "OB-hidden",
+        "OB-click",
+        "OB-pdf",
+        "OB-depth"
+      ],
+      "checks": [
+        {
+          "id": "OB-script",
+          "name": "Rendered extraction contains more words than served HTML",
+          "state": "not_measured",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the rendered page reported no content words to compare against",
+          "evidence": {
+            "raw_status": 200,
+            "served_final_url": "https://acir.com.br/",
+            "rendered_final_url": "https://acir.com.br/",
+            "capture_delay_ms": 5000,
+            "served_attempts": 1,
+            "scope": {
+              "rendered": "body-minus-chrome",
+              "served": "body-minus-chrome"
+            },
+            "reason": "the rendered page reported no content words to compare against"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-hidden",
+          "name": "Text in the assessed region is hidden by a recorded mechanism",
+          "state": "clear",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "No hidden text was recorded within this census's assessed region. Navigation, header, footer and dialog regions are outside its declared scope.",
+          "evidence": {
+            "hidden_words": 0,
+            "mechanisms": {},
+            "scope": "body-minus-chrome",
+            "visible_words": 0,
+            "document_words": 0,
+            "sample": "",
+            "accessibility_excluded_words": 0,
+            "accessibility_mechanisms": {},
+            "census": {
+              "totalNodes": 129,
+              "scannedNodes": 129,
+              "nodeLimit": 8000,
+              "truncated": false,
+              "duplicateWordsExcluded": 0,
+              "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+            },
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-click",
+          "name": "Document text increased after disclosure controls were pressed",
+          "state": "not_measured",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+          "evidence": {
+            "pressed": 0,
+            "controls": 0,
+            "blocked_requests": [],
+            "blocked_on_load": [
+              {
+                "method": "POST",
+                "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-T7N7SKYENG&gtm=45je6992h1v9231439313z89231436990za20gzb9231436990zd9231436990&_p=1789375098737&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1172959250.1789375099&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B14"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+              },
+              {
+                "method": "POST",
+                "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+              },
+              {
+                "method": "POST",
+                "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+              }
+            ],
+            "navigated": false,
+            "words_before": 0,
+            "words_after": null,
+            "doc_before": 0,
+            "doc_after": null,
+            "presses": [],
+            "control_doc_before": null,
+            "control_doc_after": null,
+            "service_workers": "blocked",
+            "press_limit": 20,
+            "eligible_controls": [],
+            "scope": "body-minus-chrome",
+            "census_before": {
+              "totalNodes": 129,
+              "scannedNodes": 129,
+              "nodeLimit": 8000,
+              "truncated": false,
+              "duplicateWordsExcluded": 0,
+              "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+            },
+            "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-pdf",
+          "name": "Linked PDF extraction properties",
+          "state": "not_applicable",
+          "severity": null,
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "No PDF is linked from the main content.",
+          "evidence": {
+            "main_pdf_links": 0,
+            "page_pdf_links": 0,
+            "applicability_reason": "no PDF is linked from the assessed region",
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-depth",
+          "name": "Confirmed minimum application-route depth",
+          "state": "not_measured",
+          "severity": "red",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: The bounded crawl found no possible application entry within 4 hops (15 pages crawled). That does not establish that this check is inapplicable or that the service has no online application.",
+          "evidence": {
+            "depth": null,
+            "entry": null,
+            "pages_crawled": 15,
+            "pages_failed": 0,
+            "hops": 4,
+            "budget": 40,
+            "exhausted": false,
+            "frontier_left": 0,
+            "external_entry": null,
+            "external_candidates": [],
+            "failed_urls": [],
+            "pruned_links": [],
+            "redirects": [],
+            "possible_routes": [],
+            "confirmed_routes": [],
+            "self_entry": null,
+            "reason": "The bounded crawl found no possible application entry within 4 hops (15 pages crawled). That does not establish that this check is inapplicable or that the service has no online application.",
+            "minimum_depth_confirmed": false,
+            "coverage_complete": false
+          },
+          "fix": "",
+          "study": null
+        }
+      ]
+    }
+  ],
+  "future": {
+    "name": "Future-readiness",
+    "q": "Signs the service is preparing for AI agents",
+    "items": [
+      {
+        "name": "Machine-readable API",
+        "present": false,
+        "state": "none"
+      },
+      {
+        "name": "Sign-in standard (OIDC)",
+        "present": false
+      },
+      {
+        "name": "llms.txt",
+        "present": true
+      },
+      {
+        "name": "AGENTS.md",
+        "present": false
+      },
+      {
+        "name": "Agent card",
+        "present": false
+      },
+      {
+        "name": "MCP endpoint",
+        "present": false
+      }
+    ]
+  },
+  "ai_visibility": {
+    "q": "How AI assistants represent this service today",
+    "metrics": []
+  },
+  "injection": {
+    "measured": true,
+    "csp": true,
+    "third_party_scripts": 2,
+    "flagged": 0,
+    "flags": []
+  },
+  "actions": [
+    {
+      "head": "Keep public service paths open to legitimate AI retrieval agents.",
+      "why": "The AI crawlers used to read the web fetch the full page directly."
+    }
+  ]
+}

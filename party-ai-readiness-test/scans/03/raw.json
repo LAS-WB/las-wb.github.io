@@ -1,0 +1,702 @@
+{
+  "country": "Time Barra / Eder Mauro",
+  "vantage": "residential, Lisbon",
+  "run_id": "residential-1789374872",
+  "homepage": "https://timebarra.com.br/",
+  "service": "https://timebarra.com.br/",
+  "pillars_run": [
+    "D",
+    "L",
+    "N",
+    "O",
+    "T"
+  ],
+  "measured_on": "service page",
+  "content_reached": true,
+  "t1_injection": {
+    "csp": false,
+    "third_party_scripts": 0,
+    "hidden_text_nodes": 14,
+    "injection_hits": []
+  },
+  "pdf_analyses": [
+    {
+      "url": "https://timebarra.com.br/politica-de-privacidade.pdf",
+      "fetched": true,
+      "status": 200,
+      "error": "",
+      "tagged": false,
+      "has_text": true,
+      "text_head": "MOVIMENTO TIME BARRA\nBELÉM · PARÁ\nPolítica de Privacidade\ne Uso de Dados\nTIME BARRAMOBILIZAÇÃO CÍVICA E INSTITUCIONAL\nAGOSTO DE 2026 TIME BARRA\nPolítica de Privacidade e Uso\nde Dados\nEsta Política explica, de forma clara e objetiva, como o Time Barra coleta, usa, armazena e\nprotege os dados pessoais de quem faz adesão voluntária ao movimento por meio deste\nsite. Ao preencher o formulário e marcar a caixa de consentimento, você concorda com os\ntermos descritos abaixo, em conformidade com a Lei Geral de Proteção de Dados (Lei nº\n13.709/2018 — LGPD). \n1 RESPONSÁVEL PELOS DADOS\nO Time Barra é um movimento de mobilização cívica e institucional com atuação em Belém\ne em outras cidades do Pará, representado por seus coordenadores Rogério Barra, Del\nÉder Mauro e Dra. Tati Barra, responsáveis pelo tratamento dos dados pessoais\ncoletados por meio deste site, nos termos da LGPD. \n2 DADOS COLETADOS\nAo aderir ao movimento pelo formulário de adesão, coletamos:\nPrimeiro nome e sobrenome;\nCidade e, quando aplicável, bairro;\nNúmero de WhatsApp;\nE-mail;\nDados técnicos de navegação (como origem do acesso e código de indicação), coletados\nautomaticamente para fins de segurança e melhoria do site.\n3 FINALIDADES DE USO\nOs dados informados são utilizados para:\nConfirmar e registrar sua adesão voluntária ao Time Barra;\nEnviar comunicações sobre atividades, eventos e ações do movimento;\nOrganizar o ranking público de apoiadores e o sistema de indicação (referral);\nProduzir estatísticas internas sobre alcance e engajamento, sempre de forma agregada.\n• \n• \n• \n• \n• \n• \n• \n• \n• \nTIME BARRA — POLÍTICA DE PRIVACIDADE E USO DE DADOS 2 / 5 4 USO PARA COMUNICAÇÃO CÍVICA, INSTITUCIONAL E\nPOLÍTICA\nO Time Barra é um movimento de mobilização cívica e de apoio a pautas e lideranças\nalinhadas aos seus princípios. Por isso, os dados coletados também poderão ser usados para\no envio de comunicações institucionais e político-cívicas — como convites para eventos,\natualizações de agenda e mensagens de mobilização — sempre respeitando sua vontade de\ncontinuar recebendo esse contato, que pode ser revogada a qualquer momento pelos canais\nindicados na Seção 9. \n5 BASE LEGAL\nA adesão ao Time Barra pode revelar, ainda que indiretamente, orientação e opinião política\n— o que a LGPD classifica como dado sensível (art. 5º, II). Por isso, a base legal principal\nque fundamenta todo o tratamento de dados descrito nesta Política é o consentimento\nlivre, específico e informado do titular (art. 11, I, da LGPD), manifestado no momento\nem que você marca a caixa de aceite no formulário de adesão. Sem esse consentimento,\nseus dados não são coletados nem tratados. \n6 COMPARTILHAMENTO DE DADOS\nSeus dados não são vendidos. Podem ser compartilhados apenas com prestadores de\nserviço estritamente necessários à operação do movimento — como plataformas de envio\nde WhatsApp e e-mail, e o provedor de hospedagem e banco de dados do site —, sempre\nsob obrigação contratual de confidencialidade e segurança, ou quando exigid",
+      "title": "",
+      "pages": 5,
+      "bytes_read": 153911,
+      "byte_limit": 8000000,
+      "download_truncated": false,
+      "pages_sampled": 3,
+      "page_sample_limit": 3,
+      "page_sample_truncated": true,
+      "in_main": false,
+      "anchor": "",
+      "inspection_total": 1,
+      "inspection_limit": 4,
+      "inspection_truncated": false
+    }
+  ],
+  "reveal_probe": {
+    "pressed": 0,
+    "controls": 0,
+    "blocked_requests": [],
+    "blocked_on_load": [
+      {
+        "method": "POST",
+        "url": "https://timebarra.com.br/_serverFn/42785a06728842db673337a2e6076f480b268bf6b786f9221efee237b93e0bdc"
+      },
+      {
+        "method": "POST",
+        "url": "https://timebarra.com.br/~api/analytics"
+      }
+    ],
+    "navigated": false,
+    "words_before": 0,
+    "words_after": null,
+    "doc_before": 20,
+    "doc_after": null,
+    "presses": [],
+    "control_doc_before": null,
+    "control_doc_after": null,
+    "service_workers": "blocked",
+    "press_limit": 20,
+    "eligible_controls": [],
+    "scope": "article",
+    "census_before": {
+      "totalNodes": 6,
+      "scannedNodes": 6,
+      "nodeLimit": 8000,
+      "truncated": false,
+      "duplicateWordsExcluded": 0,
+      "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+    }
+  },
+  "depth_probe": {
+    "depth": null,
+    "entry": null,
+    "pages_crawled": 1,
+    "pages_failed": 1,
+    "hops": 4,
+    "budget": 40,
+    "exhausted": false,
+    "frontier_left": 0,
+    "external_entry": null,
+    "external_candidates": [],
+    "failed_urls": [
+      {
+        "url": "https://timebarra.com.br/politica-de-privacidade.pdf",
+        "hop": 1,
+        "reason": "Error"
+      }
+    ],
+    "pruned_links": [],
+    "redirects": [],
+    "possible_routes": [],
+    "confirmed_routes": [],
+    "self_entry": null,
+    "reason": null,
+    "minimum_depth_confirmed": false,
+    "coverage_complete": false
+  },
+  "L_checks": [
+    {
+      "id": "L3",
+      "name": "Structured data",
+      "value": 0.0,
+      "result": "No structured data for AI to extract facts from.",
+      "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+    },
+    {
+      "id": "L4",
+      "name": "Shows when it was updated",
+      "value": 0.0,
+      "result": "No 'last updated' date, so AI can't tell if it's current.",
+      "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+    },
+    {
+      "id": "L5",
+      "name": "Guidance in the page, not a PDF",
+      "value": 0.4,
+      "result": "Key guidance is in a PDF with a text layer but no tagging — only partly machine-readable.",
+      "fix": "Tag the PDF (or publish as HTML) so structure is machine-readable."
+    },
+    {
+      "id": "L7",
+      "name": "Answer-friendly layout",
+      "value": 0.0,
+      "result": "The content is unstructured prose — hard for AI to lift answers from.",
+      "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+    }
+  ],
+  "L_observations": [
+    {
+      "id": "Lang",
+      "name": "Language coverage",
+      "detail": "Declares its language ('en') but offers no other-language version.",
+      "fix": ""
+    }
+  ],
+  "O_checks": [
+    {
+      "id": "OB-script",
+      "name": "Rendered extraction contains more words than served HTML",
+      "state": "clear",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Within the recorded the main content extraction scopes, the rendered/served word addition share is 0% (0 added; 20 matching), below this candidate check's threshold.",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://timebarra.com.br/",
+        "rendered_final_url": "https://timebarra.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "article",
+          "served": "article"
+        },
+        "basis": "main",
+        "rendered_words": 20,
+        "served_words": 97,
+        "matching_words": 20,
+        "added_words": 0,
+        "removed_words": 77,
+        "script_only_words": 0,
+        "share": 0.0,
+        "word_difference": 0,
+        "rendered_difference_percent": 0,
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-hidden",
+      "name": "Text in the assessed region is hidden by a recorded mechanism",
+      "state": "clear",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "20 words of main content are hidden — opacity:0 (20 words) — below the 40-word threshold for a finding.",
+      "evidence": {
+        "hidden_words": 20,
+        "mechanisms": {
+          "opacity:0": 20
+        },
+        "scope": "article",
+        "visible_words": 0,
+        "document_words": 20,
+        "sample": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 6,
+          "scannedNodes": 6,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-click",
+      "name": "Document text increased after disclosure controls were pressed",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "pressed": 0,
+        "controls": 0,
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://timebarra.com.br/_serverFn/42785a06728842db673337a2e6076f480b268bf6b786f9221efee237b93e0bdc"
+          },
+          {
+            "method": "POST",
+            "url": "https://timebarra.com.br/~api/analytics"
+          }
+        ],
+        "navigated": false,
+        "words_before": 0,
+        "words_after": null,
+        "doc_before": 20,
+        "doc_after": null,
+        "presses": [],
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "service_workers": "blocked",
+        "press_limit": 20,
+        "eligible_controls": [],
+        "scope": "article",
+        "census_before": {
+          "totalNodes": 6,
+          "scannedNodes": 6,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-pdf",
+      "name": "Linked PDF extraction properties",
+      "state": "not_applicable",
+      "severity": null,
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "No PDF is linked from the main content. (1 PDF link(s) elsewhere on the page, outside the main content.)",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 1,
+        "applicability_reason": "no PDF is linked from the assessed region",
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-depth",
+      "name": "Confirmed minimum application-route depth",
+      "state": "not_measured",
+      "severity": "red",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: 1 page attempt(s) failed during the crawl (1 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "depth": null,
+        "entry": null,
+        "pages_crawled": 1,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_entry": null,
+        "external_candidates": [],
+        "failed_urls": [
+          {
+            "url": "https://timebarra.com.br/politica-de-privacidade.pdf",
+            "hop": 1,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [],
+        "redirects": [],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "self_entry": null,
+        "reason": "1 page attempt(s) failed during the crawl (1 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+        "minimum_depth_confirmed": false,
+        "coverage_complete": false
+      },
+      "fix": "",
+      "study": null
+    }
+  ],
+  "future_items": [
+    {
+      "name": "Machine-readable API",
+      "present": false,
+      "state": "none"
+    },
+    {
+      "name": "Sign-in standard (OIDC)",
+      "present": false
+    },
+    {
+      "name": "llms.txt",
+      "present": false
+    },
+    {
+      "name": "AGENTS.md",
+      "present": false
+    },
+    {
+      "name": "Agent card",
+      "present": false
+    },
+    {
+      "name": "MCP endpoint",
+      "present": false
+    }
+  ],
+  "injection": {
+    "measured": true,
+    "csp": false,
+    "third_party_scripts": 0,
+    "flagged": 0,
+    "flags": []
+  },
+  "reach_home": {
+    "url": "https://timebarra.com.br/",
+    "matrix": {
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 592,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 592,
+      "error": "",
+      "status": 200,
+      "final_url": "https://timebarra.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 594,
+      "raw_main_words": 97,
+      "raw_main_scope": "article",
+      "raw_main_text": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população. Combate à corrupção Fiscalização do dinheiro público e enfrentamento aos corruptos que prejudicam o Pará. Defesa das famílias Proteção das crianças, respeito aos valores cristãos e liberdade para as famílias educarem seus filhos. Saúde perto das pessoas Mais atendimento na capital e no interior, com atenção especial às mulheres, às crianças e às famílias que mais precisam. Trabalho e desenvolvimento Defesa de quem produz, empreende e gera emprego, com municípios mais fortes e oportunidades para os paraenses.",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 0,
+      "final_url": "https://timebarra.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:34:36 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "",
+      "lang": "en",
+      "hreflang": [],
+      "lists": 0,
+      "tables": 0,
+      "dls": 0,
+      "words": 592,
+      "text_head": "O TIME DO BOLSONARO NO PARÁ\nENTRAR PARA O TIME\nJUNTE-SE AO TIME BARRA!\n\nLeva menos de um minuto.\n\nPrimeiro nome\nSobrenome\nCidade\nSelecione sua cidade\nBairro\nSelecione seu bairro\nWhatsApp\nE-mail\nConfirmo que os dados informados são meus e autorizo seu tratamento, conforme esta Política de Privacidade e a LGPD.\nConfirmo que os dados informados são meus e autorizo seu tratamento, conforme esta Política de Privacidade e a LGPD.\nENTRAR PARA O TIME\n\nTRÊS NOMES. UMA DIREITA DE VERDADE.\n\nNOSSO TIME\n\nExperiência, coragem e disposição para defender Bolsonaro, enfrentar a esquerda e representar quem trabalha e sustenta o Pará.\n\nDEL ÉDER MAURO\n\nDEPUTADO FEDERAL · CANDIDATO AO SENADO\n\nAGORA É DE ROCHA MESMO!\n\nForam 30 anos como delegado e três mandatos na Câmara dos Deputados. Éder Mauro é uma das principais vozes de Bolsonaro no Pará, com uma trajetória marcada pelo enfrentamento ao crime, pelo combate à corrupção e pela defesa das famílias.\n\nInstagram\nROGÉRIO BARRA\n\nDEPUTADO ESTADUAL · CANDIDATO A DEPUTADO FEDERAL\n\nAGORA FEDERAL!\n\nAdvogado e deputado estadual, Rogério Barra foi eleito com 81.868 votos, a maior votação entre os novos deputados em 2022. Seu mandato é marcado pela fiscalização, pelas denúncias contra os corruptos e pela firmeza de quem não baixa a cabeça.\n\nInstagram\nDRA. TATI BARRA\n\nMÉDICA ANESTESIOLOGISTA · CANDIDATA A DEPUTADA ESTADUAL\n\nPODE CHAMAR A DOUTORA!\n\nMédica, mãe, cristã e mulher de direita. Convidada por Michelle Bolsonaro para integrar o PL Mulher, Tati Barra conhece a saúde pública por dentro e entrou na política para defender as mulheres, as crianças, as famílias e os valores cristãos.\n\nInstagram\nBELÉM, PA\nFECHADOS COM BOLSONARO. FIRMES PELO PARÁ.\n\nAqui não tem gente em cima do muro. O Time Barra é o time de Bolsonaro no Pará. Está ao lado do presidente Jair Bolsonaro, do senador Flávio Bolsonaro e de Michelle Bolsonaro na defesa de Deus, da pátria, da família e da liberdade.\n\nÉ uma direita que respeita quem trabalha, valoriza as forças de segurança, protege as crianças, enfrenta os corruptos e não se curva diante de quem tenta calar a tua voz!\n\nENTRAR PARA O TIME\nDEUS. PÁTRIA. FAMÍLIA. LIBERDADE.\n\nSÃO VALORES QUE O TIME BARRA NÃO NEGOCIA.\n\nSEGURANÇA PARA QUEM TRABALHA\n\nFirmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.\n\nCOMBATE À CORRUPÇÃO\n\nFiscalização do dinheiro público e enfrentamento aos corruptos que prejudicam o Pará.\n\nDEFESA DAS FAMÍLIAS\n\nProteção das crianças, respeito aos valores cristãos e liberdade para as famílias educarem seus filhos.\n\nSAÚDE PERTO DAS PESSOAS\n\nMais atendimento na capital e no interior, com atenção especial às mulheres, às crianças e às famílias que mais precisam.\n\nTRABALHO E DESENVOLVIMENTO\n\nDefesa de quem produz, empreende e gera emprego, com municípios mais fortes e oportunidades para os paraenses.\n\nO TIME DE BOLSONARO PELO PARÁ\n\nO Time Barra percorre o Estado para fortalecer a direita, ouvir a população e estar ao lado de quem acredita em um Pará mais seguro, livre e respeitado.\n\nAPOIADORES 2026\nAPOIADORES 2026\nCAPANEMA\nTERRA SANTA\nÓBIDOS\nDIREITA PELO NORTE\nDIREITA PELO PARÁ\nCONVENÇÃO NACIONAL DO PL\nAPOIADORES 2026\nAPOIADORES 2026\nCAPANEMA\nTERRA SANTA\nÓBIDOS\nDIREITA PELO NORTE\nDIREITA PELO PARÁ\nCONVENÇÃO NACIONAL DO PL\nFORTALEÇA A DIREITA NO PARÁ\n\nCada pessoa que entra fortalece o projeto de Bolsonaro e ajuda o Time Barra a chegar a mais municípios e a mais famílias.\n\nENTRAR PARA O TIME\n\nTime Barra. O time de Bolsonaro no Pará. Coragem para enfrentar. Trabalho para defender o Pará.\n\nInstagram\nRogério Barra\nDel Éder Mauro\nDra. Tati Barra\n© 2026 Time Barra. Todos os direitos reservados.",
+      "visibleUpdated": "",
+      "forms": 1,
+      "inputs": 5,
+      "authGate": false,
+      "internalLinks": 2,
+      "internalPaths": [
+        "/politica-de-privacidade.pdf",
+        "/"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 3,
+      "labeledInputs": 5,
+      "pdfLinks": 1,
+      "pdfUrls": [
+        "https://timebarra.com.br/politica-de-privacidade.pdf"
+      ],
+      "mainScope": "article",
+      "mainWords": 0,
+      "mainDocWords": 20,
+      "mainText": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 6,
+        "scannedNodes": 6,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 0,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 20,
+        "mechanisms": {
+          "opacity:0": 20
+        },
+        "sample": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Time Barra | O time de Bolsonaro no Pará"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 0,
+      "thirdPartyOrigins": [],
+      "hiddenTextNodes": 14,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  },
+  "reach_service": {
+    "url": "https://timebarra.com.br/",
+    "matrix": {
+      "Claude-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "OAI-SearchBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 594,
+        "error": ""
+      }
+    },
+    "browser_ok": true,
+    "retrievers_ok": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ClaudeBot",
+      "PerplexityBot"
+    ],
+    "blocked_ai": [],
+    "plain_reached": true,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 592,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 592,
+      "error": "",
+      "status": 200,
+      "final_url": "https://timebarra.com.br/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 594,
+      "raw_main_words": 97,
+      "raw_main_scope": "article",
+      "raw_main_text": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população. Combate à corrupção Fiscalização do dinheiro público e enfrentamento aos corruptos que prejudicam o Pará. Defesa das famílias Proteção das crianças, respeito aos valores cristãos e liberdade para as famílias educarem seus filhos. Saúde perto das pessoas Mais atendimento na capital e no interior, com atenção especial às mulheres, às crianças e às famílias que mais precisam. Trabalho e desenvolvimento Defesa de quem produz, empreende e gera emprego, com municípios mais fortes e oportunidades para os paraenses.",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 0,
+      "final_url": "https://timebarra.com.br/",
+      "attempts": 1,
+      "last_modified": "",
+      "date": "Mon, 14 Sep 2026 08:34:53 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "",
+      "lang": "en",
+      "hreflang": [],
+      "lists": 0,
+      "tables": 0,
+      "dls": 0,
+      "words": 592,
+      "text_head": "O TIME DO BOLSONARO NO PARÁ\nENTRAR PARA O TIME\nJUNTE-SE AO TIME BARRA!\n\nLeva menos de um minuto.\n\nPrimeiro nome\nSobrenome\nCidade\nSelecione sua cidade\nBairro\nSelecione seu bairro\nWhatsApp\nE-mail\nConfirmo que os dados informados são meus e autorizo seu tratamento, conforme esta Política de Privacidade e a LGPD.\nConfirmo que os dados informados são meus e autorizo seu tratamento, conforme esta Política de Privacidade e a LGPD.\nENTRAR PARA O TIME\n\nTRÊS NOMES. UMA DIREITA DE VERDADE.\n\nNOSSO TIME\n\nExperiência, coragem e disposição para defender Bolsonaro, enfrentar a esquerda e representar quem trabalha e sustenta o Pará.\n\nDEL ÉDER MAURO\n\nDEPUTADO FEDERAL · CANDIDATO AO SENADO\n\nAGORA É DE ROCHA MESMO!\n\nForam 30 anos como delegado e três mandatos na Câmara dos Deputados. Éder Mauro é uma das principais vozes de Bolsonaro no Pará, com uma trajetória marcada pelo enfrentamento ao crime, pelo combate à corrupção e pela defesa das famílias.\n\nInstagram\nROGÉRIO BARRA\n\nDEPUTADO ESTADUAL · CANDIDATO A DEPUTADO FEDERAL\n\nAGORA FEDERAL!\n\nAdvogado e deputado estadual, Rogério Barra foi eleito com 81.868 votos, a maior votação entre os novos deputados em 2022. Seu mandato é marcado pela fiscalização, pelas denúncias contra os corruptos e pela firmeza de quem não baixa a cabeça.\n\nInstagram\nDRA. TATI BARRA\n\nMÉDICA ANESTESIOLOGISTA · CANDIDATA A DEPUTADA ESTADUAL\n\nPODE CHAMAR A DOUTORA!\n\nMédica, mãe, cristã e mulher de direita. Convidada por Michelle Bolsonaro para integrar o PL Mulher, Tati Barra conhece a saúde pública por dentro e entrou na política para defender as mulheres, as crianças, as famílias e os valores cristãos.\n\nInstagram\nBELÉM, PA\nFECHADOS COM BOLSONARO. FIRMES PELO PARÁ.\n\nAqui não tem gente em cima do muro. O Time Barra é o time de Bolsonaro no Pará. Está ao lado do presidente Jair Bolsonaro, do senador Flávio Bolsonaro e de Michelle Bolsonaro na defesa de Deus, da pátria, da família e da liberdade.\n\nÉ uma direita que respeita quem trabalha, valoriza as forças de segurança, protege as crianças, enfrenta os corruptos e não se curva diante de quem tenta calar a tua voz!\n\nENTRAR PARA O TIME\nDEUS. PÁTRIA. FAMÍLIA. LIBERDADE.\n\nSÃO VALORES QUE O TIME BARRA NÃO NEGOCIA.\n\nSEGURANÇA PARA QUEM TRABALHA\n\nFirmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.\n\nCOMBATE À CORRUPÇÃO\n\nFiscalização do dinheiro público e enfrentamento aos corruptos que prejudicam o Pará.\n\nDEFESA DAS FAMÍLIAS\n\nProteção das crianças, respeito aos valores cristãos e liberdade para as famílias educarem seus filhos.\n\nSAÚDE PERTO DAS PESSOAS\n\nMais atendimento na capital e no interior, com atenção especial às mulheres, às crianças e às famílias que mais precisam.\n\nTRABALHO E DESENVOLVIMENTO\n\nDefesa de quem produz, empreende e gera emprego, com municípios mais fortes e oportunidades para os paraenses.\n\nO TIME DE BOLSONARO PELO PARÁ\n\nO Time Barra percorre o Estado para fortalecer a direita, ouvir a população e estar ao lado de quem acredita em um Pará mais seguro, livre e respeitado.\n\nAPOIADORES 2026\nAPOIADORES 2026\nCAPANEMA\nTERRA SANTA\nÓBIDOS\nDIREITA PELO NORTE\nDIREITA PELO PARÁ\nCONVENÇÃO NACIONAL DO PL\nAPOIADORES 2026\nAPOIADORES 2026\nCAPANEMA\nTERRA SANTA\nÓBIDOS\nDIREITA PELO NORTE\nDIREITA PELO PARÁ\nCONVENÇÃO NACIONAL DO PL\nFORTALEÇA A DIREITA NO PARÁ\n\nCada pessoa que entra fortalece o projeto de Bolsonaro e ajuda o Time Barra a chegar a mais municípios e a mais famílias.\n\nENTRAR PARA O TIME\n\nTime Barra. O time de Bolsonaro no Pará. Coragem para enfrentar. Trabalho para defender o Pará.\n\nInstagram\nRogério Barra\nDel Éder Mauro\nDra. Tati Barra\n© 2026 Time Barra. Todos os direitos reservados.",
+      "visibleUpdated": "",
+      "forms": 1,
+      "inputs": 5,
+      "authGate": false,
+      "internalLinks": 2,
+      "internalPaths": [
+        "/politica-de-privacidade.pdf",
+        "/"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 3,
+      "labeledInputs": 5,
+      "pdfLinks": 1,
+      "pdfUrls": [
+        "https://timebarra.com.br/politica-de-privacidade.pdf"
+      ],
+      "mainScope": "article",
+      "mainWords": 0,
+      "mainDocWords": 20,
+      "mainText": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 6,
+        "scannedNodes": 6,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 0,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 20,
+        "mechanisms": {
+          "opacity:0": 20
+        },
+        "sample": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Time Barra | O time de Bolsonaro no Pará"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 0,
+      "thirdPartyOrigins": [],
+      "hiddenTextNodes": 14,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  }
+}

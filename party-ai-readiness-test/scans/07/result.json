@@ -1,0 +1,34 @@
+{
+  "id": "07",
+  "label": "Acir Gurgacz",
+  "url": "https://acir.com.br/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:37:23.084747+00:00",
+  "state": "complete",
+  "run_id": "residential-1789375045",
+  "elapsed_seconds": 98,
+  "profile_sha256": "4be23a2ca93565a251816773e5a83997ce29d52fd8aacf3f07e63c3c270938f0",
+  "findings": [],
+  "gaps": [
+    {
+      "title": "Initial page text",
+      "reason": "the rendered page reported no content words to compare against"
+    },
+    {
+      "title": "Text after rendering",
+      "reason": "the rendered page reported no content words to compare against"
+    },
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "The bounded crawl found no possible application entry within 4 hops (15 pages crawled). That does not establish that this check is inapplicable or that the service has no online application."
+    }
+  ],
+  "profile": "scans/07/profile.json",
+  "LAS_report": "scans/07/LAS.html",
+  "structural_report": "scans/07/structural.html",
+  "finished_utc": "2026-09-14T08:39:03.336560+00:00"
+}

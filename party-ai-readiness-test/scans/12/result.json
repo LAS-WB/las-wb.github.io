@@ -1,0 +1,42 @@
+{
+  "id": "12",
+  "label": "Eduardo Riedel communities page",
+  "url": "https://site.eduardoriedel.com.br/COMUNIDADES/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:41:34.881319+00:00",
+  "state": "complete",
+  "run_id": "residential-1789375296",
+  "elapsed_seconds": 53,
+  "profile_sha256": "587a79e27fd655db7bfb5bc064bbdeb040b13e7a3552a956fc6abee92e92f398",
+  "findings": [],
+  "gaps": [
+    {
+      "title": "Initial page text",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Text after rendering",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Hidden text",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Content behind a click",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Linked PDFs",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Application route",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    }
+  ],
+  "profile": "scans/12/profile.json",
+  "LAS_report": "scans/12/LAS.html",
+  "structural_report": "scans/12/structural.html",
+  "finished_utc": "2026-09-14T08:42:30.405225+00:00"
+}

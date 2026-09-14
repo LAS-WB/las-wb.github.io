@@ -1,0 +1,26 @@
+{
+  "id": "02",
+  "label": "Eduardo Riedel",
+  "url": "https://eduardoriedel.com.br/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:32:20.582055+00:00",
+  "state": "complete",
+  "run_id": "residential-1789374742",
+  "elapsed_seconds": 184,
+  "profile_sha256": "4d3a9ab8b6f628df737fa9175f7363060583cf1f36fd109da0baf56048b008f5",
+  "findings": [],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "profile": "scans/02/profile.json",
+  "LAS_report": "scans/02/LAS.html",
+  "structural_report": "scans/02/structural.html",
+  "finished_utc": "2026-09-14T08:35:26.162482+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "06",
+  "label": "Renan Filho",
+  "url": "https://renanfilhodealagoas.com.br/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:36:21.831082+00:00",
+  "state": "complete",
+  "run_id": "residential-1789374984",
+  "elapsed_seconds": 116,
+  "profile_sha256": "dadf200a1b95887c86b15c435f4f3f943e5038050eba34314781c9005b621c64",
+  "findings": [
+    "Text is hidden from view."
+  ],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "The bounded crawl found no possible application entry within 4 hops (11 pages crawled). That does not establish that this check is inapplicable or that the service has no online application."
+    }
+  ],
+  "profile": "scans/06/profile.json",
+  "LAS_report": "scans/06/LAS.html",
+  "structural_report": "scans/06/structural.html",
+  "finished_utc": "2026-09-14T08:38:20.155284+00:00"
+}

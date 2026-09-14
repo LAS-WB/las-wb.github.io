@@ -1,0 +1,368 @@
+{
+  "subject": {
+    "country": "ACM Neto",
+    "service": "acmneto.com.br",
+    "service_url": "https://acmneto.com.br/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "findings": [
+    {
+      "check_id": "hidden",
+      "source_ids": [
+        "OB-hidden"
+      ],
+      "location": "evidence",
+      "title": "Text is hidden from view.",
+      "explanation": "AI readers that use visible page text may miss information in hidden regions.",
+      "fix": "Make the text available without expanding the hidden region. Keep a collapsible presentation where useful.",
+      "url": null,
+      "coverage": ""
+    }
+  ],
+  "observations": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "700 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://acmneto.com.br/",
+        "rendered_final_url": "https://acmneto.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 700,
+        "rendered_words": 679,
+        "matching_words": 584,
+        "added_words": 95,
+        "removed_words": 116,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "95 additional words appeared in the rendered extraction; 584 matched and 116 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://acmneto.com.br/",
+        "rendered_final_url": "https://acmneto.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 700,
+        "rendered_words": 679,
+        "matching_words": 584,
+        "added_words": 95,
+        "removed_words": 116,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "checks": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "700 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://acmneto.com.br/",
+        "rendered_final_url": "https://acmneto.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 700,
+        "rendered_words": 679,
+        "matching_words": 584,
+        "added_words": 95,
+        "removed_words": 116,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "95 additional words appeared in the rendered extraction; 584 matched and 116 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://acmneto.com.br/",
+        "rendered_final_url": "https://acmneto.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 700,
+        "rendered_words": 679,
+        "matching_words": 584,
+        "added_words": 95,
+        "removed_words": 116,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "detected",
+      "observation": "622 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 622,
+        "visible_words": 57,
+        "document_words": 679,
+        "mechanisms": {
+          "display:none": 1,
+          "opacity:0": 621
+        },
+        "scope": "main",
+        "sample": "ACM Uma caminhada feita ao lado das pessoas. Bem-vindo ao site oficial de quem acredita em uma Bahia à altura da força do seu povo! A Bahia precisa mudar. Mas precisa mudar com responsabilidade, planejamento e capacidade de fazer. Precisa de um governo que transforme o enorme potencial do nosso estado em resultados concretos na vida das pessoas: segurança para viver, saúde que funcione, educação que prepare para o futuro, estradas que aproximem e oportunidades para que os nossos jovens possam crescer e realizar seus sonhos aqui. Foi assim em Salvador. Com método, coragem e muito trabalho, organizamos a cidade, cuidamos das pessoas e fizemos a capital voltar a acreditar em si mesma. Agora, essa experiência encontra um desafio ainda maior: fazer a Bahia inteira voltar a avançar. Esta caminhada nasce da escuta, mas não termina em promessas. Ela é construída em cada região, em cada município e ao lado de cada baiano que cansou de esperar e decidiu acreditar que é possível fazer diferente. Porque mudança de verdade não é um salto no escuro. É ter direção, planejamento, uma equipe preparada e experiência para transformar compromissos em resultados. A Bahia tem força. Tem talento. Tem riquezas. Tem um povo trabalhador e um futuro enorme pela frente. O que falta é um governo capaz de transformar tudo isso em uma vida melhor para as pessoas. Chegou a hora de a Bahia voltar a avançar. Chegou a hora da mudança. Mudança com segurança. Campanha 2026 ACM Neto Faça sua foto de perfil. Suba uma foto, escolha avatar, post ou story e baixe as artes para espalhar o 44. Fazer minha foto Acompanhe a nossa Siga os nossos canais oficiais e fique por dentro das agendas, notícias, propostas e de tudo que acontece nessa caminhada pela Bahia. Zé Cocá Bio João Roma Angelo Coronel Dê o play e entre no ritmo da mudança! Dale! 44 Dê o play A Bahia já está cantando e dançando o a gente. Assista ao vídeo e compartilhe com todo mundo. DALE Aprenda a música, faça seu vídeo e espalhe o Dalê por toda a",
+        "accessibility_excluded_words": 5,
+        "accessibility_mechanisms": {
+          "aria-hidden": 5
+        },
+        "census": {
+          "totalNodes": 655,
+          "scannedNodes": 655,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 60,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "controls": 0,
+        "pressed": 0,
+        "scope": "main",
+        "eligible_controls": [],
+        "presses": [],
+        "words_before": 57,
+        "words_after": null,
+        "doc_before": 679,
+        "doc_after": null,
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "census_before": {
+          "totalNodes": 655,
+          "scannedNodes": 655,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 60,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-3ZE0EL35DF&gtm=45je6992v9255030959za200zb9254218209zd9254218209&_p=1789374960459&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=196608468.1789374961&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHe"
+          },
+          {
+            "method": "POST",
+            "url": "https://mpc-prod-27-s6uit34pua-uk.a.run.app/events?cee=no"
+          },
+          {
+            "method": "POST",
+            "url": "https://mpc-prod-27-s6uit34pua-uk.a.run.app/events?cee=no"
+          },
+          {
+            "method": "POST",
+            "url": "https://5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws/events?cee=no"
+          },
+          {
+            "method": "POST",
+            "url": "https://5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws/events?cee=no"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+          }
+        ],
+        "navigated": false,
+        "press_limit": 20,
+        "service_workers": "blocked",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "entry": null,
+        "depth": null,
+        "self_entry": null,
+        "minimum_depth_confirmed": false,
+        "pages_crawled": 11,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_candidates": [],
+        "external_entry": null,
+        "failed_urls": [
+          {
+            "url": "https://acmneto.com.br/plano-de-governo-2026.pdf",
+            "hop": 2,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [],
+        "redirects": [],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "coverage_complete": false,
+        "reason": "1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    }
+  ],
+  "provenance": {
+    "run_id": "residential-1789374928",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "mock": false
+}

@@ -1,0 +1,477 @@
+{
+  "subject": {
+    "country": "Eduardo Riedel",
+    "service": "eduardoriedel.com.br",
+    "service_url": "https://eduardoriedel.com.br/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "provenance": {
+    "run_id": "residential-1789374742",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "executive": {
+    "headline": "Reachable to AI today.",
+    "summary": "The AI crawlers used to read the web fetch the full page directly. Legibility and obstacles measured on the service page."
+  },
+  "pillars": [
+    {
+      "key": "D",
+      "name": "Reachability",
+      "q": "Can AI systems reach the service?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "D1"
+      ],
+      "checks": [
+        {
+          "id": "D1",
+          "name": "Reachable by AI retrievers",
+          "value": 1.0,
+          "result": "The AI crawlers used to read the web fetch the full page directly.",
+          "fix": "Keep public service paths open to legitimate AI retrieval agents.",
+          "ladder": [
+            {
+              "rung": "Plain AI fetch",
+              "reached": true,
+              "note": "full content returned"
+            },
+            {
+              "rung": "AI browser fetch",
+              "reached": true,
+              "note": "full page renders"
+            },
+            {
+              "rung": "Disguised browser",
+              "reached": true,
+              "note": "full page renders"
+            }
+          ]
+        },
+        {
+          "id": "D5",
+          "name": "Findable in search",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "L",
+      "name": "Legibility",
+      "q": "Can AI read and understand it?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "L3",
+        "L4",
+        "L5",
+        "L7"
+      ],
+      "checks": [
+        {
+          "id": "L3",
+          "name": "Structured data",
+          "value": 1.0,
+          "result": "Service-specific structured data is present.",
+          "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+        },
+        {
+          "id": "L4",
+          "name": "Shows when it was updated",
+          "value": 1.0,
+          "result": "A machine-readable update date is published.",
+          "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+        },
+        {
+          "id": "L5",
+          "name": "Guidance in the page, not a PDF",
+          "value": 0.4,
+          "result": "Key guidance is in a PDF with a text layer but no tagging — only partly machine-readable.",
+          "fix": "Tag the PDF (or publish as HTML) so structure is machine-readable."
+        },
+        {
+          "id": "L7",
+          "name": "Answer-friendly layout",
+          "value": 0.5,
+          "result": "Some structure, but key facts are mostly in prose.",
+          "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+        }
+      ],
+      "observations": [
+        {
+          "id": "Lang",
+          "name": "Language coverage",
+          "detail": "Declares its language ('pt-BR') but offers no other-language version.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "O",
+      "name": "Obstacles to AI readers",
+      "kind": "obstacles",
+      "q": "What does the scan observe about the page constructions tested in the study?",
+      "assessment_set_version": "2026-09-13.2",
+      "assessment_set": [
+        "OB-script",
+        "OB-hidden",
+        "OB-click",
+        "OB-pdf",
+        "OB-depth"
+      ],
+      "checks": [
+        {
+          "id": "OB-script",
+          "name": "Rendered extraction contains more words than served HTML",
+          "state": "clear",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Within the recorded the main content extraction scopes, the rendered/served word addition share is 0% (0 added; 16 matching), below this candidate check's threshold.",
+          "evidence": {
+            "raw_status": 200,
+            "served_final_url": "https://eduardoriedel.com.br/",
+            "rendered_final_url": "https://eduardoriedel.com.br/",
+            "capture_delay_ms": 5000,
+            "served_attempts": 1,
+            "scope": {
+              "rendered": "article",
+              "served": "article"
+            },
+            "basis": "main",
+            "rendered_words": 16,
+            "served_words": 81,
+            "matching_words": 16,
+            "added_words": 0,
+            "removed_words": 65,
+            "script_only_words": 0,
+            "share": 0.0,
+            "word_difference": 0,
+            "rendered_difference_percent": 0,
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-hidden",
+          "name": "Text in the assessed region is hidden by a recorded mechanism",
+          "state": "clear",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "No hidden text was recorded within this census's assessed region. Navigation, header, footer and dialog regions are outside its declared scope.",
+          "evidence": {
+            "hidden_words": 0,
+            "mechanisms": {},
+            "scope": "article",
+            "visible_words": 16,
+            "document_words": 16,
+            "sample": "",
+            "accessibility_excluded_words": 0,
+            "accessibility_mechanisms": {},
+            "census": {
+              "totalNodes": 6,
+              "scannedNodes": 6,
+              "nodeLimit": 8000,
+              "truncated": false,
+              "duplicateWordsExcluded": 0,
+              "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+            },
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-click",
+          "name": "Document text increased after disclosure controls were pressed",
+          "state": "not_measured",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+          "evidence": {
+            "pressed": 0,
+            "controls": 0,
+            "blocked_requests": [],
+            "blocked_on_load": [
+              {
+                "method": "POST",
+                "url": "https://y.clarity.ms/collect"
+              },
+              {
+                "method": "POST",
+                "url": "https://y.clarity.ms/collect"
+              },
+              {
+                "method": "POST",
+                "url": "https://y.clarity.ms/collect"
+              },
+              {
+                "method": "POST",
+                "url": "https://y.clarity.ms/collect"
+              }
+            ],
+            "navigated": false,
+            "words_before": 16,
+            "words_after": null,
+            "doc_before": 16,
+            "doc_after": null,
+            "presses": [],
+            "control_doc_before": null,
+            "control_doc_after": null,
+            "service_workers": "blocked",
+            "press_limit": 20,
+            "eligible_controls": [],
+            "scope": "article",
+            "census_before": {
+              "totalNodes": 6,
+              "scannedNodes": 6,
+              "nodeLimit": 8000,
+              "truncated": false,
+              "duplicateWordsExcluded": 0,
+              "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+            },
+            "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-pdf",
+          "name": "Linked PDF extraction properties",
+          "state": "not_applicable",
+          "severity": null,
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "No PDF is linked from the main content. (2 PDF link(s) elsewhere on the page, outside the main content.)",
+          "evidence": {
+            "main_pdf_links": 0,
+            "page_pdf_links": 2,
+            "applicability_reason": "no PDF is linked from the assessed region",
+            "coverage_complete": true
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-depth",
+          "name": "Confirmed minimum application-route depth",
+          "state": "not_measured",
+          "severity": "red",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: 1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+          "evidence": {
+            "depth": null,
+            "entry": null,
+            "pages_crawled": 40,
+            "pages_failed": 1,
+            "hops": 4,
+            "budget": 40,
+            "exhausted": true,
+            "frontier_left": 19,
+            "external_entry": null,
+            "external_candidates": [],
+            "failed_urls": [
+              {
+                "url": "https://eduardoriedel.com.br/wp-content/uploads/2026/08/Plano-de-Governo-Eduardo-Riedel.pdf",
+                "hop": 1,
+                "reason": "Error"
+              }
+            ],
+            "pruned_links": [
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/9",
+                "text": "«",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/8",
+                "text": "8",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/11",
+                "text": "11",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/12",
+                "text": "12",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/40",
+                "text": "40",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/19",
+                "text": "«",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/18",
+                "text": "18",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/21",
+                "text": "21",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/22",
+                "text": "22",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/50",
+                "text": "50",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/29",
+                "text": "«",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/28",
+                "text": "28",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/31",
+                "text": "31",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/32",
+                "text": "32",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/55",
+                "text": "«",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/52",
+                "text": "52",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/53",
+                "text": "53",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/noticias/page/54",
+                "text": "54",
+                "hop": 3
+              },
+              {
+                "url": "https://eduardoriedel.com.br/o-crescimento-precisa-caber-no-orcamento",
+                "text": "",
+                "hop": 3
+              }
+            ],
+            "redirects": [
+              {
+                "from": "https://www.eduardoriedel.com.br",
+                "to": "https://eduardoriedel.com.br/"
+              }
+            ],
+            "possible_routes": [],
+            "confirmed_routes": [],
+            "self_entry": null,
+            "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+            "minimum_depth_confirmed": false,
+            "coverage_complete": false
+          },
+          "fix": "",
+          "study": null
+        }
+      ]
+    }
+  ],
+  "future": {
+    "name": "Future-readiness",
+    "q": "Signs the service is preparing for AI agents",
+    "items": [
+      {
+        "name": "Machine-readable API",
+        "present": false,
+        "state": "none"
+      },
+      {
+        "name": "Sign-in standard (OIDC)",
+        "present": false
+      },
+      {
+        "name": "llms.txt",
+        "present": false
+      },
+      {
+        "name": "AGENTS.md",
+        "present": false
+      },
+      {
+        "name": "Agent card",
+        "present": false
+      },
+      {
+        "name": "MCP endpoint",
+        "present": false
+      }
+    ]
+  },
+  "ai_visibility": {
+    "q": "How AI assistants represent this service today",
+    "metrics": []
+  },
+  "injection": {
+    "measured": true,
+    "csp": false,
+    "third_party_scripts": 3,
+    "flagged": 0,
+    "flags": []
+  },
+  "actions": [
+    {
+      "head": "Keep public service paths open to legitimate AI retrieval agents.",
+      "why": "The AI crawlers used to read the web fetch the full page directly."
+    }
+  ]
+}

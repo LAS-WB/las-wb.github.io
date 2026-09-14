@@ -1,0 +1,368 @@
+[
+  {
+    "id": "01",
+    "label": "Renan Santos",
+    "url": "https://renanpresidente.com.br",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:32:20.582030+00:00",
+    "state": "complete",
+    "run_id": "residential-1789374744",
+    "elapsed_seconds": 125,
+    "profile_sha256": "7f0ce6dca644b1531089d17e19a55e9f087271e871c070bf5032596653e9f7f4",
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "profile": "scans/01/profile.json",
+    "LAS_report": "scans/01/LAS.html",
+    "structural_report": "scans/01/structural.html",
+    "finished_utc": "2026-09-14T08:34:30.064782+00:00"
+  },
+  {
+    "id": "02",
+    "label": "Eduardo Riedel",
+    "url": "https://eduardoriedel.com.br/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:32:20.582055+00:00",
+    "state": "complete",
+    "run_id": "residential-1789374742",
+    "elapsed_seconds": 184,
+    "profile_sha256": "4d3a9ab8b6f628df737fa9175f7363060583cf1f36fd109da0baf56048b008f5",
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "profile": "scans/02/profile.json",
+    "LAS_report": "scans/02/LAS.html",
+    "structural_report": "scans/02/structural.html",
+    "finished_utc": "2026-09-14T08:35:26.162482+00:00"
+  },
+  {
+    "id": "03",
+    "label": "Time Barra / Eder Mauro",
+    "url": "https://timebarra.com.br/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:34:30.065492+00:00",
+    "state": "complete",
+    "run_id": "residential-1789374872",
+    "elapsed_seconds": 45,
+    "profile_sha256": "652d535db6968eb13da8c33d448524d5b4810e3b36624300a4eea4038590b662",
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (1 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "profile": "scans/03/profile.json",
+    "LAS_report": "scans/03/LAS.html",
+    "structural_report": "scans/03/structural.html",
+    "finished_utc": "2026-09-14T08:35:17.022547+00:00"
+  },
+  {
+    "id": "04",
+    "label": "Flavio Bolsonaro",
+    "url": "https://flaviobolsonaro.com.br",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:35:17.022773+00:00",
+    "state": "complete",
+    "run_id": "residential-1789374919",
+    "elapsed_seconds": 124,
+    "profile_sha256": "54422559d8ffb8f758618f765476a7a25f49e15fff9686221132e9867b72f43f",
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Linked PDFs",
+        "reason": "https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf: Partial PDF sample: 3 of 76 pages inspected."
+      },
+      {
+        "title": "Application route",
+        "reason": "3 page attempt(s) failed during the crawl (40 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "profile": "scans/04/profile.json",
+    "LAS_report": "scans/04/LAS.html",
+    "structural_report": "scans/04/structural.html",
+    "finished_utc": "2026-09-14T08:37:23.084487+00:00"
+  },
+  {
+    "id": "05",
+    "label": "ACM Neto",
+    "url": "https://acmneto.com.br/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:35:26.162732+00:00",
+    "state": "complete",
+    "run_id": "residential-1789374928",
+    "elapsed_seconds": 54,
+    "profile_sha256": "8cba66cd7623ed32ff5d24bc2a1bd96218754600ed817ebffb29c18f473d9e97",
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "profile": "scans/05/profile.json",
+    "LAS_report": "scans/05/LAS.html",
+    "structural_report": "scans/05/structural.html",
+    "finished_utc": "2026-09-14T08:36:21.830571+00:00"
+  },
+  {
+    "id": "06",
+    "label": "Renan Filho",
+    "url": "https://renanfilhodealagoas.com.br/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:36:21.831082+00:00",
+    "state": "complete",
+    "run_id": "residential-1789374984",
+    "elapsed_seconds": 116,
+    "profile_sha256": "dadf200a1b95887c86b15c435f4f3f943e5038050eba34314781c9005b621c64",
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "The bounded crawl found no possible application entry within 4 hops (11 pages crawled). That does not establish that this check is inapplicable or that the service has no online application."
+      }
+    ],
+    "profile": "scans/06/profile.json",
+    "LAS_report": "scans/06/LAS.html",
+    "structural_report": "scans/06/structural.html",
+    "finished_utc": "2026-09-14T08:38:20.155284+00:00"
+  },
+  {
+    "id": "07",
+    "label": "Acir Gurgacz",
+    "url": "https://acir.com.br/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:37:23.084747+00:00",
+    "state": "complete",
+    "run_id": "residential-1789375045",
+    "elapsed_seconds": 98,
+    "profile_sha256": "4be23a2ca93565a251816773e5a83997ce29d52fd8aacf3f07e63c3c270938f0",
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Initial page text",
+        "reason": "the rendered page reported no content words to compare against"
+      },
+      {
+        "title": "Text after rendering",
+        "reason": "the rendered page reported no content words to compare against"
+      },
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "The bounded crawl found no possible application entry within 4 hops (15 pages crawled). That does not establish that this check is inapplicable or that the service has no online application."
+      }
+    ],
+    "profile": "scans/07/profile.json",
+    "LAS_report": "scans/07/LAS.html",
+    "structural_report": "scans/07/structural.html",
+    "finished_utc": "2026-09-14T08:39:03.336560+00:00"
+  },
+  {
+    "id": "08",
+    "label": "Orleans Brandao",
+    "url": "https://orleansbrandao.com.br/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:38:20.155512+00:00",
+    "state": "complete",
+    "run_id": "residential-1789375102",
+    "elapsed_seconds": 52,
+    "profile_sha256": "1aaff98c3f125a7d28d1b4d903ba46f85e394dfb2902e0b8d1485a0f0e051aac",
+    "findings": [
+      "Text is hidden from view."
+    ],
+    "gaps": [
+      {
+        "title": "Initial page text",
+        "reason": "served and rendered requests ended at different URLs"
+      },
+      {
+        "title": "Text after rendering",
+        "reason": "served and rendered requests ended at different URLs"
+      },
+      {
+        "title": "Application route",
+        "reason": "1 page attempt(s) failed during the crawl (6 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    ],
+    "profile": "scans/08/profile.json",
+    "LAS_report": "scans/08/LAS.html",
+    "structural_report": "scans/08/structural.html",
+    "finished_utc": "2026-09-14T08:39:14.272538+00:00"
+  },
+  {
+    "id": "09",
+    "label": "Paula Belmonte",
+    "url": "https://www.paulabelmonte.com.br",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:39:03.337440+00:00",
+    "state": "complete",
+    "run_id": "residential-1789375145",
+    "elapsed_seconds": 33,
+    "profile_sha256": "ce8215bab4dcbde42d342c41e5f40c2a8c6d9bb1828a42f6b2f71ea5a9dcdaa0",
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Initial page text",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Text after rendering",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Hidden text",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Content behind a click",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Linked PDFs",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Application route",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    ],
+    "profile": "scans/09/profile.json",
+    "LAS_report": "scans/09/LAS.html",
+    "structural_report": "scans/09/structural.html",
+    "finished_utc": "2026-09-14T08:39:38.771715+00:00"
+  },
+  {
+    "id": "10",
+    "label": "NOVO candidate listing",
+    "url": "https://novo.org.br/noticias/candidatos-partido-novo-2026-veja-a-lista/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:39:14.273607+00:00",
+    "state": "complete",
+    "run_id": "residential-1789375156",
+    "elapsed_seconds": 155,
+    "profile_sha256": "13e7ec8fdd09e816876a2d147c1fea907e6c0012f728f69af53c4723859e3ed5",
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      },
+      {
+        "title": "Application route",
+        "reason": "the crawl reached its budget of 40 pages before exploring every path, so no statement about depth can be made (897 links were left unfollowed)"
+      }
+    ],
+    "profile": "scans/10/profile.json",
+    "LAS_report": "scans/10/LAS.html",
+    "structural_report": "scans/10/structural.html",
+    "finished_utc": "2026-09-14T08:41:51.994219+00:00"
+  },
+  {
+    "id": "11",
+    "label": "PCO candidate listing",
+    "url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:39:38.772218+00:00",
+    "state": "complete",
+    "run_id": "residential-1789375180",
+    "elapsed_seconds": 114,
+    "profile_sha256": "4eb7734e287e1fbc607278ed1d89529d8c428c703790082841693fc84120d937",
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Content behind a click",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      }
+    ],
+    "profile": "scans/11/profile.json",
+    "LAS_report": "scans/11/LAS.html",
+    "structural_report": "scans/11/structural.html",
+    "finished_utc": "2026-09-14T08:41:34.880657+00:00"
+  },
+  {
+    "id": "12",
+    "label": "Eduardo Riedel communities page",
+    "url": "https://site.eduardoriedel.com.br/COMUNIDADES/",
+    "vantage": "residential, Lisbon",
+    "started_utc": "2026-09-14T08:41:34.881319+00:00",
+    "state": "complete",
+    "run_id": "residential-1789375296",
+    "elapsed_seconds": 53,
+    "profile_sha256": "587a79e27fd655db7bfb5bc064bbdeb040b13e7a3552a956fc6abee92e92f398",
+    "findings": [],
+    "gaps": [
+      {
+        "title": "Initial page text",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Text after rendering",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Hidden text",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Content behind a click",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Linked PDFs",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      },
+      {
+        "title": "Application route",
+        "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+      }
+    ],
+    "profile": "scans/12/profile.json",
+    "LAS_report": "scans/12/LAS.html",
+    "structural_report": "scans/12/structural.html",
+    "finished_utc": "2026-09-14T08:42:30.405225+00:00"
+  }
+]

@@ -1,0 +1,687 @@
+{
+  "country": "Orleans Brandao",
+  "vantage": "residential, Lisbon",
+  "run_id": "residential-1789375102",
+  "homepage": "https://orleansbrandao.com.br/",
+  "service": "https://orleansbrandao.com.br/",
+  "pillars_run": [
+    "D",
+    "L",
+    "N",
+    "O",
+    "T"
+  ],
+  "measured_on": "service page",
+  "content_reached": true,
+  "t1_injection": {
+    "csp": false,
+    "third_party_scripts": 0,
+    "hidden_text_nodes": 28,
+    "injection_hits": []
+  },
+  "pdf_analyses": [],
+  "reveal_probe": {
+    "pressed": 0,
+    "controls": 0,
+    "blocked_requests": [],
+    "blocked_on_load": [],
+    "navigated": false,
+    "words_before": 69,
+    "words_after": null,
+    "doc_before": 302,
+    "doc_after": null,
+    "presses": [],
+    "control_doc_before": null,
+    "control_doc_after": null,
+    "service_workers": "blocked",
+    "press_limit": 20,
+    "eligible_controls": [],
+    "scope": "body-minus-chrome",
+    "census_before": {
+      "totalNodes": 303,
+      "scannedNodes": 303,
+      "nodeLimit": 8000,
+      "truncated": false,
+      "duplicateWordsExcluded": 1,
+      "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+    }
+  },
+  "depth_probe": {
+    "depth": null,
+    "entry": null,
+    "pages_crawled": 6,
+    "pages_failed": 1,
+    "hops": 4,
+    "budget": 40,
+    "exhausted": false,
+    "frontier_left": 0,
+    "external_entry": null,
+    "external_candidates": [],
+    "failed_urls": [
+      {
+        "url": "https://orleansbrandao.com.br/plano-de-governo-2027-2030.pdf?v=6",
+        "hop": 2,
+        "reason": "Error"
+      }
+    ],
+    "pruned_links": [],
+    "redirects": [
+      {
+        "from": "https://orleansbrandao.com.br/",
+        "to": "https://orleansbrandao.com.br/#/"
+      }
+    ],
+    "possible_routes": [],
+    "confirmed_routes": [],
+    "self_entry": null,
+    "reason": null,
+    "minimum_depth_confirmed": false,
+    "coverage_complete": false
+  },
+  "L_checks": [
+    {
+      "id": "L3",
+      "name": "Structured data",
+      "value": 0.0,
+      "result": "No structured data for AI to extract facts from.",
+      "fix": "Add service schema (GovernmentService / HowTo) so eligibility, steps and fees are machine-readable."
+    },
+    {
+      "id": "L4",
+      "name": "Shows when it was updated",
+      "value": 1.0,
+      "result": "A machine-readable update date is published.",
+      "fix": "Expose a machine-readable last-updated date (dateModified or a Last-Modified header)."
+    },
+    {
+      "id": "L5",
+      "name": "Guidance in the page, not a PDF",
+      "value": 1.0,
+      "result": "Guidance is on the page itself, not locked in PDFs.",
+      "fix": "Keep publishing guidance as HTML."
+    },
+    {
+      "id": "L7",
+      "name": "Answer-friendly layout",
+      "value": 0.0,
+      "result": "The content is unstructured prose — hard for AI to lift answers from.",
+      "fix": "Put eligibility, documents, steps and fees in short lists or tables."
+    }
+  ],
+  "L_observations": [
+    {
+      "id": "Lang",
+      "name": "Language coverage",
+      "detail": "Declares its language ('pt-BR') but offers no other-language version.",
+      "fix": ""
+    }
+  ],
+  "O_checks": [
+    {
+      "id": "OB-script",
+      "name": "Rendered extraction contains more words than served HTML",
+      "state": "not_measured",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: served and rendered requests ended at different URLs",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://orleansbrandao.com.br/",
+        "rendered_final_url": "https://orleansbrandao.com.br/#/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "body-minus-chrome",
+          "served": "body-minus-chrome"
+        },
+        "reason": "served and rendered requests ended at different URLs"
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-hidden",
+      "name": "Text in the assessed region is hidden by a recorded mechanism",
+      "state": "detected",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "The assessed region contains 225 document words hidden by the recorded mechanisms — visibility:hidden (219 words), zero-size (6 words); 69 words are visible. Accessibility-tree exclusion is recorded separately (0 words). This census does not establish that the hidden text is service guidance.",
+      "evidence": {
+        "hidden_words": 225,
+        "mechanisms": {
+          "visibility:hidden": 219,
+          "zero-size": 6
+        },
+        "scope": "body-minus-chrome",
+        "visible_words": 69,
+        "document_words": 294,
+        "sample": "Nosso legado Nos últimos anos, o Maranhão resgatou seu orgulho. Mais do que obras e ações, construímos oportunidades. Nosso legado é feito de trabalho, determinação e resultados reais para o nosso povo. E esse é só o começo! Confira o que já mudou no seu município Propostas Propostas para o Maranhão Nossas propostas nasceram a partir do diálogo com o povo, visitando cada um dos 217 municípios do Estado. Elas representam o meu propósito de seguir avançando em todas as áreas, além de dar continuidade às iniciativas que já deram certo. Leia o plano de governo completo Edivaldo, meu parceiro nessa jornada Edivaldo conhece de perto os desafios dos maranhenses. Como prefeito, transformou São Luís com trabalho sério, presença nas ruas e escuta atenta. Uma experiência que agora vem somar forças para fazer o Maranhão inteiro avançar. Conheça a trajetória de Edivaldo Nossa mobilização Esse caminho só segue em frente com quem acredita nele. Se você também quer estar perto das oportunidades que o Maranhão vem conquistando, essa construção também é sua. Baixe os materiais Crie sua foto de perfil Siga nas redes Zap do 15 compromisso com a verdade Estar perto da verdade também é uma forma de cuidar de quem mais precisa. Quando a informação é distorcida, a oportunidade de decidir com clareza é tirada das pessoas. Tela 1 de 6 — Início",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 298,
+          "scannedNodes": 298,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 1,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-click",
+      "name": "Document text increased after disclosure controls were pressed",
+      "state": "not_applicable",
+      "severity": "orange",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "No disclosure control was found in the main content, so there was nothing to press.",
+      "evidence": {
+        "pressed": 0,
+        "controls": 0,
+        "blocked_requests": [],
+        "blocked_on_load": [],
+        "navigated": false,
+        "words_before": 69,
+        "words_after": null,
+        "doc_before": 302,
+        "doc_after": null,
+        "presses": [],
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "service_workers": "blocked",
+        "press_limit": 20,
+        "eligible_controls": [],
+        "scope": "body-minus-chrome",
+        "census_before": {
+          "totalNodes": 303,
+          "scannedNodes": 303,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 1,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "applicability_reason": "no eligible disclosure control was found",
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-pdf",
+      "name": "Linked PDF extraction properties",
+      "state": "not_applicable",
+      "severity": null,
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "No PDF is linked from the main content.",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "applicability_reason": "no PDF is linked from the assessed region",
+        "coverage_complete": true
+      },
+      "fix": "",
+      "study": null
+    },
+    {
+      "id": "OB-depth",
+      "name": "Confirmed minimum application-route depth",
+      "state": "not_measured",
+      "severity": "red",
+      "detector_version": "0.2.0-candidate",
+      "validated": false,
+      "validation_status": "unvalidated",
+      "validation_report": null,
+      "validated_version": null,
+      "result": "Not measured: 1 page attempt(s) failed during the crawl (6 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "depth": null,
+        "entry": null,
+        "pages_crawled": 6,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_entry": null,
+        "external_candidates": [],
+        "failed_urls": [
+          {
+            "url": "https://orleansbrandao.com.br/plano-de-governo-2027-2030.pdf?v=6",
+            "hop": 2,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [],
+        "redirects": [
+          {
+            "from": "https://orleansbrandao.com.br/",
+            "to": "https://orleansbrandao.com.br/#/"
+          }
+        ],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "self_entry": null,
+        "reason": "1 page attempt(s) failed during the crawl (6 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+        "minimum_depth_confirmed": false,
+        "coverage_complete": false
+      },
+      "fix": "",
+      "study": null
+    }
+  ],
+  "future_items": [
+    {
+      "name": "Machine-readable API",
+      "present": false,
+      "state": "none"
+    },
+    {
+      "name": "Sign-in standard (OIDC)",
+      "present": false
+    },
+    {
+      "name": "llms.txt",
+      "present": false
+    },
+    {
+      "name": "AGENTS.md",
+      "present": false
+    },
+    {
+      "name": "Agent card",
+      "present": false
+    },
+    {
+      "name": "MCP endpoint",
+      "present": false
+    }
+  ],
+  "injection": {
+    "measured": true,
+    "csp": false,
+    "third_party_scripts": 0,
+    "flagged": 0,
+    "flags": []
+  },
+  "reach_home": {
+    "url": "https://orleansbrandao.com.br/",
+    "matrix": {
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "OAI-SearchBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      }
+    },
+    "browser_ok": false,
+    "retrievers_ok": [],
+    "blocked_ai": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "PerplexityBot",
+      "Perplexity-User"
+    ],
+    "plain_reached": false,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 93,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 93,
+      "error": "",
+      "status": 200,
+      "final_url": "https://orleansbrandao.com.br/#/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 0,
+      "raw_main_words": 0,
+      "raw_main_scope": "body-minus-chrome",
+      "raw_main_text": "",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 0,
+      "final_url": "https://orleansbrandao.com.br/",
+      "attempts": 1,
+      "last_modified": "Mon, 31 Aug 2026 18:30:00 GMT",
+      "date": "Mon, 14 Sep 2026 08:38:23 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "",
+      "lang": "pt-BR",
+      "hreflang": [],
+      "lists": 0,
+      "tables": 0,
+      "dls": 0,
+      "words": 93,
+      "text_head": "INÍCIO\nORLEANS\nPLANO DE GOVERNO\nMATERIAIS\nNOTÍCIAS\n✕\nINÍCIO\nORLEANS\nPLANO DE GOVERNO\nMATERIAIS\nNOTÍCIAS\nZAP DO 15\nMINHA HISTÓRIA\nCOM O MARANHÃO\nFoi em Colinas, interior do Maranhão, que aprendi que estar do lado certo é estar perto de quem trabalha, de quem batalha por uma oportunidade, de quem faz o nosso Estado evoluir todos os dias. Essa é a base de tudo que eu quero construir daqui pra frente. Sempre do lado certo, do lado do povo.\nCONHEÇA MINHA TRAJETÓRIA\nVEJA MEU PLANO DE GOVERNO\nTela 1 de 6 — Início",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 6,
+      "internalPaths": [
+        "/plano-de-governo",
+        "/materiais",
+        "/noticias",
+        "/legado-por-municipio",
+        "/crie-seu-perfil/",
+        "/"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 3,
+      "labeledInputs": 0,
+      "pdfLinks": 0,
+      "pdfUrls": [],
+      "mainScope": "body-minus-chrome",
+      "mainWords": 69,
+      "mainDocWords": 294,
+      "mainText": "Minha história com o Maranhão Foi em Colinas, interior do Maranhão, que aprendi que estar do lado certo é estar perto de quem trabalha, de quem batalha por uma oportunidade, de quem faz o nosso Estado evoluir todos os dias. Essa é a base de tudo que eu quero construir daqui pra frente. Sempre do lado certo, do lado do povo. Conheça minha trajetória Veja meu plano de governo Nosso legado Nos últimos anos, o Maranhão resgatou seu orgulho. Mais do que obras e ações, construímos oportunidades. Nosso legado é feito de trabalho, determinação e resultados reais para o nosso povo. E esse é só o começo! Confira o que já mudou no seu município Propostas Propostas para o Maranhão Nossas propostas nasceram a partir do diálogo com o povo, visitando cada um dos 217 municípios do Estado. Elas representam o meu propósito de seguir avançando em todas as áreas, além de dar continuidade às iniciativas que já deram certo. Leia o plano de governo completo Edivaldo, meu parceiro nessa jornada Edivaldo conhece de perto os desafios dos maranhenses. Como prefeito, transformou São Luís com trabalho sério, presença nas ruas e escuta atenta. Uma experiência que agora vem somar forças para fazer o Maranhão inteiro avançar. Conheça a trajetória de Edivaldo Nossa mobilização Esse caminho só segue em frente com quem acredita nele. Se você também quer estar perto das oportunidades que o Maranhão vem conquistando, essa construção também é sua. Baixe os materiais Crie sua foto de perfil Siga nas redes Zap do 15 compromisso com a verdade Estar perto da verdade também é uma forma de cuidar de quem mais precisa. Quando a informação é distorcida, a oportunidade de decidir com clareza é tirada das pessoas. Tela 1 de 6 — Início",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 298,
+        "scannedNodes": 298,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 1,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 225,
+        "mechanisms": {
+          "visibility:hidden": 219,
+          "zero-size": 6
+        },
+        "sample": "Nosso legado Nos últimos anos, o Maranhão resgatou seu orgulho. Mais do que obras e ações, construímos oportunidades. Nosso legado é feito de trabalho, determinação e resultados reais para o nosso povo. E esse é só o começo! Confira o que já mudou no seu município Propostas Propostas para o Maranhão Nossas propostas nasceram a partir do diálogo com o povo, visitando cada um dos 217 municípios do Estado. Elas representam o meu propósito de seguir avançando em todas as áreas, além de dar continuidade às iniciativas que já deram certo. Leia o plano de governo completo Edivaldo, meu parceiro nessa jornada Edivaldo conhece de perto os desafios dos maranhenses. Como prefeito, transformou São Luís com trabalho sério, presença nas ruas e escuta atenta. Uma experiência que agora vem somar forças para fazer o Maranhão inteiro avançar. Conheça a trajetória de Edivaldo Nossa mobilização Esse caminho só segue em frente com quem acredita nele. Se você também quer estar perto das oportunidades que o Maranhão vem conquistando, essa construção também é sua. Baixe os materiais Crie sua foto de perfil Siga nas redes Zap do 15 compromisso com a verdade Estar perto da verdade também é uma forma de cuidar de quem mais precisa. Quando a informação é distorcida, a oportunidade de decidir com clareza é tirada das pessoas. Tela 1 de 6 — Início",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Minha históriacom o Maranhão",
+        "Nossolegado",
+        "Propostas",
+        "Edivaldo,meu parceironessa jornada",
+        "Nossamobilização",
+        "Nossocompromissocom a verdade",
+        "Início · Orleans Brandão 15 — Governador do Maranhão"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 0,
+      "thirdPartyOrigins": [],
+      "hiddenTextNodes": 28,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  },
+  "reach_service": {
+    "url": "https://orleansbrandao.com.br/",
+    "matrix": {
+      "browser": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "Perplexity-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "GPTBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "generic_bot": {
+        "status": 200,
+        "first_status": 200,
+        "attempts": 1,
+        "words": 0,
+        "error": ""
+      },
+      "Claude-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "ChatGPT-User": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "PerplexityBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "ClaudeBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      },
+      "OAI-SearchBot": {
+        "status": 403,
+        "first_status": 403,
+        "attempts": 1,
+        "words": 4,
+        "error": ""
+      }
+    },
+    "browser_ok": false,
+    "retrievers_ok": [],
+    "blocked_ai": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "PerplexityBot",
+      "Perplexity-User"
+    ],
+    "plain_reached": false,
+    "tls_fail": false,
+    "challenge": false,
+    "headless": {
+      "reached": true,
+      "words": 93,
+      "error": ""
+    },
+    "headed": {
+      "reached": true,
+      "words": 93,
+      "error": "",
+      "status": 200,
+      "final_url": "https://orleansbrandao.com.br/#/",
+      "capture_delay_ms": 5000
+    },
+    "raw_browser": {
+      "status": 200,
+      "raw_words": 0,
+      "raw_main_words": 0,
+      "raw_main_scope": "body-minus-chrome",
+      "raw_main_text": "",
+      "raw_main_text_truncated": false,
+      "raw_main_duplicate_words_excluded": 0,
+      "final_url": "https://orleansbrandao.com.br/",
+      "attempts": 1,
+      "last_modified": "Mon, 31 Aug 2026 18:30:00 GMT",
+      "date": "Mon, 14 Sep 2026 08:38:40 GMT",
+      "csp": false
+    },
+    "dom": {
+      "ld": "",
+      "lang": "pt-BR",
+      "hreflang": [],
+      "lists": 0,
+      "tables": 0,
+      "dls": 0,
+      "words": 93,
+      "text_head": "INÍCIO\nORLEANS\nPLANO DE GOVERNO\nMATERIAIS\nNOTÍCIAS\n✕\nINÍCIO\nORLEANS\nPLANO DE GOVERNO\nMATERIAIS\nNOTÍCIAS\nZAP DO 15\nMINHA HISTÓRIA\nCOM O MARANHÃO\nFoi em Colinas, interior do Maranhão, que aprendi que estar do lado certo é estar perto de quem trabalha, de quem batalha por uma oportunidade, de quem faz o nosso Estado evoluir todos os dias. Essa é a base de tudo que eu quero construir daqui pra frente. Sempre do lado certo, do lado do povo.\nCONHEÇA MINHA TRAJETÓRIA\nVEJA MEU PLANO DE GOVERNO\nTela 1 de 6 — Início",
+      "visibleUpdated": "",
+      "forms": 0,
+      "inputs": 0,
+      "authGate": false,
+      "internalLinks": 6,
+      "internalPaths": [
+        "/plano-de-governo",
+        "/materiais",
+        "/noticias",
+        "/legado-por-municipio",
+        "/crie-seu-perfil/",
+        "/"
+      ],
+      "hasSearch": false,
+      "captcha": false,
+      "landmarks": 3,
+      "labeledInputs": 0,
+      "pdfLinks": 0,
+      "pdfUrls": [],
+      "mainScope": "body-minus-chrome",
+      "mainWords": 69,
+      "mainDocWords": 294,
+      "mainText": "Minha história com o Maranhão Foi em Colinas, interior do Maranhão, que aprendi que estar do lado certo é estar perto de quem trabalha, de quem batalha por uma oportunidade, de quem faz o nosso Estado evoluir todos os dias. Essa é a base de tudo que eu quero construir daqui pra frente. Sempre do lado certo, do lado do povo. Conheça minha trajetória Veja meu plano de governo Nosso legado Nos últimos anos, o Maranhão resgatou seu orgulho. Mais do que obras e ações, construímos oportunidades. Nosso legado é feito de trabalho, determinação e resultados reais para o nosso povo. E esse é só o começo! Confira o que já mudou no seu município Propostas Propostas para o Maranhão Nossas propostas nasceram a partir do diálogo com o povo, visitando cada um dos 217 municípios do Estado. Elas representam o meu propósito de seguir avançando em todas as áreas, além de dar continuidade às iniciativas que já deram certo. Leia o plano de governo completo Edivaldo, meu parceiro nessa jornada Edivaldo conhece de perto os desafios dos maranhenses. Como prefeito, transformou São Luís com trabalho sério, presença nas ruas e escuta atenta. Uma experiência que agora vem somar forças para fazer o Maranhão inteiro avançar. Conheça a trajetória de Edivaldo Nossa mobilização Esse caminho só segue em frente com quem acredita nele. Se você também quer estar perto das oportunidades que o Maranhão vem conquistando, essa construção também é sua. Baixe os materiais Crie sua foto de perfil Siga nas redes Zap do 15 compromisso com a verdade Estar perto da verdade também é uma forma de cuidar de quem mais precisa. Quando a informação é distorcida, a oportunidade de decidir com clareza é tirada das pessoas. Tela 1 de 6 — Início",
+      "mainTextTruncated": false,
+      "mainCensus": {
+        "totalNodes": 298,
+        "scannedNodes": 298,
+        "nodeLimit": 8000,
+        "truncated": false,
+        "duplicateWordsExcluded": 1,
+        "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+      },
+      "mainHidden": {
+        "words": 225,
+        "mechanisms": {
+          "visibility:hidden": 219,
+          "zero-size": 6
+        },
+        "sample": "Nosso legado Nos últimos anos, o Maranhão resgatou seu orgulho. Mais do que obras e ações, construímos oportunidades. Nosso legado é feito de trabalho, determinação e resultados reais para o nosso povo. E esse é só o começo! Confira o que já mudou no seu município Propostas Propostas para o Maranhão Nossas propostas nasceram a partir do diálogo com o povo, visitando cada um dos 217 municípios do Estado. Elas representam o meu propósito de seguir avançando em todas as áreas, além de dar continuidade às iniciativas que já deram certo. Leia o plano de governo completo Edivaldo, meu parceiro nessa jornada Edivaldo conhece de perto os desafios dos maranhenses. Como prefeito, transformou São Luís com trabalho sério, presença nas ruas e escuta atenta. Uma experiência que agora vem somar forças para fazer o Maranhão inteiro avançar. Conheça a trajetória de Edivaldo Nossa mobilização Esse caminho só segue em frente com quem acredita nele. Se você também quer estar perto das oportunidades que o Maranhão vem conquistando, essa construção também é sua. Baixe os materiais Crie sua foto de perfil Siga nas redes Zap do 15 compromisso com a verdade Estar perto da verdade também é uma forma de cuidar de quem mais precisa. Quando a informação é distorcida, a oportunidade de decidir com clareza é tirada das pessoas. Tela 1 de 6 — Início",
+        "accessibilityExcludedWords": 0,
+        "accessibilityMechanisms": {}
+      },
+      "headings": [
+        "Minha históriacom o Maranhão",
+        "Nossolegado",
+        "Propostas",
+        "Edivaldo,meu parceironessa jornada",
+        "Nossamobilização",
+        "Nossocompromissocom a verdade",
+        "Início · Orleans Brandão 15 — Governador do Maranhão"
+      ],
+      "mainPdfLinks": [],
+      "mainPdfLinksTotal": 0,
+      "mainPdfLinksTruncated": false,
+      "revealControls": 0
+    },
+    "t1": {
+      "thirdPartyScripts": 0,
+      "thirdPartyOrigins": [],
+      "hiddenTextNodes": 28,
+      "injectionHits": [],
+      "cspMeta": false
+    }
+  }
+}

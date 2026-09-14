@@ -1,0 +1,262 @@
+{
+  "subject": {
+    "country": "Eduardo Riedel communities page",
+    "service": "COMUNIDADES",
+    "service_url": "https://site.eduardoriedel.com.br/COMUNIDADES/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "provenance": {
+    "run_id": "residential-1789375296",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "executive": {
+    "headline": "Unreachable to AI from this vantage.",
+    "summary": "The server returns HTTP 404 (page not found) to plain automated requests — a common way to disguise a bot/geo block as a missing page rather than an explicit refusal. Treated as unreachable from this external vantage. The service page couldn't be reached, so legibility and obstacles are unmeasured."
+  },
+  "pillars": [
+    {
+      "key": "D",
+      "name": "Reachability",
+      "q": "Can AI systems reach the service?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "D1"
+      ],
+      "checks": [
+        {
+          "id": "D1",
+          "name": "Reachable by AI retrievers",
+          "value": 0.2,
+          "result": "The server returns HTTP 404 (page not found) to plain automated requests — a common way to disguise a bot/geo block as a missing page rather than an explicit refusal. Treated as unreachable from this external vantage.",
+          "fix": "If this path genuinely exists, avoid returning 404 to automated/plain clients as a disguised block.",
+          "ladder": [
+            {
+              "rung": "Plain AI fetch",
+              "reached": false,
+              "note": "no real content"
+            },
+            {
+              "rung": "AI browser fetch",
+              "reached": false,
+              "note": "still blocked / empty"
+            },
+            {
+              "rung": "Disguised browser",
+              "reached": false,
+              "note": "blocked even headed"
+            }
+          ]
+        },
+        {
+          "id": "D5",
+          "name": "Findable in search",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "key": "L",
+      "name": "Legibility",
+      "q": "Can AI read and understand it?",
+      "grading_version": "2026-09-13.1",
+      "required_checks": [
+        "L3",
+        "L4",
+        "L5",
+        "L7"
+      ],
+      "checks": [
+        {
+          "id": "L3",
+          "name": "Structured data",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        },
+        {
+          "id": "L4",
+          "name": "Shows when it was updated",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        },
+        {
+          "id": "L5",
+          "name": "Guidance in the page, not a PDF",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        },
+        {
+          "id": "L7",
+          "name": "Answer-friendly layout",
+          "state": "pending",
+          "result": "Not checked yet.",
+          "fix": ""
+        }
+      ],
+      "observations": []
+    },
+    {
+      "key": "O",
+      "name": "Obstacles to AI readers",
+      "kind": "obstacles",
+      "q": "What does the scan observe about the page constructions tested in the study?",
+      "assessment_set_version": "2026-09-13.2",
+      "assessment_set": [
+        "OB-script",
+        "OB-hidden",
+        "OB-click",
+        "OB-pdf",
+        "OB-depth"
+      ],
+      "checks": [
+        {
+          "id": "OB-script",
+          "name": "Rendered extraction contains more words than served HTML",
+          "state": "not_measured",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+          "evidence": {
+            "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-hidden",
+          "name": "Text in the assessed region is hidden by a recorded mechanism",
+          "state": "not_measured",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+          "evidence": {
+            "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-click",
+          "name": "Document text increased after disclosure controls were pressed",
+          "state": "not_measured",
+          "severity": "orange",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+          "evidence": {
+            "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-pdf",
+          "name": "Linked PDF extraction properties",
+          "state": "not_measured",
+          "severity": null,
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+          "evidence": {
+            "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+          },
+          "fix": "",
+          "study": null
+        },
+        {
+          "id": "OB-depth",
+          "name": "Confirmed minimum application-route depth",
+          "state": "not_measured",
+          "severity": "red",
+          "detector_version": "0.2.0-candidate",
+          "validated": false,
+          "validation_status": "unvalidated",
+          "validation_report": null,
+          "validated_version": null,
+          "result": "Not measured: the page could not be read on this run, so there was nothing to examine for obstacles",
+          "evidence": {
+            "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+          },
+          "fix": "",
+          "study": null
+        }
+      ]
+    }
+  ],
+  "future": {
+    "name": "Future-readiness",
+    "q": "Signs the service is preparing for AI agents",
+    "items": [
+      {
+        "name": "Machine-readable API",
+        "present": false,
+        "state": "none"
+      },
+      {
+        "name": "Sign-in standard (OIDC)",
+        "present": false
+      },
+      {
+        "name": "llms.txt",
+        "present": false
+      },
+      {
+        "name": "AGENTS.md",
+        "present": false
+      },
+      {
+        "name": "Agent card",
+        "present": false
+      },
+      {
+        "name": "MCP endpoint",
+        "present": false
+      }
+    ]
+  },
+  "ai_visibility": {
+    "q": "How AI assistants represent this service today",
+    "metrics": []
+  },
+  "injection": {
+    "measured": false
+  },
+  "actions": [
+    {
+      "head": "If this path genuinely exists, avoid returning 404 to automated/plain clients as a disguised block.",
+      "why": "The server returns HTTP 404 (page not found) to plain automated requests — a common way to disguise a bot/geo block as a missing page rather than an explicit refusal. Treated as unreachable from this external vantage."
+    }
+  ]
+}

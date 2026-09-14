@@ -1,0 +1,26 @@
+{
+  "id": "10",
+  "label": "NOVO candidate listing",
+  "url": "https://novo.org.br/noticias/candidatos-partido-novo-2026-veja-a-lista/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:39:14.273607+00:00",
+  "state": "complete",
+  "run_id": "residential-1789375156",
+  "elapsed_seconds": 155,
+  "profile_sha256": "13e7ec8fdd09e816876a2d147c1fea907e6c0012f728f69af53c4723859e3ed5",
+  "findings": [],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "the crawl reached its budget of 40 pages before exploring every path, so no statement about depth can be made (897 links were left unfollowed)"
+    }
+  ],
+  "profile": "scans/10/profile.json",
+  "LAS_report": "scans/10/LAS.html",
+  "structural_report": "scans/10/structural.html",
+  "finished_utc": "2026-09-14T08:41:51.994219+00:00"
+}

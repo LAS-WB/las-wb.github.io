@@ -1,0 +1,285 @@
+{
+  "subject": {
+    "country": "Orleans Brandao",
+    "service": "orleansbrandao.com.br",
+    "service_url": "https://orleansbrandao.com.br/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "findings": [
+    {
+      "check_id": "hidden",
+      "source_ids": [
+        "OB-hidden"
+      ],
+      "location": "evidence",
+      "title": "Text is hidden from view.",
+      "explanation": "AI readers that use visible page text may miss information in hidden regions.",
+      "fix": "Make the text available without expanding the hidden region. Keep a collapsible presentation where useful.",
+      "url": null,
+      "coverage": ""
+    }
+  ],
+  "observations": [
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No eligible disclosure controls were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "controls": 0,
+        "pressed": 0,
+        "scope": "body-minus-chrome",
+        "eligible_controls": [],
+        "presses": [],
+        "words_before": 69,
+        "words_after": null,
+        "doc_before": 302,
+        "doc_after": null,
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "census_before": {
+          "totalNodes": 303,
+          "scannedNodes": 303,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 1,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "blocked_requests": [],
+        "blocked_on_load": [],
+        "navigated": false,
+        "press_limit": 20,
+        "service_workers": "blocked",
+        "coverage_complete": true,
+        "applicability_reason": "no eligible disclosure control was found"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Initial page text",
+      "reason": "served and rendered requests ended at different URLs"
+    },
+    {
+      "title": "Text after rendering",
+      "reason": "served and rendered requests ended at different URLs"
+    },
+    {
+      "title": "Application route",
+      "reason": "1 page attempt(s) failed during the crawl (6 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "checks": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "served and rendered requests ended at different URLs",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://orleansbrandao.com.br/",
+        "rendered_final_url": "https://orleansbrandao.com.br/#/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "body-minus-chrome",
+          "served": "body-minus-chrome"
+        },
+        "reason": "served and rendered requests ended at different URLs"
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "served and rendered requests ended at different URLs",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://orleansbrandao.com.br/",
+        "rendered_final_url": "https://orleansbrandao.com.br/#/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "body-minus-chrome",
+          "served": "body-minus-chrome"
+        },
+        "reason": "served and rendered requests ended at different URLs"
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "detected",
+      "observation": "225 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 225,
+        "visible_words": 69,
+        "document_words": 294,
+        "mechanisms": {
+          "visibility:hidden": 219,
+          "zero-size": 6
+        },
+        "scope": "body-minus-chrome",
+        "sample": "Nosso legado Nos últimos anos, o Maranhão resgatou seu orgulho. Mais do que obras e ações, construímos oportunidades. Nosso legado é feito de trabalho, determinação e resultados reais para o nosso povo. E esse é só o começo! Confira o que já mudou no seu município Propostas Propostas para o Maranhão Nossas propostas nasceram a partir do diálogo com o povo, visitando cada um dos 217 municípios do Estado. Elas representam o meu propósito de seguir avançando em todas as áreas, além de dar continuidade às iniciativas que já deram certo. Leia o plano de governo completo Edivaldo, meu parceiro nessa jornada Edivaldo conhece de perto os desafios dos maranhenses. Como prefeito, transformou São Luís com trabalho sério, presença nas ruas e escuta atenta. Uma experiência que agora vem somar forças para fazer o Maranhão inteiro avançar. Conheça a trajetória de Edivaldo Nossa mobilização Esse caminho só segue em frente com quem acredita nele. Se você também quer estar perto das oportunidades que o Maranhão vem conquistando, essa construção também é sua. Baixe os materiais Crie sua foto de perfil Siga nas redes Zap do 15 compromisso com a verdade Estar perto da verdade também é uma forma de cuidar de quem mais precisa. Quando a informação é distorcida, a oportunidade de decidir com clareza é tirada das pessoas. Tela 1 de 6 — Início",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 298,
+          "scannedNodes": 298,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 1,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No eligible disclosure controls were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "controls": 0,
+        "pressed": 0,
+        "scope": "body-minus-chrome",
+        "eligible_controls": [],
+        "presses": [],
+        "words_before": 69,
+        "words_after": null,
+        "doc_before": 302,
+        "doc_after": null,
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "census_before": {
+          "totalNodes": 303,
+          "scannedNodes": 303,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 1,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "blocked_requests": [],
+        "blocked_on_load": [],
+        "navigated": false,
+        "press_limit": 20,
+        "service_workers": "blocked",
+        "coverage_complete": true,
+        "applicability_reason": "no eligible disclosure control was found"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "1 page attempt(s) failed during the crawl (6 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "entry": null,
+        "depth": null,
+        "self_entry": null,
+        "minimum_depth_confirmed": false,
+        "pages_crawled": 6,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_candidates": [],
+        "external_entry": null,
+        "failed_urls": [
+          {
+            "url": "https://orleansbrandao.com.br/plano-de-governo-2027-2030.pdf?v=6",
+            "hop": 2,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [],
+        "redirects": [
+          {
+            "from": "https://orleansbrandao.com.br/",
+            "to": "https://orleansbrandao.com.br/#/"
+          }
+        ],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "coverage_complete": false,
+        "reason": "1 page attempt(s) failed during the crawl (6 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    }
+  ],
+  "provenance": {
+    "run_id": "residential-1789375102",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "mock": false
+}

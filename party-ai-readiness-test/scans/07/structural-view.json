@@ -1,0 +1,297 @@
+{
+  "subject": {
+    "country": "Acir Gurgacz",
+    "service": "acir.com.br",
+    "service_url": "https://acir.com.br/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "findings": [],
+  "observations": [
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "0 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 0,
+        "visible_words": 0,
+        "document_words": 0,
+        "mechanisms": {},
+        "scope": "body-minus-chrome",
+        "sample": "",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 129,
+          "scannedNodes": 129,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Initial page text",
+      "reason": "the rendered page reported no content words to compare against"
+    },
+    {
+      "title": "Text after rendering",
+      "reason": "the rendered page reported no content words to compare against"
+    },
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "The bounded crawl found no possible application entry within 4 hops (15 pages crawled). That does not establish that this check is inapplicable or that the service has no online application."
+    }
+  ],
+  "checks": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the rendered page reported no content words to compare against",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://acir.com.br/",
+        "rendered_final_url": "https://acir.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "body-minus-chrome",
+          "served": "body-minus-chrome"
+        },
+        "reason": "the rendered page reported no content words to compare against"
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the rendered page reported no content words to compare against",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://acir.com.br/",
+        "rendered_final_url": "https://acir.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "body-minus-chrome",
+          "served": "body-minus-chrome"
+        },
+        "reason": "the rendered page reported no content words to compare against"
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "0 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 0,
+        "visible_words": 0,
+        "document_words": 0,
+        "mechanisms": {},
+        "scope": "body-minus-chrome",
+        "sample": "",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 129,
+          "scannedNodes": 129,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "controls": 0,
+        "pressed": 0,
+        "scope": "body-minus-chrome",
+        "eligible_controls": [],
+        "presses": [],
+        "words_before": 0,
+        "words_after": null,
+        "doc_before": 0,
+        "doc_after": null,
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "census_before": {
+          "totalNodes": 129,
+          "scannedNodes": 129,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-T7N7SKYENG&gtm=45je6992h1v9231439313z89231436990za20gzb9231436990zd9231436990&_p=1789375098737&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1172959250.1789375099&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B14"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+          }
+        ],
+        "navigated": false,
+        "press_limit": 20,
+        "service_workers": "blocked",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "The bounded crawl found no possible application entry within 4 hops (15 pages crawled). That does not establish that this check is inapplicable or that the service has no online application.",
+      "evidence": {
+        "entry": null,
+        "depth": null,
+        "self_entry": null,
+        "minimum_depth_confirmed": false,
+        "pages_crawled": 15,
+        "pages_failed": 0,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_candidates": [],
+        "external_entry": null,
+        "failed_urls": [],
+        "pruned_links": [],
+        "redirects": [],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "coverage_complete": false,
+        "reason": "The bounded crawl found no possible application entry within 4 hops (15 pages crawled). That does not establish that this check is inapplicable or that the service has no online application."
+      }
+    }
+  ],
+  "provenance": {
+    "run_id": "residential-1789375045",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "mock": false
+}

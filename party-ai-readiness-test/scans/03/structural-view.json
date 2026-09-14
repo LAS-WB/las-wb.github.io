@@ -1,0 +1,331 @@
+{
+  "subject": {
+    "country": "Time Barra / Eder Mauro",
+    "service": "timebarra.com.br",
+    "service_url": "https://timebarra.com.br/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "findings": [],
+  "observations": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "97 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://timebarra.com.br/",
+        "rendered_final_url": "https://timebarra.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "article",
+          "served": "article"
+        },
+        "basis": "main",
+        "served_words": 97,
+        "rendered_words": 20,
+        "matching_words": 20,
+        "added_words": 0,
+        "removed_words": 77,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "0 additional words appeared in the rendered extraction; 20 matched and 77 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://timebarra.com.br/",
+        "rendered_final_url": "https://timebarra.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "article",
+          "served": "article"
+        },
+        "basis": "main",
+        "served_words": 97,
+        "rendered_words": 20,
+        "matching_words": 20,
+        "added_words": 0,
+        "removed_words": 77,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "20 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 20,
+        "visible_words": 0,
+        "document_words": 20,
+        "mechanisms": {
+          "opacity:0": 20
+        },
+        "scope": "article",
+        "sample": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 6,
+          "scannedNodes": 6,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 1,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "1 page attempt(s) failed during the crawl (1 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "checks": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "97 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://timebarra.com.br/",
+        "rendered_final_url": "https://timebarra.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "article",
+          "served": "article"
+        },
+        "basis": "main",
+        "served_words": 97,
+        "rendered_words": 20,
+        "matching_words": 20,
+        "added_words": 0,
+        "removed_words": 77,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "0 additional words appeared in the rendered extraction; 20 matched and 77 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://timebarra.com.br/",
+        "rendered_final_url": "https://timebarra.com.br/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "article",
+          "served": "article"
+        },
+        "basis": "main",
+        "served_words": 97,
+        "rendered_words": 20,
+        "matching_words": 20,
+        "added_words": 0,
+        "removed_words": 77,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "20 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 20,
+        "visible_words": 0,
+        "document_words": 20,
+        "mechanisms": {
+          "opacity:0": 20
+        },
+        "scope": "article",
+        "sample": "Segurança para quem trabalha Firmeza contra o crime organizado e respeito aos homens e às mulheres que protegem a população.",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 6,
+          "scannedNodes": 6,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "controls": 0,
+        "pressed": 0,
+        "scope": "article",
+        "eligible_controls": [],
+        "presses": [],
+        "words_before": 0,
+        "words_after": null,
+        "doc_before": 20,
+        "doc_after": null,
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "census_before": {
+          "totalNodes": 6,
+          "scannedNodes": 6,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 0,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://timebarra.com.br/_serverFn/42785a06728842db673337a2e6076f480b268bf6b786f9221efee237b93e0bdc"
+          },
+          {
+            "method": "POST",
+            "url": "https://timebarra.com.br/~api/analytics"
+          }
+        ],
+        "navigated": false,
+        "press_limit": 20,
+        "service_workers": "blocked",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 1,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "1 page attempt(s) failed during the crawl (1 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved",
+      "evidence": {
+        "entry": null,
+        "depth": null,
+        "self_entry": null,
+        "minimum_depth_confirmed": false,
+        "pages_crawled": 1,
+        "pages_failed": 1,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_candidates": [],
+        "external_entry": null,
+        "failed_urls": [
+          {
+            "url": "https://timebarra.com.br/politica-de-privacidade.pdf",
+            "hop": 1,
+            "reason": "Error"
+          }
+        ],
+        "pruned_links": [],
+        "redirects": [],
+        "possible_routes": [],
+        "confirmed_routes": [],
+        "coverage_complete": false,
+        "reason": "1 page attempt(s) failed during the crawl (1 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+      }
+    }
+  ],
+  "provenance": {
+    "run_id": "residential-1789374872",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "mock": false
+}

@@ -1,0 +1,99 @@
+<!doctype html><html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>https://www.paulabelmonte.com.br — Structural access · LAS</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&amp;family=Public+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"><style>/* Shared standalone/service art direction. All report rules are scoped. */
+.structural-page {
+  --sr-bg:#0a0c0d; --sr-card:#111517; --sr-ink:#f0f3f4; --sr-soft:#aab4ba;
+  --sr-line:#2a3338; --sr-blue:#6db8ff; --sr-yellow:#e8c45d; --sr-warn:#241f12;
+  margin:0; background:var(--sr-bg); color:var(--sr-ink);
+  font:16px/1.6 'Public Sans',sans-serif;
+}
+[data-theme="light"] .structural-page {
+  --sr-bg:#f5f6f3; --sr-card:#fff; --sr-ink:#172126; --sr-soft:#52616a;
+  --sr-line:#ccd4d5; --sr-blue:#185d96; --sr-yellow:#735400; --sr-warn:#fff4cf;
+}
+.structural-page * { box-sizing:border-box }
+.structural-page main { max-width:1100px; margin:0 auto; padding:0 36px 48px }
+.structural-page a { color:var(--sr-blue); text-underline-offset:4px }
+.structural-page a:focus-visible,.structural-page summary:focus-visible,.structural-page button:focus-visible {
+  outline:2px solid var(--sr-blue); outline-offset:5px;
+}
+.structural-page .sr-site,.structural-page header.site {
+  max-width:1100px; margin:0 auto; padding:28px 36px; display:flex; gap:24px;
+  align-items:center; border-bottom:1px solid var(--sr-line); color:var(--sr-soft);
+}
+.structural-page .sr-site>span,.structural-page .brand {
+  font:800 25px 'Bricolage Grotesque',sans-serif; letter-spacing:-1px; color:var(--sr-ink); text-decoration:none;
+}
+.structural-page button { background:transparent; color:var(--sr-ink); border:1px solid var(--sr-line); border-radius:50%; width:38px; height:38px; cursor:pointer }
+.structural-page .sr-site button,.structural-page .theme { margin-left:auto }
+.structural-page footer.site { max-width:1028px; margin:0 auto; padding:0 0 32px; border:0; color:var(--sr-soft) }
+.structural-report { padding-top:28px }
+.structural-report h1,.structural-report h2,.structural-report h3 { font-family:'Bricolage Grotesque',sans-serif; color:var(--sr-ink); margin:0 }
+.sr-switch { display:flex; align-items:center; gap:20px; margin:0 0 36px; font-size:13px }
+.sr-switch [aria-current] { color:var(--sr-ink); border-bottom:2px solid var(--sr-blue); padding:6px 0 }
+.structural-report .sr-eyebrow { color:var(--sr-blue); margin:0 0 30px; font:500 12px 'JetBrains Mono',monospace; letter-spacing:.08em; text-transform:uppercase }
+.structural-report .sr-label { color:var(--sr-soft); font:500 11px/1.6 'JetBrains Mono',monospace; letter-spacing:.06em; text-transform:uppercase }
+.structural-report .sr-url { font-size:clamp(30px,4.8vw,59px); line-height:1.12; font-weight:800; letter-spacing:-.035em; overflow-wrap:anywhere; margin:10px 0 18px; max-width:100% }
+.structural-report .sr-url a { color:inherit; text-decoration:none }
+.structural-report .sr-protocol { display:block; color:var(--sr-soft); font:14px/1.8 'JetBrains Mono',monospace; letter-spacing:0; margin-bottom:5px }
+.structural-report .sr-url-path { display:block; color:var(--sr-blue); font-size:.8em; margin-top:5px }
+.sr-subject { margin:0 0 7px; color:var(--sr-ink); font-size:17px }
+.sr-meta { font:11px/1.8 'JetBrains Mono',monospace; color:var(--sr-soft); overflow-wrap:anywhere }
+.sr-intro { font-size:18px; margin:28px 0 0; color:var(--sr-soft) }
+.sr-hero { padding-bottom:40px; border-bottom:1px solid var(--sr-line); margin-bottom:34px }
+.sr-findings { display:grid; gap:20px }
+.sr-finding { background:var(--sr-card); border:1px solid var(--sr-line); border-radius:12px; padding:28px 30px }
+.sr-finding h2 { font-size:27px; line-height:1.2; letter-spacing:-.02em }
+.sr-warning { color:var(--sr-yellow); background:var(--sr-warn); border-left:2px solid var(--sr-yellow); padding:14px 18px; margin:22px 0; font-size:15px }
+.sr-warning>span { display:block; font:500 10px 'JetBrains Mono',monospace; letter-spacing:.06em; text-transform:uppercase; margin-bottom:8px }
+.sr-fix { display:grid; grid-template-columns:140px 1fr; gap:16px; margin:22px 0 12px }
+.sr-fix p { margin:0; font-size:15px }
+.sr-fix .sr-label { padding-top:3px; color:var(--sr-blue) }
+.sr-evidence-link { font:11px 'JetBrains Mono',monospace }
+.sr-file { font:12px/1.7 'JetBrains Mono',monospace; overflow-wrap:anywhere }
+.sr-coverage { color:var(--sr-soft); font-size:13px; overflow-wrap:anywhere }
+.sr-observations { margin:36px 0 }
+.sr-observations h2,.sr-gaps h2 { font-size:20px }
+.sr-observations ul { list-style:none; padding:0; margin:12px 0 }
+.sr-observations li { padding:14px 0; border-bottom:1px solid var(--sr-line); font-size:14px }
+.sr-observations li p { margin:3px 0 0; color:var(--sr-soft); overflow-wrap:anywhere }
+.sr-gaps { border:1px dashed var(--sr-line); border-radius:10px; padding:22px 26px; margin:30px 0; color:var(--sr-soft); font-size:14px; overflow-wrap:anywhere }
+.sr-gaps p:last-child { margin-bottom:0 }
+.sr-sample { border:1px solid var(--sr-yellow); color:var(--sr-yellow); padding:12px 18px; border-radius:6px; font:500 12px/1.6 'JetBrains Mono',monospace; margin:0 0 24px }
+.sr-empty { padding:20px 0; font-size:20px }
+.sr-scope { font-size:12px; line-height:1.7; color:var(--sr-soft); margin:30px 0 20px; max-width:760px }
+.sr-details { border-top:1px solid var(--sr-line); border-bottom:1px solid var(--sr-line) }
+.sr-details summary { cursor:pointer; padding:22px 0; color:var(--sr-blue); font-size:14px }
+.sr-check { border-top:1px solid var(--sr-line); padding:22px 0; scroll-margin-top:20px }
+.sr-check h3 { font-size:21px }
+.sr-record { display:grid; grid-template-columns:minmax(130px,1fr) minmax(0,3fr); gap:12px 22px; font-size:13px }
+.sr-record dt { color:var(--sr-soft) }
+.sr-record dd { margin:0; overflow-wrap:anywhere; min-width:0 }
+.sr-record pre { white-space:pre-wrap; overflow-wrap:anywhere; font:11px/1.7 'JetBrains Mono',monospace; margin:0 }
+.sr-provenance { padding:20px 0 0; font:11px/1.8 'JetBrains Mono',monospace; color:var(--sr-soft) }
+.sr-provenance dl { display:flex; flex-wrap:wrap; gap:6px 14px }
+.sr-provenance dd { margin:0 20px 0 0; overflow-wrap:anywhere }
+@media(max-width:600px) {
+  .structural-page main { padding:0 20px 30px }
+  .structural-page .sr-site,.structural-page header.site { padding:20px }
+  .structural-page .brand-sub { display:none }
+  .sr-switch { margin-bottom:26px }
+  .sr-hero { padding-bottom:28px }
+  .sr-finding { padding:22px 20px }
+  .sr-finding h2 { font-size:24px }
+  .sr-fix { grid-template-columns:1fr; gap:8px }
+  .sr-record { grid-template-columns:1fr; gap:5px }
+  .sr-record dd { margin-bottom:14px }
+}
+@media print {
+  @page { margin:18mm }
+  .structural-page { --sr-bg:#fff; --sr-card:#fff; --sr-ink:#172126; --sr-soft:#43525b; --sr-line:#b6c1c6; --sr-blue:#185d96; --sr-yellow:#735400; --sr-warn:#fff4cf; font-size:11pt }
+  .structural-page main { padding:0; max-width:none }
+  .structural-page .sr-url { font-size:30pt }
+  .structural-page button,.sr-switch,.sr-evidence-link { display:none }
+  .sr-finding,.sr-gaps,.sr-sample { break-inside:avoid }
+  .sr-finding { margin-bottom:12px }
+  .sr-findings { display:block }
+  .sr-warning { print-color-adjust:exact; -webkit-print-color-adjust:exact }
+  .sr-check { break-before:auto }
+  .sr-provenance { break-inside:avoid }
+}
+</style></head><body class="structural-page"><header class="sr-site"><span>LAS</span><button type="button" id="sr-theme" aria-label="Switch between light and dark">◐</button></header><main><article class="structural-report"><header class="sr-hero"><p class="sr-eyebrow">LAS / Structural access</p><p class="sr-label">Analysed URL</p><h1 class="sr-url"><a href="https://www.paulabelmonte.com.br" rel="noreferrer"><span class="sr-protocol">https://</span>www.paulabelmonte.com.br<span class="sr-url-path"></span></a></h1><p class="sr-subject">paulabelmonte.com.br</p><p class="sr-meta">14 Sep 2026 · residential, Lisbon</p><p class="sr-intro">How this page makes information available to AI readers.</p></header><p class="sr-empty">Structural assessment not measured</p><section class="sr-gaps"><h2>Not fully measured</h2><p><b>Initial page text</b> — the page could not be read on this run, so there was nothing to examine for obstacles</p><p><b>Text after rendering</b> — the page could not be read on this run, so there was nothing to examine for obstacles</p><p><b>Hidden text</b> — the page could not be read on this run, so there was nothing to examine for obstacles</p><p><b>Content behind a click</b> — the page could not be read on this run, so there was nothing to examine for obstacles</p><p><b>Linked PDFs</b> — the page could not be read on this run, so there was nothing to examine for obstacles</p><p><b>Application route</b> — the page could not be read on this run, so there was nothing to examine for obstacles</p></section><p class="sr-scope">Submitted page and inspected links only. Candidate structural observations. Actual AI answers, task completion and search visibility were not measured.</p><details class="sr-details"><summary>All checks &amp; scan details</summary><div class="sr-detail-body"><section class="sr-check" id="check-initial"><h3>Initial page text</h3><p class="sr-label">Not measured · OB-script · 0.2.0-candidate</p><p>the page could not be read on this run, so there was nothing to examine for obstacles</p><dl class="sr-record"><dt>reason</dt><dd>the page could not be read on this run, so there was nothing to examine for obstacles</dd></dl></section><section class="sr-check" id="check-rendered"><h3>Text after rendering</h3><p class="sr-label">Not measured · OB-script · 0.2.0-candidate</p><p>the page could not be read on this run, so there was nothing to examine for obstacles</p><dl class="sr-record"><dt>reason</dt><dd>the page could not be read on this run, so there was nothing to examine for obstacles</dd></dl></section><section class="sr-check" id="check-hidden"><h3>Hidden text</h3><p class="sr-label">Not measured · OB-hidden · 0.2.0-candidate</p><p>the page could not be read on this run, so there was nothing to examine for obstacles</p><dl class="sr-record"><dt>reason</dt><dd>the page could not be read on this run, so there was nothing to examine for obstacles</dd></dl></section><section class="sr-check" id="check-disclosure"><h3>Content behind a click</h3><p class="sr-label">Not measured · OB-click · 0.2.0-candidate</p><p>the page could not be read on this run, so there was nothing to examine for obstacles</p><dl class="sr-record"><dt>reason</dt><dd>the page could not be read on this run, so there was nothing to examine for obstacles</dd></dl></section><section class="sr-check" id="check-pdfs"><h3>Linked PDFs</h3><p class="sr-label">Not measured · OB-pdf · 0.2.0-candidate</p><p>the page could not be read on this run, so there was nothing to examine for obstacles</p><dl class="sr-record"><dt>reason</dt><dd>the page could not be read on this run, so there was nothing to examine for obstacles</dd></dl></section><section class="sr-check" id="check-route"><h3>Application route</h3><p class="sr-label">Not measured · OB-depth · 0.2.0-candidate</p><p>the page could not be read on this run, so there was nothing to examine for obstacles</p><dl class="sr-record"><dt>reason</dt><dd>the page could not be read on this run, so there was nothing to examine for obstacles</dd></dl></section></div></details><footer class="sr-provenance"><p>Saved scan record</p><dl><dt>Run</dt><dd>residential-1789375145</dd><dt>Method</dt><dd>scan-service-2026-09-13-phase2</dd></dl></footer></article></main><script>document.getElementById("sr-theme").addEventListener("click",function(){var r=document.documentElement;r.dataset.theme=r.dataset.theme==="light"?"dark":"light";});</script></body></html>

@@ -1,0 +1,42 @@
+{
+  "id": "09",
+  "label": "Paula Belmonte",
+  "url": "https://www.paulabelmonte.com.br",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:39:03.337440+00:00",
+  "state": "complete",
+  "run_id": "residential-1789375145",
+  "elapsed_seconds": 33,
+  "profile_sha256": "ce8215bab4dcbde42d342c41e5f40c2a8c6d9bb1828a42f6b2f71ea5a9dcdaa0",
+  "findings": [],
+  "gaps": [
+    {
+      "title": "Initial page text",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Text after rendering",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Hidden text",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Content behind a click",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Linked PDFs",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    },
+    {
+      "title": "Application route",
+      "reason": "the page could not be read on this run, so there was nothing to examine for obstacles"
+    }
+  ],
+  "profile": "scans/09/profile.json",
+  "LAS_report": "scans/09/LAS.html",
+  "structural_report": "scans/09/structural.html",
+  "finished_utc": "2026-09-14T08:39:38.771715+00:00"
+}

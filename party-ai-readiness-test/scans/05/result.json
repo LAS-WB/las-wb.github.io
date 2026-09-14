@@ -1,0 +1,28 @@
+{
+  "id": "05",
+  "label": "ACM Neto",
+  "url": "https://acmneto.com.br/",
+  "vantage": "residential, Lisbon",
+  "started_utc": "2026-09-14T08:35:26.162732+00:00",
+  "state": "complete",
+  "run_id": "residential-1789374928",
+  "elapsed_seconds": 54,
+  "profile_sha256": "8cba66cd7623ed32ff5d24bc2a1bd96218754600ed817ebffb29c18f473d9e97",
+  "findings": [
+    "Text is hidden from view."
+  ],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    },
+    {
+      "title": "Application route",
+      "reason": "1 page attempt(s) failed during the crawl (11 pages crawled); the crawl miss does not establish an application-entry distance, which remains unresolved"
+    }
+  ],
+  "profile": "scans/05/profile.json",
+  "LAS_report": "scans/05/LAS.html",
+  "structural_report": "scans/05/structural.html",
+  "finished_utc": "2026-09-14T08:36:21.830571+00:00"
+}

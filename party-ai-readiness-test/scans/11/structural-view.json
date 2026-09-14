@@ -1,0 +1,600 @@
+{
+  "subject": {
+    "country": "PCO candidate listing",
+    "service": "Pco define candidaturas em 18 estados e no distrito federal para as eleicoes de 2026",
+    "service_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+    "date": "14 Sep 2026",
+    "vantage": "residential, Lisbon"
+  },
+  "findings": [],
+  "observations": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "538 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+        "rendered_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 538,
+        "rendered_words": 538,
+        "matching_words": 538,
+        "added_words": 0,
+        "removed_words": 0,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "0 additional words appeared in the rendered extraction; 538 matched and 0 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+        "rendered_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 538,
+        "rendered_words": 538,
+        "matching_words": 538,
+        "added_words": 0,
+        "removed_words": 0,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "12 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 12,
+        "visible_words": 526,
+        "document_words": 538,
+        "mechanisms": {
+          "display:none": 7,
+          "zero-size": 5
+        },
+        "scope": "main",
+        "sample": "X Facebook Telegram WhatsApp Reddit Cancelar resposta Digite aqui... Name* Email* Website",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 488,
+          "scannedNodes": 488,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 138,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "An application entry was reached in 1 link: https://pco.org.br/contato/.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "entry": {
+          "depth": 1,
+          "url": "https://pco.org.br/contato/",
+          "text": "Contato",
+          "route": [
+            "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+            "https://pco.org.br/contato"
+          ],
+          "external": false,
+          "evidence": {
+            "confirmed": true,
+            "shared_subject_terms": [
+              "causa",
+              "operaria",
+              "partido",
+              "sua"
+            ],
+            "explicit_entry_phrase": false,
+            "transaction_forms": [
+              {
+                "fields": 8,
+                "submit": "Brazil +55 Enviar Pedido",
+                "action": "https://pco.org.br/contato/",
+                "method": "POST",
+                "search": false,
+                "login": false,
+                "newsletter": false
+              }
+            ],
+            "inbound_application_score": 0,
+            "destination_application_score": 0
+          }
+        },
+        "depth": 1,
+        "self_entry": null,
+        "minimum_depth_confirmed": true,
+        "shorter_route_established": true,
+        "pages_crawled": 21,
+        "pages_failed": 0,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_candidates": [
+          {
+            "depth": 1,
+            "url": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026",
+            "text": "Reddit",
+            "route": [
+              "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+              "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026"
+            ],
+            "external": true,
+            "evidence": {
+              "confirmed": false,
+              "shared_subject_terms": [],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [],
+              "inbound_application_score": 1,
+              "destination_application_score": 1
+            },
+            "resolved": true
+          }
+        ],
+        "external_entry": null,
+        "failed_urls": [],
+        "pruned_links": [],
+        "redirects": [
+          {
+            "from": "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026",
+            "to": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026"
+          },
+          {
+            "from": "http://pco.org.br/campanhas",
+            "to": "https://pco.org.br/campanhas/"
+          },
+          {
+            "from": "https://pco.org.br/2026/08/08",
+            "to": "https://pco.org.br/"
+          }
+        ],
+        "possible_routes": [
+          {
+            "depth": 1,
+            "url": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026",
+            "text": "Reddit",
+            "route": [
+              "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+              "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026"
+            ],
+            "external": true,
+            "evidence": {
+              "confirmed": false,
+              "shared_subject_terms": [],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [],
+              "inbound_application_score": 1,
+              "destination_application_score": 1
+            }
+          }
+        ],
+        "confirmed_routes": [
+          {
+            "depth": 1,
+            "url": "https://pco.org.br/contato/",
+            "text": "Contato",
+            "route": [
+              "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+              "https://pco.org.br/contato"
+            ],
+            "external": false,
+            "evidence": {
+              "confirmed": true,
+              "shared_subject_terms": [
+                "causa",
+                "operaria",
+                "partido",
+                "sua"
+              ],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [
+                {
+                  "fields": 8,
+                  "submit": "Brazil +55 Enviar Pedido",
+                  "action": "https://pco.org.br/contato/",
+                  "method": "POST",
+                  "search": false,
+                  "login": false,
+                  "newsletter": false
+                }
+              ],
+              "inbound_application_score": 0,
+              "destination_application_score": 0
+            }
+          }
+        ],
+        "coverage_complete": true,
+        "reason": null
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "title": "Content behind a click",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+    }
+  ],
+  "checks": [
+    {
+      "id": "initial",
+      "title": "Initial page text",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "538 words were extracted from the initial page response.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+        "rendered_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 538,
+        "rendered_words": 538,
+        "matching_words": 538,
+        "added_words": 0,
+        "removed_words": 0,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "rendered",
+      "title": "Text after rendering",
+      "detector_id": "OB-script",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "0 additional words appeared in the rendered extraction; 538 matched and 0 were not retained.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "raw_status": 200,
+        "served_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+        "rendered_final_url": "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+        "capture_delay_ms": 5000,
+        "served_attempts": 1,
+        "scope": {
+          "rendered": "main",
+          "served": "main"
+        },
+        "basis": "main",
+        "served_words": 538,
+        "rendered_words": 538,
+        "matching_words": 538,
+        "added_words": 0,
+        "removed_words": 0,
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "hidden",
+      "title": "Hidden text",
+      "detector_id": "OB-hidden",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "12 words were hidden from view in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "hidden_words": 12,
+        "visible_words": 526,
+        "document_words": 538,
+        "mechanisms": {
+          "display:none": 7,
+          "zero-size": 5
+        },
+        "scope": "main",
+        "sample": "X Facebook Telegram WhatsApp Reddit Cancelar resposta Digite aqui... Name* Email* Website",
+        "accessibility_excluded_words": 0,
+        "accessibility_mechanisms": {},
+        "census": {
+          "totalNodes": 488,
+          "scannedNodes": 488,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 138,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "coverage_complete": true
+      }
+    },
+    {
+      "id": "disclosure",
+      "title": "Content behind a click",
+      "detector_id": "OB-click",
+      "version": "0.2.0-candidate",
+      "state": "not_measured",
+      "observation": "",
+      "coverage": "",
+      "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete",
+      "evidence": {
+        "controls": 0,
+        "pressed": 0,
+        "scope": "main",
+        "eligible_controls": [],
+        "presses": [],
+        "words_before": 526,
+        "words_after": null,
+        "doc_before": 538,
+        "doc_after": null,
+        "control_doc_before": null,
+        "control_doc_after": null,
+        "census_before": {
+          "totalNodes": 488,
+          "scannedNodes": 488,
+          "nodeLimit": 8000,
+          "truncated": false,
+          "duplicateWordsExcluded": 138,
+          "excludedRule": "header,nav,footer,aside,[role=\"banner\"],[role=\"navigation\"],[role=\"contentinfo\"],[role=\"complementary\"],[role=\"dialog\"],[aria-modal=\"true\"],[role=\"menu\"],[role=\"toolbar\"],[role=\"search\"]"
+        },
+        "blocked_requests": [],
+        "blocked_on_load": [
+          {
+            "method": "POST",
+            "url": "https://pco.org.br/wp-json/iawp/search"
+          },
+          {
+            "method": "POST",
+            "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/50208708:1789373107:c8gq0AphaCcZCQrxfwJtOiaiGvGNxpGoF6Dr6J0Fi9E/a3ae166a2b5ffe4e/uIjKXAl89A4V4G.IZmPmlJ.Npf44Ot0LmXmtpXi.u1I-1789375233-1.2.1.1-CfaW3OEoFQtaJYrM_bFcV89Jb4ZX6lF0TfwI7e7.xz8zWSPhQajWWsOsJxAOZxG."
+          },
+          {
+            "method": "POST",
+            "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/50208708:1789373107:c8gq0AphaCcZCQrxfwJtOiaiGvGNxpGoF6Dr6J0Fi9E/a3ae166a2b5ffe4e/uIjKXAl89A4V4G.IZmPmlJ.Npf44Ot0LmXmtpXi.u1I-1789375233-1.2.1.1-CfaW3OEoFQtaJYrM_bFcV89Jb4ZX6lF0TfwI7e7.xz8zWSPhQajWWsOsJxAOZxG."
+          },
+          {
+            "method": "POST",
+            "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/50208708:1789373107:c8gq0AphaCcZCQrxfwJtOiaiGvGNxpGoF6Dr6J0Fi9E/a3ae166a2b5ffe4e/uIjKXAl89A4V4G.IZmPmlJ.Npf44Ot0LmXmtpXi.u1I-1789375233-1.2.1.1-CfaW3OEoFQtaJYrM_bFcV89Jb4ZX6lF0TfwI7e7.xz8zWSPhQajWWsOsJxAOZxG."
+          }
+        ],
+        "navigated": false,
+        "press_limit": 20,
+        "service_workers": "blocked",
+        "reason": "the page attempted a non-read request before any control was pressed; it was blocked, so the starting state is incomplete"
+      }
+    },
+    {
+      "id": "pdfs",
+      "title": "Linked PDFs",
+      "detector_id": "OB-pdf",
+      "version": "0.2.0-candidate",
+      "state": "not_applicable",
+      "observation": "No PDF links were found in the inspected region.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "main_pdf_links": 0,
+        "page_pdf_links": 0,
+        "coverage_complete": true,
+        "applicability_reason": "no PDF is linked from the assessed region"
+      }
+    },
+    {
+      "id": "route",
+      "title": "Application route",
+      "detector_id": "OB-depth",
+      "version": "0.2.0-candidate",
+      "state": "clear",
+      "observation": "An application entry was reached in 1 link: https://pco.org.br/contato/.",
+      "coverage": "",
+      "reason": "",
+      "evidence": {
+        "entry": {
+          "depth": 1,
+          "url": "https://pco.org.br/contato/",
+          "text": "Contato",
+          "route": [
+            "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+            "https://pco.org.br/contato"
+          ],
+          "external": false,
+          "evidence": {
+            "confirmed": true,
+            "shared_subject_terms": [
+              "causa",
+              "operaria",
+              "partido",
+              "sua"
+            ],
+            "explicit_entry_phrase": false,
+            "transaction_forms": [
+              {
+                "fields": 8,
+                "submit": "Brazil +55 Enviar Pedido",
+                "action": "https://pco.org.br/contato/",
+                "method": "POST",
+                "search": false,
+                "login": false,
+                "newsletter": false
+              }
+            ],
+            "inbound_application_score": 0,
+            "destination_application_score": 0
+          }
+        },
+        "depth": 1,
+        "self_entry": null,
+        "minimum_depth_confirmed": true,
+        "shorter_route_established": true,
+        "pages_crawled": 21,
+        "pages_failed": 0,
+        "hops": 4,
+        "budget": 40,
+        "exhausted": false,
+        "frontier_left": 0,
+        "external_candidates": [
+          {
+            "depth": 1,
+            "url": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026",
+            "text": "Reddit",
+            "route": [
+              "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+              "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026"
+            ],
+            "external": true,
+            "evidence": {
+              "confirmed": false,
+              "shared_subject_terms": [],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [],
+              "inbound_application_score": 1,
+              "destination_application_score": 1
+            },
+            "resolved": true
+          }
+        ],
+        "external_entry": null,
+        "failed_urls": [],
+        "pruned_links": [],
+        "redirects": [
+          {
+            "from": "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026",
+            "to": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026"
+          },
+          {
+            "from": "http://pco.org.br/campanhas",
+            "to": "https://pco.org.br/campanhas/"
+          },
+          {
+            "from": "https://pco.org.br/2026/08/08",
+            "to": "https://pco.org.br/"
+          }
+        ],
+        "possible_routes": [
+          {
+            "depth": 1,
+            "url": "https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fpco.org.br%252F2026%252F08%252F08%252Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%252F%26title%3DPCO%2Bdefine%2Bcandidaturas%2Bem%2B18%2Bestados%2Be%2Bno%2BDistrito%2BFederal%2Bpara%2Bas%2Belei%25C3%25A7%25C3%25B5es%2Bde%2B2026",
+            "text": "Reddit",
+            "route": [
+              "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+              "https://www.reddit.com/submit?url=https%3A%2F%2Fpco.org.br%2F2026%2F08%2F08%2Fpco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026%2F&title=PCO%20define%20candidaturas%20em%2018%20estados%20e%20no%20Distrito%20Federal%20para%20as%20elei%C3%A7%C3%B5es%20de%202026"
+            ],
+            "external": true,
+            "evidence": {
+              "confirmed": false,
+              "shared_subject_terms": [],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [],
+              "inbound_application_score": 1,
+              "destination_application_score": 1
+            }
+          }
+        ],
+        "confirmed_routes": [
+          {
+            "depth": 1,
+            "url": "https://pco.org.br/contato/",
+            "text": "Contato",
+            "route": [
+              "https://pco.org.br/2026/08/08/pco-define-candidaturas-em-18-estados-e-no-distrito-federal-para-as-eleicoes-de-2026/",
+              "https://pco.org.br/contato"
+            ],
+            "external": false,
+            "evidence": {
+              "confirmed": true,
+              "shared_subject_terms": [
+                "causa",
+                "operaria",
+                "partido",
+                "sua"
+              ],
+              "explicit_entry_phrase": false,
+              "transaction_forms": [
+                {
+                  "fields": 8,
+                  "submit": "Brazil +55 Enviar Pedido",
+                  "action": "https://pco.org.br/contato/",
+                  "method": "POST",
+                  "search": false,
+                  "login": false,
+                  "newsletter": false
+                }
+              ],
+              "inbound_application_score": 0,
+              "destination_application_score": 0
+            }
+          }
+        ],
+        "coverage_complete": true,
+        "reason": null
+      }
+    }
+  ],
+  "provenance": {
+    "run_id": "residential-1789375180",
+    "vantage": "residential, Lisbon",
+    "method_version": "scan-service-2026-09-13-phase2",
+    "scoring_versions": {
+      "D": "2026-09-13.1",
+      "L": "2026-09-13.1"
+    },
+    "assessment_set_version": "2026-09-13.2",
+    "detector_versions": {
+      "OB-script": "0.2.0-candidate",
+      "OB-hidden": "0.2.0-candidate",
+      "OB-click": "0.2.0-candidate",
+      "OB-pdf": "0.2.0-candidate",
+      "OB-depth": "0.2.0-candidate"
+    }
+  },
+  "mock": false
+}
