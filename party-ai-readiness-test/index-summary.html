@@ -1,0 +1,31 @@
+<p class="eyebrow">LAS · Assessment of the evidence</p>
+<h1>Party Web Readiness Check</h1>
+<section class="verdict" aria-labelledby="verdict-title">
+  <p class="eyebrow">The short answer</p>
+  <h2 id="verdict-title">A credible baseline of declared web presence. AI readiness remains unproven.</h2>
+  <p class="verdict-lead">The repository’s core finding makes sense when it describes what its reader retrieved. Our checks support some examples and reveal important gaps. Neither the study nor these website tests establish whether an AI assistant can answer voters’ questions.</p>
+  <div class="verdict-points">
+    <article>
+      <h3>1. The headline holds under the study’s rules</h3>
+      <p>We reproduced the categories for all <strong>527 candidates</strong> from the saved input flags, with no differences. The reported <strong>391 (74.2%) without qualifying retrieved content</strong> includes 313 in the “no declared address” category. It is not a finding that three quarters of websites fail, or that those candidates are invisible to AI.</p>
+      <p>The rules are explicit, but “readable” uses a word-count threshold and ownership rules. That does not establish useful answers. Missing original page captures also prevent a full replay of the earlier extraction. <a href="README.md">Source-study assessment</a> · <a href="data-audit.json">Saved audit</a></p>
+    </article>
+    <article>
+      <h3>2. LAS corroborates individual observations, not the headline percentage</h3>
+      <p>The <a href="scans/11/structural.html">PCO article</a> supplied its inspected text without JavaScript. <a href="scans/09/structural.html">Paula Belmonte’s address</a> again refused the request; <a href="scans/12/structural.html">Riedel’s communities address</a> again returned “not found.” These support specific earlier observations.</p>
+      <p>But twelve deliberately varied addresses cannot validate a result for the whole cohort. <a href="scans/08/structural.html">Orleans Brandao’s browser capture</a> contained text despite an empty plain-text extraction: “our reader got nothing” is narrower than “there is no information.” Dates, networks and extraction scopes differ, so changed results do not by themselves disprove the earlier study.</p>
+    </article>
+    <article>
+      <h3>3. These tests are useful diagnostics, with substantial blind spots</h3>
+      <p>They show whether text was retrieved, whether browser rendering changed the extraction, and whether sampled PDFs contain text. They also identify where to investigate further. <strong>Full LAS and “Can AI read it?” are two views of the same scans, not independent replications.</strong></p>
+      <p>Some checks inspected only a small article section; 11 of 12 click checks were unmeasured; PDF inspection was partial. Visually hidden text may still be readable from the page code. LAS’s service-application scores are not meaningful measures of campaign-site quality. These limitations prevent a general “AI can/cannot read this site” verdict. <a href="analysis.md">What each run establishes</a></p>
+    </article>
+    <article>
+      <h3>4. The missing evidence is whether people get useful, accurate answers</h3>
+      <p>The reviewed repository has <strong>1,584 model responses, all still uncoded</strong>, and no completed consumer-assistant observations. Our website probes ran no AI question-answering tests. Neither evidence set establishes answer accuracy or that website structure causes better or worse answers.</p>
+      <p><strong>Use this work as a documented baseline and a guide to further checks.</strong> Stronger AI-readiness claims need complete content inspection and evaluated answers to real voter questions, with supporting sources.</p>
+    </article>
+  </div>
+  <p class="verdict-scope">Assessment of the source snapshot from 13 September 2026 and LAS scans from 14 September 2026. This is not a live audit of subsequent changes to the repository or websites.</p>
+  <p class="verdict-jumps"><a href="#tested-addresses">Explore the 12 tested addresses ↓</a> <a href="#how-checked">How this check was done ↓</a></p>
+</section>

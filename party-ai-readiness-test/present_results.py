@@ -104,6 +104,29 @@ def main():
     index = index.replace('Five sites raised a hidden-text advisory.', 'Reports show extracted text, changes after rendering, visually hidden words and PDF observations.')
     index = index.replace('“No warning” means no detector threshold was crossed in measured regions. Read the gaps; it is not an all-clear.', 'Read the measurements together with their scope and limitations. Available text does not establish that an AI can answer questions from it.')
     index = index.replace('<a href="README.md">Read the full assessment</a>', '<a href="analysis.md">What the results mean</a> · <a href="README.md">Read the source-study assessment</a>')
+    # Keep the evidence verdict before the report catalogue, with methods after it.
+    start = index.index('<p class="eyebrow">', index.index('<main>'))
+    end = index.index('<div class="toolbar"', start)
+    index = index[:start] + (BASE / 'index-summary.html').read_text(encoding='utf-8') + '\n' + index[end:]
+    index = index.replace('<div class="toolbar"><h2>', '<div class="toolbar" id="tested-addresses"><h2>')
+    index = re.sub(r'<section class="methods context".*?</section>\s*', '', index, flags=re.S)
+    index = index.replace('</main>', (BASE / 'index-methods.html').read_text(encoding='utf-8') + '\n</main>')
+    index = re.sub(r'/\* verdict styles \*/.*?/\* end verdict styles \*/', '', index, flags=re.S)
+    styles = '''/* verdict styles */
+h1{font-size:clamp(32px,5vw,54px);margin:12px 0 28px}
+.verdict{max-width:960px}.verdict>.eyebrow{margin:0 0 12px;color:var(--yellow)}
+.verdict h2{font-size:clamp(27px,3.5vw,40px);line-height:1.18;letter-spacing:-.025em;margin:0 0 18px}
+.verdict-lead{font-size:19px;line-height:1.65;max-width:850px;color:var(--ink)}
+.verdict-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;margin:28px 0}
+.verdict-points article{border-top:1px solid var(--line);padding:22px 0;min-width:0}
+.verdict h3{font-size:20px;line-height:1.35;margin:0 0 12px}.verdict-points p{color:var(--soft);font-size:15px}
+.verdict strong{color:var(--ink)}.verdict-scope{font-size:12px;color:var(--soft)}
+.verdict-jumps{display:flex;flex-wrap:wrap;gap:12px 28px;padding:16px 0;border-bottom:1px solid var(--line)}
+.methods{margin:50px 0 0;padding:28px 0;border-top:1px solid var(--line)}.methods h2{color:var(--ink)}
+#tested-addresses,#how-checked{scroll-margin-top:24px}
+@media(max-width:760px){.verdict-points{grid-template-columns:1fr;gap:0}.verdict-lead{font-size:17px}}
+/* end verdict styles */'''
+    index = index.replace('</style>', styles + '</style>', 1)
     index_path.write_text(index, encoding='utf-8', newline='\n')
     write_analysis(narratives, comparison)
     manifest_path = BASE / 'artifact-manifest.json'
