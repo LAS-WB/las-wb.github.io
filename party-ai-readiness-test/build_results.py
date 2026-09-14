@@ -120,3 +120,5 @@ document.getElementById('filter').addEventListener('input',function(){const q=th
 </script></body></html>'''
 (BASE / 'index.html').write_text(page.replace('__SCANS__', str(len(comparison))).replace('__REPORTS__', str(len(comparison)*2)).replace('__CARDS__', '\n'.join(cards)))
 print(json.dumps(stats, indent=2))
+from present_results import main as present_saved_results
+present_saved_results()

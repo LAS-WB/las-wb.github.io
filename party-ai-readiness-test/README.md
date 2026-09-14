@@ -97,6 +97,8 @@ For this project's goal, I would use the repository as the **candidate inventory
 
 ## Files and reproduction
 
+The published structural reports lead with all recorded measurements, including observations below detector warning thresholds, followed by the limits of the tests. Run `python party-ai-readiness-test/present_results.py` to rebuild this presentation from the saved evidence without scanner dependencies or network access. `build_results.py` also runs this step. Raw scans, profiles, detector states and scan dates are unchanged. The original verification captures document the first publication; `verification/presentation-verification.json` and `measurement-summary-*.png` record the updated presentation checks.
+
 - [index.html](index.html): browse all structural and LAS reports.
 - [scan-comparison.md](scan-comparison.md), [comparison.csv](comparison.csv), [comparison.json](comparison.json): old and fresh measurements, with scope and gaps.
 - `scans/01/` through `scans/12/`: `structural.html`, `LAS.html`, `raw.json`, `profile.json`, `structural-view.json`, `result.json`.

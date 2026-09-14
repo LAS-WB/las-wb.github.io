@@ -1,0 +1,160 @@
+{
+  "checks": [
+    {
+      "file": "index.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/01/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/02/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/03/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/04/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/05/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/06/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/07/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/08/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/09/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/10/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/11/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/12/structural.html",
+      "width": 390,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/01/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/02/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/03/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/04/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/05/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/06/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/07/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/08/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/09/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/10/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/11/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    },
+    {
+      "file": "scans/12/structural.html",
+      "width": 1280,
+      "horizontal_overflow": false,
+      "script_errors": []
+    }
+  ]
+}
